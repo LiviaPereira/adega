@@ -1,3 +1,9 @@
+body {
+    font-family: 'Montserrat', sans-serif;  /* fonte padrão para o corpo das páginas */
+    font-size: 22px;                        /* tamanho de fonte padrão para o corpo das páginas - controlar o restante com "rem" */
+    background-color: #FFFFFF;            /* cor de fundo padrão para o corpo das páginas */  
+}
+
 .banner {
     text-align: center;
     background-repeat: no-repeat;
@@ -11,10 +17,6 @@ header img {
     width: 200px;
     display: inline-block;
     text-align: center;
-}
-
-body {
-    background-color: #D3D3D3;
 }
 
 .box {
@@ -32,4 +34,34 @@ footer {
     font-size: 12px;
     text-align: justify;
     color: white;
+}
+
+
+
+
+/* PAGINA DE CADASTRO */
+
+.form-register-client {
+    font-size: 1rem;
+    color: #320000;
+}
+
+.form-register-client h1 {
+    text-align: center;
+}
+
+.form-register-client p {
+    font-weight: bold;
+}
+
+.form-register-client label {
+    font-size: 0.8rem;
+    margin: 0px 5px 10px 5px;
+}
+
+.form-register-client input {
+    border: 1px solid #6E0406;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0px 5px 10px 5px;
 }
