@@ -1,0 +1,94 @@
+
+.top {
+    width: 100%;
+    height: 20px;
+    background-color: rgba(110, 4, 6);
+    color: #FFFFFF;
+    font-size: 0.9rem;
+}
+
+.logo-site {
+    margin: 20px 0px 30px 0px;
+    position: relative;
+}
+
+.amita-regular-400 {
+    font-family: 'Amita', cursive;
+    position: absolute;
+    top: 80px;
+    left: 40px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.logo-img {
+    width: 190px;
+    height: auto;
+}
+
+.header-conteiner {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-search-input {
+    padding: 15px;
+    width: 300px
+}
+
+.header-search-button {
+    padding: 15px;
+    width: 110px;
+    border: 1px solid #6E0406;
+    background-color: #6E0406;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.header-search-button:hover {
+    background-color: #320000;
+    border: 1px solid #320000;
+}
+
+.header-img-cart {
+    width: 50px;
+}
+
+.nav-conteiner {
+    background-color: rgba(211, 211, 211, 0.4);
+    width: 100%;
+    border-bottom: 2px solid #6E0406;
+
+}
+
+.nav-conteiner nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-conteiner nav div {
+    text-align: center;
+}
+
+.nav-conteiner nav div a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-categories {
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 8px;
+    color: #320000;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.header-categories-img {
+    width: 50px;
+    margin-top: 10px;
+}
+
