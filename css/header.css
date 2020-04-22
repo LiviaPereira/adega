@@ -71,6 +71,12 @@
 
 .nav-conteiner nav div {
     text-align: center;
+    width: 15%;
+}
+
+.nav-conteiner nav div:hover {
+    background-color: #6E0406;
+    width: 15%;
 }
 
 .nav-conteiner nav div a {
