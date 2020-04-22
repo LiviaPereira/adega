@@ -1,0 +1,88 @@
+/* INICIO - grid da pagina de cadastro */
+
+.conteiner-form {
+    display: grid;
+    grid-template-rows: 1fr 80px;
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+}
+
+.conteiner-form-item {
+    width: 100%;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.dados-acesso {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.dados-pessoais {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.dados-entrega {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.button-register-submit {
+    text-align: right;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+/* FIM - grid da pagina de cadastro */
+
+/* PAGINA DE CADASTRO */
+
+.form-register-client {
+    font-size: 1rem;
+    color: #320000;
+}
+
+.form-register-client h1 {
+    text-align: center;
+}
+
+.form-register-client p {
+    font-weight: bold;
+}
+
+.form-register-client label {
+    font-size: 0.8rem;
+    margin: 0px 5px 10px 5px;
+}
+
+.form-register-client input, select {
+    border: 1px solid #6E0406;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0px 5px 10px 5px;
+}
+
+.button-register-submit button {
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #735949;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.button-register-submit button:hover {
+    background-color: #320000;
+    padding: 20px;
+}

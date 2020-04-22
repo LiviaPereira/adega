@@ -6,22 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- montserrat-regular-400 -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
     <title>Adega a Jato</title>
 </head>
 
 <body>
-    <header>
-        <img src="img/logo.png" alt="logo company">
-
-    </header>
+    <?php include_once('includes/header.php'); ?>
 
 <main>
-    <section id="banner">
+    <section class="banner-home">
         <p>Banner rotativo</p>
 
     </section>
-    <section id="products">
+    <section class="products">
         <p>Categoria</p>
 
         <div style="background-image: url(img/;" class="box">
@@ -45,13 +43,8 @@
         </div>
 </main>
 
-<footer>
-    A VENDA E O CONSUMO DE BEBIDAS ALCOÓLICAS SÃO PROIBIDOS PARA MENORES DE 18 ANOS. BEBIDA ALCOÓLICA PODE CAUSAR DEPENDÊNCIA QUÍMICA E, EM EXCESSO, PROVOCA GRAVES MALES À SAÚDE. BEBA COM MODERAÇÃO. Preços, ofertas e condições exclusivas para internet e válidos
-    durante o dia de hoje, podendo sofrer alterações sem prévia notificação. Venda sujeita à disponibilidade de estoque no dia da entrega. No caso de faltar algum produto, este não será entregue e o valor correspondente não será cobrado. Vinariam S A
-    / CNPJ: 00000000/0000- 00 Av. Interlagos , 00000, CEP: 000000-000 - São Paulo - SP
-</footer>
 
 
-
+<?php include_once('includes/footer.php'); ?>
 </body>
 </html>
