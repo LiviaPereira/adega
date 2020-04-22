@@ -1,9 +1,11 @@
 body {
     font-family: 'Montserrat', sans-serif;  /* fonte padrão para o corpo das páginas */
     font-size: 22px;                        /* tamanho de fonte padrão para o corpo das páginas - controlar o restante com "rem" */
-    background-color: #FFFFFF;            /* cor de fundo padrão para o corpo das páginas */  
+    background-color: #FFFFFF;            /* cor de fundo padrão para o corpo das páginas */ 
+    margin: 0;                              /* reset de margens */
+    padding: 0;                             /* reset de paddings */
 }
-
+/* reset de margens */
 
 header img {
     width: 200px;
