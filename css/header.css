@@ -15,15 +15,14 @@
 .amita-regular-400 {
     font-family: 'Amita', cursive;
     position: absolute;
-    top: 80px;
+    top: 90px;
     left: 40px;
     font-size: 2rem;
     font-weight: bold;
 }
 
 .logo-img {
-    width: 190px;
-    height: auto;
+    width: 200px;
 }
 
 .header-conteiner {
