@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Amita&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/header.css">
     <title>Adega a Jato</title>
 </head>
 
