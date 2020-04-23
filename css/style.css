@@ -5,23 +5,9 @@ body {
     margin: 0;                              /* reset de margens */
     padding: 0;                             /* reset de paddings */
 }
-/* reset de margens */
 
-header img {
-    width: 200px;
-    display: inline-block;
-    text-align: center;
+h1 {
+    margin: 0px;
+    font-size: 1.5rem;
 }
-
-
-footer {
-    background-color: #A6826D;
-    font-family: monospace;
-    font-size: 12px;
-    text-align: justify;
-    color: white;
-}
-
-
-    
 
