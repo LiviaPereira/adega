@@ -1,0 +1,35 @@
+
+
+.footer-newsletter {
+    border-top: 2px solid #6E0406;
+    background-color: #D3D3D3;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-input-newsletter {
+    padding: 15px;
+    width: 350px;
+}
+
+.footer-submit-newsletter {
+    padding: 15px;
+    width: 140px;
+    border: 1px solid #6E0406;
+    background-color: #6E0406;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.footer-submit-newsletter:hover {
+    background-color: #320000;
+    border: 1px solid #320000;
+}
+
+.footer-content {
+    background-color: blue;
+}
