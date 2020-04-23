@@ -30,6 +30,57 @@
     border: 1px solid #320000;
 }
 
-.footer-content {
-    background-color: blue;
+
+
+.footer-conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.footer-itens {
+    /* background-color: red; */
+    width: 430px;
+    height: 200px;
+}
+
+
+.footer-logo {
+    width: 200px;
+}
+
+.footer-logo-text {
+    font-family: 'Amita', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+
+.footer-itens ul li, a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 15px;
+}
+
+
+
+
+.footer-social-icons {
+    width: 40px;
+}
+
+
+.footer-icons img {
+    width: 40px;
+}
+
+.footer-icons p {
+    margin: 0px;
+    font-size: 0.9rem;
 }
