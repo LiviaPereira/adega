@@ -4,10 +4,17 @@ body {
     background-color: #FFFFFF;            /* cor de fundo padrão para o corpo das páginas */ 
     margin: 0;                              /* reset de margens */
     padding: 0;                             /* reset de paddings */
-}
+ }                                          /* Quando for formatar as tags seguir essa ordem:
+                                                1.posicionamento
+                                                2.Box model
+                                                3.tipografia
+                                                4.Visual*/
 
 h1 {
     margin: 0px;
     font-size: 1.5rem;
 }
 
+#interface{
+    width: 100%;
+}

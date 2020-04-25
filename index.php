@@ -7,46 +7,141 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Amita&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
     <title>Adega a Jato</title>
 </head>
 
 <body>
-    <?php include_once('includes/header.php'); ?>
+    
+            <?php include_once('includes/header.php'); ?>
 
-<main>
-    <section class="banner-home">
-        <p>Banner rotativo</p>
+            <div class="banner"></div>
 
-    </section>
-    <section class="products">
-        <p>Categoria</p>
+            <section class="servico">
+                    <div class="box-mini"></div>
+                    <h1>Entrega em até 24 horas</h1>
+                    <div class="box-mini"></div>
+                    <h1>Frete Grátis</h1>
+                    <div class="box-mini"></div>
+                    <h1>Maior Segurança na sua compra</h1>
+            </section>
 
-        <div style="background-image: url(img/;" class="box">
+        <main>
+            
+            <div class="titulos">
+                <hr> <h1>Cervejas</h1> <hr>
+            </div>
 
-        </div>
+            <section class="products">
 
-        <div style="background-image: url(img/);" class="box">
+                <div class="box">
+                    <img src="img/beer.jpg" alt="logo cervejas">
+                </div>
+                
 
-        </div>
-        <div style="background-image: url(img/);" class="box">
+                <div class="box">
+                    <label>R$ 00,00</label>
+                    <button>Comprar</button>
+                </div>
 
-        </div>
-        <div style="background-image: url(img/);" class="box">
+                <div class="box">
+                    <label>R$ 00,00</label>
+                    <button>Comprar</button>
+                </div>
 
-        </div>
-        <div style="background-image: url(img/);" class="box">
+                <div class="box">
+                    <label>R$ 00,00</label>
+                    <button>Comprar</button>
+                </div>
 
-        </div>
-        <div style="background-image: url(img/);" class="box">
+            </section>
+            
+            <div class="titulos">
+                <hr> <h1>Categoria</h1> <hr>
+            </div>
 
-        </div>
-</main>
+            <section class="products">
 
-<?php include_once('includes/footer.php'); ?>
+                <div class="box">
 
+                </div>
+
+                <div class="box">
+                    <label>R$ 00,00</label>
+                    <button>Comprar</button>
+                </div>
+
+                <div class="box">
+                    <label>R$ 00,00</label>
+                    <button>Comprar</button>
+                </div>
+
+                <div class="box">
+                    <label>R$ 00,00</label>
+                    <button>Comprar</button>
+                </div>
+
+            </section>
+
+            <div class="titulos">
+                <hr> <h1>Categoria</h1> <hr>
+            </div>
+
+            <section class="products">
+
+                <div class="box">
+                   
+                </div>
+
+                <div class="box">
+                    <label>R$ 00,00</label>
+                    <button>Comprar</button>
+                </div>
+
+                <div class="box">
+                    <label>R$ 00,00</label>
+                    <button>Comprar</button>
+                </div>
+
+                <div class="box">
+                    <label>R$ 00,00</label>
+                    <button>Comprar</button>
+                </div>
+
+            </section>
+
+            <div class="titulos">
+                <hr> <h1>Categoria</h1> <hr>
+            </div>
+
+            <section class="products">
+
+                <div class="box">
+
+                </div>
+
+                <div class="box">
+                    <label>R$ 00,00</label>
+                    <button>Comprar</button>
+                </div>
+
+                <div class="box">
+                    <label>R$ 00,00</label>
+                    <button>Comprar</button>
+                </div>
+
+                <div class="box">
+                    <label>R$ 00,00</label>
+                    <button>Comprar</button>
+                </div>
+
+            </section>
+        </main>
+
+        <?php include_once('includes/footer.php'); ?>
+    
 
 </body>
 </html>
