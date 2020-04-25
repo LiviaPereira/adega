@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Amita&display=swap" rel="stylesheet">
     <!-- Flickity CSS -->
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+	<link rel="icon" href="img/fav.ico">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/header.css">

@@ -8,8 +8,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <!-- amita-regular-400 -->
     <link href="https://fonts.googleapis.com/css2?family=Amita&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/about.css">
-    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/about.css">
+    
 
     <title>Sobre</title>
 </head>
