@@ -1,15 +1,32 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+div#interface{
+    width: 100%;
+    /* max-width: 1366px; monitores de 18,5 polegadas
+    max-height: 768px; */
+    
+}
+
 main{
-    margin: 0 40px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.spacing{
+    margin-bottom: 40px;
 }
 
 /* Estilização do Slide Show */
 
 div.banner{
     width: 100%;
-    height: 650px;
+    height: 55vh;
     animation: slide 10s infinite;
     animation-direction: alternate;
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -37,30 +54,53 @@ section{
 
 /* Seção de qualidade do serviço */
 
-section.servico{
+section.service{
+    display: flex;
+    justify-content: center;
     width: 100%;
-    background-color: rgba(110, 4, 6);
+    background-color: #6E0406;
+    
     color: #fff;
+    text-align: center;
+    
 }
 
 section div img{
     width: 280px;
 }
 
-.box-mini{
-    width: 7vw;
+section.service div:nth-child(odd){
+    width: 7%;
     height: 10vh;
     background-color: #fff;
-    display: inline-block;
     margin: 20px;
 }
+
+section.service div:nth-child(even){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 10%;
+    height: 10vh;
+    margin: 20px;
+}
+
+.basis{
+    flex-basis: 12%;
+}
+
 
 /* Fim da qualidade do serviço */
 
 /* Seção de produtos */
 
-.box {
-    width: 15vw;
+.main-gallery{
+    width: 60vw;
+}
+
+.gallery-cell{
+    width: 35%;
+    margin-right: 10px;
     height: 20vh;
     background-color: rgba(211, 211, 211, 1);
     display: flex;
@@ -68,13 +108,29 @@ section div img{
     justify-content: flex-end;
     align-items: center;
     margin-bottom: 20px;
-    background-size: cover;
-    background-position: center center;
+    counter-increment: gallery-cell;
 }
+
+.gallery-cell.is-selected {
+    background: #ED2;
+  }
+
+.box {
+    width: 20%;
+    height: 20vh;
+    background-color: rgba(211, 211, 211, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
 
 hr{
     border: none;
-    width: 35vw;
+    width: 50%;
     height: 3vh;
     background-color: rgba(211, 211, 211, 1);
     margin-bottom: 30px;
@@ -83,6 +139,15 @@ hr{
 
 div.titulos{
     display: flex;
+    align-items: baseline;
+    
+}
+
+div.titulos h1{
+    display: flex;
+    margin: 0 100px;
+    font-size: 2rem;
+    
 }
 
 /* Fim da seção de produtos */
