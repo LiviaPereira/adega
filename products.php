@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="products.css">
+    <link rel="stylesheet" href="css/products.css">
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/header.css">
@@ -40,38 +40,38 @@
         <section id="Catalogo">
             <article>
                 <p>Casal Garcia Vinho Verde 750ML</p>
-                <img class="img-produto" src="imagens/casalgarcia.jpg">
+                <img class="img-produto" src="img/casalgarcia.jpg">
                 <p>R$45,00</p>
                 <button>COMPRAR</button>
             </article>
             
             <article>
                 <p>Calamares Vinho Verde 750ML</p>
-                <img class="img-produto" src="imagens/calamares.jpg">
+                <img class="img-produto" src="img/calamares.jpg">
                 <p>R$40,00</p>
                 <button>COMPRAR</button>
             </article>
             <article>
                 <p>Vinho rosé Mateus Original 750ML</p>
-                <img class="img-produto" src="imagens/mateus.jpg">
+                <img class="img-produto" src="img/mateus.jpg">
                 <p>R$50,00</p>
                 <button>COMPRAR</button>
             </article>
             <article>
                 <p>Vinho Porca de Murça Tinto 750ML</p>
-                <img class="img-produto" src="imagens/porca.jpg">
+                <img class="img-produto" src="img/porca.jpg">
                 <p>R$60,00</p>
                 <button>COMPRAR</button>
             </article>
             <article>
                 <p>Vinho reserva Tannat 2017 750ML</p>
-                <img class="img-produto" src="imagens/tannat.jpg">
+                <img class="img-produto" src="img/tannat.jpg">
                 <p>R$45,00</p>
                 <button>COMPRAR</button>
             </article>
             <article>
                 <p>Casal Mendes Vinho Verde 750ML</p>
-                <img class="img-produto" src="imagens/mendes.jpg">
+                <img class="img-produto" src="img/mendes.jpg">
                 <p>R$45,00</p>
                 <button>COMPRAR</button>
             </article>
