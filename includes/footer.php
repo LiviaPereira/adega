@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/footer.css">
-    <title>Document</title>
-</head>
-<body>
-
-
+<link rel="stylesheet" href="css/footer.css">
 <footer>
 
     <div class="footer-newsletter">
@@ -22,9 +12,11 @@
     <div class="footer-conteiner">
 
         <div class="footer-itens">
-            <img class="footer-logo" src="img/logo.png" alt="">
-            <br>
-            <spam class="footer-logo-text">VINARIAM</spam>
+                <a href="./index.php">
+                <img class="footer-logo" src="img/logo.png" alt="">
+                <br>
+                <spam class="footer-logo-text">VINARIAM</spam>
+            </a>
             <br>
             <img class="footer-social-icons" src="img/ico-facebook.png" alt="">
             <img class="footer-social-icons" src="img/ico-instagram.png" alt="">
@@ -72,11 +64,3 @@
     
 
 </footer>
-
-
-
-
-
-    
-</body>
-</html>
