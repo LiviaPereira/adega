@@ -1,0 +1,49 @@
+
+
+#produtos aside{
+width: 20%;
+margin-left: 10%;
+margin-top: 5%;
+
+
+}
+
+#produtos section{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#produtos section article{
+width: 30%;
+
+
+
+}
+
+#produtos {
+ display: flex;
+margin-top: 5%;
+}
+
+.img-produto {
+width: 170px;
+
+}
+
+#Catalogo article{
+margin: 1%;
+
+
+
+
+
+
+
+
+
+
+}
+ 
