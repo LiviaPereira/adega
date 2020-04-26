@@ -1,6 +1,7 @@
 
 
 .footer-newsletter {
+    margin-top: 50px;
     border-top: 2px solid #6E0406;
     background-color: #D3D3D3;
     width: 100%;
@@ -54,11 +55,13 @@
     font-weight: bold;
 }
 
-
+.footer-itens a {
+    text-decoration: none;
+    margin: 0px;
+}
 
 .footer-itens ul li, a {
     list-style-type: none;
-    text-decoration: none;
     color: black;
     font-size: 1rem;
     font-weight: bold;

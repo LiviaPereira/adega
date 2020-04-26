@@ -8,8 +8,10 @@
 
             <div class="header-conteiner">
                 <div class="logo-site">
-                    <img class="logo-img" src="./img/logo.png" alt="">
-                    <spam class="logo-site-top-text">VINARIAM</spam>
+                    <a href="./index.php">
+                        <img class="logo-img" src="./img/logo.png" alt="">
+                        <spam class="logo-site-top-text">VINARIAM</spam>
+                    </a>
                 </div>
                 <div>
                     <input class="header-search-input" type="text" name="search" placeholder="Digite aqui"><button class="header-search-button" type="submit">BUSCAR</button>
