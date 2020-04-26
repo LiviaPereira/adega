@@ -22,9 +22,11 @@
     <div class="footer-conteiner">
 
         <div class="footer-itens">
-            <img class="footer-logo" src="img/logo.png" alt="">
-            <br>
-            <spam class="footer-logo-text">VINARIAM</spam>
+                <a href="./index.php">
+                <img class="footer-logo" src="img/logo.png" alt="">
+                <br>
+                <spam class="footer-logo-text">VINARIAM</spam>
+            </a>
             <br>
             <img class="footer-social-icons" src="img/ico-facebook.png" alt="">
             <img class="footer-social-icons" src="img/ico-instagram.png" alt="">
