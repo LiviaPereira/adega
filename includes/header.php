@@ -23,7 +23,9 @@
                     <p>Entre</p>
                 </div>
                 <div>
-                    <img class="header-img-cart" src="./img/cart.PNG" alt="">
+                    <a href="shoppingCart.php">
+                        <img class="header-img-cart" src="./img/cart.PNG" alt="">
+                    </a>
                 </div>
             </div>
             
