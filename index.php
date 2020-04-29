@@ -24,12 +24,14 @@
             <div class="banner"></div>
 
             <section class="service spacing">
-                    <div></div>
+                
+                    <div style="padding-bottom:10px;"><img src="./img/24horas.png" alt=""></div>
                     <div><h1>Entrega em até 24 horas</h1></div>
-                    <div></div>
+                    <div><img src="./img/truck.png" alt=""></div>
                     <div><h1>Frete Grátis</h1></div>
-                    <div></div>
+                    <div> <img src="./img/security.png" alt=""> </div>
                     <div class="basis"><h1>Maior Segurança na sua compra</h1></div>
+                   
             </section>
 
         <main>
@@ -41,21 +43,30 @@
             <section class="products">
 
                 <div class="box">
-                    
+                    <img src="./img/wine.jpg" alt="">
                 </div>
                 
                 <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
                     <div class="gallery-cell">
+                        <img src="./img/porca.jpg" alt="Vinho Porca">
                         <label>R$ 00,00</label>
                         <button>Comprar</button>
                     </div>
 
                     <div class="gallery-cell">
+                        <img src="./img/mateus.jpg" alt="Vinho Porca">
                         <label>R$ 00,00</label>
                         <button>Comprar</button>
                     </div>
 
                     <div class="gallery-cell">
+                        <img src="./img/tannat.jpg" alt="Vinho Porca">
+                        <label>R$ 00,00</label>
+                        <button>Comprar</button>
+                    </div>
+
+                    <div class="gallery-cell">
+                    <img src="./img/mendes.jpg" alt="Vinho Porca">
                         <label>R$ 00,00</label>
                         <button>Comprar</button>
                     </div>
@@ -70,21 +81,30 @@
             <section class="products">
 
             <div class="box">
-                    
+                <img src="./img/cerveja.png" alt=""> 
             </div>
                     
                     <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
                         <div class="gallery-cell">
+                            <img src="./img/brahma600.png" alt="Vinho Porca">
                             <label>R$ 00,00</label>
                             <button>Comprar</button>
                         </div>
     
                         <div class="gallery-cell">
+                            <img src="./img/corona-beer.jpg" alt="Vinho Porca">
+                            <label>R$ 00,00</label>
+                            <button>Comprar</button>
+                        </div>
+
+                        <div class="gallery-cell">
+                            <img src="./img/gt.png" alt="Vinho Porca">
                             <label>R$ 00,00</label>
                             <button>Comprar</button>
                         </div>
     
                         <div class="gallery-cell">
+                            <img src="./img/bud.jpg" alt="Vinho Porca">
                             <label>R$ 00,00</label>
                             <button>Comprar</button>
                         </div>
@@ -99,21 +119,30 @@
             <section class="products">
 
             <div class="box">
-                    
+                  <img src="./img/cachaça.png" alt="">  
             </div>
                     
                     <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
                         <div class="gallery-cell">
+                            <img src="./img/absolut.png" alt="Vinho Porca">
                             <label>R$ 00,00</label>
                             <button>Comprar</button>
                         </div>
     
                         <div class="gallery-cell">
+                            <img src="./img/jack.png" alt="Vinho Porca">
+                            <label>R$ 00,00</label>
+                            <button>Comprar</button>
+                        </div>
+
+                        <div class="gallery-cell">
+                            <img src="./img/montilla.png" alt="Vinho Porca">
                             <label>R$ 00,00</label>
                             <button>Comprar</button>
                         </div>
     
                         <div class="gallery-cell">
+                            <img src="./img/orloff.png" alt="Vinho Porca">
                             <label>R$ 00,00</label>
                             <button>Comprar</button>
                         </div>
@@ -128,21 +157,30 @@
             <section class="products">
 
             <div class="box">
-                    
+                  <img src="./img/suco.jpeg" alt="">  
             </div>
                     
                     <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
                         <div class="gallery-cell">
+                            <img src="./img/redbull.jpg" alt="Vinho Porca">
                             <label>R$ 00,00</label>
                             <button>Comprar</button>
                         </div>
     
                         <div class="gallery-cell">
+                            <img src="./img/pepsi.jpg" alt="Vinho Porca">
+                            <label>R$ 00,00</label>
+                            <button>Comprar</button>
+                        </div>
+
+                        <div class="gallery-cell">
+                            <img src="./img/h2o.jpg" alt="Vinho Porca">
                             <label>R$ 00,00</label>
                             <button>Comprar</button>
                         </div>
     
                         <div class="gallery-cell">
+                            <img src="./img/dobemcoco.jpg" alt="Vinho Porca">
                             <label>R$ 00,00</label>
                             <button>Comprar</button>
                         </div>
