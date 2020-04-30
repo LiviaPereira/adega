@@ -17,7 +17,7 @@
                     <input class="header-search-input" type="text" name="search" placeholder="Digite aqui"><button class="header-search-button" type="submit">BUSCAR</button>
                 </div>
                 <div>
-                    <p>Crie Sua conta</p>
+                    <a href="register.php">Crie Sua conta</a>
                 </div>
                 <div>
                     <p>Entre</p>

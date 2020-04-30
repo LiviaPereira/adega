@@ -25,11 +25,10 @@
 
         <div class="footer-itens">
             <ul>
-                <li>    <a href="">INICIO</a>           </li>
-                <li>    <a href="">QUEM SOMOS</a>       </li>
-                <li>    <a href="">PRODUTOS</a>         </li>
-                <li>    <a href="">ENTREGA</a>          </li>
-                <li>    <a href="">COMO COMPRAR</a>     </li>
+                <li><a href="about.php">QUEM SOMOS</a></li>
+                <li><a href="">PRODUTOS</a></li>
+                <li><a href="">ENTREGA</a></li>
+                <li><a href="">COMO COMPRAR</a></li>
             </ul>
         </div>
 

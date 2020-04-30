@@ -12,12 +12,13 @@
     <title>Cadastro</title>
 </head>
 <body>
+
+    <?php include_once('includes/header.php'); ?>
     
-
     <section class="form-register-client">
-
+        <br>
         <h1>Cadastre-se</h1>
-
+        <br>
         <form action="" method="POST">
 
             <div class="conteiner-form">
@@ -123,6 +124,7 @@
         </form>
     </section>
 
+    <?php include_once('includes/footer.php'); ?>
     
 </body>
 </html>

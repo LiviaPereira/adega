@@ -23,7 +23,7 @@ main{
 
 div.banner{
     width: 100%;
-    height: 55vh;
+    height: 71vh;
     animation: slide 10s infinite;
     animation-direction: alternate;
     background-size: 100% 100%;
@@ -33,15 +33,15 @@ div.banner{
 
 @keyframes slide {
     0%, 30%{
-        background-image: url(../img/jack.jpg);
+        background-image: url(../img/cheers.jpg);
     }
 
     35%, 65%{
-        background-image: url(../img/coca-cola-coffe.jpg);
+        background-image: url(../img/red-wine.jpg);
     }
 
     70%, 100%{
-        background-image: url(../img/bart-simpson-soda.jpg);
+        background-image: url(../img/whisky2.jpg);
     }
 }
 
@@ -59,7 +59,6 @@ section.service{
     justify-content: center;
     width: 100%;
     background-color: #6E0406;
-    
     color: #fff;
     text-align: center;
     
@@ -72,8 +71,12 @@ section div img{
 section.service div:nth-child(odd){
     width: 7%;
     height: 10vh;
-    background-color: #fff;
     margin: 20px;
+}
+
+section.service div img{
+    position: relative;
+    width: 6vw;
 }
 
 section.service div:nth-child(even){
@@ -99,10 +102,10 @@ section.service div:nth-child(even){
 }
 
 .gallery-cell{
-    width: 35%;
+    width: 20%;
     margin-right: 10px;
-    height: 20vh;
-    background-color: rgba(211, 211, 211, 1);
+    height: 35vh;
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -111,17 +114,14 @@ section.service div:nth-child(even){
     counter-increment: gallery-cell;
 }
 
-.gallery-cell.is-selected {
-    background: #ED2;
-  }
+
 
 .box {
-    width: 20%;
-    height: 20vh;
-    background-color: rgba(211, 211, 211, 1);
+    width: 18%;
+    height: 35vh;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     margin-bottom: 20px;
     
