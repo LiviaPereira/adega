@@ -31,6 +31,25 @@
     justify-content: center;
 }
 
+.quantidade a { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    border: 1px solid #D3D3D3;
+    border-radius: 50%;
+}
+
+.quantidade p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 20px;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+}
+
 .product-cart{
     width: 250px;
     text-align: center;
@@ -103,4 +122,8 @@
     margin: 0;
     background-color: #13CE66;
     color: white;
+}
+
+.cart-links {
+    text-decoration: none;
 }
