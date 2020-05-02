@@ -32,7 +32,7 @@
                     </li>
                     <li class="other-li">A Calcular</li>
                     <li class="other-li">R$ 5,00</li>
-                    <li class="other-li quantidade" >1</li>
+                    <li class="other-li quantidade"><a class="cart-links" href="#">+</a><p>1</p><a class="cart-links" href="#">-</a></li>
                     <li class="other-li">R$ 5,00</li>
                 </ul>
             </section>
@@ -44,45 +44,21 @@
                     </li>
                     <li class="other-li">A Calcular</li>
                     <li class="other-li">R$ 150,00</li>
-                    <li class="other-li quantidade">1</li>
-                    <li class="other-li">R$ 150,00</li>
-                </ul>
-            </section>
-            <section class="product-checkout">
-                <ul class="cart-list">
-                    <li class="product-in-cart">
-                        <img src="img/whisky.jpg" alt="Whisky Jack Daniel's">
-                        <p>Whisky Jack Daniel's Single Barrel 750 mL</p>
-                    </li>
-                    <li class="other-li">A Calcular</li>
-                    <li class="other-li">R$ 150,00</li>
-                    <li class="other-li quantidade">1</li>
-                    <li class="other-li">R$ 150,00</li>
-                </ul>
-            </section>
-            <section class="product-checkout">
-                <ul class="cart-list">
-                    <li class="product-in-cart">
-                        <img src="img/whisky.jpg" alt="Whisky Jack Daniel's">
-                        <p>Whisky Jack Daniel's Single Barrel 750 mL</p>
-                    </li>
-                    <li class="other-li">A Calcular</li>
-                    <li class="other-li">R$ 150,00</li>
-                    <li class="other-li quantidade">1</li>
+                    <li class="other-li quantidade"><a class="cart-links" href="#">+</a><p>1</p><a class="cart-links" href="#">-</a></li>
                     <li class="other-li">R$ 150,00</li>
                 </ul>
             </section>
         </div>
-        <a href="#"><p class="cupom">Adicionar cupom de desconto</p></a>
+        <a class="cart-links" href="#"><p class="cupom">Adicionar cupom de desconto</p></a>
         <div class="checkout">
             <ul>
                 <li><p>Subtotal</p><p>R$ 155,00</p></li>
                 <li class="delivery"><p><img src="img/truck.png" alt="Caminhão"> Entrega</p><p>Calcuar</p></li>
                 <li><p>Total</p><p>R$ 155,00</p></li>
-                <li><a href="#">FECHAR PEDIDO</a></li>
+                <li><a class="cart-links" href="#">FECHAR PEDIDO</a></li>
             </ul>
         </div>
-        <a href="index.php"><p class="cupom">Continuar Comprando</p></a>
+        <a class="cart-links" href="index.php"><p class="cupom">Continuar Comprando</p></a>
     </div>
     
     <?php include_once('includes/footer.php'); ?>
