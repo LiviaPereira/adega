@@ -1,6 +1,6 @@
 
 
-.footer-newsletter {
+#footer-newsletter {
     margin-top: 50px;
     border-top: 2px solid #6E0406;
     background-color: #D3D3D3;
@@ -11,12 +11,12 @@
     align-items: center;
 }
 
-.footer-input-newsletter {
+#footer-input-newsletter {
     padding: 15px;
     width: 350px;
 }
 
-.footer-submit-newsletter {
+#footer-submit-newsletter {
     padding: 15px;
     width: 140px;
     border: 1px solid #6E0406;
@@ -26,41 +26,37 @@
     font-weight: bold;
 }
 
-.footer-submit-newsletter:hover {
+#footer-submit-newsletter:hover {
     background-color: #320000;
     border: 1px solid #320000;
 }
 
-
-
-.footer-conteiner {
+#footer-conteiner {
     display: flex;
     justify-content: center;   
 }
 
-
-.footer-itens {
+#footer-itens {
     width: 390px;
     height: 200px;
 }
 
-
-.footer-logo {
+#footer-logo {
     width: 200px;
 }
 
-.footer-logo-text {
+#footer-logo-text {
     font-family: 'Amita', cursive;
     font-size: 2rem;
     font-weight: bold;
 }
 
-.footer-itens a {
+#footer-itens a {
     text-decoration: none;
     margin: 0px;
 }
 
-.footer-itens ul li, a {
+#footer-itens ul li, a {
     list-style-type: none;
     color: black;
     font-size: 1rem;
@@ -71,16 +67,16 @@
 
 
 
-.footer-social-icons {
+#footer-social-icons {
     width: 40px;
 }
 
 
-.footer-icons img {
+#footer-icons img {
     width: 40px;
 }
 
-.footer-icons p {
+#footer-icons p {
     margin: 0px;
     font-size: 0.9rem;
 }

@@ -1,5 +1,5 @@
 
-.top {
+#top {
     width: 100%;
     height: 20px;
     background-color: rgba(110, 4, 6);
@@ -7,17 +7,17 @@
     font-size: 0.9rem;
 }
 
-.top p{
+#top p{
     margin-top:0;
     padding-left: 10px; 
 }
 
-.logo-site {
+#logo-site {
     margin: 20px 0px 30px 0px;
     position: relative;
 }
 
-.logo-site-top-text {
+#logo-site-top-text {
     font-family: 'Amita', cursive;
     position: absolute;
     top: 90px;
@@ -26,28 +26,28 @@
     font-weight: bold;
 }
 
-.logo-img {
+#logo-img {
     width: 200px;
 }
 
-.header-conteiner {
+#header-conteiner {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.header-conteiner a {
+#header-conteiner a {
     text-decoration: none;
     font-size: 1rem;
 }
 
-.header-search-input {
+#header-search-input {
     padding: 15px;
     width: 300px
 }
 
-.header-search-button {
+#header-search-button {
     padding: 15px;
     width: 110px;
     border: 1px solid #6E0406;
@@ -57,44 +57,44 @@
     font-weight: bold;
 }
 
-.header-search-button:hover {
+#header-search-button:hover {
     background-color: #320000;
     border: 1px solid #320000;
 }
 
-.header-img-cart img{
+#header-img-cart img{
     width: 50px;
 }
 
-.nav-conteiner {
+#nav-conteiner {
     background-color: rgba(211, 211, 211, 0.4);
     width: 100%;
     border-bottom: 2px solid #6E0406;
 
 }
 
-.nav-conteiner nav {
+#nav-conteiner nav {
     display: flex;
     justify-content: space-evenly;
 }
 
-.nav-conteiner nav div {
+#nav-conteiner nav div {
     text-align: center;
     width: 15%;
 }
 
-.nav-conteiner nav div:hover {
+#nav-conteiner nav div:hover {
     background-color: rgba(110, 4, 6, 0.9);
     width: 15%;
 }
 
-.nav-conteiner nav div a {
+#nav-conteiner nav div a {
     text-decoration: none;
     font-weight: bold;
     margin: 0px;
 }
 
-.header-categories {
+#header-categories {
     padding: 0px;
     margin: 0px;
     margin-bottom: 8px;
@@ -103,8 +103,8 @@
     font-weight: bold;
 }
 
-.header-categories-img {
-    width: 50px;
+#header-categories-img {
+    width: 46px;
     margin-top: 8px;
 }
 

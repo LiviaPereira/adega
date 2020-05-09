@@ -1,29 +1,29 @@
 <link rel="stylesheet" href="css/footer.css">
 <footer>
 
-    <div class="footer-newsletter">
+    <div id="footer-newsletter">
         <h1>Cadastre-se para receber novidades</h1>
             <div>
-                <input class="footer-input-newsletter" type="email" name="email-news" placeholder="Digite seu e-mail">
-                <button class="footer-submit-newsletter" type="submit">CADASTRAR</button>
+                <input id="footer-input-newsletter" type="email" name="email-news" placeholder="Digite seu e-mail">
+                <button id="footer-submit-newsletter" type="submit">CADASTRAR</button>
             </div>
     </div>
 
-    <div class="footer-conteiner">
+    <div id="footer-conteiner">
 
-        <div class="footer-itens">
+        <div id="footer-itens">
                 <a href="./index.php">
-                <img class="footer-logo" src="img/logo.png" alt="">
+                <img id="footer-logo" src="img/logo.png" alt="">
                 <br>
-                <spam class="footer-logo-text">VINARIAM</spam>
+                <spam id="footer-logo-text">VINARIAM</spam>
             </a>
             <br>
-            <img class="footer-social-icons" src="img/ico-facebook.png" alt="">
-            <img class="footer-social-icons" src="img/ico-instagram.png" alt="">
-            <img class="footer-social-icons" src="img/ico-google.png" alt="">
+            <img id="footer-social-icons" src="img/ico-facebook.png" alt="">
+            <img id="footer-social-icons" src="img/ico-instagram.png" alt="">
+            <img id="footer-social-icons" src="img/ico-google.png" alt="">
         </div>
 
-        <div class="footer-itens">
+        <div id="footer-itens">
             <ul>
                 <li><a href="about.php">QUEM SOMOS</a></li>
                 <li><a href="">PRODUTOS</a></li>
@@ -33,8 +33,8 @@
         </div>
 
 
-        <div class="footer-itens">
-            <div class="footer-icons">
+        <div id="footer-itens">
+            <div id="footer-icons">
                 <p>
                     <img src="img/ico-phone.png" align="left" alt="">
                     TELEFONE: (11) 91234-5678
@@ -56,7 +56,7 @@
 
     </div>
 
-    <!-- <div class="footer-content"> -->
+    <!-- <div id="footer-content"> -->
     <!-- </div> -->
 
 
