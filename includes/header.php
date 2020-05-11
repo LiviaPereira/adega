@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="css/header.css">
    <header>
-        <div class="header-fixed">
+        <div id="header-box">
 
             <div id="top">
                 <p>Adega a Jato! Pra quem tem pressa de beber!</p>
@@ -14,14 +14,22 @@
                     </a>
                 </div>
                 <div>
-                    <input id="header-search-input" type="text" name="search" placeholder="Digite aqui">
+                    <input id="header-search-input" type="text" name="search" placeholder="Procurar...">
                     <button id="header-search-button" type="submit">BUSCAR</button>
                 </div>
                 <div>
-                    <a href="register.php">Crie Sua conta</a>
+                    <a id="header-enter" href="register.php">Crie Sua conta</a>
                 </div>
                 <div>
-                    <p>Entre</p>
+                    <a id="header-enter" href="">Entre</a>
+                </div>
+                <div id="dropdown">
+                    <a id="header-img-user">
+                    <img src="./img/user.PNG" alt=""></a>
+                    <div id="dropdown-content">
+                        <a href="#">Entre</a>
+                        <a href="#">Cadastre-se</a>
+                    </div>
                 </div>
                 <div>
                     <a id="header-img-cart" href="./shoppingCart.php"><img src="./img/cart.PNG" alt=""></a>
