@@ -15,111 +15,61 @@
 
     <?php include_once('includes/header.php'); ?>
     
-    <section class="form-register-client">
+    <section id="form-register-client">
         <br>
         <h1>Cadastre-se</h1>
         <br>
         <form action="" method="POST">
 
-            <div class="conteiner-form">
-                
-                <div class="conteiner-form-item dados-acesso">
+            <div id="conteiner-form">
+                <div>
                     <div>
-                        <p>Dados de Acesso</p>
-                    </div>
-                    <div>
-                        <label for="email">E-mail</label>
+                        <label for="email">e-mail</label>
                         <br>
-                        <input type="email" name="email" id="email" placeholder="usuario@email.com" required>
+                        <input class="length-l" type="email" name="email" id="email" placeholder="Ex: joaodasilva@email.com" required>
                     </div>
                     <div>
-                        <label for="senha">Senha</label>
+                        <label for="senha">senha</label>
                         <br>
-                        <input type="password" name="senha" id="senha" required>
+                        <input class="length-m" type="password" name="senha" id="senha" required>
                     </div>
                     <div>
-                        <label for="senha-confirma">Confirme sua senha</label>
+                        <label for="senha-confirma">confirme sua senha</label>
                         <br>
-                        <input type="password" name="senha-confirma" id="senha-confirma" required>
-                    </div>
-                </div>
-
-                <div class="conteiner-form-item dados-pessoais">
-                    <div>
-                        <p>Dados Pessoais</p>
+                        <input class="length-m" type="password" name="senha-confirma" id="senha-confirma" required>
                     </div>
                     <div>
                         <label for="cpf">CPF</label>
                         <br>
-                        <input type="text" name="cpf" id="cpf" placeholder="123.456.789-12" required>
+                        <input class="length-m" type="text" name="cpf" id="cpf" placeholder="Ex: 123.456.789-12" required>
                     </div>
                     <div>
-                        <label for="nome">Nome</label>
+                        <label for="nome">seu nome e sobrenome</label>
                         <br>
-                        <input type="text" name="nome" id="nome" placeholder="João" required>
+                        <input class="length-l" type="text" name="nome" id="nome" placeholder="Ex: João da Silva" required>
                     </div>
                     <div>
-                        <label for="sobrenome">Sobrenome</label>
+                        <label for="nascimento">data de Nascimento</label>
                         <br>
-                        <input type="text" name="sobrenome" id="sobrenome" placeholder="da Silva" required>
+                        <input class="length-m" type="text" name="nascimento" id="nascimento" placeholder="Ex: 01/01/1999" required>
                     </div>
                     <div>
-                        <label for="nascimento">Data de Nascimento</label>
+                        <label>sexo</label>
                         <br>
-                        <input type="text" name="nascimento" id="nascimento" placeholder="01/01/1999" required>
+                        <input type="radio" name="sexo" id=""> masculino
+                        <input type="radio" name="sexo" id=""> feminino
                     </div>
                     <div>
-                        <label>Sexo</label>
+                        <label for="telefone">telefone</label>
                         <br>
-                        <select name="sexo" id="sexo" required>
-                            <option value="">Escolha uma opção</option>
-                            <option value="M">Masculino</option>
-                            <option value="F">Feminino</option>
-                        </select>
+                        <input class="length-m" type="tel" name="telefone" id="telefone" placeholder="Ex: (99) 99999-9999" required>
                     </div>
-                    <div>
-                        <label for="telefone">Telefone</label>
-                        <br>
-                        <input type="tel" name="telefone" id="telefone" placeholder="(99) 99999-9999" required>
+                    <br>
+                    <div class="register-submit">
+                        <button type="submit">criar seu cadastro</button>
                     </div>
+                    <br>
                 </div>
-
-                <div class="conteiner-form-item dados-entrega">
-                    <div>
-                        <p>Dados de Entrega</p>
-                    </div>
-                    <div>
-                        <label for="cep">CEP</label>
-                        <br>
-                        <input type="text" name="cep" id="cep" placeholder="01234-567" required>
-                    </div>
-                    <div>
-                        <label for="endereco">Endereço</label>
-                        <br>
-                        <input type="text" name="endereco" id="endereco" required>
-                    </div>
-                    <div>
-                        <label for="numero">Número</label>
-                        <br>
-                        <input type="text" name="numero" id="numero" required>
-                        <br>
-                        <label for="complemento">Complemento</label>
-                        <br>
-                        <input type="text" name="complemento" id="complemento">
-                    </div>
-                    <div>
-                        <label for="bairro">Bairro</label>
-                        <br>
-                        <input type="text" name="bairro" id="bairro" required>
-                    </div>
-                </div>
-
-                <div class="conteiner-form-item button-register-submit">
-                    <div>
-                        <button type="submit">Criar Cadastro!</button>
-                    </div>
-                </div>
-                
             </div>
         </form>
     </section>

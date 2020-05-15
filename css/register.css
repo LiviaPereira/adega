@@ -1,88 +1,73 @@
-/* INICIO - grid da pagina de cadastro */
 
-.conteiner-form {
-    display: grid;
-    grid-template-rows: 1fr 80px;
-    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
-}
-
-.conteiner-form-item {
-    width: 100%;
-    height: auto;
-    margin: 5px;
-    padding: 5px;
-    box-sizing: border-box;
-}
-
-.dados-acesso {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 2;
-    grid-column-end: 3;
-}
-
-.dados-pessoais {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 3;
-    grid-column-end: 4;
-}
-
-.dados-entrega {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 4;
-    grid-column-end: 5;
-}
-
-.button-register-submit {
-    text-align: right;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 4;
-    grid-column-end: 5;
-}
-
-/* FIM - grid da pagina de cadastro */
-
-/* PAGINA DE CADASTRO */
-
-.form-register-client {
+#form-register-client {
     font-size: 1rem;
     color: #320000;
 }
 
-.form-register-client h1 {
+#form-register-client h1 {
     text-align: center;
 }
 
-.form-register-client p {
+#form-register-client p {
     font-weight: bold;
 }
 
-.form-register-client label {
-    font-size: 0.8rem;
+#form-register-client label {
+    font-size: 0.93rem;
     margin: 0px 5px 10px 5px;
 }
 
-.form-register-client input, select {
-    border: 1px solid #6E0406;
-    border-radius: 5px;
-    padding: 5px;
-    margin: 0px 5px 10px 5px;
+#form-register-client input {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 14px;
+    margin: 6px 5px 15px 5px;
 }
 
-.button-register-submit button {
+#form-register-client input:focus {
+    border-color: #000;
+    transition: 1s;
+}
+
+#form-register-client ::placeholder {
+    color: #baa;
+}
+
+#form-register-client .length-l {width: 350px;}
+#form-register-client .length-m {width: 200px;}
+
+#form-register-client .register-submit {
+    text-align: center;
+}
+
+#form-register-client button {
+    width: 300px;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 2px;
     border: none;
-    background-color: #735949;
+    background-color: #6E0406;
     color: #FFFFFF;
     font-size: 1rem;
-    font-weight: bold;
 }
 
-.button-register-submit button:hover {
+#form-register-client button:hover {
     background-color: #320000;
-    padding: 20px;
 }
+
+#conteiner-form  {
+    width: 60%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+@media only screen and (max-width: 992px) {
+    #form-register-client .length-l {width: 90vw;}
+    #form-register-client .length-m {width: 90vw;}
+    #form-register-client button {width: 97vw;}
+}
+
