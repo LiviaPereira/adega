@@ -32,51 +32,75 @@
 }
 
 #footer-conteiner {
+    background-color:#DDD;
     display: flex;
-    justify-content: center;   
+    justify-content: space-evenly;   
 }
 
-#footer-itens {
-    width: 390px;
-    height: 200px;
-}
+/* #footer-itens {
+    width: 290px;
+    height: auto;
+} */
 
-#footer-logo {
-    width: 200px;
-}
-
-#footer-logo-text {
-    font-family: 'Amita', cursive;
-    font-size: 2rem;
+#footer-itens .categories {
     font-weight: bold;
+    font-size: 1.3rem;
 }
 
 #footer-itens a {
     text-decoration: none;
-    margin: 0px;
+    color: black;
+    font-size: 1.1rem;
 }
 
-#footer-itens ul li, a {
+#footer-itens ul li {
     list-style-type: none;
     color: black;
     font-size: 1rem;
-    font-weight: bold;
-    margin: 15px;
+    margin: 20px;
 }
-
-
-
 
 #footer-social-icons {
     width: 40px;
+    vertical-align: middle;
 }
 
 
-#footer-icons img {
-    width: 40px;
+
+#footer-itens .logo {
+    width: 200px;
+    margin: 20px 0px 20px 0px;
 }
 
-#footer-icons p {
+#footer-itens .contacts {
+    margin: 10px;
+    font-size: 1rem;
+}
+
+#footer-content {
+    background-color: #DDD;
+}
+
+#footer-content p {
+    padding: 30px;
     margin: 0px;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
+
+
+
+
+ /* Extra small <576px */
+ @media only screen and (max-width: 576px) {}
+
+ /* Small >576px */
+ @media only screen and (min-width: 576px) {}
+ 
+ /* Medium >768px */
+ @media only screen and (min-width: 768px) {}
+ 
+ /* Large >992px */
+ @media only screen and (min-width: 992px) {}
+ 
+ /* Extra large >1200px */
+ @media only screen and (min-width: 1200px) {} 
