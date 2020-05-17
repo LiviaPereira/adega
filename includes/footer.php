@@ -2,7 +2,7 @@
 <footer>
 
     <div id="footer-newsletter">
-        <h1>Cadastre-se para receber novidades</h1>
+        <h1>Receba novidades em seu e-mail</h1>
             <div>
                 <input id="footer-input-newsletter" type="email" name="email-news" placeholder="Digite seu e-mail">
                 <button id="footer-submit-newsletter" type="submit">CADASTRAR</button>
@@ -35,11 +35,11 @@
         </div>
 
         <div id="footer-itens">
-            <ul>
-                <li><p class="categories">Social</p></li>
-                <li><img id="footer-social-icons" src="img/ico-instagram.png" alt=""><a href=""> Instagram</a></li>
-                <li><img id="footer-social-icons" src="img/ico-twitter.png" alt=""><a href=""> Twitter</a></li>
-                <li><img id="footer-social-icons" src="img/ico-facebook.png" alt=""><a href=""> Facebook</a></li>
+            <ul class="social">
+                <li><p class="categories">Nossas Redes</p></li>
+                <li><a href=""><img id="footer-social-icons" src="img/ico-instagram.png" alt=""><p> Instagram</p></a></li>
+                <li><a href=""><img id="footer-social-icons" src="img/ico-twitter.png" alt=""><p> Twitter</p></a></li>
+                <li><a href=""><img id="footer-social-icons" src="img/ico-facebook.png" alt=""><p> Facebook</p></a></li>
             </ul>
         </div>
 
