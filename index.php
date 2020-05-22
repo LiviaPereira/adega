@@ -23,23 +23,23 @@
 
             <div class="banner"></div>
 
-            <section class="service spacing">
+             <section class="service spacing">
                 
-                    <div style="padding-bottom:10px;"><img src="./img/24horas.png" alt=""></div>
-                    <div><h1>Entrega em até 24 horas</h1></div>
+                    <div><img src="./img/24horas.png" alt=""></div>
+                    <div><h3>Entrega em até 24 horas</h3></div>
                     <div><img src="./img/truck.png" alt=""></div>
-                    <div><h1>Frete Grátis</h1></div>
+                    <div><h3>Frete Grátis</h3></div>
                     <div> <img src="./img/security.png" alt=""> </div>
-                    <div class="basis"><h1>Maior Segurança na sua compra</h1></div>
+                    <div class="basis"><h3>Maior Segurança na sua compra</h3></div>
                    
-            </section>
+            </section> 
 
         <main>
             
             <div class="titulos">
                 <hr> <h1>Vinhos</h1> <hr>
             </div>
-
+<!--
             <section class="products">
 
                 <div class="box">
@@ -187,7 +187,7 @@
                     </div>
 
             </section>
-        </main>
+        </main> -->
 
         <?php include_once('includes/footer.php'); ?>
     </div>
