@@ -114,7 +114,15 @@
     width: 20px;
 }
 
-.checkout ul li a{
+.cart-links {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.fechar-pedido{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -125,9 +133,6 @@
     color: white;
 }
 
-.cart-links {
-    text-decoration: none;
-}
 
 
 
@@ -152,12 +157,12 @@
 
 @media (max-width: 575px){
     .cart-list{  
-        display: block;
-        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .other-li{
-        width: 100%;
+        width: 50%;
         text-align: center;
     }
 

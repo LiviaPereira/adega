@@ -50,9 +50,9 @@
         <div class="checkout">
             <ul>
                 <li><p>Subtotal</p><p>R$ 155,00</p></li>
-                <li class="delivery"><p><img src="img/truck.png" alt="Caminhão"> Entrega</p><p>Calcular</p></li>
+                <li class="delivery"><p><img src="img/truck.png" alt="Caminhão"> Entrega</p><a class= "cart-links" href="#" >Calcular</a></li>
                 <li><p>Total</p><p>R$ 155,00</p></li>
-                <li><a class="cart-links" href="#">FECHAR PEDIDO</a></li>
+                <li><a class="cart-links fechar-pedido" href="#">FECHAR PEDIDO</a></li>
             </ul>
         </div>
         <a class="cart-links" href="index.php"><p class="cupom">Continuar Comprando</p></a>
