@@ -93,40 +93,32 @@ section.service div:nth-child(even){
 /* Seção de produtos */
 
 main{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.wine-item1{grid-area: title;}
+.wine-item2{grid-area: box;}
+.wine-item3{grid-area: cell;}
+
+section.wine{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
     width: 80%;
     margin: 0 auto;
+    grid-gap: 20px;
+    background-color: rgba(0, 0, 0, 0.8);  
+    padding: 10px;
 }
 
-.main-gallery{
-    width: 60vw;
+section.wine > div.wine-item1{
+  background-color: #CECECE;
+  border: 1px solid black;
+  padding: 20px 0;
+  font-size: 30px;
+ 
 }
-
-.gallery-cell{
-    width: 20%;
-    margin-right: 10px;
-    height: 35vh;
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    margin-bottom: 20px;
-    counter-increment: gallery-cell;
-}
-
-
-
-.box {
-    width: 18%;
-    height: 35vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-    
-}
-
 
 hr{
     border: none;
@@ -149,6 +141,44 @@ div.titulos h1{
     font-size: 2rem;
     
 }
+
+
+
+/*
+.main-gallery{
+    width: 60vw;
+    border: 1px solid black;
+}
+
+.gallery-cell{
+    width: 20%;
+    margin-right: 10px;
+    height: 35vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 20px;
+    counter-increment: gallery-cell;
+    border: 1px solid cyan;
+}
+
+
+
+.box {
+    width: 18%;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid red;
+} */
+
+
+
 
 /* Fim da seção de produtos */
 

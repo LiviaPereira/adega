@@ -35,76 +35,78 @@
             </section> 
 
         <main>
-            
-            <div class="titulos">
-                <hr> <h1>Vinhos</h1> <hr>
-            </div>
-<!--
-            <section class="products">
 
-                <div class="box">
-                    <img src="./img/wine.jpg" alt="">
+            <div class="titulos">
+                <hr class="left"> <h1>Vinhos</h1> <hr class="right">
+            </div>
+
+            <section class="wine">
+
+                <div class="wine-item1">
+                    <!-- <img src="./img/wine.jpg" alt=""> -->
                 </div>
                 
-                <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
+                <div class="wine-item2" main-gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
                     <div class="gallery-cell">
-                        <img src="./img/porca.jpg" alt="Vinho Porca">
+                        <!-- <img src="./img/porca.jpg" alt="Vinho Porca">
                         <label>R$ 00,00</label>
-                        <button>Comprar</button>
+                        <button>Comprar</button> -->
                     </div>
 
                     <div class="gallery-cell">
-                        <img src="./img/mateus.jpg" alt="Vinho Porca">
+                        <!-- <img src="./img/mateus.jpg" alt="Vinho Porca">
                         <label>R$ 00,00</label>
-                        <button>Comprar</button>
+                        <button>Comprar</button> -->
                     </div>
 
                     <div class="gallery-cell">
-                        <img src="./img/tannat.jpg" alt="Vinho Porca">
+                        <!-- <img src="./img/tannat.jpg" alt="Vinho Porca">
                         <label>R$ 00,00</label>
-                        <button>Comprar</button>
+                        <button>Comprar</button> -->
                     </div>
 
                     <div class="gallery-cell">
-                    <img src="./img/mendes.jpg" alt="Vinho Porca">
+                    <!-- <img src="./img/mendes.jpg" alt="Vinho Porca">
                         <label>R$ 00,00</label>
-                        <button>Comprar</button>
+                        <button>Comprar</button> -->
                     </div>
                 </div>
 
             </section>
             
-            <div class="titulos">
-                <hr> <h1>Cervejas</h1> <hr>
+             <!-- <div class="titulos">
+                <hr = class="left"> <h1>Cervejas</h1> <hr class="right">
             </div>
 
             <section class="products">
 
-            <div class="box">
-                <img src="./img/cerveja.png" alt=""> 
-            </div>
+                
+
+                <div class="box">
+                     <img src="./img/cerveja.png" alt=""> 
+                </div>
                     
                     <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
                         <div class="gallery-cell">
-                            <img src="./img/brahma600.png" alt="Vinho Porca">
+                             <img src="./img/brahma600.png" alt="Vinho Porca">
                             <label>R$ 00,00</label>
                             <button>Comprar</button>
                         </div>
     
                         <div class="gallery-cell">
-                            <img src="./img/corona-beer.jpg" alt="Vinho Porca">
+                             <img src="./img/corona-beer.jpg" alt="Vinho Porca">
                             <label>R$ 00,00</label>
                             <button>Comprar</button>
                         </div>
 
                         <div class="gallery-cell">
-                            <img src="./img/gt.png" alt="Vinho Porca">
+                             <img src="./img/gt.png" alt="Vinho Porca">
                             <label>R$ 00,00</label>
                             <button>Comprar</button>
                         </div>
     
                         <div class="gallery-cell">
-                            <img src="./img/bud.jpg" alt="Vinho Porca">
+                             <img src="./img/bud.jpg" alt="Vinho Porca">
                             <label>R$ 00,00</label>
                             <button>Comprar</button>
                         </div>
@@ -113,36 +115,38 @@
             </section>
 
             <div class="titulos">
-                <hr> <h1>Destilados</h1> <hr>
-            </div>
+                    <hr class="left"> <h1>Destilados</h1> <hr class="right">
+                </div>
 
             <section class="products">
 
-            <div class="box">
-                  <img src="./img/cachaça.png" alt="">  
-            </div>
+                
+
+                <div class="box">
+                     <img src="./img/cachaça.png" alt="">  
+                </div>
                     
                     <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
-                        <div class="gallery-cell">
+                         <div class="gallery-cell">
                             <img src="./img/absolut.png" alt="Vinho Porca">
                             <label>R$ 00,00</label>
                             <button>Comprar</button>
                         </div>
     
                         <div class="gallery-cell">
-                            <img src="./img/jack.png" alt="Vinho Porca">
+                             <img src="./img/jack.png" alt="Vinho Porca">
                             <label>R$ 00,00</label>
                             <button>Comprar</button>
                         </div>
 
                         <div class="gallery-cell">
-                            <img src="./img/montilla.png" alt="Vinho Porca">
+                             <img src="./img/montilla.png" alt="Vinho Porca">
                             <label>R$ 00,00</label>
                             <button>Comprar</button>
                         </div>
     
                         <div class="gallery-cell">
-                            <img src="./img/orloff.png" alt="Vinho Porca">
+                             <img src="./img/orloff.png" alt="Vinho Porca">
                             <label>R$ 00,00</label>
                             <button>Comprar</button>
                         </div>
@@ -150,44 +154,46 @@
 
             </section>
 
-            <div class="titulos">
-                <hr> <h1>Não alcoólicos</h1> <hr>
-            </div>
+           <div class="titulos">
+                    <hr class="left"> <h1>Não alcoólicos</h1> <hr class="right">
+                </div>
 
             <section class="products">
 
-            <div class="box">
-                  <img src="./img/suco.jpeg" alt="">  
-            </div>
+                
+
+                <div class="box">
+                     <img src="./img/suco.jpeg" alt="">  
+                </div>
                     
                     <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
                         <div class="gallery-cell">
-                            <img src="./img/redbull.jpg" alt="Vinho Porca">
+                             <img src="./img/redbull.jpg" alt="Vinho Porca">
                             <label>R$ 00,00</label>
                             <button>Comprar</button>
                         </div>
     
                         <div class="gallery-cell">
-                            <img src="./img/pepsi.jpg" alt="Vinho Porca">
+                             <img src="./img/pepsi.jpg" alt="Vinho Porca">
                             <label>R$ 00,00</label>
                             <button>Comprar</button>
                         </div>
 
                         <div class="gallery-cell">
-                            <img src="./img/h2o.jpg" alt="Vinho Porca">
+                             <img src="./img/h2o.jpg" alt="Vinho Porca">
                             <label>R$ 00,00</label>
                             <button>Comprar</button>
                         </div>
     
                         <div class="gallery-cell">
-                            <img src="./img/dobemcoco.jpg" alt="Vinho Porca">
+                             <img src="./img/dobemcoco.jpg" alt="Vinho Porca">
                             <label>R$ 00,00</label>
                             <button>Comprar</button>
                         </div>
                     </div>
 
-            </section>
-        </main> -->
+            </section> -->
+        </main> 
 
         <?php include_once('includes/footer.php'); ?>
     </div>
