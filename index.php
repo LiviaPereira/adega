@@ -42,11 +42,11 @@
 
             <section class="wine">
 
-                <div class="wine-item1">
+                <div>
                     <!-- <img src="./img/wine.jpg" alt=""> -->
                 </div>
                 
-                <div class="wine-item2" main-gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
+                <div class="container main-gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
                     <div class="gallery-cell">
                         <!-- <img src="./img/porca.jpg" alt="Vinho Porca">
                         <label>R$ 00,00</label>

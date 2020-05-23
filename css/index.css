@@ -1,18 +1,16 @@
-* {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-
-  .spacing{
-    margin-bottom: 40px;
-}
 
 div#interface{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
     width: 100%;
     /* max-width: 1366px; monitores de 18,5 polegadas
     max-height: 768px; */
-    
 }
+
+.spacing{
+    margin-bottom: 40px;
+}
+
 /* Estilização do Slide Show */
 
 div.banner{
@@ -98,31 +96,9 @@ main{
     padding: 10px;
 }
 
-.wine-item1{grid-area: title;}
-.wine-item2{grid-area: box;}
-.wine-item3{grid-area: cell;}
-
-section.wine{
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    width: 80%;
-    margin: 0 auto;
-    grid-gap: 20px;
-    background-color: rgba(0, 0, 0, 0.8);  
-    padding: 10px;
-}
-
-section.wine > div.wine-item1{
-  background-color: #CECECE;
-  border: 1px solid black;
-  padding: 20px 0;
-  font-size: 30px;
- 
-}
-
 hr{
     border: none;
-    width: 50%;
+    width: 30%;
     height: 3vh;
     background-color: rgba(211, 211, 211, 1);
     margin-bottom: 30px;
@@ -143,6 +119,31 @@ div.titulos h1{
 }
 
 
+section.wine{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    width: 80%;
+    margin: 0 auto;
+    grid-gap: 20px;
+    background-color: rgba(0, 0, 0, 0.8);  
+    padding: 10px;
+}
+
+section.wine > div{
+  background-color: #CECECE;
+  border: 1px solid black;
+  padding: 20px 0;
+  font-size: 30px;
+ 
+}
+
+div.container > div{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    background-color: chartreuse;
+    border: 1px solid black;
+    grid-column-gap: 10px;
+}
 
 /*
 .main-gallery{
