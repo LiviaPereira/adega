@@ -2,7 +2,7 @@
 <footer>
 
     <div id="footer-newsletter">
-        <h1>Cadastre-se para receber novidades</h1>
+        <h1>Receba novidades em seu e-mail</h1>
             <div>
                 <input id="footer-input-newsletter" type="email" name="email-news" placeholder="Digite seu e-mail">
                 <button id="footer-submit-newsletter" type="submit">CADASTRAR</button>
@@ -12,54 +12,54 @@
     <div id="footer-conteiner">
 
         <div id="footer-itens">
-                <a href="./index.php">
-                <img id="footer-logo" src="img/logo.png" alt="">
-                <br>
-                <spam id="footer-logo-text">VINARIAM</spam>
-            </a>
-            <br>
-            <img id="footer-social-icons" src="img/ico-facebook.png" alt="">
-            <img id="footer-social-icons" src="img/ico-instagram.png" alt="">
-            <img id="footer-social-icons" src="img/ico-google.png" alt="">
+            <ul>
+                <li><p class="categories">Categorias</p></li>
+                <li><a href="">Vinhos</a></li>
+                <li><a href="">Cervejas</a></li>
+                <li><a href="">Destilados</a></li>
+                <li><a href="">Não Alcoólicos</a></li>
+                <li><a href="">Kit's</a></li>
+                <li><a href="">Promoções</a></li>
+            </ul>
         </div>
 
         <div id="footer-itens">
             <ul>
-                <li><a href="about.php">QUEM SOMOS</a></li>
-                <li><a href="">PRODUTOS</a></li>
-                <li><a href="">ENTREGA</a></li>
-                <li><a href="">COMO COMPRAR</a></li>
+                <li><p class="categories">Ajuda</p></li>
+                <li><a href="">Quem Somos</a></li>
+                <li><a href="">Como comprar</a></li>
+                <li><a href="">Formas de Entrega</a></li>
+                <li><a href="">Troca e Devoluções</a></li>
+                <li><a href="">FAQ</a></li>
             </ul>
         </div>
 
+        <div id="footer-itens">
+            <ul class="social">
+                <li><p class="categories">Nossas Redes</p></li>
+                <li><a href=""><img id="footer-social-icons" src="img/ico-instagram.png" alt=""><p> Instagram</p></a></li>
+                <li><a href=""><img id="footer-social-icons" src="img/ico-twitter.png" alt=""><p> Twitter</p></a></li>
+                <li><a href=""><img id="footer-social-icons" src="img/ico-facebook.png" alt=""><p> Facebook</p></a></li>
+            </ul>
+        </div>
 
         <div id="footer-itens">
-            <div id="footer-icons">
-                <p>
-                    <img src="img/ico-phone.png" align="left" alt="">
-                    TELEFONE: (11) 91234-5678
-                </p>
-                <br>
-                <p>
-                    <img src="img/ico-email.png" align="left" alt="">
-                    E-MAIL: contato@vinariam.com.br
-                </p>
-                <br>
-                <p>
-                    <img src="img/ico-map.png" align="left" alt="">
-                    ENDEREÇO: Rua Sempre Verde, 742 - Springfield
-                </p>
-                
-            </div>
-        
+            <img class="logo" src="img/logo_vinariam.png" alt="">
+            <p class="contacts">Telefone: (11) 91234-5678</p>
+            <p class="contacts">E-mail: contato@vinariam.com.br</p>
+            <p class="contacts">Endereço: Rua Sempre Verde, 742 - Springfield</p>
+
         </div>
 
     </div>
 
-    <!-- <div id="footer-content"> -->
-    <!-- </div> -->
-
-
-    
+    <div id="footer-content">
+        <p>
+            A VENDA E O CONSUMO DE BEBIDAS ALCOÓLICAS SÃO PROIBIDOS PARA MENORES DE 18 ANOS. 
+            BEBIDA ALCOÓLICA PODE CAUSAR DEPENDÊNCIA QUÍMICA E, EM EXCESSO, PROVOCA GRAVES MALES À SAÚDE. 
+            BEBA COM MODERAÇÃO. Preços, ofertas e condições exclusivas para internet e válidos durante o 
+            dia de hoje, podendo sofrer alterações sem prévia notificação.
+        </p>
+     </div>
 
 </footer>

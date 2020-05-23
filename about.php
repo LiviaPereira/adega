@@ -21,23 +21,7 @@
     <div id="interface">
         <?php include_once('includes/header.php'); ?>
 
-        <div class="banner"></div>
-
-        <section class="service spacing">
-            <div></div>
-            <div>
-                <h1>Entrega em até 24 horas</h1>
-            </div>
-            <div></div>
-            <div>
-                <h1>Frete Grátis</h1>
-            </div>
-            <div></div>
-            <div class="basis">
-                <h1>Maior Segurança na sua compra</h1>
-            </div>
-        </section>
-        <main>
+             <main>
 
 
         </main>

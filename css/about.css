@@ -1,14 +1,14 @@
 .about-somos {
-    font-size: larger;
+    font-size: xx-large;
     text-align: center;
     font-weight: bold;
     margin-top: auto;
 }
 
 .about-description {
-    font-size: medium;
+    font-size: larger;
     height: 50px;
-    line-height: 28px;
+    line-height: 60px;
     display: inline-block;
     padding-left: 5px;
     text-align: justify;
