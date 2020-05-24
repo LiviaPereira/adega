@@ -16,57 +16,59 @@
     <?php include_once('includes/header.php'); ?>
     
     <section id="form-register-client">
-        <br>
-        <h1>Cadastre-se</h1>
-        <br>
+
         <form action="" method="POST">
 
             <div id="conteiner-form">
+                <br>
+                <h1>Cadastre-se</h1>
+                <br>
+
                 <div>
                     <div>
-                        <label for="email">e-mail</label>
+                        <label for="email">E-mail</label>
                         <br>
-                        <input class="length-l" type="email" name="email" id="email" placeholder="Ex: joaodasilva@email.com" required>
+                        <input class="length-l" type="email" name="email" id="email" required>
                     </div>
                     <div>
-                        <label for="senha">senha</label>
+                        <label for="senha">Senha</label>
                         <br>
                         <input class="length-m" type="password" name="senha" id="senha" required>
                     </div>
                     <div>
-                        <label for="senha-confirma">confirme sua senha</label>
+                        <label for="senha-confirma">Confirme sua senha</label>
                         <br>
                         <input class="length-m" type="password" name="senha-confirma" id="senha-confirma" required>
                     </div>
                     <div>
                         <label for="cpf">CPF</label>
                         <br>
-                        <input class="length-m" type="text" name="cpf" id="cpf" placeholder="Ex: 123.456.789-12" required>
+                        <input class="length-m" type="text" name="cpf" id="cpf" required>
                     </div>
                     <div>
-                        <label for="nome">seu nome e sobrenome</label>
+                        <label for="nome">Nome e sobrenome</label>
                         <br>
-                        <input class="length-l" type="text" name="nome" id="nome" placeholder="Ex: João da Silva" required>
+                        <input class="length-l" type="text" name="nome" id="nome" required>
                     </div>
                     <div>
-                        <label for="nascimento">data de Nascimento</label>
+                        <label for="nascimento">Data de Nascimento</label>
                         <br>
-                        <input class="length-m" type="text" name="nascimento" id="nascimento" placeholder="Ex: 01/01/1999" required>
+                        <input class="length-m" type="text" name="nascimento" id="nascimento" required>
                     </div>
                     <div>
-                        <label>sexo</label>
+                        <label>Sexo</label>
                         <br>
                         <input type="radio" name="sexo" id=""> masculino
                         <input type="radio" name="sexo" id=""> feminino
                     </div>
                     <div>
-                        <label for="telefone">telefone</label>
+                        <label for="telefone">Telefone</label>
                         <br>
-                        <input class="length-m" type="tel" name="telefone" id="telefone" placeholder="Ex: (99) 99999-9999" required>
+                        <input class="length-m" type="tel" name="telefone" id="telefone" required>
                     </div>
                     <br>
                     <div class="register-submit">
-                        <button type="submit">criar seu cadastro</button>
+                        <button type="submit">Criar Cadastro</button>
                     </div>
                     <br>
                 </div>
