@@ -100,7 +100,7 @@ hr{
     border: none;
     width: 30%;
     height: 3vh;
-    background-color: rgba(211, 211, 211, 1);
+    background-color: rgba(0, 0, 0, 0.8);
     margin-bottom: 30px;
 
 }
@@ -118,68 +118,42 @@ div.titulos h1{
     
 }
 
-
-section.wine{
+main section{
     display: grid;
     grid-template-columns: 1fr 4fr;
+    grid-template-rows: 37vh;
     width: 80%;
     margin: 0 auto;
-    grid-gap: 20px;
-    background-color: rgba(0, 0, 0, 0.8);  
+    grid-gap: 20px;  
     padding: 10px;
 }
 
-section.wine > div{
-  background-color: #CECECE;
+main section div.box{
+    align-items: center;
   border: 1px solid black;
-  padding: 20px 0;
-  font-size: 30px;
+  border-radius: 10px;
+
  
 }
 
-div.container > div{
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    background-color: chartreuse;
-    border: 1px solid black;
-    grid-column-gap: 10px;
-}
-
-/*
-.main-gallery{
-    width: 60vw;
-    border: 1px solid black;
+main section div img{   
+    width: 95%;
+    height: 75%;
 }
 
 .gallery-cell{
-    width: 20%;
-    margin-right: 10px;
+    width: 28%;
     height: 35vh;
-    background-color: #fff;
+    margin-right: 10px;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    margin-bottom: 20px;
-    counter-increment: gallery-cell;
-    border: 1px solid cyan;
+    padding: 5px;
+    list-style-type: none;
+    border: 1px solid black;
 }
-
-
-
-.box {
-    width: 18%;
-    height: 35vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-    border: 1px solid red;
-} */
-
-
-
 
 /* Fim da seção de produtos */
 
