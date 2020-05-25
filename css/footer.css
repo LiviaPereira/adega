@@ -1,7 +1,8 @@
 
 
 #footer-newsletter {
-    margin-top: 50px;
+    margin-top: 40px;
+    padding: 10px 0;
     border-top: 2px solid #6E0406;
     background-color: #D3D3D3;
     width: 100%;
@@ -12,20 +13,23 @@
     flex-wrap: wrap;
 }
 
+#footer-newsletter div {
+    display: inherit;
+}
+
 #footer-newsletter h1 {
-    margin: 10px;
-    font-size: 1.2rem;
+    margin: 0px 0px 10px 0px;
+    font-size: 1.1rem;
 }
 
 #footer-input-newsletter {
-    padding: 15px;
+    padding: 12px;
     width: 350px;
 }
 
 #footer-submit-newsletter {
-    padding: 15px;
     width: 140px;
-    border: 1px solid #6E0406;
+    border: none;
     background-color: #6E0406;
     color: #FFFFFF;
     font-size: 1rem;
@@ -34,7 +38,6 @@
 
 #footer-submit-newsletter:hover {
     background-color: #320000;
-    border: 1px solid #320000;
 }
 
 #footer-conteiner {
@@ -52,24 +55,24 @@
 
 #footer-itens .categories {
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 #footer-itens a {
     text-decoration: none;
     color: black;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
 }
 
 #footer-itens ul {
     padding: 0px;
-    margin: -5px;
+    margin: 0px;
 }
 
 #footer-itens ul li {
     list-style-type: none;
     color: black;
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin: 20px 10px 20px 10px;
 }
 
@@ -79,8 +82,20 @@
 }
 
 #footer-social-icons {
-    width: 40px;
+    width: 35px;
     vertical-align: middle;
+}
+
+#footer-itens .ico-18 {
+    width: 40px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+#footer-itens .under-age {
+    margin: 0px;
+    font-size: 0.7rem;
+    font-weight: bold;
 }
 
 #footer-itens .logo {
@@ -90,17 +105,19 @@
 
 #footer-itens .contacts {
     margin: 10px;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 #footer-content {
     background-color: #DDD;
 }
 
+
 #footer-content p {
     padding: 30px;
     margin: 0px;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+    text-align: justify;
 }
 
 @media only screen and (max-width: 576px) {
@@ -123,22 +140,3 @@
     }
 }
 
-
-
-
-
-
- /* Extra small <576px */
- @media only screen and (max-width: 576px) {}
-
- /* Small >576px */
- @media only screen and (min-width: 576px) {}
- 
- /* Medium >768px */
- @media only screen and (min-width: 768px) {}
- 
- /* Large >992px */
- @media only screen and (min-width: 992px) {}
- 
- /* Extra large >1200px */
- @media only screen and (min-width: 1200px) {} 

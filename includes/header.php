@@ -9,7 +9,7 @@
             <div id="header-conteiner">
                 <div id="logo-site">
                     <a href="./index.php">
-                        <img id="logo-img" src="./img/logo.png" alt="">
+                        <img id="logo-img" src="./img/logo/logo.png" alt="">
                         <spam id="logo-site-top-text">VINARIAM</spam>
                     </a>
                 </div>
@@ -21,18 +21,18 @@
                     <a id="header-enter" href="register.php">Crie Sua conta</a>
                 </div>
                 <div>
-                    <a id="header-enter" href="">Entre</a>
+                    <a id="header-enter" href="login.php">Entre</a>
                 </div>
                 <div id="dropdown">
                     <a id="header-img-user">
-                    <img src="./img/user.PNG" alt=""></a>
+                    <img src="./img/icons/user.png" alt=""></a>
                     <div id="dropdown-content">
-                        <a href="#">Entre</a>
-                        <a href="#">Cadastre-se</a>
+                        <a href="login.php">Entre</a>
+                        <a href="register.php">Cadastre-se</a>
                     </div>
                 </div>
                 <div>
-                    <a id="header-img-cart" href="./shoppingCart.php"><img src="./img/cart.PNG" alt=""></a>
+                    <a id="header-img-cart" href="./shoppingCart.php"><img src="./img/icons/cart.png" alt=""></a>
                 </div>
             </div>
             
@@ -40,37 +40,37 @@
                 <nav>
                         <div>
                             <a href="">
-                                <img id="header-categories-img" src="./img/wine.png" alt="">
+                                <img id="header-categories-img" src="./img/categories/wine.png" alt="">
                                 <p id="header-categories">VINHOS</p>
                             </a>
                         </div>
                         <div>
                             <a href="">
-                                <img id="header-categories-img" src="./img/beer.png" alt="">
+                                <img id="header-categories-img" src="./img/categories/beer.png" alt="">
                                 <p id="header-categories">CERVEJAS</p>
                             </a>
                         </div>
                         <div>
                             <a href="">
-                                <img id="header-categories-img" src="./img/whiskey.png" alt="">
+                                <img id="header-categories-img" src="./img/categories/whiskey.png" alt="">
                                 <p id="header-categories">DESTILADOS</p>
                             </a>
                         </div>
                         <div>
                             <a href="">
-                                <img id="header-categories-img" src="./img/refri.png" alt="">
+                                <img id="header-categories-img" src="./img/categories/soda.png" alt="">
                                 <p id="header-categories">NÃO ALCOÓLICOS</p>
                             </a>
                         </div>
                         <div>
                             <a href="">
-                                <img id="header-categories-img" src="./img/kits.png" alt="">
+                                <img id="header-categories-img" src="./img/categories/kits.png" alt="">
                                 <p id="header-categories">KIT'S</p>
                             </a>
                         </div>
                         <div>
                             <a href="">
-                                <img id="header-categories-img" src="./img/sales.png" alt="">
+                                <img id="header-categories-img" src="./img/categories/sales.png" alt="">
                                 <p id="header-categories">PROMOÇÕES</p>
                             </a>
                         </div>

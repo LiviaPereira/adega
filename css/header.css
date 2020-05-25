@@ -24,14 +24,15 @@
 #logo-site-top-text {
     font-family: 'Amita', cursive;
     position: absolute;
-    top: 90px;
+    top: 72px;
     left: 40px;
     font-size: 2rem;
     font-weight: bold;
+    color: #000;
 }
 
 #logo-img {
-    width: 200px;
+    width: 170px;
 }
 
 #header-conteiner {
@@ -44,6 +45,7 @@
 #header-conteiner a {
     text-decoration: none;
     font-size: 1rem;
+    color: #000;
 }
 
 #header-search-input {
@@ -54,7 +56,7 @@
 #header-search-button {
     padding: 15px;
     width: 110px;
-    border: 1px solid #6E0406;
+    border: none;
     background-color: #6E0406;;
     color: #FFFFFF;
     font-size: 1rem;
@@ -63,7 +65,6 @@
 
 #header-search-button:hover {
     background-color: #320000;
-    border: 1px solid #320000;
 }
 
 #header-img-user img{
@@ -75,7 +76,7 @@
 }
 
 #nav-conteiner {
-    background-color: rgba(211, 211, 211, 0.4);
+    background-color: rgba(211, 211, 211, 0.5);
     /* width: 100%; */
     border-bottom: 2px solid #6E0406;
 
@@ -92,7 +93,7 @@
 }
 
 #nav-conteiner nav div:hover {
-    background-color: rgba(110, 4, 6, 0.9);
+    background-color: rgba(110, 4, 6, 0.8);
     width: 15%;
 }
 
@@ -105,15 +106,15 @@
 #header-categories {
     padding: 0px;
     margin: 0px;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
     color: #320000;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: bold;
 }
 
 #header-categories-img {
-    width: 46px;
-    margin-top: 8px;
+    width: 30px;
+    margin-top: 7px;
 }
 
 
@@ -127,14 +128,14 @@
     display: none;
     position: fixed;
     background-color: #f1f1f1;
-    min-width: 160px;
+    min-width: 130px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
   
   #dropdown-content a {
     color: black;
-    padding: 8px 0px;
+    padding: 18px 5px;
     text-decoration: none;
     display: block;
   }
@@ -167,7 +168,7 @@
     }
 
     #header-search-input {
-        background-image: url(../img/search.png);
+        background-image: url(../img/icons/search.png);
         background-repeat: no-repeat;
         background-size: 30px;
         padding: 8px 0px 8px 30px;
