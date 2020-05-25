@@ -43,10 +43,10 @@
             <section>
 
                 <div class="box">
-                    <img src="./img/wine.jpg" alt="">
+                    <a href="products.php"> <img src="./img/" alt=""> </a>
                 </div>
                 
-                <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true, "freeScroll": true, "groupCells": "80%", "cellAlign": "left" }'>
+                <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true, "freeScroll": true, "groupCells": "90%", "cellAlign": "left" }'>
                     <div class="gallery-cell">
                         <p>Nome do produto</p>
                         <img src="./img/porca.jpg" alt="Vinho Porca">
@@ -85,34 +85,34 @@
             <section>
 
                 <div class="box">
-                     <img src="./img/cerveja.png" alt=""> 
+                    <a href="products.php"> <img src="./img/" alt=""> </a>
                 </div>
                     
                     <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true, "freeScroll": true, "groupCells": "80%", "cellAlign": "left" }'>
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
-                            <img src="./img/brahma600.png" alt="Vinho Porca">
+                            <img src="./img/" alt="">
                             <label>R$ 00,00</label>
                             <button>Comprar</button>
                         </div>
     
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
-                            <img src="./img/corona-beer.jpg" alt="Vinho Porca">
+                            <img src="./img/" alt="">
                             <label>R$ 00,00</label>
                             <button>Comprar</button>
                         </div>
 
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
-                            <img src="./img/gt.png" alt="Vinho Porca">
+                            <img src="./img/" alt="">
                             <label>R$ 00,00</label>
                             <button>Comprar</button>
                         </div>
     
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
-                            <img src="./img/bud.jpg" alt="Vinho Porca">
+                            <img src="./img/" alt="">
                             <label>R$ 00,00</label>
                             <button>Comprar</button>
                         </div>
@@ -127,7 +127,7 @@
             <section>
 
                 <div class="box">
-                     <img src="./img/" alt="">  
+                    <a href="products.php"> <img src="./img/" alt="">  </a>
                 </div>
                     
                     <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true, "freeScroll": true, "groupCells": "80%", "cellAlign": "left" }'>
@@ -169,7 +169,7 @@
             <section>
 
                 <div class="box">
-                     <img src="./img/suco.jpeg" alt="">  
+                    <a href="products.php"> <img src="./img/suco.jpeg" alt="">  </a>
                 </div>
                     
                     <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true, "freeScroll": true, "groupCells": "80%", "cellAlign": "left" }'>
