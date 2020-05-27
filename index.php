@@ -169,7 +169,7 @@
             <section>
 
                 <div class="box">
-                    <a href="products.php"> <img src="./img/suco.jpeg" alt="">  </a>
+                    <a href="products.php"> <img src="./img/" alt="">  </a>
                 </div>
                     
                     <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true, "freeScroll": true, "groupCells": "80%", "cellAlign": "left" }'>
