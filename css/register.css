@@ -48,7 +48,8 @@
     border: none;
     background-color: #6E0406;
     color: #FFFFFF;
-    font-size: 1rem;
+    font-size: 0.8rem;
+    font-weight: bold;
 }
 
 #form-register-client button:hover {
