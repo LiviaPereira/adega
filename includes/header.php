@@ -14,8 +14,7 @@
                     </a>
                 </div>
                 <div>
-                    <input id="header-search-input" type="text" name="search" placeholder="Procurar...">
-                    <button id="header-search-button" type="submit">BUSCAR</button>
+                    <input id="header-search-input" type="text" name="search" placeholder="Procurar..."><button id="header-search-button" type="submit">BUSCAR</button>
                 </div>
                 <div>
                     <a id="header-enter" href="register.php">Crie Sua conta</a>
