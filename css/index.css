@@ -8,17 +8,17 @@ div#interface{
 }
 
 .spacing{
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 /* Estilização do Slide Show */
 
 div.banner{
     width: 100%;
-    height: 71vh;
+    height: 75vh;
     animation: slide 10s infinite;
     animation-direction: alternate;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -245,49 +245,77 @@ section div.box a img{
   }
 
 /* Extra small <576px */
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 375px) {
     div.banner{
-        height: 21vh;
+        height: 30vh;
         width: 100%;
+        background-size: 100% 100%;
     }
 
     section.service{
-        display: flex;
-        justify-content: space-evenly;
-        width: 100%;
-        height: 10vh;
-        background-color: #6E0406;
-        color: #fff;
-        text-align: center;
-        align-items: center;
+        display: none;
     }
 
-    section.service div{
-        width: 10vw;
-        height: 1vh;
-        font-size: 0.7rem;
-        margin: 0;
+    main section{
+        /* grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(12, 1fr); */
+        max-width: 320px;
+        width: 100vw;
+        font-size: 62.5%;
+        
+    }    
+
+    main section div.box{
+        display: none;   
+    }   
+
+    div.titulos{
+        margin-top: 40px;
+        max-width: 320px;
+        flex-direction: column;
+    }
+
+    div.titulos h1{
+        font-size: 1.75rem;
+        
+    }
+
+    div.titulos::after{
+        content: '';
+        width: 140px;
+        margin: 10px;
+        height: 4px;
+        background: #6E0406;
+    }
+
+    hr{
+        display: none;
     }
     
-    section.service div img{
-        position: relative;
-        width: 9vw;
-        margin-bottom: 20px;
-    }
-    
-    section.service div:nth-child(1) img{
-        position: relative;
-        width: 8vw;
+    .main-gallery{
+        grid-column: 1/3;
+        grid-row: 1/11;
+        max-width: 320px;
+        width: 100vw;
         align-self: center;
     }
-    
-    section.service div:nth-child(even){
-        width: 10vw;
-        height: 10vh;
-        margin: 0;
+
+    .gallery-cell{
+        width: 100vw;
+        grid-row: 1/3;
+        grid-row: 2/10;
+        align-self: center;
     }
-    
-    .basis{
-        flex-basis: 12%;
+
+    .gallery-cell p{
+        background: #6E0406;
+    }
+
+    .gallery-cell label{
+        color: black;
+    }
+
+    .gallery-cell button{
+        background: #6E0406;
     }
 }

@@ -1,3 +1,8 @@
+/* html{
+    A cada 1rem será considerado 10px inclusive pode ser usado no padding ex: padding: 20px; = padding: 2rem;
+    font-size: 62.5%;
+} */
+
 body {
     font-family: 'Montserrat', sans-serif;  /* fonte padrão para o corpo das páginas */
     font-size: 22px;                        /* tamanho de fonte padrão para o corpo das páginas - controlar o restante com "rem" */
