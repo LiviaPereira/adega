@@ -2,37 +2,31 @@
 
 $bebidas = [
 	[
-		"titulos" => ["vinhos", "cervejas", "destilados", "não-alcólicos"],
-		"nome" => "Calabresa",
-		"ingredientes" => ["mussarela", "calabresa", "cebola"],
-		"preco" => 38.5,
-		"img" => "./img/calabresa.jpg",
-		"destaque" =>  true
+		"name" => "calamares",
+		"price" => 38.5,
+		"img" => "./img/wines/calamares.jpg",
+		"description" =>  true
 	],
 	[
-		"titulos" => ["vinhos", "cervejas", "destilados", "não-alcólicos"],
-		"nome" => "Pepperoni",
-		"ingredientes" => ["mussarela", "pepperoni", "cebola"],
-		"preco" => 48.55,
-		"img" => "./img/pepperoni.jpg",
-		"destaque" =>  false
+		"name" => "casalgarcia",
+		"price" => 48.55,
+		"img" => "./img/wines/casalgarcia.jpg",
+		"description" =>  false
 	],
 	[
-		"titulos" => ["vinhos", "cervejas", "destilados", "não-alcólicos"],
-		"nome" => "Fracatu",
-		"ingredientes" => ["mussarela", "frango", "catupiry", "cebola"],
-		"preco" => 38.5,
-		"img" => "./img/fracatu.jpg",
-		"destaque" =>  true
+		"name" => "mateus",
+		"price" => 38.5,
+		"img" => "./img/wines/mateus.jpg",
+		"description" =>  true
 	],
 	[
-		"titulos" => ["vinhos", "cervejas", "destilados", "não-alcólicos"],
-		"nome" => "Marguerita",
-		"ingredientes" => ["mussarela", "tomate", "manjericão"],
-		"preco" => 33.5,
-		"img" => "./img/marguerita.jpg",
-		"destaque" =>  false
+		"name" => "mendes",
+		"price" => 33.5,
+		"img" => "./img/wines/mendes.jpg",
+		"description" =>  false
 	]
 ];
+
+$titulos = ["vinhos", "cervejas", "destilados", "não-alcóolicos"];
 
 ?>

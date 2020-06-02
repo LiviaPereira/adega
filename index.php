@@ -25,7 +25,7 @@ include("includes/bebidas.php");
 <body>
     
     <div id="interface">
-            <?php include_once('includes/header.php'); ?>
+            <?php include_once(__DIR__.'/includes/header.php'); ?>
 
             <div class="banner"></div>
 
@@ -41,31 +41,51 @@ include("includes/bebidas.php");
             </section> 
 
         <main>
-            <?php foreach ($bebidas as $bebida) : ?>
-                <section>
 
-                    <div>
-                        <hr><h1><?= $bebida['titulos'][0] ?></h1> <hr>
-                    </div>
-
-                    <div>
-                        <a href="products.php"> <img src="./img/wine.jpg" alt=""> </a>
-                    </div>
-                    
-                    <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true, "freeScroll": true, "groupCells": "90%", "cellAlign": "left" }'>
-                        <div class="gallery-cell">
-                            <!-- <p>Nome do produto</p>
-                            <img src="./img/porca.jpg" alt="Vinho Porca">
-                            <label>R$ 00,00</label>
-                            <button>Comprar</button>  -->
+            <?php /* if ($bebidas[] < 4) : */ ?>
+                <?php  foreach ($titulos as $titulo) :  ?>
+                        
+                    <section>
+                        <div>
+                            <hr><h1> <?= $titulo ?> </h1> <hr>
                         </div>
 
-                </section>
-            <?php  endforeach ?>
+                        <div>
+                            <a href="products.php"> <img src="./img/wine.jpg" alt=""> </a>
+                        </div>
+                                
+                        <div class="main-gallery js-flickity" data-flickity='{ "wrapAround": true, "contain": true, "groupCells": 2 }'> <!--   -->
+                            <div class="gallery-cell">
+                                        <!-- <p>Nome do produto</p> -->
+                                         <img src="./img/wine.jpg" alt="Vinho Porca">
+                                        <!-- <label>R$ 00,00</label>
+                                        <button>Comprar</button>   -->
+                            </div>
+
+                            <div class="gallery-cell">
+                                        <!-- <p>Nome do produto</p> -->
+                                        <!-- <img src="./img/porca.jpg" alt="Vinho Porca"> -->
+                                        <!-- <label>R$ 00,00</label>
+                                        <button>Comprar</button>   -->
+                            </div>
+
+                            <div class="gallery-cell">
+                                        <!-- <p>Nome do produto</p> -->
+                                        <!-- <img src="./img/porca.jpg" alt="Vinho Porca"> -->
+                                        <!-- <label>R$ 00,00</label>
+                                        <button>Comprar</button>   -->
+                            </div>
+
+                        </div>
+                    </section>
+                        
+                <?php  endforeach  ?>
+              
+            
 
         </main> 
 
-        <?php include_once('includes/footer.php'); ?>
+        <?php include_once(__DIR__.'/includes/footer.php'); ?>
     </div>
     <!-- Flickity JS -->
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
