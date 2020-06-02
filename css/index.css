@@ -91,91 +91,33 @@ section.service div:nth-child(even){
 
 /* Seção de produtos */
 
- main{
-    display: grid;
-    row-gap: 20px;
-    grid-template-columns: repeat(12, 1fr);
-} 
-
-main section{
-    grid-column: 2/12;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    /* grid-auto-rows: 1fr; */
-    grid-gap: 20px;
-    min-width: 375px;
-    grid-auto-columns: 1fr;
-    width: 100%;
-    align-self: center;
-    /* margin-bottom: 20px; */
-    position: relative;
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
 }
 
 hr{
     border: none;
-    width: 40%;
+    width: 30%;
     height: 3vh;
     background-color: rgba(0, 0, 0, 0.8);
     margin: 0;
 }
 
-main section div:nth-child(1){
-    grid-column: 1/5;
+div.titulos{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    box-sizing: border-box;
-    min-width: 100%;
+    justify-content: space-evenly;
+}
+
+div.titulos h1{
+    display: flex;
+    font-size: 2rem;
     
 }
-
-main section div:nth-child(1) h1{
-    display: flex;
-    font-size: 2rem;   
-}
-
-main section div:nth-child(2) {
-    width: 100%;
-	height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-    -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.6);
-    -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.6);
-    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.6);
-}
-
-main section div:nth-child(2) img{
-    width: 100%;
-    height: auto;
-    grid-column: 1;
-}
-
-.main-gallery{
-    grid-column: 2/5;
-    display: grid;
-    width: 100%;
-    column-gap: 1rem;
-}
-
-.gallery-cell{
-    align-items: center;
-    border-radius: 5px;
-    -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.6);
-    -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.6);
-    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.6);
-    width: 20vw;
-	height: 15vh;
-    object-fit: cover;
-    box-sizing: border-box;
-}
-
-.gallery-cell img{
-    max-width: 90%;
-    height: auto;
-    position: relative;
-}
-
-/* main section{
+main section{
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: repeat(10, 1fr);
@@ -268,17 +210,17 @@ section div.box a img{
 .gallery-cell button:hover{
     background-color: rgba(110, 4, 6, 0.9);
     
-} */
+}
 
 /* Fim da seção de produtos */
 
 /* removing dots */
-/* .flickity-page-dots {
+.flickity-page-dots {
     display: none;
-  } */
+  }
 
 /* smaller, dark, rounded square */
-/* .flickity-prev-next-button {
+.flickity-prev-next-button {
     width: 30px;
     height: 30px;
     border-radius: 5px;
@@ -286,23 +228,23 @@ section div.box a img{
   }
   .flickity-prev-next-button:hover {
     background: #6E0406;
-  } */
+  }
   /* arrow color */
-  /* .flickity-prev-next-button .arrow {
+  .flickity-prev-next-button .arrow {
     fill: white;
-  } */
-  /* .flickity-prev-next-button.no-svg {
+  }
+  .flickity-prev-next-button.no-svg {
     color: white;
-  } */
+  }
   /* position outside */
-  /* .flickity-prev-next-button.previous {
+  .flickity-prev-next-button.previous {
     left: -30px;
   }
   .flickity-prev-next-button.next {
     right: -30px;
-  } */
+  }
 
-/* Extra small <375px */
+/* Extra small <576px */
 @media only screen and (max-width: 375px) {
     div.banner{
         height: 30vh;
@@ -315,9 +257,8 @@ section div.box a img{
     }
 
     main section{
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(12, 1fr);
-        height: 40vh;
+        /* grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(12, 1fr); */
         max-width: 320px;
         width: 100vw;
         font-size: 62.5%;
@@ -356,29 +297,25 @@ section div.box a img{
         grid-row: 1/11;
         max-width: 320px;
         width: 100vw;
-        justify-content: center;
+        align-self: center;
     }
 
     .gallery-cell{
         width: 100vw;
-        grid-column: 1/3;
+        grid-row: 1/3;
         grid-row: 2/10;
-       
- 
+        align-self: center;
     }
 
     .gallery-cell p{
         background: #6E0406;
-        grid-row: 1;
     }
 
     .gallery-cell label{
         color: black;
-       
     }
+
     .gallery-cell button{
         background: #6E0406;
-        grid-column: 1/3;
-        max-width: 50%;
     }
 }

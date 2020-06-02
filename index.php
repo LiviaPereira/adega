@@ -1,12 +1,6 @@
-<?php 
-include("includes/bebidas.php");
-
-
-
-?>
-
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,7 +19,7 @@ include("includes/bebidas.php");
 <body>
     
     <div id="interface">
-            <?php include_once(__DIR__.'/includes/header.php'); ?>
+            <?php include_once('includes/header.php'); ?>
 
             <div class="banner"></div>
 
@@ -41,51 +35,177 @@ include("includes/bebidas.php");
             </section> 
 
         <main>
-            <!-- Home dinamica -->
-            <?php /* if ($bebidas[] < 4) : */ ?>
-                <?php  foreach ($titulos as $titulo) :  ?>
-                        
-                    <section>
-                        <div>
-                            <hr><h1> <?= $titulo ?> </h1> <hr>
-                        </div>
 
-                        <div>
-                            <a href="products.php"> <img src="./img/wine.jpg" alt=""> </a>
-                        </div>
-                                
-                        <div class="main-gallery js-flickity" data-flickity='{ "wrapAround": true, "contain": true, "groupCells": 2 }'> <!--   -->
-                            <div class="gallery-cell">
-                                        <!-- <p>Nome do produto </p> -->
-                                         <img src="./img/wine.jpg" alt="Vinho Porca">
-                                        <!-- <label>R$ 00,00</label>
-                                        <button>Comprar</button>   -->
-                            </div>
+            <div class="titulos">
+                <hr> <h1>Vinhos</h1> <hr>
+            </div>
 
-                            <div class="gallery-cell">
-                                        <!-- <p>Nome do produto</p> -->
-                                        <!-- <img src="./img/porca.jpg" alt="Vinho Porca"> -->
-                                        <!-- <label>R$ 00,00</label>
-                                        <button>Comprar</button>   -->
-                            </div>
+            <section>
 
-                            <div class="gallery-cell">
-                                        <!-- <p>Nome do produto</p> -->
-                                        <!-- <img src="./img/porca.jpg" alt="Vinho Porca"> -->
-                                        <!-- <label>R$ 00,00</label>
-                                        <button>Comprar</button>   -->
-                            </div>
+                <div class="box">
+                    <a href="products.php"> <img src="./img/" alt=""> </a>
+                </div>
+                
+                <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true, "freeScroll": true, "groupCells": "90%", "cellAlign": "left" }'>
+                    <div class="gallery-cell">
+                        <p>Nome do produto</p>
+                        <img src="./img/porca.jpg" alt="Vinho Porca">
+                        <label>R$ 00,00</label>
+                        <button>Comprar</button> 
+                    </div>
 
-                        </div>
-                    </section>
-                        
-                <?php  endforeach  ?>
-              
+                    <div class="gallery-cell">
+                        <p>Nome do produto</p>
+                        <img src="./img/mateus.jpg" alt="Vinho Porca">
+                        <label>R$ 00,00</label>
+                        <button>Comprar</button> 
+                    </div>
+
+                    <div class="gallery-cell">
+                        <p>Nome do produto</p>
+                        <img src="./img/tannat.jpg" alt="Vinho Porca">
+                        <label>R$ 00,00</label>
+                        <button>Comprar</button> 
+                    </div>
+
+                    <div class="gallery-cell">
+                        <p>Nome do produto</p>
+                        <img src="./img/mendes.jpg" alt="Vinho Porca">
+                        <label>R$ 00,00</label>
+                        <button>Comprar</button> 
+                    </div>
+                </div>
+
+            </section>
             
+             <div class="titulos">
+                <hr> <h1>Cervejas</h1> <hr>
+            </div>
 
+            <section>
+
+                <div class="box">
+                    <a href="products.php"> <img src="./img/" alt=""> </a>
+                </div>
+                    
+                    <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true, "freeScroll": true, "groupCells": "80%", "cellAlign": "left" }'>
+                        <div class="gallery-cell">
+                            <p>Nome do produto</p>
+                            <img src="./img/" alt="">
+                            <label>R$ 00,00</label>
+                            <button>Comprar</button>
+                        </div>
+    
+                        <div class="gallery-cell">
+                            <p>Nome do produto</p>
+                            <img src="./img/" alt="">
+                            <label>R$ 00,00</label>
+                            <button>Comprar</button>
+                        </div>
+
+                        <div class="gallery-cell">
+                            <p>Nome do produto</p>
+                            <img src="./img/" alt="">
+                            <label>R$ 00,00</label>
+                            <button>Comprar</button>
+                        </div>
+    
+                        <div class="gallery-cell">
+                            <p>Nome do produto</p>
+                            <img src="./img/" alt="">
+                            <label>R$ 00,00</label>
+                            <button>Comprar</button>
+                        </div>
+                    </div>
+
+            </section>
+
+            <div class="titulos">
+                    <hr> <h1>Destilados</h1> <hr>
+                </div>
+
+            <section>
+
+                <div class="box">
+                    <a href="products.php"> <img src="./img/" alt="">  </a>
+                </div>
+                    
+                    <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true, "freeScroll": true, "groupCells": "80%", "cellAlign": "left" }'>
+                         <div class="gallery-cell">
+                            <p>Nome do produto</p>
+                            <img src="./img/absolut.png" alt="">
+                            <label>R$ 00,00</label>
+                            <button>Comprar</button>
+                        </div>
+    
+                        <div class="gallery-cell">
+                            <p>Nome do produto</p>
+                            <img src="./img/jack.png" alt="">
+                            <label>R$ 00,00</label>
+                            <button>Comprar</button>
+                        </div>
+
+                        <div class="gallery-cell">
+                            <p>Nome do produto</p>
+                            <img src="./img/montilla.png" alt="">
+                            <label>R$ 00,00</label>
+                            <button>Comprar</button>
+                        </div>
+    
+                        <div class="gallery-cell">
+                            <p>Nome do produto</p>
+                            <img src="./img/orloff.png" alt="">
+                            <label>R$ 00,00</label>
+                            <button>Comprar</button>
+                        </div>
+                    </div>
+
+            </section>
+
+           <div class="titulos">
+                    <hr> <h1>Não alcoólicos</h1> <hr>
+                </div>
+
+            <section>
+
+                <div class="box">
+                    <a href="products.php"> <img src="./img/" alt="">  </a>
+                </div>
+                    
+                    <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true, "freeScroll": true, "groupCells": "80%", "cellAlign": "left" }'>
+                        <div class="gallery-cell">
+                            <p>Nome do produto</p>
+                            <img src="./img/redbull.jpg" alt="">
+                            <label>R$ 00,00</label>
+                            <button>Comprar</button>
+                        </div>
+    
+                        <div class="gallery-cell">
+                            <p>Nome do produto</p>
+                            <img src="./img/pepsi.jpg" alt="">
+                            <label>R$ 00,00</label>
+                            <button>Comprar</button>
+                        </div>
+
+                        <div class="gallery-cell">
+                            <p>Nome do produto</p>
+                            <img src="./img/h2o.jpg" alt="">
+                            <label>R$ 00,00</label>
+                            <button>Comprar</button>
+                        </div>
+    
+                        <div class="gallery-cell">
+                            <p>Nome do produto</p>
+                            <img src="./img/dobemcoco.jpg" alt="">
+                            <label>R$ 00,00</label>
+                            <button>Comprar</button>
+                        </div>
+                    </div>
+
+            </section> 
         </main> 
 
-        <?php include_once(__DIR__.'/includes/footer.php'); ?>
+        <?php include_once('includes/footer.php'); ?>
     </div>
     <!-- Flickity JS -->
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
