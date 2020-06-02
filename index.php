@@ -41,7 +41,7 @@ include("includes/bebidas.php");
             </section> 
 
         <main>
-
+            <!-- Home dinamica -->
             <?php /* if ($bebidas[] < 4) : */ ?>
                 <?php  foreach ($titulos as $titulo) :  ?>
                         
@@ -56,7 +56,7 @@ include("includes/bebidas.php");
                                 
                         <div class="main-gallery js-flickity" data-flickity='{ "wrapAround": true, "contain": true, "groupCells": 2 }'> <!--   -->
                             <div class="gallery-cell">
-                                        <!-- <p>Nome do produto</p> -->
+                                        <!-- <p>Nome do produto </p> -->
                                          <img src="./img/wine.jpg" alt="Vinho Porca">
                                         <!-- <label>R$ 00,00</label>
                                         <button>Comprar</button>   -->
