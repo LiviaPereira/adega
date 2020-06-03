@@ -36,14 +36,14 @@
 
         <main>
 
-            <div class="titulos">
-                <hr> <h1>Vinhos</h1> <hr>
-            </div>
-
             <section>
 
+                <div class="titulos">
+                    <hr> <h1>Vinhos</h1> <hr>
+                </div>
+
                 <div class="box">
-                    <a href="products.php"> <img src="./img/" alt=""> </a>
+                    <a href="products.php"> <img src="./img/wine.jpg" alt=""> </a>
                 </div>
                 
                 <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true, "freeScroll": true, "groupCells": "90%", "cellAlign": "left" }'>
@@ -77,12 +77,12 @@
                 </div>
 
             </section>
-            
-             <div class="titulos">
-                <hr> <h1>Cervejas</h1> <hr>
-            </div>
 
             <section>
+
+                <div class="titulos">
+                    <hr> <h1>Cervejas</h1> <hr>
+                </div>
 
                 <div class="box">
                     <a href="products.php"> <img src="./img/" alt=""> </a>
@@ -120,11 +120,13 @@
 
             </section>
 
-            <div class="titulos">
-                    <hr> <h1>Destilados</h1> <hr>
-                </div>
+                
 
             <section>
+
+                <div class="titulos">
+                    <hr> <h1>Destilados</h1> <hr>
+                </div>
 
                 <div class="box">
                     <a href="products.php"> <img src="./img/" alt="">  </a>
@@ -162,11 +164,11 @@
 
             </section>
 
-           <div class="titulos">
+            <section>
+
+                <div class="titulos">
                     <hr> <h1>Não alcoólicos</h1> <hr>
                 </div>
-
-            <section>
 
                 <div class="box">
                     <a href="products.php"> <img src="./img/" alt="">  </a>
