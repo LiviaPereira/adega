@@ -3,6 +3,10 @@
     font-size: 62.5%;
 } */
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;  /* fonte padrão para o corpo das páginas */
     font-size: 22px;                        /* tamanho de fonte padrão para o corpo das páginas - controlar o restante com "rem" */

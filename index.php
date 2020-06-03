@@ -11,9 +11,7 @@
 	<link rel="icon" href="img/fav.ico">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <title>Adega a Jato</title>
+    <title>Vinariam</title>
 </head>
 
 <body>

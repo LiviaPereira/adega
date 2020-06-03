@@ -8,19 +8,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <!-- amita-regular-400 -->
     <link href="https://fonts.googleapis.com/css2?family=Amita&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/about.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="img/fav.ico">
     <link rel="stylesheet" href="css/style.css">
-
-    <title>Sobre</title>
+    <link rel="stylesheet" href="css/about.css">
+    <title>Vinariam</title>
 </head>
+
+<?php include_once('includes/header.php'); ?>
 
 <body>
 
     <div id="interface">
-        <?php include_once('includes/header.php'); ?>
-
              <main>
 
 
@@ -33,6 +31,4 @@
 
         <?php include_once('includes/footer.php'); ?>
 </body>
-
-
 </html>

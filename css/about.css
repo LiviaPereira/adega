@@ -1,8 +1,8 @@
 .about-somos {
-    font-size: xx-large;
+    font-size: 2rem;
     text-align: center;
     font-weight: bold;
-    margin-top: auto;
+    margin-top: 20px;
 }
 
 .about-description {
@@ -19,8 +19,10 @@
 
 @media only screen and (max-width: 783px) {
     .about-description {
-        margin-right: 10px;
+        margin-right: 15px;
         margin-top: 20px;
-        margin-left: 40px;
+        margin-left: 15px;
+		font-size: 0.9rem;
+		line-height: 40px;
     }
 }

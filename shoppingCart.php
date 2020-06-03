@@ -5,12 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Amita&display=swap" rel="stylesheet">
-    <!-- Flickity CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 	<link rel="icon" href="img/fav.ico">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/shoppingCart.css">
-    <title>Shopping Cart</title>
+    <title>Vinariam</title>
 </head>
 <body class="body-cart">
     <?php include_once('includes/header.php'); ?>
