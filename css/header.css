@@ -1,7 +1,8 @@
 .container-mobile {
-    margin-top: 10px;
+    margin: 10px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-between;
 
 }
 

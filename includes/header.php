@@ -50,10 +50,11 @@
 
             <div class="header-mobile">
                 <div class="container-mobile">
+                    
                     <a href="./index.php">
                         <img class="header-logo-mobile" src="./img/logo/logo_mobile.png" alt="Logo do Site">
                     </a>
-
+                    <div style="display: inherit">
                     <div id="dropdown">
                         <a><img class="header-img-user-mobile" src="./img/icons/user2.png" alt=""></a>
                         <div id="dropdown-content">
@@ -61,7 +62,7 @@
                             <a href="register.php">Cadastre-se</a>
                         </div>
                     </div>
-
+                
                     <div class="header-shopping-cart">
                         <a href="./shoppingCart.php">
                             <img src="img/icons/cart_mobile.png" alt="Carrinho de Compras">
@@ -70,6 +71,7 @@
                             <p>1</p>
                         </div>
                     </div>
+                </div>
                 </div>
                 <div class="header-search-mobile">
                     <input type="text" name="search" placeholder="Procurar...">
