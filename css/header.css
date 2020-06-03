@@ -55,7 +55,7 @@
 .header-search-mobile{
     margin: 0px 5px 10px 5px;
     padding-left: 10px;
-    border: 1px solid #000;
+    border: 2px solid #ccc;
     border-radius: 20px;
 }
 
@@ -128,8 +128,8 @@
 
 .header-input-box{
     padding-left: 5px;
-    border: 1px solid #444;
-    border-radius: 20px;
+    border: 2px solid #ccc;
+    /* border-radius: 20px; */
     width: 500px;
 }
 
@@ -138,13 +138,13 @@
     outline:0;
     border:0;
     /* width: 200px; */
-    /* padding: 10px 0px 0px 5px; */
+    padding: 2px 0px 0px 15px;
 }
 
 .header-input-box button {
     background-color: #6E0406;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    /* border-top-right-radius: 20px; */
+    /* border-bottom-right-radius: 20px; */
     color: #fff;
     font-weight: bold;
     border:none;
