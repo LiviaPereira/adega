@@ -39,7 +39,7 @@
                             <img src="img/icons/cart_mobile.png" alt="Carrinho de Compras">
                         </a>
                         <div>
-                            <p>1</p>
+                            <p>2</p>
                         </div>
                     </div>
 
@@ -68,7 +68,7 @@
                             <img src="img/icons/cart_mobile.png" alt="Carrinho de Compras">
                         </a>
                         <div>
-                            <p>1</p>
+                            <p>02</p>
                         </div>
                     </div>
                 </div>

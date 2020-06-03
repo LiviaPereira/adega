@@ -67,7 +67,7 @@
                     </div>
                     <br>
                     <div class="register-submit">
-                        <button type="submit">CRIAR CADASTRO</button>
+                        <button class="length-l" type="submit">CRIAR CADASTRO</button>
                     </div>
                     <br>
                 </div>

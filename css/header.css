@@ -44,8 +44,9 @@
 
 .header-shopping-cart p {
     margin: 0px;
-    padding: 5px 10px;
+    padding: 3px 0px;
     font-size: 1rem;
+    text-align: center;
 }
 
 
@@ -128,15 +129,15 @@
 
 .header-input-box{
     padding-left: 5px;
-    border: 2px solid #ccc;
+    border: 2px solid #ddd;
     /* border-radius: 20px; */
     width: 500px;
 }
 
 .header-input-box input {
     display:inline-block;
-    outline:0;
-    border:0;
+    outline: 0;
+    border: none;
     /* width: 200px; */
     padding: 2px 0px 0px 15px;
 }

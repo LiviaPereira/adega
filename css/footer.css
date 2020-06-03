@@ -45,7 +45,7 @@
     /* padding-top: 20px; */
     background-color:#DDD;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -95,7 +95,7 @@
 
 #footer-itens .under-age {
     margin: 0px;
-    font-size: 0.7rem;
+    font-size: 0.5rem;
     font-weight: bold;
 }
 
@@ -115,10 +115,10 @@
 
 
 #footer-content p {
-    padding: 30px;
+    padding: 8px;
     margin: 0px;
-    font-size: 0.7rem;
-    text-align: justify;
+    font-size: 0.5rem;
+    text-align: center;
 }
 
 @media only screen and (max-width: 576px) {
@@ -131,8 +131,8 @@
     #footer-itens .social li a p {display: none;}
     #footer-itens ul li {margin: 5px }
     #footer-itens .under-age {font-weight: normal; font-size: 0.6rem;}
-    #footer-itens .ico-18 {width: 28px;}
-    #footer-social-icons {width: 28px;}
+    #footer-itens .ico-18 {width: 24px;}
+    #footer-social-icons {width: 24px;}
     #footer-content p {padding: 5px;}
 }
 
