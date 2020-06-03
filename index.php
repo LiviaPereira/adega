@@ -21,7 +21,7 @@
 
             <div class="banner"></div>
 
-             <section class="service spacing">
+             <section class="service">
                 
                     <div><img src="./img/24horas.png" alt=""></div>
                     <div><h3>Entrega em até 24 horas</h3></div>
