@@ -2,19 +2,19 @@
    <header>
         <div id="header-box">
 
-            <div id="top">
+            <div class="top">
                 <p>Adega a Jato! Pra quem tem pressa de beber!</p>
             </div>
 
             <div id="header-conteiner">
-                <div id="logo-site">
+                <div class="logo-site">
                     <a href="./index.php">
-                        <img id="logo-img" src="./img/logo/logo.png" alt="">
-                        <spam id="logo-site-top-text">VINARIAM</spam>
+                        <img class="logo-desktop" src="./img/logo/logo_vinariam.png" alt="Logo do Site">
                     </a>
                 </div>
-                <div>
-                    <input id="header-search-input" type="text" name="search" placeholder="Procurar..."><button id="header-search-button" type="submit">BUSCAR</button>
+                <div class="header-input-box">
+                    <input type="text" name="search" placeholder="Procurar...">
+                    <button type="submit">BUSCAR</button>
                 </div>
                 <div>
                     <a id="header-enter" href="register.php">Crie Sua conta</a>
@@ -30,10 +30,57 @@
                         <a href="register.php">Cadastre-se</a>
                     </div>
                 </div>
-                <div>
+                <!-- <div>
                     <a id="header-img-cart" href="./shoppingCart.php"><img src="./img/icons/cart.png" alt=""></a>
+                </div> -->
+
+                <div class="header-shopping-cart">
+                        <a href="./shoppingCart.php">
+                            <img src="img/icons/cart_mobile.png" alt="Carrinho de Compras">
+                        </a>
+                        <div>
+                            <p>2</p>
+                        </div>
+                    </div>
+
+
+            </div>
+
+            <!-- INICIO DO HEADER MOBILE -->
+
+            <div class="header-mobile">
+                <div class="container-mobile">
+                    
+                    <a href="./index.php">
+                        <img class="header-logo-mobile" src="./img/logo/logo_mobile.png" alt="Logo do Site">
+                    </a>
+                    <div style="display: inherit">
+                    <div id="dropdown">
+                        <a><img class="header-img-user-mobile" src="./img/icons/user2.png" alt=""></a>
+                        <div id="dropdown-content">
+                            <a href="login.php">Entre</a>
+                            <a href="register.php">Cadastre-se</a>
+                        </div>
+                    </div>
+                
+                    <div class="header-shopping-cart">
+                        <a href="./shoppingCart.php">
+                            <img src="img/icons/cart_mobile.png" alt="Carrinho de Compras">
+                        </a>
+                        <div>
+                            <p>02</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="header-search-mobile">
+                    <input type="text" name="search" placeholder="Procurar...">
+                    <button type="submit">BUSCAR</button>
                 </div>
             </div>
+
+            <!-- FIM DO HEADER MOBILE -->
+
             
             <div id="nav-conteiner">
                 <nav>

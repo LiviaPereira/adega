@@ -27,7 +27,7 @@
 
 #form-register-client input:focus {
     border-color: #000;
-    transition: 1s;
+    /* transition: 1s; */
 }
 
 #form-register-client ::placeholder {
@@ -58,13 +58,13 @@
 }
 
 #conteiner-form  {
-    width: 60%;
+    /* width: 60%; */
     margin: 0 auto;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 
