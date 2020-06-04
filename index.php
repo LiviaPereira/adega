@@ -41,63 +41,63 @@
                 </div>
 
                 <div class="box">
-                    <a href="products.php"> <img src="./img/wine.jpg" alt=""> </a>
+                    <a href="products.php"> <img src="./img/wines/brinde.png" alt="brinde"> </a>
                 </div>
                 
                 <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true, "groupCells": 4, "freeScroll": true }'>
                     <div class="gallery-cell">
                         <p>Nome do produto</p>
-                        <img src="./img/porca.jpg" alt="Vinho Porca">
-                        <label>R$ 00,00</label>
+                        <img src="./img/wines/porca.jpg" alt="Vinho Porca">
+                        <label><strong>R$ 00,00</strong></label>
                         <button>Comprar</button> 
                     </div>
 
                     <div class="gallery-cell">
                         <p>Nome do produto</p>
-                        <img src="./img/mateus.jpg" alt="Vinho Porca">
-                        <label>R$ 00,00</label>
+                        <img src="./img/wines/mateus.jpg" alt="Vinho Porca">
+                        <label><strong>R$ 00,00</strong></label>
                         <button>Comprar</button> 
                     </div>
 
                     <div class="gallery-cell">
                         <p>Nome do produto</p>
-                        <img src="./img/tannat.jpg" alt="Vinho Porca">
-                        <label>R$ 00,00</label>
+                        <img src="./img/wines/tannat.jpg" alt="Vinho Porca">
+                        <label><strong>R$ 00,00</strong></label>
                         <button>Comprar</button> 
                     </div>
 
                     <div class="gallery-cell">
                         <p>Nome do produto</p>
-                        <img src="./img/mendes.jpg" alt="Vinho Porca">
-                        <label>R$ 00,00</label>
+                        <img src="./img/wines/mendes.jpg" alt="Vinho Porca">
+                        <label><strong>R$ 00,00</strong></label>
                         <button>Comprar</button> 
                     </div>
 
                     <div class="gallery-cell">
                         <p>Nome do produto</p>
-                        <img src="./img/porca.jpg" alt="Vinho Porca">
-                        <label>R$ 00,00</label>
+                        <img src="./img/wines/porca.jpg" alt="Vinho Porca">
+                        <label><strong>R$ 00,00</strong></label>
                         <button>Comprar</button> 
                     </div>
 
                     <div class="gallery-cell">
                         <p>Nome do produto</p>
-                        <img src="./img/mateus.jpg" alt="Vinho Porca">
-                        <label>R$ 00,00</label>
+                        <img src="./img/wines/mateus.jpg" alt="Vinho Porca">
+                        <label><strong>R$ 00,00</strong></label>
                         <button>Comprar</button> 
                     </div>
 
                     <div class="gallery-cell">
                         <p>Nome do produto</p>
-                        <img src="./img/tannat.jpg" alt="Vinho Porca">
-                        <label>R$ 00,00</label>
+                        <img src="./img/wines/tannat.jpg" alt="Vinho Porca">
+                        <label> <strong> R$ 00,00 </strong></label>
                         <button>Comprar</button> 
                     </div>
 
                     <div class="gallery-cell">
                         <p>Nome do produto</p>
-                        <img src="./img/mendes.jpg" alt="Vinho Porca">
-                        <label>R$ 00,00</label>
+                        <img src="./img/wines/mendes.jpg" alt="Vinho Porca">
+                        <label><strong>R$ 00,00</strong></label>
                         <button>Comprar</button> 
                     </div>
                 </div>
@@ -111,63 +111,63 @@
                 </div>
 
                 <div class="box">
-                    <a href="products.php"> <img src="./img/" alt=""> </a>
+                    <a href="products.php"> <img src="./img/beers/beer.png" alt="beer"> </a>
                 </div>
                     
                     <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true, "groupCells": 4, "freeScroll": true }'>
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
                             <img src="./img/" alt="">
-                            <label>R$ 00,00</label>
+                            <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
     
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
                             <img src="./img/" alt="">
-                            <label>R$ 00,00</label>
+                            <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
 
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
                             <img src="./img/" alt="">
-                            <label>R$ 00,00</label>
+                            <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
     
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
                             <img src="./img/" alt="">
-                            <label>R$ 00,00</label>
+                            <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
 
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
                             <img src="./img/" alt="">
-                            <label>R$ 00,00</label>
+                            <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
     
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
                             <img src="./img/" alt="">
-                            <label>R$ 00,00</label>
+                            <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
 
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
                             <img src="./img/" alt="">
-                            <label>R$ 00,00</label>
+                            <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
     
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
                             <img src="./img/" alt="">
-                            <label>R$ 00,00</label>
+                            <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
                         
@@ -183,63 +183,63 @@
                 </div>
 
                 <div class="box">
-                    <a href="products.php"> <img src="./img/" alt="">  </a>
+                    <a href="products.php"> <img src="./img/distillates/drink.png" alt="drink">  </a>
                 </div>
                     
                     <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true, "groupCells": 4, "freeScroll": true }'>
                          <div class="gallery-cell">
                             <p>Nome do produto</p>
                             <img src="./img/absolut.png" alt="">
-                            <label>R$ 00,00</label>
+                            <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
     
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
                             <img src="./img/jack.png" alt="">
-                            <label>R$ 00,00</label>
+                            <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
 
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
                             <img src="./img/montilla.png" alt="">
-                            <label>R$ 00,00</label>
+                            <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
     
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
                             <img src="./img/orloff.png" alt="">
-                            <label>R$ 00,00</label>
+                            <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
 
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
                             <img src="./img/absolut.png" alt="">
-                            <label>R$ 00,00</label>
+                            <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
     
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
                             <img src="./img/jack.png" alt="">
-                            <label>R$ 00,00</label>
+                            <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
 
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
                             <img src="./img/montilla.png" alt="">
-                            <label>R$ 00,00</label>
+                            <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
     
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
                             <img src="./img/orloff.png" alt="">
-                            <label>R$ 00,00</label>
+                            <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
 
@@ -254,63 +254,63 @@
                 </div>
 
                 <div class="box">
-                    <a href="products.php"> <img src="./img/" alt="">  </a>
+                    <a href="products.php"> <img src="./img/non-alcoholic/sucao.png" alt="sucao">  </a>
                 </div>
                     
                     <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true, "groupCells": 4, "freeScroll": true }'>
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
                             <img src="./img/redbull.jpg" alt="">
-                            <label>R$ 00,00</label>
+                            <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
     
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
                             <img src="./img/pepsi.jpg" alt="">
-                            <label>R$ 00,00</label>
+                            <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
 
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
                             <img src="./img/h2o.jpg" alt="">
-                            <label>R$ 00,00</label>
+                            <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
     
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
                             <img src="./img/dobemcoco.jpg" alt="">
-                            <label>R$ 00,00</label>
+                            <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
 
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
                             <img src="./img/redbull.jpg" alt="">
-                            <label>R$ 00,00</label>
+                            <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
     
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
                             <img src="./img/pepsi.jpg" alt="">
-                            <label>R$ 00,00</label>
+                            <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
 
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
                             <img src="./img/h2o.jpg" alt="">
-                            <label>R$ 00,00</label>
+                            <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
     
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
                             <img src="./img/dobemcoco.jpg" alt="">
-                            <label>R$ 00,00</label>
+                            <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
 

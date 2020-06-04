@@ -3,6 +3,8 @@ div#interface{
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     width: 100%;
+    /* A cada 1rem será considerado 10px inclusive pode ser usado no padding ex: padding: 20px; = padding: 2rem; */
+    font-size: 62.5%;
     /* max-width: 1366px; monitores de 18,5 polegadas
     max-height: 768px; */
 }
@@ -130,6 +132,8 @@ div.titulos h1{
 }
 
 main section div.box{
+  display: flex;
+  justify-content: center;
   grid-row: 2;
   grid-column: 1;
   height: 35vh;
@@ -143,9 +147,9 @@ main section div.box{
 }
 
 section div.box a img{
-    
-    width: 100%;
-    
+    height: auto; 
+    max-width: 100%;
+    object-fit: cover;
 }
 
 .main-gallery{
@@ -157,8 +161,11 @@ section div.box a img{
 }
 
 .gallery-cell{
-    display: grid;
-    grid-template-rows: repeat(11, 1fr);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* display: grid;
+    grid-template-rows: repeat(11, 1fr); */
     align-self: center;
     width: 15vw; 
     height: 35vh;
@@ -167,34 +174,36 @@ section div.box a img{
     -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.6);
     -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.6);
     box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.6);
-    padding: 5px;
+    padding: 10px 5px;
     box-sizing: border-box;
 }
 
 .gallery-cell img{   
     width: 100%;
-    grid-row: 2/9;
-    height: 100%;
+    height: auto;
+    object-fit: cover;
+    /* grid-row: 2/9; */
+    /* height: 100%; */
+    
     
 }
 
 .gallery-cell p{
-    align-self: flex-start;
-    background: rgba(0, 0, 0, 0.8);
+    align-self: center;
     padding: 5px;
-    color: white;
+    color:rgb(102, 99, 99);
     grid-column: 1;
     grid-row: 1;
     margin: 0;
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: center;
 }
 
 .gallery-cell label{
-    grid-column: 1;
-    grid-row: 10;
+    font-size: 1.5rem;
+    font-weight: 700;
     text-align: center;
-    color: rgba(0, 0, 0, 0.8); 
+    color: rgba(103, 0, 0); 
     /* #320000; */
 }
 
