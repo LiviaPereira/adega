@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Amita&display=swap" rel="stylesheet">
     <link rel="icon" href="img/fav.ico">
     <link rel="stylesheet" href="css/style.css">
@@ -16,19 +15,19 @@
 
     <main id="produtos"> 
         <aside>
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <div>
+                <h2 id="Categorias">
                     Categorias
-                </button>
+                </h2>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                     <ul>
-                        <li><a class="dropdown-item" href="#">Vinhos</a></li>
-                        <li><a class="dropdown-item" href="#">Destilados</a></li>
-                        <li><a class="dropdown-item" href="#">Cervejas</a></li>
-                        <li><a class="dropdown-item" href="#">Cachaças</a></li>
-                        <li><a class="dropdown-item" href="#">Não alcoólicos</a></li>
-                        <li><a class="dropdown-item" href="#">Kits</a></li>
-                        <li><a class="dropdown-item" href="#">Promoções</a></li>
+                        <li><a class="dropdown-item" id="Categoria1" href="#">Vinhos</a></li>
+                        <li><a class="dropdown-item" id="Categoria2" href="#">Destilados</a></li>
+                        <li><a class="dropdown-item" id="Categoria3" href="#">Cervejas</a></li>
+                        <li><a class="dropdown-item" id="Categoria4" href="#">Cachaças</a></li>
+                        <li><a class="dropdown-item" id="Categoria5" href="#">Não alcoólicos</a></li>
+                        <li><a class="dropdown-item" id="Categoria6" href="#">Kits</a></li>
+                        <li><a class="dropdown-item" id="Categoria7" href="#">Promoções</a></li>
         
                     <ul>
                 </div>
@@ -81,8 +80,6 @@
 
     <?php include "includes/footer.php"; ?>
 
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 </body>
 </html>
