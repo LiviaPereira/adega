@@ -46,6 +46,59 @@
         display: block;
         margin: 0 auto;
     }
+
+    #Categorias{
+        margin-bottom: 0px;
+        width: 100%;
+        color: #6E0406;
+        border-bottom: #6E0406 solid 1px;
+        
+    }
+
+    .dropdown-menu li{
+        list-style: none;
+
+    }
+
+    #Categoria1:hover{
+        font-weight: bold;
+    }
+
+    #Categoria2:hover{
+        font-weight: bold;
+    }
+
+    #Categoria3:hover{
+        font-weight: bold;
+    }
+
+    #Categoria4:hover{
+        font-weight: bold;
+    }
+
+    #Categoria5:hover{
+        font-weight: bold;
+    }
+
+    #Categoria6:hover{
+        font-weight: bold;
+    }
+
+    #Categoria7:hover{
+        font-weight: bold;
+    }
+
+
+    .dropdown-menu ul{
+        padding: 0%;
+        margin-top: 8px;
+    }
+
+    .dropdown-menu li a{
+        color: black;
+        text-decoration: none;
+        font-size: 20px;
+    }
     
     
     @media (max-width: 576px){
