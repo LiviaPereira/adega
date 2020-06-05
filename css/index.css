@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 div#interface{
     -webkit-box-sizing: border-box;
@@ -7,6 +8,7 @@ div#interface{
     font-size: 62.5%;
     /* max-width: 1366px; monitores de 18,5 polegadas
     max-height: 768px; */
+    
 }
 
 .spacing{
@@ -17,7 +19,7 @@ div#interface{
 
 div.banner{
     width: 100%;
-    height: 75vh;
+    height: 70vh;
     animation: slide 10s infinite;
     animation-direction: alternate;
     background-size: cover;
@@ -83,6 +85,7 @@ section.service div:nth-child(even){
     width: 10%;
     height: 10vh;
     margin: 20px;
+    font-size: 1.2rem;
 }
 
 .basis{
@@ -103,7 +106,8 @@ main{
 main section{
     display: grid;
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: 10.2vh 36.8vh;
+    /* grid-template-rows: 10.2vh 36.8vh; */
+    grid-template-rows: 15vh 45vh;
     width: 80%;
     align-self: center;
     grid-gap: 30px;  
@@ -120,15 +124,21 @@ div.titulos{
 hr{
     border: none;
     width: 35%;
-    height: 3vh;
-    background-color: rgba(0, 0, 0, 0.8);
+    height: 0.1vh;
+    background-color: black;
+    opacity: 0.7;
     margin: 0;
 }
 
 div.titulos h1{
     display: flex;
-    font-size: 2.5rem;
-    
+    font-size: 4.5rem;
+    color: #d54d7b; 
+    font-family: 'Great Vibes', cursive;
+    line-height: 160px;
+    font-weight: normal;
+    text-align: center;
+    text-shadow: 0 1px 1px #fff;
 }
 
 main section div.box{
@@ -136,7 +146,7 @@ main section div.box{
   justify-content: center;
   grid-row: 2;
   grid-column: 1;
-  height: 35vh;
+  height: 40vh;
   align-items: center;
   border-radius: 10px;
   -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.6);
@@ -168,9 +178,8 @@ section div.box a img{
     grid-template-rows: repeat(11, 1fr); */
     align-self: center;
     width: 15vw; 
-    height: 35vh;
+    height: 40vh;
     margin: 5px;
-    border-radius: 5px;
     -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.6);
     -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.6);
     box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.6);
@@ -208,21 +217,19 @@ section div.box a img{
 }
 
 .gallery-cell button{
-    grid-column: 1;
-    grid-row: 11/12;
-    width: 80%;
-    margin: 0 auto;
     border: none;
-    padding: 5px;
-    background: rgba(0, 0, 0, 0.8);
+    outline: 0;
+    padding: 12px;
     color: white;
-    text-transform: uppercase;
-    border-radius: 10px;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
 }
 
 .gallery-cell button:hover{
-    background-color: rgba(110, 4, 6, 0.9);
-    
+    opacity: 0.7;
 }
 
 /* Fim da seção de produtos */
