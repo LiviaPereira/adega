@@ -38,38 +38,38 @@
         <section id="Catalogo">
             <article>
                 <p>Casal Garcia Vinho Verde 750ML</p>
-                <img class="img-produto" src="img/casalgarcia.jpg">
+                <img class="img-produto" src="img/wine/casalgarcia.jpg">
                 <p>R$45,00</p>
                 <button>COMPRAR</button>
             </article>
             
             <article>
                 <p>Calamares Vinho Verde 750ML</p>
-                <img class="img-produto" src="img/calamares.jpg">
+                <img class="img-produto" src="img/wine/calamares.jpg">
                 <p>R$40,00</p>
                 <button>COMPRAR</button>
             </article>
             <article>
                 <p>Vinho rosé Mateus Original 750ML</p>
-                <img class="img-produto" src="img/mateus.jpg">
+                <img class="img-produto" src="img/wine/mateus.jpg">
                 <p>R$50,00</p>
                 <button>COMPRAR</button>
             </article>
             <article>
                 <p>Vinho Porca de Murça Tinto 750ML</p>
-                <img class="img-produto" src="img/porca.jpg">
+                <img class="img-produto" src="img/wine/porca.jpg">
                 <p>R$60,00</p>
                 <button>COMPRAR</button>
             </article>
             <article>
                 <p>Vinho reserva Tannat 2017 750ML</p>
-                <img class="img-produto" src="img/tannat.jpg">
+                <img class="img-produto" src="img/wine/tannat.jpg">
                 <p>R$45,00</p>
                 <button>COMPRAR</button>
             </article>
             <article>
                 <p>Casal Mendes Vinho Verde 750ML</p>
-                <img class="img-produto" src="img/mendes.jpg">
+                <img class="img-produto" src="img/wine/mendes.jpg">
                 <p>R$45,00</p>
                 <button>COMPRAR</button>
             </article>
