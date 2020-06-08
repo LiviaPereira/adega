@@ -15,9 +15,9 @@
 </head>
 
 <body>
-    
-    <div id="interface">
-            <?php include_once('includes/header.php'); ?>
+
+    <?php include_once('includes/header.php'); ?>
+    <div id="interface">        
 
             <div class="banner"></div>
 
@@ -25,7 +25,7 @@
                 
                     <div><img src="./img/24horas.png" alt=""></div>
                     <div><h3>Entrega em até 24 horas</h3></div>
-                    <div><img src="./img/truck.png" alt=""></div>
+                    <div><img src="./img/caminhao.png" alt=""></div>
                     <div><h3>Frete Grátis</h3></div>
                     <div> <img src="./img/security.png" alt=""> </div>
                     <div class="basis"><h3>Maior Segurança na sua compra</h3></div>
@@ -117,42 +117,42 @@
                     <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true, "groupCells": 4, "freeScroll": true }'>
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
-                            <img src="./img/beer/b-01.png" alt="">
+                            <img src="./img/beer/packazul.png" alt="">
                             <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
     
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
-                            <img src="./img/beer/b-02.png" alt="">
+                            <img src="./img/beer/pack_bud.png" alt="">
                             <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
 
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
-                            <img src="./img/beer/b-03.png" alt="">
+                            <img src="./img/beer/corona.png" alt="">
                             <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
     
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
-                            <img src="./img/beer/b-04.png" alt="">
+                            <img src="./img/beer/bud.jpg" alt="">
                             <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
 
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
-                            <img src="./img//beer/bud.jpg" alt="">
+                            <img src="./img/beer/cervejaasahl.png" alt="">
                             <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
     
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
-                            <img src="./img//beer/corona-beer.jpg" alt="">
+                            <img src="./img/beer/cooler.png" alt="">
                             <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
@@ -166,7 +166,7 @@
     
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
-                            <img src="./img/beer/pack_bud.png" alt="">
+                            <img src="./img/beer/heineken.png" alt="">
                             <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
@@ -187,51 +187,51 @@
                 </div>
                     
                     <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true, "groupCells": 4, "freeScroll": true }'>
-                         <div class="gallery-cell">
+                    <div class="gallery-cell">
                             <p>Nome do produto</p>
-                            <img src="./img/distillate/" alt="">
+                            <img src="./img/distillate/pngbarn.png" alt="">
                             <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
     
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
-                            <img src="./img/distillate/" alt="">
+                            <img src="./img/distillate/jack.png" alt="">
                             <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
 
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
-                            <img src="./img/distillate/" alt="">
+                            <img src="./img/distillate/black.png" alt="">
                             <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
     
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
-                            <img src="./img/distillate/" alt="">
+                            <img src="./img/distillate/whiskey.jpg" alt="">
                             <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
 
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
-                            <img src="./img/distillate/" alt="">
+                            <img src="./img//distillate/" alt="">
                             <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
     
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
-                            <img src="./img/distillate/" alt="">
+                            <img src="./img//distillate/smirnoff.jpg" alt="">
                             <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
 
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
-                            <img src="./img/distillate/" alt="">
+                            <img src="./img/distillate/pngbarn(11).png" alt="">
                             <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
@@ -260,7 +260,7 @@
                     <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true, "groupCells": 4, "freeScroll": true }'>
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
-                            <img src="./img/non-alcoholic/" alt="">
+                            <img src="./img/non-alcoholic/coca.png" alt="">
                             <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
@@ -274,7 +274,7 @@
 
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
-                            <img src="./img/non-alcoholic/" alt="">
+                            <img src="./img/non-alcoholic/soda-09.png" alt="">
                             <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
@@ -288,7 +288,7 @@
 
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
-                            <img src="./img/non-alcoholic/" alt="">
+                            <img src="./img/non-alcoholic/h2o.jpg" alt="">
                             <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
@@ -302,7 +302,7 @@
 
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
-                            <img src="./img/non-alcoholic/" alt="">
+                            <img src="./img/non-alcoholic/laranja.png" alt="">
                             <label><strong>R$ 00,00</strong></label>
                             <button>Comprar</button>
                         </div>
