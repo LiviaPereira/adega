@@ -44,7 +44,7 @@
                     <a href="products.php"> <img src="./img/wine/brinde.png" alt="brinde"> </a>
                 </div>
                 
-                <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true, "groupCells": 4, "freeScroll": true }'>
+                <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true, "groupCells": true, "freeScroll": true }'>
                     <div class="gallery-cell">
                         <p>Nome do produto</p>
                         <div class="imagem" style="background-image: url('./img/wine/porca.jpg');"></div> 
@@ -114,7 +114,7 @@
                     <a href="products.php"> <img src="./img/beer/beer.png" alt="beer"> </a>
                 </div>
                     
-                    <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true, "groupCells": 4, "freeScroll": true }'>
+                    <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true, "groupCells": true, "freeScroll": true }'>
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
                             <div class="imagem" style="background-image: url('./img/beer/packazul.png');"></div>  
@@ -186,7 +186,7 @@
                     <a href="products.php"> <img src="./img/distillate/drink.png" alt="drink">  </a>
                 </div>
                     
-                    <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true, "groupCells": 4, "freeScroll": true }'>
+                    <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true, "groupCells": true, "freeScroll": true }'>
                     <div class="gallery-cell">
                             <p>Nome do produto</p>
                              <div class="imagem" style="background-image: url('./img/distillate/pngbarn.png');"></div>   
@@ -257,7 +257,7 @@
                     <a href="products.php"> <img src="./img/non-alcoholic/sucao.png" alt="sucao">  </a>
                 </div>
                     
-                    <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true, "groupCells": 4, "freeScroll": true }'>
+                    <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true, "groupCells": true, "freeScroll": true }'>
                         <div class="gallery-cell">
                             <p>Nome do produto</p>
                             <div class="imagem" style="background-image: url('./img/non-alcoholic/coca.png');"></div>   
