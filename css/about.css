@@ -2,19 +2,21 @@
     font-size: 2rem;
     text-align: center;
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .about-description {
-    font-size: larger;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
     height: 50px;
-    line-height: 60px;
+    line-height: 1.40;
     display: inline-block;
     padding-left: 5px;
     text-align: justify;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
     margin-top: auto;
+    margin-bottom: 40m;
 }
 
 @media only screen and (max-width: 783px) {
@@ -22,7 +24,7 @@
         margin-right: 15px;
         margin-top: 20px;
         margin-left: 15px;
-		font-size: 0.9rem;
-		line-height: 40px;
+        font-size: 0.9rem;
+        line-height: 40px;
     }
 }
