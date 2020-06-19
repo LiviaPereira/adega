@@ -24,7 +24,7 @@
             <section class="product-checkout">
                 <ul class="cart-list">
                     <li class="product-in-cart">
-                        <img src="img/corona-beer.jpg" alt="Cerveja Corona">
+                        <img src="img/beer/corona.png" alt="Cerveja Corona">
                         <p>Cerveja Corona Extra Long Neck 330ml</p>
                     </li>
                     <li class="other-li">R$ 5,00</li>
@@ -35,7 +35,7 @@
             <section class="product-checkout">
                 <ul class="cart-list">
                     <li class="product-in-cart">
-                        <img src="img/whisky.jpg" alt="Whisky Jack Daniel's">
+                        <img src="img/distillate/whisky.jpg" alt="Whisky Jack Daniel's">
                         <p>Whisky Jack Daniel's Single Barrel 750 mL</p>
                     </li>
                     <li class="other-li">R$ 150,00</li>
