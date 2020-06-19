@@ -18,8 +18,9 @@ div#interface{
 /* Estilização do Slide Show */
 
 div.banner{
+    margin: 0 auto;
     width: 100%;
-    height: 70vh;
+    height: 445px;
     animation: slide 10s infinite;
     animation-direction: alternate;
     background-size: cover;
@@ -29,15 +30,15 @@ div.banner{
 
 @keyframes slide {
     0%, 30%{
-        background-image: url(../img/cheers.jpg);
+        background-image: url(../img/banner/banner3.png);
     }
 
     35%, 65%{
-        background-image: url(../img/red-wine.jpg);
+        background-image: url(../img/banner/banner2.png);
     }
 
     70%, 100%{
-        background-image: url(../img/whisky2.jpg);
+        background-image: url(../img/banner/banner1.png);
     }
 }
 
@@ -149,7 +150,6 @@ main section div.box{
   grid-column: 1;
   height: 40vh;
   align-items: center;
-  border-radius: 10px;
   -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.6);
   -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.6);
   box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.6);
@@ -259,11 +259,30 @@ section div.box a img{
 
 /* Extra small <375px */
 @media only screen and (max-width: 375px) {
+   
+     /* Estilização do Slide Show */
     div.banner{
         height: 30vh;
         width: 100%;
-        background-size: 100% 100%;
+        background-size: cover;
     }
+
+
+@keyframes slide {
+    0%, 30%{
+        background-image: url(../img/banner/mobilebanner1.png);
+    }
+
+    35%, 65%{
+        background-image: url(../img/banner/mobilebanner2.png);
+    }
+
+    70%, 100%{
+        background-image: url(../img/banner/mobilebanner3.png);
+    }
+}
+
+/* Fim do Slide Show */
 
     section.service{
         display: none;
@@ -271,51 +290,43 @@ section div.box a img{
 
     main section{
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 8vh 41vh 5vh;
+        grid-template-rows: 10vh 41vh 5vh;
         width: 100%;  
         box-sizing: content-box;
         border-radius: 5px;
         box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.6);
         justify-content: center;
-        grid-gap: 5px; 
+        grid-gap: 10px; 
         margin-bottom: 10px;
         align-items: center;
     } 
     
-    div.titulos{
-        display: flex;
-        grid-column: 2;
-        justify-content: center;
-        align-items: center;
-        height: 8vh;
-        padding-top: 0.7rem;
+    main section div.titulos{
+        grid-column: 1/4;
+        height: 7vh;
+        margin: 0 auto;
+        width: 54%;
+        border-bottom: 1px solid rgba(103, 0, 0);
     }
 
-    hr{
-        display: none;
-    }
+    
 
     div.titulos h1{
         font-size: 2.5rem;
+        color: #6E0406;
+        margin: 0 auto;
     }
 
-     /* div.titulos::after{
-        content: '';
-        width: 140px;
-        margin: 10px;
-        height: 4px;
-        background: #6E0406;
-        
-    }  */
+    hr{
+            display: none;
+    }
 
     main section div.box{
         display: none;   
     }   
 
     .main-gallery{
-        grid-column: 1/4;
-        
-        
+        grid-column: 1/4;  
     }
    
     .gallery-cell{
@@ -346,13 +357,13 @@ section div.box a img{
     .gallery-cell button{
         border: none;
         outline: 0;
-        padding: 12px;
+        padding: 6px;
         color: white;
         background-color: #000;
         text-align: center;
         cursor: pointer;
-        width: 70%;
-        height: 15%;
+        width: 50%;
+        height: 12%;
         font-size: 18px;
         border-radius: 10px;
         margin: 0 auto;
@@ -360,7 +371,7 @@ section div.box a img{
 
     .flickity-page-dots {
         display: inline;
-         bottom: -30px; 
+         bottom: -25px; 
       }
     
       .flickity-prev-next-button {
