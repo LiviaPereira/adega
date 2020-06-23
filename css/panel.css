@@ -1,0 +1,163 @@
+#panel {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#panel h1 {
+    text-align: center;
+}
+
+
+.main-nav nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-top: 20px;
+}
+
+.main-nav nav ul li {
+    border: 1px solid #aaa;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom: none;
+    text-align: center;
+    width: 100px;
+    margin: 0 1px;
+    padding: 8px;
+    font-size: 0.85rem;
+    width: 110px;
+    height: 35px
+}
+
+.main-nav nav ul .active {
+    color: #FFFFFF;
+    background-color: rgba(110, 4, 6, 0.8);
+}
+
+.main-nav nav ul li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#logout {
+    border: none;
+    color: red;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+.main-container p {
+    margin: 0;
+    font-size: 0.85rem;
+}
+
+.main-container ul {
+    font-size: 0.85rem;
+}
+
+.address ul {
+    list-style-type: none;
+}
+
+
+
+
+
+.main-container {
+    border: 1px solid #aaa;
+    padding: 30px;
+    min-height: 350px;
+}
+
+.main-container table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.main-container thead {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.main-container tr:nth-child(even) {
+    background-color: #eee;
+}
+
+.main-container thead td {
+    border: 1px solid #ccc;
+    padding: 7px;
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.main-container tbody td {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.main-container span {
+    display: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.form-address-edit label {
+    font-size: 0.8rem;
+    display: inline-block;
+    width: 130px;
+    border-bottom: 1px solid #ddd;
+}
+
+.form-address-edit fieldset {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+
+    #panel {
+        width: 98%;
+    }
+
+    .main-container {
+        padding: 5px;
+    }
+    .main-container span {
+        display: block;
+    }
+    .main-container tbody td {
+        padding: 10px;
+    }
+    .table-mobile thead {
+      display: none;
+    }
+    .table-mobile td:not(:first-child) {
+      display: block;
+    }
+  }

@@ -27,7 +27,7 @@
             <ul>
                 <li><p class="categories">Ajuda</p></li>
                 <li><a href="about.php">Quem Somos</a></li>
-                <li><a href="">Como comprar</a></li>
+                <li><a href="panel_main.php">Minha Conta</a></li>
                 <li><a href="">Formas de Entrega</a></li>
                 <li><a href="">Troca e Devoluções</a></li>
                 <li><a href="">FAQ</a></li>
