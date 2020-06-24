@@ -3,12 +3,14 @@
     font-size: 62.5%;
 } */
 
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;  /* fonte padrão para o corpo das páginas */
+    font-family: 'Open Sans', sans-serif;   /* fonte padrão para o corpo das páginas */
     font-size: 22px;                        /* tamanho de fonte padrão para o corpo das páginas - controlar o restante com "rem" */
     background-color: #FFFFFF;            /* cor de fundo padrão para o corpo das páginas */ 
     margin: 0;                              /* reset de margens */

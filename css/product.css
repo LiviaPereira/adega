@@ -1,0 +1,428 @@
+body {
+    font-family: 'Montserrat', sans-serif;  /* fonte padrão para o corpo das páginas */
+    font-size: 22px;                        /* tamanho de fonte padrão para o corpo das páginas - controlar o restante com "rem" */
+    background-color: #FFFFFF;            /* cor de fundo padrão para o corpo das páginas */ 
+    margin: 0;                              /* reset de margens */
+    padding: 0;                             /* reset de paddings */
+ }                                          /* Quando for formatar as tags seguir essa ordem:
+                                                1.posicionamento
+                                                2.Box model
+                                                3.tipografia
+                                                4.Visual*/ 
+ 
+ #comprando {
+     max-width: 100%;
+     margin: auto;
+     display: flex;
+     height: 500px;
+     justify-content: space-between;
+ }
+
+ .descricao h3 {
+     color: rgb(100, 100, 100);
+     font-size: 25px;
+ }
+
+ .foto {
+     width: 350px;
+     display: block;
+     margin: auto;
+     padding-top: 45px;
+ }
+
+ .produto {
+    width: 40%;
+}
+
+ .descricao {
+     width: 20%;
+     padding-left: 90px;
+     padding-top: 50px;
+ }
+
+ .descricao a {
+     font-size: 15px;
+     color: rgb(100, 100, 100);
+ }
+
+ .valor {
+     width: 25%;
+     padding-top: 50px;
+     padding-right: 90px;
+ }
+
+ .descricao h4 {
+     margin: 0;
+ }
+
+ .descricao p {
+     margin: 0;
+     padding-top: 25px;
+     font-size: 15px;
+     color: rgb(150, 150, 150);
+     text-align: justify;
+ }
+
+ .descricao h3 {
+     margin: 0;
+ }
+
+ .descricao h6 {
+     margin: 0;
+     padding-top: 15px;
+     color: blue;
+ }
+
+ .valor h6 {
+     margin: 0px;
+     color: rgb(100, 100, 100);
+ }
+
+ .valor a {
+     font-size: 15px;
+     color: rgb(100, 100, 100);
+     padding-top: 30px;
+ }
+
+ .valor h4 {
+     margin: 0px;
+     font-size: 30px;
+     padding-top: 15px;
+     color: #6E0406
+ }
+
+ .comprarb button {
+     background-color: #6f9000;
+     border-radius: none;
+     border-style: none;
+     width: 300px;
+     height: 65px;
+     font-size: 38px;
+     color: white;
+ }
+
+ .cep {
+     background-color: rgb(220, 220, 220);
+     margin-top: 25px;
+     height: 90px;
+     padding-left: 25px;
+     padding-top: 15px;
+ }
+
+ .cep label {
+     font-size: 15px;
+     color: rgb(100, 100, 100)
+ }
+
+ .cep input {
+     width: 250px;
+     height: 30px;
+     border-color:  #6E0406;
+     border-style: solid;
+     margin-top: 5px;
+ }
+
+ .cep button {
+     width: 40px;
+     height: 40px;
+     border-style: solid;
+     background-color: #6E0406;
+     color: white;
+ }
+
+#fichat {
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(100, 100, 100);
+    border-top: 1px solid rgb(100, 100, 100);
+}
+
+.titulo {
+    width: 50%;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+}
+
+.titulo p {
+    font-size: 15px;
+    color: rgb(100, 100, 100);
+}
+
+.titulo h4 {
+    color: #6E0406;
+}
+
+.especificacoes {
+    width: 50%;
+    margin: auto;
+    padding-left: 25px;
+    font-size: 15px;
+    color: rgb(100, 100, 100);
+}
+
+.especificacoes h4 {
+    color: #6E0406;
+    font-size: 20px;
+}
+
+#titulol {
+    background-color: #6E0406;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    position: relative;
+}
+
+#titulol::before {
+    content: "";
+    border-bottom: 3px white solid;
+    position: absolute;
+    width: 90%;
+    bottom: 50%;
+    left: 0;
+    margin: 0px 5%;
+}
+
+#titulol h4 {
+    margin: 0;
+    background-color: #6E0406;
+}
+
+#titulol div {
+    width: 30%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#levou {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+     width: 90%;
+     margin: auto;
+     height: 500px;
+ }
+
+#levou div {
+    width: 30%;
+    text-align: center;
+}
+
+#levou div img {
+    width: 40%;
+}
+
+.wine1 {
+    border: 1px solid rgb(190, 190, 190);
+    height: 420px;
+}
+
+.wine1 p {
+    color: rgb(190, 190, 190);
+    font-size: 15px;
+}
+
+.wine1 h6 {
+    color: blue;
+    margin: 0px;
+    padding-top: 35px;
+}
+
+.wine1 h5 {
+    color: #6E0406;
+    font-size: 25px;
+    margin: 0px;
+    padding-top: 50px;
+}
+
+.wine1 button {
+    margin-top: 57px;
+    margin-bottom: 0px;
+    background-color: #6f9000;
+    width: 100%;
+    border-style: none;
+    height: 35px;
+    color: white;
+    font-size: 20px;
+}
+
+.wine2 {
+    border: 1px solid rgb(190, 190, 190);
+    height: 420px;
+}
+
+.wine2 p {
+    color: rgb(190, 190, 190);
+    font-size: 15px;
+}
+
+.wine2 h6 {
+    color: blue;
+    margin: 0px;
+    padding-top: 35px;
+}
+
+.wine2 h5 {
+    color: #6E0406;
+    font-size: 25px;
+    margin: 0px;
+    padding-top: 50px;
+}
+
+.wine2 button {
+    margin-top: 57px;
+    margin-bottom: 0px;
+    background-color: #6f9000;
+    width: 100%;
+    border-style: none;
+    height: 35px;
+    color: white;
+    font-size: 20px;
+}
+
+.wine3 {
+    border: 1px solid rgb(190, 190, 190);
+    height: 420px;
+}
+
+.wine3 p {
+    color: rgb(190, 190, 190);
+    font-size: 15px;
+}
+
+.wine3 h6 {
+    color: blue;
+    margin: 0px;
+    padding-top: 35px;
+}
+
+.wine3 h5 {
+    color: #6E0406;
+    font-size: 25px;
+    margin: 0px;
+    padding-top: 50px;
+}
+
+.wine3 button {
+    margin-top: 57px;
+    margin-bottom: 0px;
+    background-color: #6f9000;
+    width: 100%;
+    border-style: none;
+    height: 35px;
+    color: white;
+    font-size: 20px;
+}
+
+#avaliacao {
+    width: 90%;
+    margin: auto;
+}
+
+#avaliacao textarea {
+    width: 50%;
+    height: 50px;
+    resize: none;
+}
+
+#avaliacao div h4 {
+    margin: 0px;
+    padding-top: 30px;
+}
+
+#avaliacao div hr {
+    width: 40%;
+    margin-left: 0;
+}
+
+#avaliacao div p {
+    color: blue;
+    font-size: 15px;
+    margin: 0px;
+}
+
+#avaliacao div label {
+    font-size: 15px;
+}
+
+#avaliacao div button {
+    background-color: #269abc;
+    border-style: none;
+    border-radius: 4px;
+    color: white;
+    width: 130px;
+    height: 40px;
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+#pergunta {
+    width: 90%;
+    margin: auto;
+}
+
+#pergunta label {
+    font-size: 15px;
+}
+
+#pergunta button {
+    background-color: #269abc;
+    border-style: none;
+    border-radius: 4px;
+    color: white;
+    width: 130px;
+    height: 40px;
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+#pergunta div textarea {
+    width: 50%;
+    height: 50px;
+    resize: none;
+}
+
+#final {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+@media (max-width: 576px){
+
+    #comprando {
+       flex-wrap: wrap;
+    }
+    .descricao {
+        width: 100%;
+        text-align: center;
+    }
+    .foto {
+        width: 100%;
+    }
+    .produto {
+        width: 45%;
+    }
+    .valor {
+        width: 45%;
+    }
+    #titulol div {
+        width: 70%;
+    }
+    #levou div {
+        width: 50%;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 576px){
+    
+    #titulol div {
+        width: 45%;
+    }
+}
+

@@ -20,6 +20,7 @@
                 <div>
                     <img class="header-img-user-mobile" src="./img/icons/user2.png" alt="Acesso do Usuário">
                     <div class="header-enter">
+                        <a href="panel_main.php"><p>Minha Conta</p></a>
                         <a href="login.php"><p>Entre</p></a>
                         <a href="register.php"><p>ou Crie Sua conta</p></a>
                     </div>
@@ -57,6 +58,7 @@
                         <div id="dropdown">
                             <img class="header-img-user-mobile" src="./img/icons/user2.png" alt="Acesso do Usuário">
                             <div id="dropdown-content">
+                                <a href="panel_main.php">Minha Conta</a>
                                 <a href="login.php">Entre</a>
                                 <a href="register.php">Cadastre-se</a>
                             </div>
