@@ -43,9 +43,14 @@
                         <input class="length-m" type="text" name="cpf" id="cpf" required>
                     </div>
                     <div>
-                        <label for="nome">Nome e sobrenome</label>
+                        <label for="nome">Nome</label>
                         <br>
                         <input class="length-l" type="text" name="nome" id="nome" required>
+                    </div>
+                    <div>
+                        <label for="sobrenome">Sobrenome</label>
+                        <br>
+                        <input class="length-l" type="text" name="sobrenome" id="sobrenome" required>
                     </div>
                     <div>
                         <label for="nascimento">Data de Nascimento</label>
@@ -53,10 +58,10 @@
                         <input class="length-m" type="text" name="nascimento" id="nascimento" required>
                     </div>
                     <div>
-                        <label>Sexo</label>
+                        <label for="sexo">Sexo</label>
                         <br>
-                        <input type="radio" name="sexo" id=""> masculino
-                        <input type="radio" name="sexo" id=""> feminino
+                        <input type="radio" name="sexo" id="sexo"> masculino
+                        <input type="radio" name="sexo" id="sexo"> feminino
                     </div>
                     <div>
                         <label for="telefone">Telefone</label>
