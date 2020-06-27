@@ -42,12 +42,12 @@
 
 
                 <div class="header-favorite">
-                    <a href="/login.php">
+                    <a href="/login">
                     <img class="header-img-user-mobile" src="./img/icons/favorite.png" alt="Meus Favoritos"><p>Favoritos</p>
                     </a>
                 </div>
                 <div class="header-shopping-cart">
-                        <a href="/shoppingCart.php">
+                        <a href="/shoppingCart">
                             <img src="img/icons/cart_mobile.png" alt="Carrinho de Compras">
                         </a>
                         <div>
@@ -63,7 +63,7 @@
             <div class="header-mobile">
                 <div class="container-mobile">
                     
-                    <a href="./index.php">
+                    <a href="/">
                         <img class="header-logo-mobile" src="./img/logo/logo_mobile.png" alt="Logo do Site">
                     </a>
                     <div style="display: inherit">

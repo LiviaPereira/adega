@@ -8,7 +8,7 @@
                 <div class="main-nav">
                     <nav>
                         <ul>
-                            <li><a href="/main">PAINEL</a></li>
+                            <li><a href="/panel">PAINEL</a></li>
                             <li><a href="/orders">PEDIDOS</a></li>
                             <li><a href="/address">ENDEREÇOS</a></li>
                             <li class="active"><a href="/account_edit">CONTA</a></li>
@@ -72,9 +72,6 @@
                                 </div>
                             </form>
                         </div>
-                        
-
-                        <!-- <p><a href="">Editar Endereço</a></p> -->
 
                     </div>
 

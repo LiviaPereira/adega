@@ -8,10 +8,10 @@
                 <div class="main-nav">
                     <nav>
                         <ul>
-                            <li><a href="panel_main.php">PAINEL</a></li>
-                            <li><a href="panel_orders.php">PEDIDOS</a></li>
-                            <li class="active"><a href="panel_address.php">ENDEREÇOS</a></li>
-                            <li><a href="panel_account_edit.php">CONTA</a></li>
+                            <li><a href="/panel">PAINEL</a></li>
+                            <li><a href="/orders">PEDIDOS</a></li>
+                            <li class="active"><a href="/address">ENDEREÇOS</a></li>
+                            <li><a href="/account_edit">CONTA</a></li>
                             <li id="logout"><a href="">SAIR</a></li>
                         </ul>
                     </nav>
@@ -32,7 +32,7 @@
                             <li>02020-000</li>
                         </ul>
 
-                        <p><a href="panel_address_edit.php">Editar Endereço</a></p>
+                        <p><a href="/address_edit">Editar Endereço</a></p>
 
                     </div>
 

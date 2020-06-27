@@ -8,10 +8,10 @@
                 <div class="main-nav">
                     <nav>
                         <ul>
-                            <li class="active"><a href="panel_main.php">PAINEL</a></li>
-                            <li><a href="panel_orders.php">PEDIDOS</a></li>
-                            <li><a href="panel_address.php">ENDEREÇOS</a></li>
-                            <li><a href="panel_account_edit.php">CONTA</a></li>
+                            <li class="active"><a href="/panel">PAINEL</a></li>
+                            <li><a href="/orders">PEDIDOS</a></li>
+                            <li><a href="/address">ENDEREÇOS</a></li>
+                            <li><a href="/account_edit">CONTA</a></li>
                             <li id="logout"><a href="">SAIR</a></li>
                         </ul>
                     </nav>
@@ -25,9 +25,9 @@
                     <p>A partir do painel de controle de sua conta, você pode:</p>
 
                     <ul>
-                        <li>Ver suas <a href="panel_orders.php">compras recentes</a> </li>
-                        <li>Gerenciar seus <a href="panel_address.php">endereços de entrega e faturamento</a> </li>
-                        <li>E <a href="panel_account_edit.php">editar sua senha e detalhes da conta.</a></li>
+                        <li>Ver suas <a href="/orders">compras recentes</a> </li>
+                        <li>Gerenciar seus <a href="/address">endereços de entrega e faturamento</a> </li>
+                        <li>E <a href="/account_edit">editar sua senha e detalhes da conta.</a></li>
                     </ul>
 
                 </div>    

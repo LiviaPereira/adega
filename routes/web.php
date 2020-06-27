@@ -14,35 +14,28 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', 'AdegaController@home');
 
-Route::get('/about', function () {
-    return view('about');
-});
+Route::get('/about', 'AdegaController@about');
 
-Route::get('/login', function () {
-    return view('login');
-});
+Route::get('/login', 'AdegaController@login');
 
-Route::get('/product', function () {
-    return view('product');
-});
+Route::get('/product', 'AdegaController@product');
 
-Route::get('/products', function () {
-    return view('products');
-});
+Route::get('/products', 'AdegaController@products');
 
-Route::get('/register', function () {
-    return view('register');
-});
+Route::get('/register', 'AdegaController@register');
 
-Route::get('/shoppingCart', function () {
-    return view('shoppingCart');
-});
+Route::get('/shoppingCart', 'AdegaController@shoppingCart');
 
-Route::get('/panel', function () {
-    return view('panel.main');
-});
+Route::get('/panel', 'AdegaController@panel');
+
+Route::get('/orders', 'AdegaController@orders');
+
+Route::get('/address', 'AdegaController@address');
+
+Route::get('/address_edit', 'AdegaController@address_edit');
+
+Route::get('/account_edit', 'AdegaController@account_edit');
+
 
