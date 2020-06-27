@@ -382,7 +382,7 @@ section div.box a img{
 }
 
 /* Extra small > 375px ==================================================================*/
-@media only screen and (min-device-width: 375px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 470px) {
     /* Estilização do Slide Show */
     div.banner{
         height: 31vh;
@@ -470,10 +470,10 @@ section div.box a img{
 
 }
 
-@media only screen and (max-device-width: 470px) {
+/* @media only screen and (max-device-width: 470px) {
     .gallery-cell{
         width:80%;
         height: 50vh;
 
-     }
+     } */
 }
