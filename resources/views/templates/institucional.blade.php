@@ -152,8 +152,9 @@
         <div id="footer-newsletter">
             <h1>Receba novidades em seu e-mail</h1>
                 <div>
-                    <form action="/newsletters" method="post">
-                        <input id="footer-input-newsletter" type="email" name="email-newsletter" placeholder="Digite seu e-mail">
+                    <form action="/newsletters" method="POST">
+                    @csrf
+                        <input id="footer-input-newsletter" type="email" name="emailnewsletter" placeholder="Digite seu e-mail">
                         <button id="footer-submit-newsletter" type="submit">CADASTRAR</button>
                     </form>
                 </div>
