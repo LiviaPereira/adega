@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
     use App\Models\newsletters;
 
-class newslettersController extends Controller
+class NewslettersController extends Controller
 {
 
     public function submitNewsletters(Request $request){
