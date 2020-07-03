@@ -39,4 +39,4 @@ Route::get('/address_edit', 'AdegaController@address_edit');
 Route::get('/account_edit', 'AdegaController@account_edit');
 
 
-Route::post('/newsletters', 'NewslettersController@submitNewsletters');
+Route::post('/newsletter', 'NewsletterController@registerNewsletter');
