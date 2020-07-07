@@ -19,7 +19,9 @@
 
                 <div class="main-container">
                     <div class="account">
-
+                        <strong>Alterar Informações de Cadastro</strong>
+                            <br>
+                            <br>
                         <div class="form-address-edit">
                             <form action="" method="post"></form>
                                 <div>
@@ -49,7 +51,7 @@
                                         <option value="false">Não</option>
                                     </select>
                                 </div>
-
+                                <br>
                                 <fieldset>
                                     <legend>Alterar Senha</legend>
                                     <p>Para alterar, preencha os campos abaixo.</p>
@@ -67,6 +69,7 @@
                                         <input type="password" name="senha_confirma" id="senha_confirma" required>
                                     </div>
                                 </fieldset>
+                                <br>
                                 <div class="register-submit">
                                     <button type="submit">Salvar Alterações</button>
                                 </div>

@@ -20,13 +20,10 @@
                 <div class="main-container">
                     <div class="address">
                         <strong>Alterar Endereço de Entrega</strong>
-
+                        <br>
+                        <br>
                         <div class="form-address-edit">
                             <form action="" method="post"></form>
-                                <div>
-                                    <label for="logradouro">Logradouro</label>
-                                    <input type="text" name="logradouro" id="logradouro" required>
-                                </div>
                                 <div>
                                     <label for="endereco">Endereço</label>
                                     <input type="text" name="endereco" id="endereco" required>
@@ -51,10 +48,7 @@
                                     <label for="cidade">Cidade</label>
                                     <input type="text" name="cidade" id="cidade" required>
                                 </div>
-                                <div>
-                                    <label for="estado">Estado</label>
-                                    <input type="text" name="estado" id="estado" required>
-                                </div>
+                                <br>
                                 <div class="register-submit">
                                     <button type="submit">Salvar Alterações</button>
                                 </div>

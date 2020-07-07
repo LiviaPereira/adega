@@ -26,7 +26,6 @@
                                 <td>Status</td>
                                 <td>Total</td>
                                 <td>Prazo de Entrega</td>
-                                <td>Rastreio</td>
                                 <td>Ações</td>
                             </tr>
                         </thead>
@@ -37,7 +36,6 @@
                                 <td> <span>Status<br></span> Concluído e Entregue</td>
                                 <td> <span>Total<br></span> R$ 120,00</td>
                                 <td> <span>Prazo de Entrega<br></span> Expresso (em 4hs)</td>
-                                <td> <span>Rastreio<br></span> BR12345678IO</td>
                                 <td> <span>Ações<br></span> Visualizar</td>
                             </tr>
                             <tr>
@@ -46,7 +44,6 @@
                                 <td> <span>Status<br></span> Concluído e Entregue</td>
                                 <td> <span>Total<br></span> R$ 120,00</td>
                                 <td> <span>Prazo de Entrega<br></span> Expresso (em 4hs)</td>
-                                <td> <span>Rastreio<br></span> BR12345678IO</td>
                                 <td> <span>Ações<br></span> Visualizar</td>
                             </tr>
                             <tr>
@@ -55,7 +52,6 @@
                                 <td> <span>Status<br></span> Concluído e Entregue</td>
                                 <td> <span>Total<br></span> R$ 120,00</td>
                                 <td> <span>Prazo de Entrega<br></span> Expresso (em 4hs)</td>
-                                <td> <span>Rastreio<br></span> BR12345678IO</td>
                                 <td> <span>Ações<br></span> Visualizar</td>
                             </tr>
                         </tbody>
