@@ -5,7 +5,8 @@
 
     <section id="form-register-client">
 
-        <form action="" method="POST">
+        <form action="/usuarios" method="POST">
+        @csrf
 
             <div id="conteiner-form">
                 <br>
@@ -19,14 +20,14 @@
                         <input class="length-l" type="email" name="email" id="email" required>
                     </div>
                     <div>
-                        <label for="senha">Senha</label>
+                        <label for="password">Senha</label>
                         <br>
-                        <input class="length-m" type="password" name="senha" id="senha" required>
+                        <input class="length-m" type="password" name="password" id="password" required>
                     </div>
                     <div>
-                        <label for="senha-confirma">Confirme sua senha</label>
+                        <label for="confirmesenha">Confirme sua senha</label>
                         <br>
-                        <input class="length-m" type="password" name="senha-confirma" id="senha-confirma" required>
+                        <input class="length-m" type="password" name="confirmesenha" id="confirmesenha" required>
                     </div>
                     <div>
                         <label for="cpf">CPF</label>
@@ -34,30 +35,30 @@
                         <input class="length-m" type="text" name="cpf" id="cpf" required>
                     </div>
                     <div>
-                        <label for="nome">Nome</label>
+                        <label for="name">Nome</label>
                         <br>
-                        <input class="length-l" type="text" name="nome" id="nome" required>
+                        <input class="length-l" type="text" name="name" id="name" required>
                     </div>
                     <div>
-                        <label for="sobrenome">Sobrenome</label>
+                        <label for="surname">Sobrenome</label>
                         <br>
-                        <input class="length-l" type="text" name="sobrenome" id="sobrenome" required>
+                        <input class="length-l" type="text" name="surname" id="surname" required>
                     </div>
                     <div>
-                        <label for="nascimento">Data de Nascimento</label>
+                        <label for="birth">Data de Nascimento</label>
                         <br>
-                        <input class="length-m" type="text" name="nascimento" id="nascimento" required>
+                        <input class="length-m" type="text" name="birth" id="birth" required>
                     </div>
                     <div>
-                        <label for="sexo">Sexo</label>
+                        <label for="gender">Sexo</label>
                         <br>
-                        <input type="radio" name="sexo" id="sexo"> masculino
-                        <input type="radio" name="sexo" id="sexo"> feminino
+                        <input type="radio" name="gender" id="gender" value="M"> masculino
+                        <input type="radio" name="gender" id="gender" value="F"> feminino
                     </div>
                     <div>
-                        <label for="telefone">Telefone</label>
+                        <label for="cellphone">Telefone</label>
                         <br>
-                        <input class="length-m" type="tel" name="telefone" id="telefone" required>
+                        <input class="length-m" type="tel" name="cellphone" id="cellphone" required>
                     </div>
                     <br>
                     <div class="register-submit">

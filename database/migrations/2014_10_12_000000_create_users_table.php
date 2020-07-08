@@ -19,14 +19,14 @@ class CreateUsersTable extends Migration
             $table->string('surname', 45);
             $table->string('email', 50)->unique();
             $table->string('password', 256);
-            $table->rememberToken();
+            //$table->rememberToken();
             $table->string('cpf', 11)->unique();
-            $table->date('birth');
+            $table->string('birth', 8);
             $table->string('gender', 2);
             $table->string('cellphone', 20);
             $table->string('phone', 20)->nullable()->default(null);
             $table->integer('access_level')->default(0);
-            $table->boolean('news');
+            $table->boolean('news')->default(true);
             $table->timestamps();
         });
     }

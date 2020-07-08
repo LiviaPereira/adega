@@ -40,3 +40,5 @@ Route::get('/account_edit', 'AdegaController@account_edit');
 
 
 Route::post('/newsletter', 'NewsletterController@registerNewsletter');
+
+Route::post('/usuarios', 'UsuariosController@store');
