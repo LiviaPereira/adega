@@ -5,7 +5,8 @@
     
     <section id="form-register-client">
 
-        <form action="" method="POST">
+        <form action="/login" method="POST">
+        @csrf
 
             <div id="conteiner-form">
                 <br>

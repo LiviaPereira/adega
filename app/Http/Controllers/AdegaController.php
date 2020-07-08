@@ -14,20 +14,12 @@ class AdegaController extends Controller
         return view('about');
     }
 
-    public function login(){
-        return view('login');
-    }
-
     public function product(){
         return view('product');
     }
 
     public function products(){
         return view('products');
-    }
-
-    public function register(){
-        return view('register');
     }
 
     public function shoppingCart(){
