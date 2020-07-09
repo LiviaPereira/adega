@@ -7,6 +7,12 @@ use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
+    public function wineList(){
+        $list = Product::all();
+        return view ('productsWines', compact('list'));
+    }
+    
+    
     /**
      * Display a listing of the resource.
      *

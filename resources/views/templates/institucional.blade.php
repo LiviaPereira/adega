@@ -171,12 +171,12 @@
             <div id="footer-itens">
                 <ul>
                     <li><p class="categories">Categorias</p></li>
-                    <li><a href="/products">Vinhos</a></li>
-                    <li><a href="/products">Cervejas</a></li>
-                    <li><a href="/products">Destilados</a></li>
-                    <li><a href="/products">Não Alcoólicos</a></li>
-                    <li><a href="/products">Kit's</a></li>
-                    <li><a href="/products">Promoções</a></li>
+                    <li><a href="/wines">Vinhos</a></li>
+                    <li><a href="/beers">Cervejas</a></li>
+                    <li><a href="/distilleds">Destilados</a></li>
+                    <li><a href="/nonAlcoholics">Não Alcoólicos</a></li>
+                    <li><a href="/kits">Kit's</a></li>
+                    <li><a href="/promotions">Promoções</a></li>
                 </ul>
             </div>
     

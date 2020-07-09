@@ -47,5 +47,7 @@ Route::get('/account_edit', 'AdegaController@account_edit');
 
 Route::post('/newsletter', 'NewsletterController@registerNewsletter');
 
+Route::get('/wines', 'ProductController@wineList');
+
 
 
