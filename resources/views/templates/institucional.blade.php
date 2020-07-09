@@ -32,15 +32,17 @@
                 <div>
                     <img class="header-img-user-mobile" src="./img/icons/user2.png" alt="Acesso do Usuário">
                     <div class="header-enter">
+
                     @auth
-                        
-                    <p>Olá, {{ auth()->user()->name }}</p>
-                    <a href="/panel"><p>Minha Conta</p></a>
+                        <p>Olá, {{ auth()->user()->name }}</p>
+                        <a href="/panel"><p>Minha Conta</p></a>
                     @endauth
+
                     @guest
-                    <a href="/login"><p>Entre</p></a>
-                    <a href="/register"><p>ou Crie Sua conta</p></a>
+                        <a href="/login"><p>Entre</p></a>
+                        <a href="/register"><p>ou Crie Sua conta</p></a>
                     @endguest
+
                     </div>
                 </div>
 
@@ -76,9 +78,18 @@
                         <div id="dropdown">
                             <img class="header-img-user-mobile" src="./img/icons/user2.png" alt="Acesso do Usuário">
                             <div id="dropdown-content">
-                                <a href="/panel">Minha Conta</a>
-                                <a href="/login">Entre</a>
-                                <a href="/register">Cadastre-se</a>
+                            
+                                @auth
+                                    <p>Olá, {{ auth()->user()->name }}.</p>
+                                    <a href="/panel">Minha Conta</a>
+                                    <a href="/logout">Sair</a>
+                                @endauth
+
+                                @guest
+                                    <a href="/login">Entre</a>
+                                    <a href="/register">Cadastre-se</a>
+                                @endguest
+
                             </div>
                         </div>
                         <div class="header-favorite">
