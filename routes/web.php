@@ -51,3 +51,9 @@ Route::get('/wines', 'ProductController@wineList');
 
 
 
+Route::get('/kits', 'ProductController@kitsList');
+
+Route::get('/distilleds', 'ProductController@distilledsList');
+
+
+

@@ -11,6 +11,16 @@ class ProductController extends Controller
         $list = Product::all();
         return view ('productsWines', compact('list'));
     }
+
+    public function kitsList(){
+        $list = Product::all();
+        return view ('productsKits', compact('list'));
+    }
+
+    public function distilledsList(){
+        $list = Product::all();
+        return view ('productsDistilleds', compact('list'));
+    }
     
     
     /**

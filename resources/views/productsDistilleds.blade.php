@@ -22,6 +22,7 @@
             </div>
         </aside>
 
+
         <section id="Catalogo">
             @foreach ($list as $item)
                 <article>

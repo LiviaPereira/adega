@@ -32,6 +32,8 @@
                 </article>
             @endforeach
         </section>
+            
+        </section>
 
     </main>
     
