@@ -108,37 +108,37 @@
             <div id="nav-conteiner">
                 <nav>
                         <div>
-                            <a href="#">
+                            <a href="/wines">
                                 <img id="header-categories-img" src="./img/categories/wine.png" alt="">
                                 <p id="header-categories">VINHOS</p>
                             </a>
                         </div>
                         <div>
-                            <a href="#">
+                            <a href="/beers">
                                 <img id="header-categories-img" src="./img/categories/beer.png" alt="">
                                 <p id="header-categories">CERVEJAS</p>
                             </a>
                         </div>
                         <div>
-                            <a href="#">
+                            <a href="/distilleds">
                                 <img id="header-categories-img" src="./img/categories/whiskey.png" alt="">
                                 <p id="header-categories">DESTILADOS</p>
                             </a>
                         </div>
                         <div>
-                            <a href="#">
+                            <a href="/nonAlcoholics">
                                 <img id="header-categories-img" src="./img/categories/soda.png" alt="">
                                 <p id="header-categories">NÃO ALCOÓLICOS</p>
                             </a>
                         </div>
                         <div>
-                            <a href="#">
+                            <a href="/kits">
                                 <img id="header-categories-img" src="./img/categories/kits.png" alt="">
                                 <p id="header-categories">KIT'S</p>
                             </a>
                         </div>
                         <div>
-                            <a href="#">
+                            <a href="/promotions">
                                 <img id="header-categories-img" src="./img/categories/sales.png" alt="">
                                 <p id="header-categories">PROMOÇÕES</p>
                             </a>
