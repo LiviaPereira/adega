@@ -32,9 +32,15 @@
                 <div>
                     <img class="header-img-user-mobile" src="./img/icons/user2.png" alt="Acesso do Usuário">
                     <div class="header-enter">
-                        <a href="/panel"><p>Minha Conta</p></a>
-                        <a href="/login"><p>Entre</p></a>
-                        <a href="/register"><p>ou Crie Sua conta</p></a>
+                    @auth
+                        
+                    <p>Olá, {{ auth()->user()->name }}</p>
+                    <a href="/panel"><p>Minha Conta</p></a>
+                    @endauth
+                    @guest
+                    <a href="/login"><p>Entre</p></a>
+                    <a href="/register"><p>ou Crie Sua conta</p></a>
+                    @endguest
                     </div>
                 </div>
 

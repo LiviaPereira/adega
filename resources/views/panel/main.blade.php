@@ -12,13 +12,13 @@
                             <li><a href="/orders">PEDIDOS</a></li>
                             <li><a href="/address">ENDEREÇOS</a></li>
                             <li><a href="/account_edit">CONTA</a></li>
-                            <li id="logout"><a href="">SAIR</a></li>
+                            <li id="logout"><a href="/logout">SAIR</a></li>
                         </ul>
                     </nav>
                 </div>
 
                 <div class="main-container">
-                    <p>Olá, <strong>murillo.arruda</strong> (não é <strong>murillo.arruda</strong>? <a href="#">Sair</a>)</p>
+                    <p>Olá, <strong>murillo.arruda</strong> (não é <strong>murillo.arruda</strong>? <a href="/logout">Sair</a>)</p>
 
                     <br>
 
