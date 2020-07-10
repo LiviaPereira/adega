@@ -53,4 +53,32 @@ class UsuariosController extends Controller
         return view('/register');
     }
 
+
+    // PAINEL
+
+    public function panel(Request $request){
+        if (Auth::check()) {
+        $usuario = $request->user();
+        return view('panel.main', compact('usuario'));
+        } else {
+            return redirect('/logout');
+        }
+    }
+
+    public function orders(){
+        return view('panel.orders');
+    }
+
+    public function address(){
+        return view('panel.address');
+    }
+
+    public function address_edit(){
+        return view('panel.address_edit');
+    }
+
+    public function account_edit(){
+        return view('panel.account_edit');
+    }
+
 }

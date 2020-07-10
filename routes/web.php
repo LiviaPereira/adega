@@ -24,28 +24,25 @@ Route::post('/login', 'UsuariosController@login');
 
 Route::get('/logout', 'UsuariosController@logout');
 
-Route::get('/product', 'AdegaController@product');
-
-Route::get('/products', 'AdegaController@products');
-
 Route::get('/register', 'UsuariosController@registerView');
 
 Route::post('/register', 'UsuariosController@store');
 
+Route::get('/panel', 'UsuariosController@panel')->middleware('auth');
+
+Route::get('/panel/orders', 'UsuariosController@orders')->middleware('auth');
+
+Route::get('/panel/address', 'UsuariosController@address')->middleware('auth');
+
+Route::get('/panel/address_edit', 'UsuariosController@address_edit')->middleware('auth');
+
+Route::get('/panel/account_edit', 'UsuariosController@account_edit')->middleware('auth');
+
 Route::get('/shoppingCart', 'AdegaController@shoppingCart');
 
-Route::get('/panel', 'AdegaController@panel');
-
-Route::get('/orders', 'AdegaController@orders');
-
-Route::get('/address', 'AdegaController@address');
-
-Route::get('/address_edit', 'AdegaController@address_edit');
-
-Route::get('/account_edit', 'AdegaController@account_edit');
-
-
 Route::post('/newsletter', 'NewsletterController@registerNewsletter');
+
+Route::get('/product', 'ProductController@showProduct');
 
 Route::get('/products/wines', 'ProductController@wineList');
 

@@ -7,6 +7,12 @@ use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
+
+    public function showProduct(){
+        return view('product');
+    }
+
+    
     public function wineList(){
         $list = Product::all();
         return view ('products.wines', compact('list'));

@@ -1,24 +1,24 @@
 @extends('templates.institucional')
 @section('content')
 
-    <link rel="stylesheet" href="css/panel.css">
-    
+    <link rel="stylesheet" href="{{ url('css/panel.css') }}">
+
     <section id="panel">
 
                 <div class="main-nav">
                     <nav>
                         <ul>
                             <li class="active"><a href="/panel">PAINEL</a></li>
-                            <li><a href="/orders">PEDIDOS</a></li>
-                            <li><a href="/address">ENDEREÇOS</a></li>
-                            <li><a href="/account_edit">CONTA</a></li>
+                            <li><a href="/panel/orders">PEDIDOS</a></li>
+                            <li><a href="/panel/address">ENDEREÇOS</a></li>
+                            <li><a href="/panel/account_edit">CONTA</a></li>
                             <li id="logout"><a href="/logout">SAIR</a></li>
                         </ul>
                     </nav>
                 </div>
 
                 <div class="main-container">
-                    <p>Olá, <strong>murillo.arruda</strong> (não é <strong>murillo.arruda</strong>? <a href="/logout">Sair</a>)</p>
+                    <p>Olá, <strong>{{ $usuario->name }} {{ $usuario->surname }}</strong> (não é você? <a href="/logout">Sair</a>)</p>
 
                     <br>
 

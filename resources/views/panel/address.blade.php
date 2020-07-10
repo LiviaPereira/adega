@@ -1,7 +1,7 @@
 @extends('templates.institucional')
 @section('content')
 
-    <link rel="stylesheet" href="css/panel.css">
+    <link rel="stylesheet" href="{{ url('css/panel.css') }}">
     
     <section id="panel">
 
@@ -9,10 +9,10 @@
                     <nav>
                         <ul>
                             <li><a href="/panel">PAINEL</a></li>
-                            <li><a href="/orders">PEDIDOS</a></li>
-                            <li class="active"><a href="/address">ENDEREÇOS</a></li>
-                            <li><a href="/account_edit">CONTA</a></li>
-                            <li id="logout"><a href="">SAIR</a></li>
+                            <li><a href="/panel/orders">PEDIDOS</a></li>
+                            <li class="active"><a href="/panel/address">ENDEREÇOS</a></li>
+                            <li><a href="/panel/account_edit">CONTA</a></li>
+                            <li id="logout"><a href="/logout">SAIR</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -32,7 +32,7 @@
                             <li>02020-000</li>
                         </ul>
 
-                        <p><a href="/address_edit">Editar Endereço</a></p>
+                        <p><a href="/panel/address_edit">Editar Endereço</a></p>
 
                     </div>
 
