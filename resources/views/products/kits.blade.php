@@ -30,9 +30,11 @@
                     <p class="product-name">{{ $item->name }}</p>
                     <img class="img-produto" src="{{ url("$item->photo") }}">
                     <p>R$ {{ $item->sale_price }}</p>
-                    <a href="/product/id={{ $item->id }}">COMPRAR</a>
+                    <a class="btn" href="/product/id={{ $item->id }}">COMPRAR</a>
                 </article>
             @endforeach
+
+            {{ $list->links() }}
 
         </section>
     </main>

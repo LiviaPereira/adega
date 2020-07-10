@@ -13,12 +13,12 @@ class ProductController extends Controller
     }
 
     public function kitsList(){
-        $list = Product::all();
+        $list = Product::paginate(12);
         return view ('products.kits', compact('list'));
     }
 
     public function distilledsList(){
-        $list = Product::all();
+        $list = Product::paginate(12);
         return view ('products.distilleds', compact('list'));
     }
     
