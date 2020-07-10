@@ -9,6 +9,8 @@ use Illuminate\Support\Facades\Auth;
 
 class UsuariosController extends Controller
 {
+
+    // Função que cria usuário, em seguida o autentica no sistema
     function store(Request $request){
         $user = new User ();
         $user->email = $request->email;
@@ -23,11 +25,15 @@ class UsuariosController extends Controller
 
         $user->save();
 
-        return redirect('/');
+        $credentials = $request->only('email', 'password');
 
-
+        if (Auth::attempt($credentials)) {
+            // Authentication passed...
+            return redirect('/');
+        }
     }
 
+    // Função da tela de login, solicita as credenciais e as valida
     function login(Request $request){
         $email = $request->email;
         $senha = $request->senha;
@@ -35,10 +41,11 @@ class UsuariosController extends Controller
         if(Auth::attempt(['email' => $email,'password' => $senha])) {
             return redirect('/');
         } else {
-            return redirect('/login?erro=1');
+            return redirect('/login?error');
         }
     }
 
+    // Função para realizar o logout do sistema
     function logout(Request $request){
         Auth::logout();
         return redirect('/');

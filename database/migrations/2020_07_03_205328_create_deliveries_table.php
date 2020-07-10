@@ -21,6 +21,7 @@ class CreateDeliveriesTable extends Migration
             $table->string('zip_code', 10);
             $table->string('district', 45);
             $table->string('city', 30);
+            $table->foreignId('users_id')->references('id')->on('users');
         });
     }
 
