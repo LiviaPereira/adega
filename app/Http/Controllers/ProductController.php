@@ -14,7 +14,7 @@ class ProductController extends Controller
 
     
     public function wineList(){
-        $list = Product::all();
+        $list = Product::paginate(12);
         return view ('products.wines', compact('list'));
     }
 
@@ -26,6 +26,11 @@ class ProductController extends Controller
     public function distilledsList(){
         $list = Product::paginate(12);
         return view ('products.distilleds', compact('list'));
+    }
+
+    public function beersList(){
+        $list = Product::paginate(12);
+        return view ('products.beers', compact('list'));
     }
     
     
