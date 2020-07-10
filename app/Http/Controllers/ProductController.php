@@ -9,17 +9,17 @@ class ProductController extends Controller
 {
     public function wineList(){
         $list = Product::all();
-        return view ('productsWines', compact('list'));
+        return view ('products.wines', compact('list'));
     }
 
     public function kitsList(){
         $list = Product::all();
-        return view ('productsKits', compact('list'));
+        return view ('products.kits', compact('list'));
     }
 
     public function distilledsList(){
         $list = Product::all();
-        return view ('productsDistilleds', compact('list'));
+        return view ('products.distilleds', compact('list'));
     }
     
     

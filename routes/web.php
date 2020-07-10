@@ -47,13 +47,13 @@ Route::get('/account_edit', 'AdegaController@account_edit');
 
 Route::post('/newsletter', 'NewsletterController@registerNewsletter');
 
-Route::get('/wines', 'ProductController@wineList');
+Route::get('/products/wines', 'ProductController@wineList');
 
 
 
-Route::get('/kits', 'ProductController@kitsList');
+Route::get('/products/kits', 'ProductController@kitsList');
 
-Route::get('/distilleds', 'ProductController@distilledsList');
+Route::get('/products/distilleds', 'ProductController@distilledsList');
 
 
 

@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/fav.ico">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{{ url('css/header.css' )}}">
+    <link rel="stylesheet" href="{{ url('css/footer.css' )}}">
+    <link rel="stylesheet" href="{{ url('css/style.css' )}}">
     <title>Vinariam</title>
 </head>
 <body>
@@ -21,7 +21,7 @@
             <div id="header-conteiner">
                 <div class="logo-site">
                     <a href="/">
-                        <img class="logo-desktop" src="./img/logo/logo_vinariam.png" alt="Logo do Site">
+                        <img class="logo-desktop" src="{{ url('img/logo/logo_vinariam.png' )}}" alt="Logo do Site">
                     </a>
                 </div>
                 <div class="header-input-box">
@@ -30,7 +30,7 @@
                 </div>
 
                 <div>
-                    <img class="header-img-user-mobile" src="./img/icons/user2.png" alt="Acesso do Usuário">
+                    <img class="header-img-user-mobile" src="{{ url('img/icons/user2.png') }}" alt="Acesso do Usuário">
                     <div class="header-enter">
 
                     @auth
@@ -51,12 +51,12 @@
 
                 <div class="header-favorite">
                     <a href="/login">
-                    <img class="header-img-user-mobile" src="./img/icons/favorite.png" alt="Meus Favoritos"><p>Favoritos</p>
+                    <img class="header-img-user-mobile" src="{{ url('img/icons/favorite.png') }}" alt="Meus Favoritos"><p>Favoritos</p>
                     </a>
                 </div>
                 <div class="header-shopping-cart">
                         <a href="/shoppingCart">
-                            <img src="img/icons/cart_mobile.png" alt="Carrinho de Compras">
+                            <img src="{{ url('img/icons/cart_mobile.png') }}" alt="Carrinho de Compras">
                         </a>
                         <div>
                             <p>2</p>
@@ -72,11 +72,11 @@
                 <div class="container-mobile">
                     
                     <a href="/">
-                        <img class="header-logo-mobile" src="./img/logo/logo_mobile.png" alt="Logo do Site">
+                        <img class="header-logo-mobile" src="{{ url('img/logo/logo_mobile.png') }}" alt="Logo do Site">
                     </a>
                     <div style="display: inherit">
                         <div id="dropdown">
-                            <img class="header-img-user-mobile" src="./img/icons/user2.png" alt="Acesso do Usuário">
+                            <img class="header-img-user-mobile" src="{{ url('img/icons/user2.png') }}" alt="Acesso do Usuário">
                             <div id="dropdown-content">
                             
                                 @auth
@@ -94,12 +94,12 @@
                         </div>
                         <div class="header-favorite">
                             <a href="/login">
-                            <img class="header-img-user-mobile" src="./img/icons/favorite.png" alt="Meus Favoritos">
+                            <img class="header-img-user-mobile" src="{{ url('img/icons/favorite.png') }}" alt="Meus Favoritos">
                             </a>
                         </div>
                         <div class="header-shopping-cart">
                             <a href="/shoppingCart">
-                                <img src="img/icons/cart_mobile.png" alt="Carrinho de Compras">
+                                <img src="{{ url('img/icons/cart_mobile.png') }}" alt="Carrinho de Compras">
                             </a>
                             <div>
                                 <p>02</p>
@@ -119,38 +119,38 @@
             <div id="nav-conteiner">
                 <nav>
                         <div>
-                            <a href="/wines">
-                                <img id="header-categories-img" src="./img/categories/wine.png" alt="">
+                            <a href="/products/wines">
+                                <img id="header-categories-img" src="{{ url('img/categories/wine.png') }}" alt="">
                                 <p id="header-categories">VINHOS</p>
                             </a>
                         </div>
                         <div>
-                            <a href="/beers">
-                                <img id="header-categories-img" src="./img/categories/beer.png" alt="">
+                            <a href="/products/beers">
+                                <img id="header-categories-img" src="{{ url('img/categories/beer.png') }}" alt="">
                                 <p id="header-categories">CERVEJAS</p>
                             </a>
                         </div>
                         <div>
-                            <a href="/distilleds">
-                                <img id="header-categories-img" src="./img/categories/whiskey.png" alt="">
+                            <a href="/products/distilleds">
+                                <img id="header-categories-img" src="{{ url('img/categories/whiskey.png') }}" alt="">
                                 <p id="header-categories">DESTILADOS</p>
                             </a>
                         </div>
                         <div>
-                            <a href="/nonAlcoholics">
-                                <img id="header-categories-img" src="./img/categories/soda.png" alt="">
+                            <a href="/products/nonAlcoholics">
+                                <img id="header-categories-img" src="{{ url('img/categories/soda.png') }}" alt="">
                                 <p id="header-categories">NÃO ALCOÓLICOS</p>
                             </a>
                         </div>
                         <div>
-                            <a href="/kits">
-                                <img id="header-categories-img" src="./img/categories/kits.png" alt="">
+                            <a href="/products/kits">
+                                <img id="header-categories-img" src="{{ url('img/categories/kits.png') }}" alt="">
                                 <p id="header-categories">KIT'S</p>
                             </a>
                         </div>
                         <div>
-                            <a href="/promotions">
-                                <img id="header-categories-img" src="./img/categories/sales.png" alt="">
+                            <a href="/products/promotions">
+                                <img id="header-categories-img" src="{{ url('img/categories/sales.png') }}" alt="">
                                 <p id="header-categories">PROMOÇÕES</p>
                             </a>
                         </div>
@@ -182,12 +182,12 @@
             <div id="footer-itens">
                 <ul>
                     <li><p class="categories">Categorias</p></li>
-                    <li><a href="/wines">Vinhos</a></li>
-                    <li><a href="/beers">Cervejas</a></li>
-                    <li><a href="/distilleds">Destilados</a></li>
-                    <li><a href="/nonAlcoholics">Não Alcoólicos</a></li>
-                    <li><a href="/kits">Kit's</a></li>
-                    <li><a href="/promotions">Promoções</a></li>
+                    <li><a href="/products/wines">Vinhos</a></li>
+                    <li><a href="/products/beers">Cervejas</a></li>
+                    <li><a href="/products/distilleds">Destilados</a></li>
+                    <li><a href="/products/nonAlcoholics">Não Alcoólicos</a></li>
+                    <li><a href="/products/kits">Kit's</a></li>
+                    <li><a href="/products/promotions">Promoções</a></li>
                 </ul>
             </div>
     
@@ -205,15 +205,15 @@
             <div id="footer-itens">
                 <ul class="social">
                     <li><p class="categories">Nossas Redes</p></li>
-                    <li><a href=""><img id="footer-social-icons" src="img/icons/ico-instagram.png" alt=""><p> Instagram</p></a></li>
-                    <li><a href=""><img id="footer-social-icons" src="img/icons/ico-twitter.png" alt=""><p> Twitter</p></a></li>
-                    <li><a href=""><img id="footer-social-icons" src="img/icons/ico-facebook.png" alt=""><p> Facebook</p></a></li>
+                    <li><a href=""><img id="footer-social-icons" src="{{ url('img/icons/ico-instagram.png') }}" alt=""><p> Instagram</p></a></li>
+                    <li><a href=""><img id="footer-social-icons" src="{{ url('img/icons/ico-twitter.png') }}" alt=""><p> Twitter</p></a></li>
+                    <li><a href=""><img id="footer-social-icons" src="{{ url('img/icons/ico-facebook.png') }}" alt=""><p> Facebook</p></a></li>
                 </ul>
             </div>
     
             <div id="footer-itens">
-                <p class="under-age"><img class="ico-18" src="img/icons/ico-18.png" alt="">VENDA PROIBÍDA PARA MENORES DE 18 ANOS.</p>
-                <img class="logo" src="img/logo/logo_vinariam.png" alt="">
+                <p class="under-age"><img class="ico-18" src="{{ url('img/icons/ico-18.png') }}" alt="">VENDA PROIBÍDA PARA MENORES DE 18 ANOS.</p>
+                <img class="logo" src="{{ url('img/logo/logo_vinariam.png') }}" alt="">
                 <p class="contacts">Telefone: (11) 91234-5678</p>
                 <p class="contacts">E-mail: contato@vinariam.com.br</p>
                 <p class="contacts">Endereço: Rua Sempre Verde, 742 - Springfield</p>
