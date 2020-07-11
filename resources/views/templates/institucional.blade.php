@@ -50,7 +50,7 @@
 
 
                 <div class="header-favorite">
-                    <a href="/login">
+                    <a href="/favourites">
                     <img class="header-img-user-mobile" src="{{ url('img/icons/favorite.png') }}" alt="Meus Favoritos"><p>Favoritos</p>
                     </a>
                 </div>
@@ -93,7 +93,7 @@
                             </div>
                         </div>
                         <div class="header-favorite">
-                            <a href="/login">
+                            <a href="/favourites">
                             <img class="header-img-user-mobile" src="{{ url('img/icons/favorite.png') }}" alt="Meus Favoritos">
                             </a>
                         </div>

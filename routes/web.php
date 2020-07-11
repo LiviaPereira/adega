@@ -28,6 +28,8 @@ Route::get('/register', 'UsuariosController@registerView');
 
 Route::post('/register', 'UsuariosController@store');
 
+Route::get('/favourites', 'ProductController@favouritesView')->middleware('auth');
+
 Route::get('/panel', 'UsuariosController@panel')->middleware('auth');
 
 Route::get('/panel/orders', 'UsuariosController@orders')->middleware('auth');
