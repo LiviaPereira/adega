@@ -14,22 +14,22 @@ class ProductController extends Controller
 
     
     public function wineList(){
-        $list = Product::paginate(12);
+        $list = Product::select()->where('categories_id', '=', 1)->paginate(12);
         return view ('products.wines', compact('list'));
     }
 
     public function kitsList(){
-        $list = Product::paginate(12);
+        $list = Product::select()->where('categories_id', '=', 5)->paginate(12);
         return view ('products.kits', compact('list'));
     }
 
     public function distilledsList(){
-        $list = Product::paginate(12);
+        $list = Product::select()->where('categories_id', '=', 3)->paginate(12);
         return view ('products.distilleds', compact('list'));
     }
 
     public function beersList(){
-        $list = Product::paginate(12);
+        $list = Product::select()->where('categories_id', '=', 2)->paginate(12);
         return view ('products.beers', compact('list'));
     }
     
