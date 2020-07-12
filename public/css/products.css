@@ -1,8 +1,28 @@
-#produtos aside{
+.page-item {
+    display: inline-block;
+  }
+
+  .active {
+    background-color: rgba(190, 0, 3, 0.7);
+  }
+  
+  .page-item .page-link {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+  }
+  
+  .page-item a:hover:not(.active) {
+      background-color: rgba(190, 0, 3, 0.5);
+    }
+
+
+    #produtos aside{
     width: 20%;
-    margin-left: 10%;
-    margin-top: 5%;
-    
+    margin-left: 10%;    
     }
     
     #produtos section{
@@ -10,18 +30,17 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-    
     }
     
     #produtos section article{
     width: 30%;
-    
-    
+    border: 1px solid #eee;
+    border-radius: 7px;    
     }
     
     #produtos {
      display: flex;
-    margin-top: 5%;
+    margin-top: 45px;
     }
     
     .img-produto {
@@ -41,6 +60,24 @@
         width: 100%;
         text-align: center;
     }
+
+    #Catalogo .btn {
+        text-decoration: none;
+        margin: 7px;
+        padding: 7px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 70%;
+        font-size: 0.9rem;
+        border-radius: 10px;
+        opacity: 0.7;
+    }
+
+    #Catalogo .btn:hover {
+        opacity: 1;
+    }
     
     #Catalogo p, #Catalogo button{
         display: block;
@@ -48,11 +85,15 @@
     }
 
     #Categorias{
-        margin-bottom: 0px;
+        margin: 0px;
         width: 100%;
         color: #6E0406;
         border-bottom: #6E0406 solid 1px;
         
+    }
+
+    .product-name {
+        font-size: 0.9rem;
     }
 
     .dropdown-menu li{
@@ -60,31 +101,7 @@
 
     }
 
-    #Categoria1:hover{
-        font-weight: bold;
-    }
-
-    #Categoria2:hover{
-        font-weight: bold;
-    }
-
-    #Categoria3:hover{
-        font-weight: bold;
-    }
-
-    #Categoria4:hover{
-        font-weight: bold;
-    }
-
-    #Categoria5:hover{
-        font-weight: bold;
-    }
-
-    #Categoria6:hover{
-        font-weight: bold;
-    }
-
-    #Categoria7:hover{
+    #Categoria:hover{
         font-weight: bold;
     }
 

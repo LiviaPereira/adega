@@ -28,7 +28,14 @@
                     <div class="register-submit">
                         <button class="length-l" type="submit">ACESSAR</button>
                     </div>
+
+                    @if (request()->has('error'))
+                        <div class="alert error">
+                            Usuário e/ou Senha Inválidos!
+                        </div>
+                    @endif
                     <br>
+                    
                 </div>
             </div>
         </form>

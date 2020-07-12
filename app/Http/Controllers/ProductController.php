@@ -2,11 +2,46 @@
 
 namespace App\Http\Controllers;
 
+use App\User;
 use App\Models\Product;
+use App\Models\Favourite;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 
 class ProductController extends Controller
 {
+
+    public function showProduct(){
+        return view('product');
+    }
+
+    function favouritesView(){
+        return view('/favourites');
+    }
+
+    
+    public function wineList(){
+        $list = Product::select()->where('categories_id', '=', 1)->paginate(12);
+        return view ('products.wines', compact('list'));
+    }
+
+    public function kitsList(){
+        $list = Product::select()->where('categories_id', '=', 5)->paginate(12);
+        return view ('products.kits', compact('list'));
+    }
+
+    public function distilledsList(){
+        $list = Product::select()->where('categories_id', '=', 3)->paginate(12);
+        return view ('products.distilleds', compact('list'));
+    }
+
+    public function beersList(){
+        $list = Product::select()->where('categories_id', '=', 2)->paginate(12);
+        return view ('products.beers', compact('list'));
+    }
+    
+    
     /**
      * Display a listing of the resource.
      *

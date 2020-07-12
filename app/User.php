@@ -8,6 +8,17 @@ use Illuminate\Notifications\Notifiable;
 
 class User extends Authenticatable
 {
+
+    function favourites(){
+
+             return $this->belongsToMany('App\Models\Favourite');
+
+    }
+
+    function deliveries(){
+        return $this->hasOne('App\Delivery');
+    }
+
     use Notifiable;
 
     //informando ao laravel que esse model refere-se 
