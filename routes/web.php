@@ -18,13 +18,19 @@ Route::get('/', 'AdegaController@home');
 
 Route::get('/about', 'AdegaController@about');
 
-Route::get('/login', 'AdegaController@login');
+Route::get('/login', 'UsuariosController@loginView')->name('login');
+
+Route::post('/login', 'UsuariosController@login');
+
+Route::get('/logout', 'UsuariosController@logout');
 
 Route::get('/product', 'AdegaController@product');
 
 Route::get('/products', 'AdegaController@products');
 
-Route::get('/register', 'AdegaController@register');
+Route::get('/register', 'UsuariosController@registerView');
+
+Route::post('/register', 'UsuariosController@store');
 
 Route::get('/shoppingCart', 'AdegaController@shoppingCart');
 
@@ -37,5 +43,9 @@ Route::get('/address', 'AdegaController@address');
 Route::get('/address_edit', 'AdegaController@address_edit');
 
 Route::get('/account_edit', 'AdegaController@account_edit');
+
+
+Route::post('/newsletter', 'NewsletterController@registerNewsletter');
+
 
 

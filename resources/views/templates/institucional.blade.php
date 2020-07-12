@@ -32,9 +32,15 @@
                 <div>
                     <img class="header-img-user-mobile" src="./img/icons/user2.png" alt="Acesso do Usuário">
                     <div class="header-enter">
-                        <a href="/panel"><p>Minha Conta</p></a>
-                        <a href="/login"><p>Entre</p></a>
-                        <a href="/register"><p>ou Crie Sua conta</p></a>
+                    @auth
+                        
+                    <p>Olá, {{ auth()->user()->name }}</p>
+                    <a href="/panel"><p>Minha Conta</p></a>
+                    @endauth
+                    @guest
+                    <a href="/login"><p>Entre</p></a>
+                    <a href="/register"><p>ou Crie Sua conta</p></a>
+                    @endguest
                     </div>
                 </div>
 
@@ -152,8 +158,9 @@
         <div id="footer-newsletter">
             <h1>Receba novidades em seu e-mail</h1>
                 <div>
-                    <form action="/newsletters" method="post">
-                        <input id="footer-input-newsletter" type="email" name="email-newsletter" placeholder="Digite seu e-mail">
+                    <form action="/newsletter" method="POST">
+                    @csrf
+                        <input id="footer-input-newsletter" type="email" name="emailnewsletter" placeholder="Digite seu e-mail">
                         <button id="footer-submit-newsletter" type="submit">CADASTRAR</button>
                     </form>
                 </div>
