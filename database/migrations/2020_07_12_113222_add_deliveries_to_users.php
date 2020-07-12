@@ -24,9 +24,10 @@ class AddDeliveriesToUsers extends Migration
      * @return void
      */
     public function down()
-    {
-        Schema::table('users', function (Blueprint $table) {
-
-        });
-    }
+{
+    Schema::table('users', function (Blueprint $table) {
+        $table->dropForeign('users_deliveries_id_foreign');
+        $table->dropColumn('deliveries_id');
+    });
+}
 }
