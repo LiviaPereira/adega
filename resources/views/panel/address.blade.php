@@ -16,23 +16,27 @@
                         </ul>
                     </nav>
                 </div>
-
+{{--  @dd($id)  --}}
                 <div class="main-container">
                     <p>O endereço a seguir será utlizado na página de finalizar pedido como endereço padrão, mas é possível modificá-lo durante a finalização do pedido.</p>
                     <br>
-                    <div class="address">
-                        <strong>Endereço de entrega</strong>
-                        <ul>
-                            <li>Murillo Maciel de Arruda</li>
-                            <li>Rua dos Programadores, 500</li>
-                            <li>Apto 21</li>
-                            <li>Santana</li>
-                            <li>São Paulo</li>
-                            <li>São Paulo</li>
-                            <li>02020-000</li>
-                        </ul>
 
-                        <p><a href="/panel/address_edit">Editar Endereço</a></p>
+                    @if ($endereco)
+                        <div class="address">
+                            <strong>Endereço de entrega</strong>
+                            <ul>
+                                <li> {{ $usuario->name }} {{ $usuario->surname }}</li>
+                                <li> {{ $endereco->address }}, Nº {{ $endereco->number }}</li>
+                                <li> {{ $endereco->complement }} </li>
+                                <li> {{$endereco->zip_code }} </li>
+                                <li> {{$endereco->district }} </li>
+                                <li> {{$endereco->city }} </li>
+                            </ul>
+                            <p><a href="/panel/address/edit">Editar Endereço</a></p>
+                        @else
+                            <strong>Você ainda não possui um endereço cadastrado!</strong>
+                            <p><a href="/panel/address/edit">Cadastrar Endereço</a></p>
+                        @endif
 
                     </div>
 

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\User;
+use App\Models\Delivery;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Auth;
 
@@ -76,12 +77,38 @@ class UsuariosController extends Controller
         return view('panel.orders');
     }
 
-    public function address(){
-        return view('panel.address');
+
+    public function addressShow(Request $request){
+        $usuario = $request->user();
+        $id = $usuario->id;
+        $endereco = Delivery::where('users_id', $id)->first();
+        return view('panel.address', compact('usuario', 'endereco'));
     }
 
-    public function address_edit(){
-        return view('panel.address_edit');
+    public function addressEdit(Request $request){
+        $usuario = $request->user();
+        $id = $usuario->id;
+
+        if($request->isMethod('GET')) {
+            
+            $endereco = Delivery::where('users_id', $id)->first();
+            return view('panel.address_edit', compact('usuario', 'endereco'));
+        } else {
+
+            Delivery::where('users_id', $id)->first()
+            ->update([
+                'address' => $request->fAddress,
+                'number' => $request->fNumber,
+                'complement' => $request->fComplement,
+                'zip_code' => $request->fZipcode,
+                'district' => $request->fDistrict,
+                'city' => $request->fCity,
+                'users_id' => $id
+            ]);
+
+            return redirect('/panel/address');
+
+        }
     }
 
     public function account_edit(){

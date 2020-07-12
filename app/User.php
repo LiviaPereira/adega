@@ -15,6 +15,10 @@ class User extends Authenticatable
 
     }
 
+    function deliveries(){
+        return $this->hasOne('App\Delivery');
+    }
+
     use Notifiable;
 
     //informando ao laravel que esse model refere-se 

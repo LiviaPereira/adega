@@ -25,9 +25,9 @@
                     <p>A partir do painel de controle de sua conta, você pode:</p>
 
                     <ul>
-                        <li>Ver suas <a href="/orders">compras recentes</a> </li>
-                        <li>Gerenciar seus <a href="/address">endereços de entrega e faturamento</a> </li>
-                        <li>E <a href="/account_edit">editar sua senha e detalhes da conta.</a></li>
+                        <li>Ver suas <a href="/panel/orders">compras recentes</a> </li>
+                        <li>Gerenciar seus <a href="/panel/address">endereços de entrega e faturamento</a> </li>
+                        <li>E <a href="/panel/account_edit">editar sua senha e detalhes da conta.</a></li>
                     </ul>
 
                 </div>    

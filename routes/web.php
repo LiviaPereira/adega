@@ -34,9 +34,9 @@ Route::get('/panel', 'UsuariosController@panel')->middleware('auth');
 
 Route::get('/panel/orders', 'UsuariosController@orders')->middleware('auth');
 
-Route::get('/panel/address', 'UsuariosController@address')->middleware('auth');
-
-Route::get('/panel/address_edit', 'UsuariosController@address_edit')->middleware('auth');
+Route::get('/panel/address', 'UsuariosController@addressShow')->middleware('auth');
+Route::get('/panel/address/edit', 'UsuariosController@addressEdit')->middleware('auth');
+Route::post('/panel/address/edit', 'UsuariosController@addressEdit')->middleware('auth');
 
 Route::get('/panel/account_edit', 'UsuariosController@account_edit')->middleware('auth');
 

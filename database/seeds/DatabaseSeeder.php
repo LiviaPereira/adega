@@ -23,5 +23,7 @@ class DatabaseSeeder extends Seeder
         $this->call(DevolutionSeeder::class);
 
         $this->call(StatusSeeder::class);
+
+        $this->call(AddressSeeder::class);
     }
 }

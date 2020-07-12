@@ -17,7 +17,7 @@ class CreateDeliveriesTable extends Migration
             $table->id();
             $table->string('address', 60);
             $table->integer('number');
-            $table->string('complement', 45);
+            $table->string('complement', 45)->nullable();
             $table->string('zip_code', 10);
             $table->string('district', 45);
             $table->string('city', 30);
