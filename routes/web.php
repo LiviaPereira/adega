@@ -44,7 +44,7 @@ Route::get('/shoppingCart', 'AdegaController@shoppingCart');
 
 Route::post('/newsletter', 'NewsletterController@registerNewsletter');
 
-Route::get('/product', 'ProductController@showProduct');
+Route::get('/product/{id}', 'ProductController@showProduct');
 
 Route::get('/products/wines', 'ProductController@wineList');
 
@@ -59,6 +59,8 @@ Route::get('/products/distilleds', 'ProductController@distilledsList');
 
 
 Route::post('/newsletter', 'NewsletterController@registerNewsletter');
+
+
 
 
 

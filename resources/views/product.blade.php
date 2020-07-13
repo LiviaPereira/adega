@@ -1,8 +1,8 @@
 @extends('templates.institucional')
 @section('content')
 
-<link rel="stylesheet" href="css/product.css">
-
+<link rel="stylesheet" href="{{ url("css/product.css") }}">
+{{-- {{ dd($produto) }} --}}
   <section id="comprando">
     <div class="descricao">
         <h3>Xarope Monin Blue Curacao 700ml</h3>

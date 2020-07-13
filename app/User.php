@@ -11,11 +11,12 @@ class User extends Authenticatable
 
     function favourites(){
 
-             return $this->belongsToMany('App\Models\Favourite');
+        return $this->belongsToMany('App\Models\Product', 'favourites', 'users_id', 'products_id');
 
     }
 
     function deliveries(){
+
         return $this->hasOne('App\Delivery');
     }
 

@@ -12,11 +12,13 @@ use Illuminate\Support\Facades\DB;
 class ProductController extends Controller
 {
 
-    public function showProduct(){
-        return view('product');
+    public function showProduct(Request $request, $id){
+        $produto = Product::find($id);
+        return view('product', compact('produto'));
     }
 
     function favouritesView(){
+        dd(auth()->user()->favourites);
         return view('/favourites');
     }
 
