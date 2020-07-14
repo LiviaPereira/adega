@@ -15,6 +15,7 @@ class CreateOrdersTable extends Migration
     {
         Schema::create('orders', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('users_id')->references('id')->on('users');
             $table->dateTime('date');
             $table->foreignId('shoppingCarts_id')->references('id')->on('shopping_carts');
             $table->foreignId('deliveries_id')->references('id')->on('deliveries');

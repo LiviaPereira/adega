@@ -16,7 +16,7 @@
                         </ul>
                     </nav>
                 </div>
-
+{{--  @dd($pedidos)  --}}
                 <div class="main-container">
                     <table class="table-mobile">
                         <thead>
@@ -30,30 +30,16 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td> <span>Pedido<br></span> #123456</td>
-                                <td> <span>Data<br></span> 01/04/2020</td>
-                                <td> <span>Status<br></span> Concluído e Entregue</td>
-                                <td> <span>Total<br></span> R$ 120,00</td>
-                                <td> <span>Prazo de Entrega<br></span> Expresso (em 4hs)</td>
-                                <td> <span>Ações<br></span> Visualizar</td>
-                            </tr>
-                            <tr>
-                                <td> <span>Pedido<br></span> #123456</td>
-                                <td> <span>Data<br></span> 01/04/2020</td>
-                                <td> <span>Status<br></span> Concluído e Entregue</td>
-                                <td> <span>Total<br></span> R$ 120,00</td>
-                                <td> <span>Prazo de Entrega<br></span> Expresso (em 4hs)</td>
-                                <td> <span>Ações<br></span> Visualizar</td>
-                            </tr>
-                            <tr>
-                                <td> <span>Pedido<br></span> #123456</td>
-                                <td> <span>Data<br></span> 01/04/2020</td>
-                                <td> <span>Status<br></span> Concluído e Entregue</td>
-                                <td> <span>Total<br></span> R$ 120,00</td>
-                                <td> <span>Prazo de Entrega<br></span> Expresso (em 4hs)</td>
-                                <td> <span>Ações<br></span> Visualizar</td>
-                            </tr>
+                                @foreach ($pedidos as $item)
+                                    <tr>
+                                        <td> <span>Pedido<br></span> #{{$item->id}}</td>
+                                        <td> <span>Data<br></span> {{$item->date}}</td>
+                                        <td> <span>Status<br></span> {{$item->state}}</td>
+                                        <td> <span>Total<br></span> <s>R$ 120,00</s></td>
+                                        <td> <span>Prazo de Entrega<br></span> <s>Expresso (em 4hs)</s></td>
+                                        <td> <span>Ações<br></span> <s>Visualizar</s></td>
+                                    </tr>
+                                @endforeach
                         </tbody>
                     </table>
                 </div>        

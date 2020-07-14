@@ -8,9 +8,10 @@ use Illuminate\Http\Request;
 // Importando Classes/Modelos necessários
 
     use Illuminate\Support\Facades\Auth;        // para uso do middleware 'auth'
-    use App\Models\Delivery;                    // Modelo Delivery / deliveries
+    use App\Models\Delivery;
+    use App\Models\Order;
+    use App\Models\Status;
 
-    
 
 class PanelController extends Controller
 {
@@ -26,8 +27,16 @@ class PanelController extends Controller
     }
 
     // Exibir os Pedidos do Cliente
-    public function orders(){
-        return view('panel.orders');
+    public function orders(Request $request){
+        $usuario = $request->user();
+        $id = $usuario->id;
+        $pedidos = Order::select()
+                        ->where('users_id', $id)
+                        ->orderBy('date', 'desc')
+                        // ->join('status', 'status.id', 'status_id')   //erro
+                        ->get();
+
+        return view('panel.orders', compact('pedidos', 'status'));
     }
 
     // Função que exibe no "painel" o endereço cadastrado do cliente
