@@ -16,25 +16,54 @@
                         </ul>
                     </nav>
                 </div>
-{{--  @dd($id)  --}}
-                <div class="main-container">
-                    <p>O endereço a seguir será utlizado na página de finalizar pedido como endereço padrão, mas é possível modificá-lo durante a finalização do pedido.</p>
-                    <br>
 
+                <div class="main-container">
                     @if ($endereco)
-                        <div class="address">
+                        <div class="form-address-edit">
                             <strong>Endereço de entrega</strong>
+                            <br>
+                            <br>
+
+                            <div>
+                                <label>Destinatário: </label>
+                                <p>{{ $usuario->name }} {{ $usuario->surname }}</p>
+                            </div>
+
+                            <div>
+                                <label>Endereço: </label>
+                                <p>{{ $endereco->address }}, Nº {{ $endereco->number }}</p>
+                            </div>
+
+                            <div>
+                                <label>Complemento: </label>
+                                <p>{{ $endereco->complement }}</p>
+                            </div>
+
+                            <div>
+                                <label>CEP: </label>
+                                <p>{{ $endereco->zip_code }}</p>
+                            </div>
+
+                            <div>
+                                <label>Bairro: </label>
+                                <p>{{ $endereco->district }}</p>
+                            </div>
+
+                            <div>
+                                <label>Cidade: </label>
+                                <p>{{ $endereco->city }}</p>
+                            </div>
                             <ul>
-                                <li> {{ $usuario->name }} {{ $usuario->surname }}</li>
-                                <li> {{ $endereco->address }}, Nº {{ $endereco->number }}</li>
-                                <li> {{ $endereco->complement }} </li>
-                                <li> {{$endereco->zip_code }} </li>
-                                <li> {{$endereco->district }} </li>
-                                <li> {{$endereco->city }} </li>
+                                {{-- <li> {{ $usuario->name }} {{ $usuario->surname }}</li> --}}
+                                {{-- <li> {{ $endereco->address }}, Nº {{ $endereco->number }}</li> --}}
+                                {{-- <li> {{ $endereco->complement }} </li> --}}
+                                {{-- <li> {{$endereco->zip_code }} </li> --}}
+                                {{-- <li> {{$endereco->district }} </li> --}}
+                                {{-- <li> {{$endereco->city }} </li> --}}
                             </ul>
                             <p><a href="/panel/address/edit">Editar Endereço</a></p>
                         @else
-                            <strong>Você ainda não possui um endereço cadastrado!</strong>
+                            <h5>Você ainda não possui um endereço cadastrado!</h5>
                             <p><a href="/panel/address/edit">Cadastrar Endereço</a></p>
                         @endif
 

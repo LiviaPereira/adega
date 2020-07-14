@@ -26,30 +26,30 @@
                             <form action="/panel/address/edit" method="post">
                             @csrf
                                 <div>
-                                    <label for="fAddress">Endereço</label>
-                                    <input type="text" name="fAddress" id="fAddress" value="@if($endereco){{ $endereco->address }}@endif" required>
+                                    <label for="fAddress">Endereço *</label>
+                                    <input type="text" name="fAddress" id="fAddress" value="{{ $endereco->address ?? ''}}" required>
                                 </div>
                                 <div>
-                                    <label for="fNumber">Número</label>
-                                    <input type="text" name="fNumber" id="fNumber" value="@if($endereco){{ $endereco->number }}@endif" required>
+                                    <label for="fNumber">Número *</label>
+                                    <input type="text" name="fNumber" id="fNumber" value="{{ $endereco->number ?? ''}}" required>
                                 </div>
                                 <div>
                                     <label for="fComplement">Complemento</label>
-                                    <input type="text" name="fComplement" id="fComplement" value="@if($endereco){{ $endereco->complement }}@endif">
+                                    <input type="text" name="fComplement" id="fComplement" value="{{ $endereco->complement ?? ''}}">
                                 </div>
                                 <div>
-                                    <label for="fZipcode">CEP</label>
-                                    <input type="text" name="fZipcode" id="fZipcode" value="@if($endereco){{ $endereco->zip_code }}@endif" required>
+                                    <label for="fZipcode">CEP *</label>
+                                    <input type="text" name="fZipcode" id="fZipcode" value="{{ $endereco->zip_code ?? ''}}" required>
                                 </div>
                                 <div>
-                                    <label for="fDistrict">Bairro</label>
-                                    <input type="text" name="fDistrict" id="fDistrict" value="@if($endereco){{ $endereco->district }}@endif" required>
+                                    <label for="fDistrict">Bairro *</label>
+                                    <input type="text" name="fDistrict" id="fDistrict" value="{{ $endereco->district ?? ''}}" required>
                                 </div>
                                 <div>
-                                    <label for="fCity">Cidade</label>
-                                    <input type="text" name="fCity" id="fCity" value="@if($endereco){{ $endereco->city }}@endif" required>
+                                    <label for="fCity">Cidade *</label>
+                                    <input type="text" name="fCity" id="fCity" value="{{ $endereco->city ?? ''}}" required>
                                 </div>
-                                <br>
+                                <label>* campos obrigatórios</label>
                                 <div class="register-submit">
                                     <button type="submit">Salvar Alterações</button>
                                 </div>

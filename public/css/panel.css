@@ -136,9 +136,15 @@
 
 .form-address-edit label {
     font-size: 0.8rem;
+    font-weight: bold;
     display: inline-block;
     width: 147px;
     border-bottom: 1px solid #ddd;
+}
+
+.form-address-edit p {
+    display: inline-block;
+    font-size: 0.9rem;
 }
 
 .form-address-edit fieldset {
@@ -178,5 +184,13 @@
     }
     .table-mobile td:not(:first-child) {
       display: block;
+    }
+
+    .form-address-edit label {
+        display: block;
+        margin-top: 13px;
+    }
+    .form-address-edit p {
+        display: block;
     }
   }

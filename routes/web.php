@@ -30,15 +30,16 @@ Route::post('/register', 'UsuariosController@store');
 
 Route::get('/favourites', 'ProductController@favouritesView')->middleware('auth');
 
-Route::get('/panel', 'UsuariosController@panel')->middleware('auth');
 
-Route::get('/panel/orders', 'UsuariosController@orders')->middleware('auth');
+// ROTAS DO PAINEL DO USUÁRIO - ! início !
+Route::get('/panel', 'PanelController@panel')->middleware('auth');
+Route::get('/panel/orders', 'PanelController@orders')->middleware('auth');
+Route::get('/panel/address', 'PanelController@addressShow')->middleware('auth');
+Route::get('/panel/address/edit', 'PanelController@addressEdit')->middleware('auth');
+Route::post('/panel/address/edit', 'PanelController@addressEdit')->middleware('auth');
+Route::get('/panel/account_edit', 'PanelController@account_edit')->middleware('auth');
+// ROTAS DO PAINEL DO USUÁRIO - ! fim !
 
-Route::get('/panel/address', 'UsuariosController@addressShow')->middleware('auth');
-Route::get('/panel/address/edit', 'UsuariosController@addressEdit')->middleware('auth');
-Route::post('/panel/address/edit', 'UsuariosController@addressEdit')->middleware('auth');
-
-Route::get('/panel/account_edit', 'UsuariosController@account_edit')->middleware('auth');
 
 Route::get('/shoppingCart', 'AdegaController@shoppingCart');
 
