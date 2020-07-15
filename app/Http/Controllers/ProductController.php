@@ -22,7 +22,7 @@ class ProductController extends Controller
         return view('/favourites');
     }
 
-    
+
     public function wineList(){
         $list = Product::select()->where('categories_id', '=', 1)->paginate(12);
         return view ('products.wines', compact('list'));
@@ -42,8 +42,13 @@ class ProductController extends Controller
         $list = Product::select()->where('categories_id', '=', 2)->paginate(12);
         return view ('products.beers', compact('list'));
     }
-    
-    
+
+    public function nonAlcoholicsList()
+    {
+        $list = Product::select()->where('categories_id', '=', 4)->paginate(12);
+        return view('products.nonAlcoholics', compact('list'));
+    }
+
     /**
      * Display a listing of the resource.
      *
