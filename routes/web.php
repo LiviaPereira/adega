@@ -49,6 +49,9 @@ Route::get('/product/{id}', 'ProductController@showProduct');
 
 Route::get('/products/wines', 'ProductController@wineList');
 
+Route::get('/products/promotions', 'ProductController@promotionsList');
+
+
 Route::get('/products/beers', 'ProductController@beersList');
 
 
