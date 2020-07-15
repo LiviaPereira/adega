@@ -18,7 +18,8 @@ h3 {
  }
 
  .foto {
-     width: 350px;
+     max-width: 220px;
+     max-height: 360px;
      display: block;
      margin: auto;
      padding-top: 45px;
