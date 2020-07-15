@@ -50,7 +50,7 @@ class ProductController extends Controller
     }
 
     public function promotionsList(){
-        $list = Product::select()->where('categories_id', '=', 1)->paginate(12);
+        $list = Product::select()->where('categories_id', '=', 6)->paginate(12);
         return view ('products.promotions', compact('list'));
     }
 
