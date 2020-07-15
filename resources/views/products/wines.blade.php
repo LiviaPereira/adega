@@ -30,7 +30,15 @@
                     <p class="product-name">{{ $item->name }}</p>
                     <img class="img-produto" src="{{ url("$item->photo") }}">
                     <p>R$ {{ $item->sale_price }}</p>
-                    <a class="btn" href="/product/{{ $item->id }}">COMPRAR</a>
+                    {{-- <a class="btn" href="/product/{{ $item->id }}">COMPRAR</a>
+                     --}}
+                     <div class="btn btn-group d-flex">
+                     <button class="btn btn-success flex-fill">Adicionar ao Carrinho</button>
+                     <a class="btn btn-warning flex-fill text-white" href="/product/{{ $item->id }}">Gostei</a>
+                     {{-- <a href="/product/{{ $item->id }}" class="btn btn-{{ $p ?? ''->like ? 'danger' : 'warning' }} flex-fill
+                     text-white">
+                     {!! $p ?? ''->like ? '<i class="fa fa-heart-o"></i>' : 'Like' !!} --}}
+                     </div>
                 </article>
             @endforeach
 
