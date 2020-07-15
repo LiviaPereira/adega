@@ -49,6 +49,11 @@ class ProductController extends Controller
         return view('products.nonAlcoholics', compact('list'));
     }
 
+    public function promotionsList(){
+        $list = Product::select()->where('categories_id', '=', 1)->paginate(12);
+        return view ('products.promotions', compact('list'));
+    }
+
     /**
      * Display a listing of the resource.
      *
