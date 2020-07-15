@@ -5,6 +5,7 @@ namespace App;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 class User extends Authenticatable
 {
@@ -22,6 +23,8 @@ class User extends Authenticatable
 
     use Notifiable;
 
+    use SoftDeletes;
+
     //informando ao laravel que esse model refere-se 
     //a uma tabela sem timestamps
     //public $timestamps = false;
@@ -32,7 +35,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'name', 'surname', 'cpf', 'birth', 'cellphone', 'phone', 'email', 'password', 'news',
     ];
 
     /**

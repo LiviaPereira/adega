@@ -11,7 +11,7 @@
                             <li><a href="/panel">PAINEL</a></li>
                             <li><a href="/panel/orders">PEDIDOS</a></li>
                             <li><a href="/panel/address">ENDEREÇOS</a></li>
-                            <li class="active"><a href="/panel/account_edit">CONTA</a></li>
+                            <li class="active"><a href="/panel/account/edit">CONTA</a></li>
                             <li id="logout"><a href="/logout">SAIR</a></li>
                         </ul>
                     </nav>
@@ -23,56 +23,71 @@
                             <br>
                             <br>
                         <div class="form-address-edit">
-                            <form action="" method="post"></form>
+                            <form action="/panel/account/edit" method="post">
+                            @csrf
                                 <div>
-                                    <label for="logradouro">Nome:</label>
-                                    <input type="text" name="logradouro" id="logradouro" required>
+                                    <label for="name">Nome *</label>
+                                    <input type="text" name="name" id="name" value="{{$dados->name }}" required>
                                 </div>
                                 <div>
-                                    <label for="endereco">E-mail:</label>
-                                    <input type="text" name="endereco" id="endereco" required>
+                                    <label for="surname">Sobrenome *</label>
+                                    <input type="text" name="surname" id="surname" value="{{$dados->surname }}" required>
                                 </div>
                                 <div>
-                                    <label for="numero">CPF:</label>
-                                    <input type="text" name="numero" id="numero" required>
+                                    <label for="email">E-mail *</label>
+                                    <input type="text" name="email" id="email" value="{{$dados->email }}" required>
                                 </div>
                                 <div>
-                                    <label for="complemento">Data de Nascimento:</label>
-                                    <input type="text" name="complemento" id="complemento" required>
+                                    <label for="cpf">CPF *</label>
+                                    <input oninput="mascara(this, 'cpf')" type="text" name="cpf" id="cpf" value="{{$dados->cpf }}" required>
                                 </div>
                                 <div>
-                                    <label for="cep">Telefone:</label>
-                                    <input type="text" name="cep" id="cep" required>
+                                    <label for="birth">Data de Nascimento *</label>
+                                    <input type="date" name="birth" id="birth" value="{{$dados->birth }}" required>
                                 </div>
                                 <div>
-                                    <label for="novidades">Newsletter:</label>
-                                    <select name="novidades" id="novidades">
+                                    <label for="cellphone">Celular *</label>
+                                    <input type="tel" name="cellphone" id="cellphone" value="{{$dados->cellphone }}" required>
+                                </div>
+                                <div>
+                                    <label for="phone">Telefone</label>
+                                    <input type="tel" name="phone" id="phone" value="{{$dados->phone }}">
+                                </div>
+                                {{--  <div>
+                                    <label for="news">Newsletter *</label>
+                                    <select name="news" id="news">
                                         <option value="true">Sim</option>
                                         <option value="false">Não</option>
                                     </select>
-                                </div>
-                                <br>
-                                <fieldset>
-                                    <legend>Alterar Senha</legend>
-                                    <p>Para alterar, preencha os campos abaixo.</p>
-                                    <p>Para manter a atual, deixe-os em branco.</p>
-                                    <div>
-                                        <label for="senha">Senha Atual:</label>
-                                        <input type="password" name="senha" id="senha" required>
-                                    </div>
-                                    <div>
-                                        <label for="senha_nova">Nova Senha:</label>
-                                        <input type="password" name="senha_nova" id="senha_nova" required>
-                                    </div>
-                                    <div>
-                                        <label for="senha_confirma">Confirmar Nova Senha:</label>
-                                        <input type="password" name="senha_confirma" id="senha_confirma" required>
-                                    </div>
-                                </fieldset>
-                                <br>
+                                </div>  --}}
+                                <label>* campos obrigatórios</label>
                                 <div class="register-submit">
                                     <button type="submit">Salvar Alterações</button>
                                 </div>
+
+                                {{--  <fieldset>
+                                    <legend>Alterar Senha</legend>
+                                    <p>Para alterar, preencha os campos abaixo.</p>
+                                    <br>
+                                    <p>Para manter a atual, deixe-os em branco.</p>
+                                    <div>
+                                        <label for="password">Senha Atual:</label>
+                                        <input type="password" name="password" id="password" >
+                                    </div>
+                                    <div>
+                                        <label for="passwordNew">Nova Senha:</label>
+                                        <input type="password" name="passwordNew" id="passwordNew" >
+                                    </div>
+                                    <div>
+                                        <label for="passwordConf">Confirmar Nova Senha:</label>
+                                        <input type="password" name="passwordConf" id="passwordConf" >
+                                    </div>
+                                </fieldset>
+                                <br>
+                                <label>* campos obrigatórios</label>
+                                <div class="register-submit">
+                                    <button type="submit">Alterar Senha</button>
+                                </div>  --}}
                             </form>
                         </div>
 
@@ -80,5 +95,48 @@
 
                 </div>
     </section>
+<script>
+    function mascara(i,t){
+    
+    var v = i.value;
+    
+    if(isNaN(v[v.length-1])){
+        i.value = v.substring(0, v.length-1);
+        return;
+    }
+    
+    if(t == "data"){
+        i.setAttribute("maxlength", "10");
+        if (v.length == 2 || v.length == 5) i.value += "/";
+    }
 
+    if(t == "cpf"){
+        i.setAttribute("maxlength", "14");
+        if (v.length == 3 || v.length == 7) i.value += ".";
+        if (v.length == 11) i.value += "-";
+    }
+
+    if(t == "cnpj"){
+        i.setAttribute("maxlength", "18");
+        if (v.length == 2 || v.length == 6) i.value += ".";
+        if (v.length == 10) i.value += "/";
+        if (v.length == 15) i.value += "-";
+    }
+
+    if(t == "cep"){
+        i.setAttribute("maxlength", "9");
+        if (v.length == 5) i.value += "-";
+    }
+
+    if(t == "tel"){
+        if(v[0] == 9){
+            i.setAttribute("maxlength", "10");
+            if (v.length == 5) i.value += "-";
+        }else{
+            i.setAttribute("maxlength", "9");
+            if (v.length == 4) i.value += "-";
+        }
+    }
+    }
+</script>
 @endsection

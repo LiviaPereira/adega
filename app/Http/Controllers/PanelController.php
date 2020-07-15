@@ -11,6 +11,7 @@ use Illuminate\Http\Request;
     use App\Models\Delivery;
     use App\Models\Order;
     use App\Models\Status;
+    use App\User;
 
 
 class PanelController extends Controller
@@ -104,8 +105,32 @@ class PanelController extends Controller
 
 
     // Editar as informações da Conta do Cliente
-    public function account_edit(){
-        return view('panel.account_edit');
+    public function account_edit(Request $request){
+        $usuario = $request->user();
+        $id = $usuario->id;
+        $dados = User::find($id);
+
+            if($request->isMethod('GET')) {
+
+                return view('panel.account_edit', compact('dados'));
+
+            } else {
+
+                User::find($id)
+                ->update([
+                    'name' => $request->name,
+                    'surname' => $request->surname,
+                    'email' => $request->email,
+                    'cpf' => $request->cpf,
+                    'birth' => $request->birth,
+                    'cellphone' => $request->cellphone,
+                    'phone' => $request->phone,
+                    // 'news' => $request->news
+                ]);
+
+                return redirect('/panel/account/edit');
+            }
+
     }
 
 }
