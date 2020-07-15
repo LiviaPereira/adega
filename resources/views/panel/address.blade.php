@@ -11,7 +11,7 @@
                             <li><a href="/panel">PAINEL</a></li>
                             <li><a href="/panel/orders">PEDIDOS</a></li>
                             <li class="active"><a href="/panel/address">ENDEREÇOS</a></li>
-                            <li><a href="/panel/account_edit">CONTA</a></li>
+                            <li><a href="/panel/account/edit">CONTA</a></li>
                             <li id="logout"><a href="/logout">SAIR</a></li>
                         </ul>
                     </nav>

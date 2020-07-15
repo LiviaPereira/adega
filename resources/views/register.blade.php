@@ -32,7 +32,7 @@
                     <div>
                         <label for="cpf">CPF</label>
                         <br>
-                        <input class="length-m" type="text" name="cpf" id="cpf" required>
+                        <input oninput="mascara(this, 'cpf')" class="length-m" type="text" name="cpf" id="cpf" required>
                     </div>
                     <div>
                         <label for="name">Nome</label>
@@ -47,7 +47,7 @@
                     <div>
                         <label for="birth">Data de Nascimento</label>
                         <br>
-                        <input class="length-m" type="text" name="birth" id="birth" required>
+                        <input class="length-m" type="date" name="birth" id="birth" required>
                     </div>
                     <div>
                         <label for="gender">Sexo</label>
@@ -69,5 +69,25 @@
             </div>
         </form>
     </section>
+
+    <script>
+    function mascara(i,t){
+    
+    var v = i.value;
+    
+    if(isNaN(v[v.length-1])){
+        i.value = v.substring(0, v.length-1);
+        return;
+    }
+    
+
+    if(t == "cpf"){
+        i.setAttribute("maxlength", "14");
+        if (v.length == 3 || v.length == 7) i.value += ".";
+        if (v.length == 11) i.value += "-";
+    }
+
+    }
+</script>
 
 @endsection

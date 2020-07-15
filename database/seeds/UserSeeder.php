@@ -17,8 +17,8 @@ class UserSeeder extends Seeder
             'surname' => 'do Sistema',
             'email' => 'admin@admin',
             'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // senha = password
-            'cpf' => '11111111111',
-            'birth' => '11111111',
+            'cpf' => '222.222.222-20',
+            'birth' => '2020-04-01',
             'gender' => 'M',
             'cellphone' => '11111111111',
             'phone' => null,
@@ -33,8 +33,8 @@ class UserSeeder extends Seeder
             'surname' => 'da Silva',
             'email' => 'alice@email',
             'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
-            'cpf' => '46730586830',
-            'birth' => '19041989',
+            'cpf' => '333.333.333-30',
+            'birth' => '2020-04-01',
             'gender' => 'F',
             'cellphone' => '11998765656',
             'phone' => null,
@@ -49,8 +49,8 @@ class UserSeeder extends Seeder
             'surname' => 'da Silva',
             'email' => 'helena@email',
             'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
-            'cpf' => '46734586830',
-            'birth' => '19041989',
+            'cpf' => '444.444.444.40',
+            'birth' => '2020-04-01',
             'gender' => 'F',
             'cellphone' => '11998765656',
             'phone' => null,
@@ -65,8 +65,8 @@ class UserSeeder extends Seeder
             'surname' => 'da Silva',
             'email' => 'jose@email',
             'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
-            'cpf' => '46430586830',
-            'birth' => '19041989',
+            'cpf' => '555.555.555.50',
+            'birth' => '2020-04-01',
             'gender' => 'M',
             'cellphone' => '11998765656',
             'phone' => null,

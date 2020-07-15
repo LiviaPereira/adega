@@ -11,7 +11,7 @@
                             <li><a href="/panel">PAINEL</a></li>
                             <li><a href="/panel/orders">PEDIDOS</a></li>
                             <li class="active"><a href="/panel/address">ENDEREÇOS</a></li>
-                            <li><a href="/panel/account_edit">CONTA</a></li>
+                            <li><a href="/panel/account/edit">CONTA</a></li>
                             <li id="logout"><a href="/logout">SAIR</a></li>
                         </ul>
                     </nav>
@@ -39,7 +39,7 @@
                                 </div>
                                 <div>
                                     <label for="fZipcode">CEP *</label>
-                                    <input type="text" name="fZipcode" id="fZipcode" value="{{ $endereco->zip_code ?? ''}}" required>
+                                    <input oninput="mascara(this, 'cep')" type="text" name="fZipcode" id="fZipcode" value="{{ $endereco->zip_code ?? ''}}" required>
                                 </div>
                                 <div>
                                     <label for="fDistrict">Bairro *</label>
@@ -58,5 +58,23 @@
                     </div>
                 </div>
     </section>
+
+<script>
+        function mascara(i,t){
+        
+        var v = i.value;
+        
+        if(isNaN(v[v.length-1])){
+            i.value = v.substring(0, v.length-1);
+            return;
+        }
+        
+
+        if(t == "cep"){
+        i.setAttribute("maxlength", "9");
+        if (v.length == 5) i.value += "-";
+    }
+       }
+</script>
 
 @endsection

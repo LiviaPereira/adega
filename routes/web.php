@@ -30,14 +30,14 @@ Route::post('/register', 'UsuariosController@store');
 
 Route::get('/favourites', 'ProductController@favouritesView')->middleware('auth');
 
-
 // ROTAS DO PAINEL DO USUÁRIO - ! início !
 Route::get('/panel', 'PanelController@panel')->middleware('auth');
 Route::get('/panel/orders', 'PanelController@orders')->middleware('auth');
 Route::get('/panel/address', 'PanelController@addressShow')->middleware('auth');
 Route::get('/panel/address/edit', 'PanelController@addressEdit')->middleware('auth');
 Route::post('/panel/address/edit', 'PanelController@addressEdit')->middleware('auth');
-Route::get('/panel/account_edit', 'PanelController@account_edit')->middleware('auth');
+Route::get('/panel/account/edit', 'PanelController@account_edit')->middleware('auth');
+Route::post('/panel/account/edit', 'PanelController@account_edit')->middleware('auth')->name('account');
 // ROTAS DO PAINEL DO USUÁRIO - ! fim !
 
 
