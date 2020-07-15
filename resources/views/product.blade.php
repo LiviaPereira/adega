@@ -2,20 +2,20 @@
 @section('content')
 
 <link rel="stylesheet" href="{{ url("css/product.css") }}">
-{{-- {{ dd($produto) }} --}}
+
+        <h3>{{$produto->name}}</h3>
   <section id="comprando">
     <div class="descricao">
-        <h3>Xarope Monin Blue Curacao 700ml</h3>
-        <h6>Avaliação</h6>
-        <p>Blue Curaçao é um licor doce e levemente amargo, elaborado originalmente da casca de laranjas encontradas em Curaçao...</p>
-        <br><a href="">MAIS DETALHES</a>
+        {{--  <h6>Avaliação</h6>  --}}
+        <p>{{$produto->description}}</p>
+        {{--  <br><a href="">MAIS DETALHES</a>  --}}
     </div>
     <div class="produto">
-        <img class="foto" src="./img/wine/casalgarcia.jpg" alt="Imagem produto">
+        <img class="foto" src="{{url($produto->photo)}}" alt="Imagem produto">
     </div>    
     <div class="valor">
         <h6>VALOR:</h6>
-        <h4>R$ 49,90</h4>
+        <h4>R$ {{$produto->sale_price}}</h4>
         <br><br><a href="">OPÇÕES DE PARCELAMENTO</a>
         <hr>
     <div class="comprarb">
@@ -23,7 +23,7 @@
     </div>
     <div class="cep">
         <label for=“calcf”>Calcular o valor do frete:</label><br>
-        <input type=“text”” name="calcf" id="calcf" placeholder=“00000-000” required>
+        <input type=“text” name="calcf" id="calcf" placeholder=“00000-000” required>
         <button>Ok</button>
     </div>
   </section>
@@ -31,20 +31,24 @@
   <section id="fichat">
       <div class="titulo">
           <h4>Ficha Técnica</h4>
-          <p>Blue Curaçao é um licor doce e levemente amargo, elaborado originalmente da casca de laranjas encontradas em Curaçao, uma ilha do Caribe. Sua cor é tipicamente usada para conferir um tom azulado aos coquetéis. Com um leve sabor da casca da laranja e uma linda coloração azul, Monin Blue Curaçao não é alcoólico e oferece uma grande versatilidade. Sua utilização vai muito além do bar, com aplicações que incluem limonadas, sodas e mais.</p>
+          <p>{{$produto->description}}</p>
       </div>
 
      <hr>
         
       <div class="especificacoes">
           <h4>Especificações do Produto</h4>
-          <p>País:<br>Brasil</p>
-          <p>Tipo:<br>Curaçau Blue</p>
-          <p>Marca:<br>Stock</p>
-          <p>Volume:<br>720 ml</p>
-          <p>Teor Alcólico:<br>39%</p>
+          <p>País:<br>{{$produto->country}}</p>
+          <p>Tipo:<br>{{$produto->type}}</p>
+          <p>Marca:<br>{{$produto->brand}}</p>
+          <p>Volume:<br>{{$produto->volume}}</p>
+          <p>Teor Alcólico:<br>{{$produto->alcohol_content}}</p>
           
   </section>
+
+
+
+{{--    
 
   <section id="titulol">
       <div>
@@ -117,7 +121,7 @@
       </div>
       <button>Enviar pergunta</button>
   </section>
-  <hr id="final">
+  <hr id="final">  --}}
 
 
 @endsection

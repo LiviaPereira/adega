@@ -1,5 +1,5 @@
 <?php
-
+ 
 use Illuminate\Database\Seeder;
 
 class ProductSeeder extends Seeder
@@ -16,267 +16,388 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Calamares',
-            'description' => 'Vinho Calamares',
+            'name' => 'Vinho Português Branco CALAMARES Garrafa 750ml',
+            'description' => 'Vinho português branco, elaborado com uvas delicadas. Possui aspecto límpido, amarelo muito claro, quase transparente, com leves raios esverdeados, e aroma muito frutado. Vinho verde branco meio seco, jovem, fresco, suave e frutado. Aconselhamos ainda como complemento de mariscos e frutos do mar, e todos os tipos de refeições de peixe. ',
             'cost_price' => '10.00',
-            'sale_price' => '78.00',
+            'sale_price' => '46.99',
             'discount' => '0.00',
             'photo' => '/img/wine/calamares.jpg',
+                'country' => 'Portugal',
+                'type' => 'Vinho Verde',
+                'brand' => 'Enoport',
+                'volume' => '750ml',
+                'alcohol_content' => '9%',
             'categories_id' => 1
         ]);
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Casal Garcia',
-            'description' => 'Vinho Casal Garcia',
+            'name' => 'Vinho Português Branco Casal Garcia Vinho Verde Garrafa 750ml',
+            'description' => 'Fundada em 1870 na região dos vinhos verdes, a Aveleda é uma vinícola 100% familiar, dirigida hoje pela 5ª geração da família Guedes. Líder mundial na produção de vinho verde, a Aveleda é especialista na produção de vinhos brancos, especialmente com a nobre uva alvarinho. seus vinhos estão presente em mais de 100 países.',
             'cost_price' => '10.00',
-            'sale_price' => '47.00',
+            'sale_price' => '37.50',
             'discount' => '0.00',
             'photo' => '/img/wine/casalgarcia.jpg',
+            'country' => 'Portugal',
+                'type' => 'Vinho Verde',
+                'brand' => 'Aveleda',
+                'volume' => '750ml',
+                'alcohol_content' => '9,5%',
             'categories_id' => 1
         ]);
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Calamares',
-            'description' => 'Vinho Calamares',
-            'cost_price' => '10.00',
-            'sale_price' => '32.75',
-            'discount' => '0.00',
-            'photo' => '/img/wine/calamares.jpg',
-            'categories_id' => 1
-        ]);
-
-        DB::table('products')->insert([
-            'available' => '1',
-            'name' => 'Mateus',
+            'name' => 'Vinho Português Rosé MATEUS Garrafa 750ml ',
             'description' => 'Vinho Mateus',
             'cost_price' => '10.00',
             'sale_price' => '122.00',
             'discount' => '0.00',
             'photo' => '/img/wine/mateus.jpg',
+            'country' => 'Portugal',
+                'type' => 'Vinho Rosé',
+                'brand' => 'Bairrada',
+                'volume' => '750ml',
+                'alcohol_content' => '6%',
             'categories_id' => 1
         ]);
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Mendes',
-            'description' => 'Vinho Mendes',
+            'name' => 'Vinha Casal Mendes Verde 750ml',
+            'description' => 'Um legítimo Vinho Verde português, original da região de mesmo nome. Este exemplar traz uma combinação entre as variedades de uva Azal, Perdeña, Trajadura e Loureiro, resultando em um vinho de coloração amarelo-palha com reflexos esverdeados. Seu aroma apresenta-se notavelmente frutado com notas cítricas e florais, seguido por um paladar ligeiramente acídulo, o que lhe confere um frescor com final de boca suave. Algumas combinações de harmonização com este vinho ficam a cargo de mariscos, carnes brancas, saladas leves ou massas',
             'cost_price' => '10.00',
-            'sale_price' => '235.00',
+            'sale_price' => '35.00',
             'discount' => '0.00',
             'photo' => '/img/wine/mendes.jpg',
+            'country' => 'Portugal',
+                'type' => 'Vinho Branco',
+                'brand' => 'Aliança',
+                'volume' => '750ml',
+                'alcohol_content' => '10%',
             'categories_id' => 1
         ]);
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Mateus',
-            'description' => 'Vinho Mateus',
-            'cost_price' => '10.00',
-            'sale_price' => '28.00',
-            'discount' => '0.00',
-            'photo' => '/img/wine/mateus.jpg',
-            'categories_id' => 1
-        ]);
-
-        DB::table('products')->insert([
-            'available' => '1',
-            'name' => 'Porca',
-            'description' => 'Vinho Porca',
+            'name' => 'Vinho Porca de Murça',
+            'description' => 'Cor vermelha granada e profunda, com traços violáceos. Aromas de morangos e framboesa dominam o nariz, com sutil baunilha e notas de chocolate ao fundo. Sabor arredondado e macio, sustentado por doces taninos. Preenche agradavelmente a boca com seu generoso frutado, fazendo deste um excelente vinho.',
             'cost_price' => '10.00',
             'sale_price' => '30.00',
             'discount' => '0.00',
             'photo' => '/img/wine/porca.jpg',
+            'country' => 'Portugal',
+                'type' => 'Vinho Tinto',
+                'brand' => 'Real Cia. Velha',
+                'volume' => '750ml',
+                'alcohol_content' => '13%',
             'categories_id' => 1
         ]);
 
         DB::table('products')->insert([
             'available' => '1',
             'name' => 'Tannat',
-            'description' => 'Vinho Tannat',
+            'description' => 'Tannat é uma uva tinta da família da Vitis vinifera originária do sul da França. É usualmente utilizada em assemblage com merlot, para suavizar o vinho. É a grande uva adotada pelo Uruguai, que possui uma extensa área de vinhedos dessa casta.',
             'cost_price' => '10.00',
             'sale_price' => '34.00',
             'discount' => '0.00',
             'photo' => '/img/wine/tannat.jpg',
+            'country' => 'França',
+                'type' => 'Vinho Tinto',
+                'brand' => 'Merlot',
+                'volume' => '750ml',
+                'alcohol_content' => '13%',
             'categories_id' => 1
         ]);
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Porca',
-            'description' => 'Vinho Porca',
+            'name' => 'Vinho Português Branco CALAMARES Garrafa 750ml',
+            'description' => 'Vinho português branco, elaborado com uvas delicadas. Possui aspecto límpido, amarelo muito claro, quase transparente, com leves raios esverdeados, e aroma muito frutado. Vinho verde branco meio seco, jovem, fresco, suave e frutado. Aconselhamos ainda como complemento de mariscos e frutos do mar, e todos os tipos de refeições de peixe. ',
             'cost_price' => '10.00',
-            'sale_price' => '11.00',
-            'discount' => '0.00',
-            'photo' => '/img/wine/porca.jpg',
-            'categories_id' => 1
-        ]);
-
-        DB::table('products')->insert([
-            'available' => '1',
-            'name' => 'Calamares',
-            'description' => 'Vinho Calamares',
-            'cost_price' => '10.00',
-            'sale_price' => '8.00',
+            'sale_price' => '46.99',
             'discount' => '0.00',
             'photo' => '/img/wine/calamares.jpg',
+                'country' => 'Portugal',
+                'type' => 'Vinho Verde',
+                'brand' => 'Enoport',
+                'volume' => '750ml',
+                'alcohol_content' => '9%',
             'categories_id' => 1
         ]);
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Casal Garcia',
-            'description' => 'Vinho Casal Garcia',
+            'name' => 'Vinho Português Branco Casal Garcia Vinho Verde Garrafa 750ml',
+            'description' => 'Fundada em 1870 na região dos vinhos verdes, a Aveleda é uma vinícola 100% familiar, dirigida hoje pela 5ª geração da família Guedes. Líder mundial na produção de vinho verde, a Aveleda é especialista na produção de vinhos brancos, especialmente com a nobre uva alvarinho. seus vinhos estão presente em mais de 100 países.',
             'cost_price' => '10.00',
-            'sale_price' => '5.00',
+            'sale_price' => '37.50',
             'discount' => '0.00',
             'photo' => '/img/wine/casalgarcia.jpg',
+            'country' => 'Portugal',
+                'type' => 'Vinho Verde',
+                'brand' => 'Aveleda',
+                'volume' => '750ml',
+                'alcohol_content' => '9,5%',
             'categories_id' => 1
         ]);
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Tannat',
-            'description' => 'Vinho Tannat',
-            'cost_price' => '10.00',
-            'sale_price' => '87.00',
-            'discount' => '0.00',
-            'photo' => '/img/wine/tannat.jpg',
-            'categories_id' => 1
-        ]);
-
-        DB::table('products')->insert([
-            'available' => '1',
-            'name' => 'Calamares',
-            'description' => 'Vinho Calamares',
-            'cost_price' => '10.00',
-            'sale_price' => '44.00',
-            'discount' => '0.00',
-            'photo' => '/img/wine/calamares.jpg',
-            'categories_id' => 1
-        ]);
-
-        DB::table('products')->insert([
-            'available' => '1',
-            'name' => 'Casal Garcia',
-            'description' => 'Vinho Casal Garcia',
-            'cost_price' => '10.00',
-            'sale_price' => '26.00',
-            'discount' => '0.00',
-            'photo' => '/img/wine/casalgarcia.jpg',
-            'categories_id' => 1
-        ]);
-
-        DB::table('products')->insert([
-            'available' => '1',
-            'name' => 'Calamares',
-            'description' => 'Vinho Calamares',
-            'cost_price' => '10.00',
-            'sale_price' => '19.00',
-            'discount' => '0.00',
-            'photo' => '/img/wine/calamares.jpg',
-            'categories_id' => 1
-        ]);
-
-        DB::table('products')->insert([
-            'available' => '1',
-            'name' => 'Mateus',
+            'name' => 'Vinho Português Rosé MATEUS Garrafa 750ml ',
             'description' => 'Vinho Mateus',
             'cost_price' => '10.00',
-            'sale_price' => '6.60',
+            'sale_price' => '122.00',
             'discount' => '0.00',
             'photo' => '/img/wine/mateus.jpg',
+            'country' => 'Portugal',
+                'type' => 'Vinho Rosé',
+                'brand' => 'Bairrada',
+                'volume' => '750ml',
+                'alcohol_content' => '6%',
             'categories_id' => 1
         ]);
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Mendes',
-            'description' => 'Vinho Mendes',
+            'name' => 'Vinha Casal Mendes Verde 750ml',
+            'description' => 'Um legítimo Vinho Verde português, original da região de mesmo nome. Este exemplar traz uma combinação entre as variedades de uva Azal, Perdeña, Trajadura e Loureiro, resultando em um vinho de coloração amarelo-palha com reflexos esverdeados. Seu aroma apresenta-se notavelmente frutado com notas cítricas e florais, seguido por um paladar ligeiramente acídulo, o que lhe confere um frescor com final de boca suave. Algumas combinações de harmonização com este vinho ficam a cargo de mariscos, carnes brancas, saladas leves ou massas',
             'cost_price' => '10.00',
-            'sale_price' => '16.00',
+            'sale_price' => '35.00',
             'discount' => '0.00',
             'photo' => '/img/wine/mendes.jpg',
+            'country' => 'Portugal',
+                'type' => 'Vinho Branco',
+                'brand' => 'Aliança',
+                'volume' => '750ml',
+                'alcohol_content' => '10%',
             'categories_id' => 1
         ]);
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Mateus',
-            'description' => 'Vinho Mateus',
+            'name' => 'Vinho Porca de Murça',
+            'description' => 'Cor vermelha granada e profunda, com traços violáceos. Aromas de morangos e framboesa dominam o nariz, com sutil baunilha e notas de chocolate ao fundo. Sabor arredondado e macio, sustentado por doces taninos. Preenche agradavelmente a boca com seu generoso frutado, fazendo deste um excelente vinho.',
             'cost_price' => '10.00',
-            'sale_price' => '20.56',
-            'discount' => '0.00',
-            'photo' => '/img/wine/mateus.jpg',
-            'categories_id' => 1
-        ]);
-
-        DB::table('products')->insert([
-            'available' => '1',
-            'name' => 'Porca',
-            'description' => 'Vinho Porca',
-            'cost_price' => '10.00',
-            'sale_price' => '20.10',
+            'sale_price' => '30.00',
             'discount' => '0.00',
             'photo' => '/img/wine/porca.jpg',
+            'country' => 'Portugal',
+                'type' => 'Vinho Tinto',
+                'brand' => 'Real Cia. Velha',
+                'volume' => '750ml',
+                'alcohol_content' => '13%',
             'categories_id' => 1
         ]);
 
         DB::table('products')->insert([
             'available' => '1',
             'name' => 'Tannat',
-            'description' => 'Vinho Tannat',
+            'description' => 'Tannat é uma uva tinta da família da Vitis vinifera originária do sul da França. É usualmente utilizada em assemblage com merlot, para suavizar o vinho. É a grande uva adotada pelo Uruguai, que possui uma extensa área de vinhedos dessa casta.',
             'cost_price' => '10.00',
-            'sale_price' => '20.00',
+            'sale_price' => '34.00',
             'discount' => '0.00',
             'photo' => '/img/wine/tannat.jpg',
+            'country' => 'França',
+                'type' => 'Vinho Tinto',
+                'brand' => 'Merlot',
+                'volume' => '750ml',
+                'alcohol_content' => '13%',
             'categories_id' => 1
         ]);
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Porca',
-            'description' => 'Vinho Porca',
+            'name' => 'Vinho Português Branco CALAMARES Garrafa 750ml',
+            'description' => 'Vinho português branco, elaborado com uvas delicadas. Possui aspecto límpido, amarelo muito claro, quase transparente, com leves raios esverdeados, e aroma muito frutado. Vinho verde branco meio seco, jovem, fresco, suave e frutado. Aconselhamos ainda como complemento de mariscos e frutos do mar, e todos os tipos de refeições de peixe. ',
             'cost_price' => '10.00',
-            'sale_price' => '43.00',
-            'discount' => '0.00',
-            'photo' => '/img/wine/porca.jpg',
-            'categories_id' => 1
-        ]);
-
-        DB::table('products')->insert([
-            'available' => '1',
-            'name' => 'Calamares',
-            'description' => 'Vinho Calamares',
-            'cost_price' => '10.00',
-            'sale_price' => '28.50',
+            'sale_price' => '46.99',
             'discount' => '0.00',
             'photo' => '/img/wine/calamares.jpg',
+                'country' => 'Portugal',
+                'type' => 'Vinho Verde',
+                'brand' => 'Enoport',
+                'volume' => '750ml',
+                'alcohol_content' => '9%',
             'categories_id' => 1
         ]);
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Casal Garcia',
-            'description' => 'Vinho Casal Garcia',
+            'name' => 'Vinho Português Branco Casal Garcia Vinho Verde Garrafa 750ml',
+            'description' => 'Fundada em 1870 na região dos vinhos verdes, a Aveleda é uma vinícola 100% familiar, dirigida hoje pela 5ª geração da família Guedes. Líder mundial na produção de vinho verde, a Aveleda é especialista na produção de vinhos brancos, especialmente com a nobre uva alvarinho. seus vinhos estão presente em mais de 100 países.',
             'cost_price' => '10.00',
-            'sale_price' => '13.45',
+            'sale_price' => '37.50',
             'discount' => '0.00',
             'photo' => '/img/wine/casalgarcia.jpg',
+            'country' => 'Portugal',
+                'type' => 'Vinho Verde',
+                'brand' => 'Aveleda',
+                'volume' => '750ml',
+                'alcohol_content' => '9,5%',
+            'categories_id' => 1
+        ]);
+
+        DB::table('products')->insert([
+            'available' => '1',
+            'name' => 'Vinho Português Rosé MATEUS Garrafa 750ml ',
+            'description' => 'Vinho Mateus',
+            'cost_price' => '10.00',
+            'sale_price' => '122.00',
+            'discount' => '0.00',
+            'photo' => '/img/wine/mateus.jpg',
+            'country' => 'Portugal',
+                'type' => 'Vinho Rosé',
+                'brand' => 'Bairrada',
+                'volume' => '750ml',
+                'alcohol_content' => '6%',
+            'categories_id' => 1
+        ]);
+
+        DB::table('products')->insert([
+            'available' => '1',
+            'name' => 'Vinha Casal Mendes Verde 750ml',
+            'description' => 'Um legítimo Vinho Verde português, original da região de mesmo nome. Este exemplar traz uma combinação entre as variedades de uva Azal, Perdeña, Trajadura e Loureiro, resultando em um vinho de coloração amarelo-palha com reflexos esverdeados. Seu aroma apresenta-se notavelmente frutado com notas cítricas e florais, seguido por um paladar ligeiramente acídulo, o que lhe confere um frescor com final de boca suave. Algumas combinações de harmonização com este vinho ficam a cargo de mariscos, carnes brancas, saladas leves ou massas',
+            'cost_price' => '10.00',
+            'sale_price' => '35.00',
+            'discount' => '0.00',
+            'photo' => '/img/wine/mendes.jpg',
+            'country' => 'Portugal',
+                'type' => 'Vinho Branco',
+                'brand' => 'Aliança',
+                'volume' => '750ml',
+                'alcohol_content' => '10%',
+            'categories_id' => 1
+        ]);
+
+        DB::table('products')->insert([
+            'available' => '1',
+            'name' => 'Vinho Porca de Murça',
+            'description' => 'Cor vermelha granada e profunda, com traços violáceos. Aromas de morangos e framboesa dominam o nariz, com sutil baunilha e notas de chocolate ao fundo. Sabor arredondado e macio, sustentado por doces taninos. Preenche agradavelmente a boca com seu generoso frutado, fazendo deste um excelente vinho.',
+            'cost_price' => '10.00',
+            'sale_price' => '30.00',
+            'discount' => '0.00',
+            'photo' => '/img/wine/porca.jpg',
+            'country' => 'Portugal',
+                'type' => 'Vinho Tinto',
+                'brand' => 'Real Cia. Velha',
+                'volume' => '750ml',
+                'alcohol_content' => '13%',
             'categories_id' => 1
         ]);
 
         DB::table('products')->insert([
             'available' => '1',
             'name' => 'Tannat',
-            'description' => 'Vinho Tannat',
+            'description' => 'Tannat é uma uva tinta da família da Vitis vinifera originária do sul da França. É usualmente utilizada em assemblage com merlot, para suavizar o vinho. É a grande uva adotada pelo Uruguai, que possui uma extensa área de vinhedos dessa casta.',
             'cost_price' => '10.00',
-            'sale_price' => '22.00',
+            'sale_price' => '34.00',
             'discount' => '0.00',
             'photo' => '/img/wine/tannat.jpg',
+            'country' => 'França',
+                'type' => 'Vinho Tinto',
+                'brand' => 'Merlot',
+                'volume' => '750ml',
+                'alcohol_content' => '13%',
             'categories_id' => 1
         ]);
+
+        DB::table('products')->insert([
+            'available' => '1',
+            'name' => 'Vinho Português Branco CALAMARES Garrafa 750ml',
+            'description' => 'Vinho português branco, elaborado com uvas delicadas. Possui aspecto límpido, amarelo muito claro, quase transparente, com leves raios esverdeados, e aroma muito frutado. Vinho verde branco meio seco, jovem, fresco, suave e frutado. Aconselhamos ainda como complemento de mariscos e frutos do mar, e todos os tipos de refeições de peixe. ',
+            'cost_price' => '10.00',
+            'sale_price' => '46.99',
+            'discount' => '0.00',
+            'photo' => '/img/wine/calamares.jpg',
+                'country' => 'Portugal',
+                'type' => 'Vinho Verde',
+                'brand' => 'Enoport',
+                'volume' => '750ml',
+                'alcohol_content' => '9%',
+            'categories_id' => 1
+        ]);
+
+        DB::table('products')->insert([
+            'available' => '1',
+            'name' => 'Vinho Português Branco Casal Garcia Vinho Verde Garrafa 750ml',
+            'description' => 'Fundada em 1870 na região dos vinhos verdes, a Aveleda é uma vinícola 100% familiar, dirigida hoje pela 5ª geração da família Guedes. Líder mundial na produção de vinho verde, a Aveleda é especialista na produção de vinhos brancos, especialmente com a nobre uva alvarinho. seus vinhos estão presente em mais de 100 países.',
+            'cost_price' => '10.00',
+            'sale_price' => '37.50',
+            'discount' => '0.00',
+            'photo' => '/img/wine/casalgarcia.jpg',
+            'country' => 'Portugal',
+                'type' => 'Vinho Verde',
+                'brand' => 'Aveleda',
+                'volume' => '750ml',
+                'alcohol_content' => '9,5%',
+            'categories_id' => 1
+        ]);
+
+        DB::table('products')->insert([
+            'available' => '1',
+            'name' => 'Vinho Português Rosé MATEUS Garrafa 750ml ',
+            'description' => 'Vinho Mateus',
+            'cost_price' => '10.00',
+            'sale_price' => '122.00',
+            'discount' => '0.00',
+            'photo' => '/img/wine/mateus.jpg',
+            'country' => 'Portugal',
+                'type' => 'Vinho Rosé',
+                'brand' => 'Bairrada',
+                'volume' => '750ml',
+                'alcohol_content' => '6%',
+            'categories_id' => 1
+        ]);
+
+        DB::table('products')->insert([
+            'available' => '1',
+            'name' => 'Vinha Casal Mendes Verde 750ml',
+            'description' => 'Um legítimo Vinho Verde português, original da região de mesmo nome. Este exemplar traz uma combinação entre as variedades de uva Azal, Perdeña, Trajadura e Loureiro, resultando em um vinho de coloração amarelo-palha com reflexos esverdeados. Seu aroma apresenta-se notavelmente frutado com notas cítricas e florais, seguido por um paladar ligeiramente acídulo, o que lhe confere um frescor com final de boca suave. Algumas combinações de harmonização com este vinho ficam a cargo de mariscos, carnes brancas, saladas leves ou massas',
+            'cost_price' => '10.00',
+            'sale_price' => '35.00',
+            'discount' => '0.00',
+            'photo' => '/img/wine/mendes.jpg',
+            'country' => 'Portugal',
+                'type' => 'Vinho Branco',
+                'brand' => 'Aliança',
+                'volume' => '750ml',
+                'alcohol_content' => '10%',
+            'categories_id' => 1
+        ]);
+
+        DB::table('products')->insert([
+            'available' => '1',
+            'name' => 'Vinho Porca de Murça',
+            'description' => 'Cor vermelha granada e profunda, com traços violáceos. Aromas de morangos e framboesa dominam o nariz, com sutil baunilha e notas de chocolate ao fundo. Sabor arredondado e macio, sustentado por doces taninos. Preenche agradavelmente a boca com seu generoso frutado, fazendo deste um excelente vinho.',
+            'cost_price' => '10.00',
+            'sale_price' => '30.00',
+            'discount' => '0.00',
+            'photo' => '/img/wine/porca.jpg',
+            'country' => 'Portugal',
+                'type' => 'Vinho Tinto',
+                'brand' => 'Real Cia. Velha',
+                'volume' => '750ml',
+                'alcohol_content' => '13%',
+            'categories_id' => 1
+        ]);
+
+        DB::table('products')->insert([
+            'available' => '1',
+            'name' => 'Tannat',
+            'description' => 'Tannat é uma uva tinta da família da Vitis vinifera originária do sul da França. É usualmente utilizada em assemblage com merlot, para suavizar o vinho. É a grande uva adotada pelo Uruguai, que possui uma extensa área de vinhedos dessa casta.',
+            'cost_price' => '10.00',
+            'sale_price' => '34.00',
+            'discount' => '0.00',
+            'photo' => '/img/wine/tannat.jpg',
+            'country' => 'França',
+                'type' => 'Vinho Tinto',
+                'brand' => 'Merlot',
+                'volume' => '750ml',
+                'alcohol_content' => '13%',
+            'categories_id' => 1
+        ]);
+
 
         // CERJEVAS
 

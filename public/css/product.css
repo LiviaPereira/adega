@@ -1,14 +1,8 @@
-body {
-    font-family: 'Montserrat', sans-serif;  /* fonte padrão para o corpo das páginas */
-    font-size: 22px;                        /* tamanho de fonte padrão para o corpo das páginas - controlar o restante com "rem" */
-    background-color: #FFFFFF;            /* cor de fundo padrão para o corpo das páginas */ 
-    margin: 0;                              /* reset de margens */
-    padding: 0;                             /* reset de paddings */
- }                                          /* Quando for formatar as tags seguir essa ordem:
-                                                1.posicionamento
-                                                2.Box model
-                                                3.tipografia
-                                                4.Visual*/ 
+
+h3 {
+    text-align: center;
+    color: #6E0406
+}
  
  #comprando {
      max-width: 100%;
@@ -35,8 +29,8 @@ body {
 }
 
  .descricao {
-     width: 20%;
-     padding-left: 90px;
+     width: 25%;
+     padding-left: 50px;
      padding-top: 50px;
  }
 
@@ -63,9 +57,9 @@ body {
      text-align: justify;
  }
 
- .descricao h3 {
+ /* .descricao h3 {
      margin: 0;
- }
+ } */
 
  .descricao h6 {
      margin: 0;
@@ -104,9 +98,11 @@ body {
  .cep {
      background-color: rgb(220, 220, 220);
      margin-top: 25px;
-     height: 90px;
-     padding-left: 25px;
-     padding-top: 15px;
+     /* height: 90px; */
+     /* padding-left: 25px; */
+     /* padding-top: 15px; */
+     width: 300px;
+     padding: 5px 25px;
  }
 
  .cep label {
@@ -115,9 +111,10 @@ body {
  }
 
  .cep input {
-     width: 250px;
+     /* display: inline-block; */
+     width: 200px;
      height: 30px;
-     border-color:  #6E0406;
+     border-color:#6E0406;
      border-style: solid;
      margin-top: 5px;
  }

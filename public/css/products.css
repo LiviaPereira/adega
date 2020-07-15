@@ -44,7 +44,8 @@
     }
     
     .img-produto {
-    width: 170px;
+    /* width: 170px; */
+    height: 200px;
     
     }
     
@@ -81,7 +82,7 @@
     
     #Catalogo p, #Catalogo button{
         display: block;
-        margin: 0 auto;
+        /* margin: 0 auto; */
     }
 
     #Categorias{
