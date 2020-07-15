@@ -23,11 +23,11 @@ class CreateProductsTable extends Migration
             $table->decimal('discount', 5, 2)->nullable()->default(null);
             $table->string('photo', 100);
 
-            $table->string('country');
-            $table->string('type');
-            $table->string('brand');
-            $table->string('volume');
-            $table->string('alcohol_content');
+            $table->string('country')->nullable()->default(null);
+            $table->string('type')->nullable()->default(null);
+            $table->string('brand')->nullable()->default(null);
+            $table->string('volume')->nullable()->default(null);
+            $table->string('alcohol_content')->nullable()->default(null);
 
             $table->foreignId('categories_id')->references('id')->on('categories');
         });
