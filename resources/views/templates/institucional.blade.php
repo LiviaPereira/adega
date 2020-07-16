@@ -171,7 +171,7 @@
                 <div>
                     <form action="/newsletter" method="POST">
                     @csrf
-                        <input id="footer-input-newsletter" type="email" name="emailnewsletter" placeholder="Digite seu e-mail">
+                        <input id="footer-input-newsletter" type="email" name="emailnewsletter" placeholder="Digite seu e-mail" required>
                         <button id="footer-submit-newsletter" type="submit">CADASTRAR</button>
                     </form>
                 </div>

@@ -43,7 +43,7 @@ Route::post('/panel/account/edit', 'PanelController@account_edit')->middleware('
 
 Route::get('/shoppingCart', 'AdegaController@shoppingCart');
 
-Route::post('/newsletter', 'NewsletterController@registerNewsletter');
+Route::get('/newsletter', 'NewsletterController@registerNewsletter');
 
 Route::get('/product/{id}', 'ProductController@showProduct');
 

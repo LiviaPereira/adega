@@ -37,7 +37,7 @@ class PanelController extends Controller
                         // ->join('status', 'status.id', 'status_id')   //erro
                         ->get();
 
-        return view('panel.orders', compact('pedidos', 'status'));
+        return view('panel.orders', compact('pedidos'));
     }
 
     // Função que exibe no "painel" o endereço cadastrado do cliente

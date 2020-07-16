@@ -11,7 +11,7 @@ class Order extends Model
     }
 
     public function status(){
-        return $this->hasOne('App\Status');
+        return $this->belonsTo('App\Status');
     }
 
 }
