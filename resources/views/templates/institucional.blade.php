@@ -34,7 +34,7 @@
                     <div class="header-enter">
 
                     @auth
-                        <p>Olá, {{ auth()->user()->name }}</p>
+                        <p>Olá, <b>{{ auth()->user()->name }}</b></p>
                         <a href="/panel"><p>Minha Conta</p></a>
                     @endauth
 
@@ -59,7 +59,7 @@
                             <img src="{{ url('img/icons/cart_mobile.png') }}" alt="Carrinho de Compras">
                         </a>
                         <div>
-                            <p>2</p>
+                            <p>0</p>    <!--  CONTADOR DO CARRINHO -->
                         </div>
                     </div>
 
@@ -102,7 +102,7 @@
                                 <img src="{{ url('img/icons/cart_mobile.png') }}" alt="Carrinho de Compras">
                             </a>
                             <div>
-                                <p>02</p>
+                                <p>0</p>
                             </div>
                         </div>
                     </div>

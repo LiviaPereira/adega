@@ -47,7 +47,7 @@
                     <div>
                         <label for="birth">Data de Nascimento</label>
                         <br>
-                        <input class="length-m" type="date" name="birth" id="birth" required>
+                        <input class="length-m" type="date" name="birth" id="birth" placeholder="DD/MM/AAAA" required>
                     </div>
                     <div>
                         <label for="gender">Sexo</label>
@@ -56,9 +56,9 @@
                         <input type="radio" name="gender" id="gender" value="F"> feminino
                     </div>
                     <div>
-                        <label for="cellphone">Telefone</label>
+                        <label for="cellphone">Celular</label>
                         <br>
-                        <input class="length-m" type="tel" name="cellphone" id="cellphone" required>
+                        <input oninput="mask(this, mphone)" class="length-m" type="text" name="cellphone" id="cellphone" placeholder="(xx) xxxxx-xxxx" required>
                     </div>
                     <br>
                     <div class="register-submit">
@@ -88,6 +88,30 @@
     }
 
     }
-</script>
+
+    function mask(o, f) {
+  setTimeout(function() {
+    var v = mphone(o.value);
+    if (v != o.value) {
+      o.value = v;
+    }
+  }, 1);
+}
+
+    function mphone(v) {
+  var r = v.replace(/\D/g, "");
+  r = r.replace(/^0/, "");
+  if (r.length > 10) {
+    r = r.replace(/^(\d\d)(\d{5})(\d{4}).*/, "($1) $2-$3");
+  } else if (r.length > 5) {
+    r = r.replace(/^(\d\d)(\d{4})(\d{0,4}).*/, "($1) $2-$3");
+  } else if (r.length > 2) {
+    r = r.replace(/^(\d\d)(\d{0,5})/, "($1) $2");
+  } else {
+    r = r.replace(/^(\d*)/, "($1");
+  }
+  return r;
+}
+    </script>
 
 @endsection
