@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use DB;
 
 
 // Importando Classes/Modelos necessários
@@ -31,12 +32,14 @@ class PanelController extends Controller
     public function orders(Request $request){
         $usuario = $request->user();
         $id = $usuario->id;
-        $pedidos = Order::select()
-                        ->where('users_id', $id)
-                        ->orderBy('date', 'desc')
-                        // ->join('status', 'status.id', 'status_id')   //erro
-                        ->get();
 
+        $pedidos = User::select('orders.id as orders_id', 'date', 'state')
+                        ->where('users.id', $id)
+                        ->join('orders', 'users.id', '=', 'orders.users_id')
+                        ->join('status', 'status.id', '=', 'orders.status_id')
+                        ->orderBy('date', 'desc')
+                        ->get();
+// dd($pedidos);
         return view('panel.orders', compact('pedidos'));
     }
 

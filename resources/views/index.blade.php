@@ -34,14 +34,18 @@
                 </div>
                 
                 <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true, "groupCells": true, "freeScroll": true }'>
-                    <div class="gallery-cell">
-                        <p>Nome do produto</p>
-                        <div class="imagem" style="background-image: url('img/wine/porca.jpg');"></div> 
-                        <label><strong>R$ 50,00</strong></label>
-                        <button>Comprar</button> 
-                    </div>
+                    @foreach($featureds as $featured)
+                        <div class="gallery-cell">
+                            @if ($featured) 
+                                <p>{{ $featured->name }}</p> 
+                                <img class="imagem" src="{{ url("$featured->photo") }}" >  
+                                <label><strong> {{ $featured->sale_price }} </strong></label>
+                                <button>Comprar</button> 
+                            @endif                                             
+                        </div>        
+                    @endforeach
 
-                    <div class="gallery-cell">
+                    {{-- {{-- <div class="gallery-cell">
                         <p>Nome do produto</p>
                         <div class="imagem" style="background-image: url('img/wine/mateus.jpg');"></div>  
                         <label><strong>R$ 60,00</strong></label>
@@ -88,7 +92,7 @@
                         <div class="imagem" style="background-image: url('img/wine/mendes.jp');"></div> 
                         <label><strong>R$ 69,90</strong></label>
                         <button>Comprar</button> 
-                    </div>
+                    </div> --}}
                 </div>
 
             </section>

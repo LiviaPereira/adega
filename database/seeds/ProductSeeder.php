@@ -21,6 +21,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '46.99',
             'discount' => '0.00',
+            'featured' => '1',
             'photo' => '/img/wine/calamares.jpg',
                 'country' => 'Portugal',
                 'type' => 'Vinho Verde',
@@ -37,6 +38,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '37.50',
             'discount' => '0.00',
+            'featured' => '1',
             'photo' => '/img/wine/casalgarcia.jpg',
             'country' => 'Portugal',
                 'type' => 'Vinho Verde',
@@ -53,6 +55,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '122.00',
             'discount' => '0.00',
+            'featured' => '1',
             'photo' => '/img/wine/mateus.jpg',
             'country' => 'Portugal',
                 'type' => 'Vinho Rosé',
@@ -69,6 +72,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '35.00',
             'discount' => '0.00',
+            'featured' => '1',
             'photo' => '/img/wine/mendes.jpg',
             'country' => 'Portugal',
                 'type' => 'Vinho Branco',
@@ -85,6 +89,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '30.00',
             'discount' => '0.00',
+            'featured' => '1',
             'photo' => '/img/wine/porca.jpg',
             'country' => 'Portugal',
                 'type' => 'Vinho Tinto',
@@ -101,6 +106,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '34.00',
             'discount' => '0.00',
+            'featured' => '1',
             'photo' => '/img/wine/tannat.jpg',
             'country' => 'França',
                 'type' => 'Vinho Tinto',
@@ -117,6 +123,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '46.99',
             'discount' => '0.00',
+            'featured' => '1',
             'photo' => '/img/wine/calamares.jpg',
                 'country' => 'Portugal',
                 'type' => 'Vinho Verde',
@@ -133,6 +140,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '37.50',
             'discount' => '0.00',
+            'featured' => '1',
             'photo' => '/img/wine/casalgarcia.jpg',
             'country' => 'Portugal',
                 'type' => 'Vinho Verde',
@@ -149,6 +157,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '122.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/wine/mateus.jpg',
             'country' => 'Portugal',
                 'type' => 'Vinho Rosé',
@@ -165,6 +174,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '35.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/wine/mendes.jpg',
             'country' => 'Portugal',
                 'type' => 'Vinho Branco',
@@ -181,6 +191,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '30.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/wine/porca.jpg',
             'country' => 'Portugal',
                 'type' => 'Vinho Tinto',
@@ -197,6 +208,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '34.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/wine/tannat.jpg',
             'country' => 'França',
                 'type' => 'Vinho Tinto',
@@ -213,6 +225,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '46.99',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/wine/calamares.jpg',
                 'country' => 'Portugal',
                 'type' => 'Vinho Verde',
@@ -229,6 +242,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '37.50',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/wine/casalgarcia.jpg',
             'country' => 'Portugal',
                 'type' => 'Vinho Verde',
@@ -245,6 +259,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '122.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/wine/mateus.jpg',
             'country' => 'Portugal',
                 'type' => 'Vinho Rosé',
@@ -261,6 +276,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '35.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/wine/mendes.jpg',
             'country' => 'Portugal',
                 'type' => 'Vinho Branco',
@@ -277,6 +293,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '30.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/wine/porca.jpg',
             'country' => 'Portugal',
                 'type' => 'Vinho Tinto',
@@ -293,6 +310,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '34.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/wine/tannat.jpg',
             'country' => 'França',
                 'type' => 'Vinho Tinto',
@@ -309,6 +327,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '46.99',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/wine/calamares.jpg',
                 'country' => 'Portugal',
                 'type' => 'Vinho Verde',
@@ -325,6 +344,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '37.50',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/wine/casalgarcia.jpg',
             'country' => 'Portugal',
                 'type' => 'Vinho Verde',
@@ -341,6 +361,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '122.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/wine/mateus.jpg',
             'country' => 'Portugal',
                 'type' => 'Vinho Rosé',
@@ -357,6 +378,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '35.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/wine/mendes.jpg',
             'country' => 'Portugal',
                 'type' => 'Vinho Branco',
@@ -373,6 +395,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '30.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/wine/porca.jpg',
             'country' => 'Portugal',
                 'type' => 'Vinho Tinto',
@@ -389,6 +412,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '34.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/wine/tannat.jpg',
             'country' => 'França',
                 'type' => 'Vinho Tinto',
@@ -408,6 +432,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/beer/skol.jpg',
             'categories_id' => 2
         ]);
@@ -419,6 +444,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/beer/brahma600.png',
             'categories_id' => 2
         ]);
@@ -430,6 +456,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/beer/skol.jpg',
             'categories_id' => 2
         ]);
@@ -441,6 +468,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/beer/bud.jpg',
             'categories_id' => 2
         ]);
@@ -452,6 +480,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/beer/brahma600.png',
             'categories_id' => 2
         ]);
@@ -463,6 +492,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/beer/cervejaasahl.png',
             'categories_id' => 2
         ]);
@@ -474,6 +504,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/beer/corona.png',
             'categories_id' => 2
         ]);
@@ -485,6 +516,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/beer/cervejaasahl.png',
             'categories_id' => 2
         ]);
@@ -496,6 +528,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/beer/heineken.png',
             'categories_id' => 2
         ]);
@@ -507,6 +540,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/beer/brahma600.png',
             'categories_id' => 2
         ]);
@@ -518,6 +552,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/beer/skol.jpg',
             'categories_id' => 2
         ]);
@@ -529,6 +564,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/beer/bud.jpg',
             'categories_id' => 2
         ]);
@@ -540,6 +576,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/beer/brahma600.png',
             'categories_id' => 2
         ]);
@@ -551,6 +588,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/beer/skol.jpg',
             'categories_id' => 2
         ]);
@@ -562,6 +600,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/beer/brahma600.png',
             'categories_id' => 2
         ]);
@@ -573,6 +612,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/beer/skol.jpg',
             'categories_id' => 2
         ]);
@@ -584,6 +624,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/beer/bud.jpg',
             'categories_id' => 2
         ]);
@@ -595,6 +636,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/beer/brahma600.png',
             'categories_id' => 2
         ]);
@@ -606,6 +648,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/beer/cervejaasahl.png',
             'categories_id' => 2
         ]);
@@ -617,6 +660,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/beer/corona.png',
             'categories_id' => 2
         ]);
@@ -628,6 +672,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/beer/cervejaasahl.png',
             'categories_id' => 2
         ]);
@@ -639,6 +684,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/beer/heineken.png',
             'categories_id' => 2
         ]);
@@ -650,6 +696,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/beer/brahma600.png',
             'categories_id' => 2
         ]);
@@ -661,6 +708,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/beer/skol.jpg',
             'categories_id' => 2
         ]);
@@ -672,6 +720,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/beer/bud.jpg',
             'categories_id' => 2
         ]);
@@ -683,6 +732,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/beer/brahma600.png',
             'categories_id' => 2
         ]);
@@ -697,6 +747,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/distillate/absolut.png',
             'categories_id' => 3
         ]);
@@ -708,6 +759,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/distillate/d-04.png',
             'categories_id' => 3
         ]);
@@ -719,6 +771,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/distillate/raspberri.png',
             'categories_id' => 3
         ]);
@@ -730,6 +783,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/distillate/smirnoff.jpg',
             'categories_id' => 3
         ]);
@@ -741,6 +795,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/distillate/vodka3.png',
             'categories_id' => 3
         ]);
@@ -752,6 +807,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/distillate/whisky.jpg',
             'categories_id' => 3
         ]);
@@ -763,6 +819,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/distillate/whiskey.jpg',
             'categories_id' => 3
         ]);
@@ -774,6 +831,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/distillate/d-04.png',
             'categories_id' => 3
         ]);
@@ -785,6 +843,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/distillate/raspberri.png',
             'categories_id' => 3
         ]);
@@ -796,6 +855,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/distillate/smirnoff.jpg',
             'categories_id' => 3
         ]);
@@ -807,6 +867,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/distillate/vodka3.png',
             'categories_id' => 3
         ]);
@@ -818,6 +879,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/distillate/whisky.jpg',
             'categories_id' => 3
         ]);
@@ -829,6 +891,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/distillate/whiskey.jpg',
             'categories_id' => 3
         ]);
@@ -840,6 +903,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/distillate/vodka3.png',
             'categories_id' => 3
         ]);
@@ -851,6 +915,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/distillate/absolut.png',
             'categories_id' => 3
         ]);
@@ -862,6 +927,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/distillate/d-04.png',
             'categories_id' => 3
         ]);
@@ -873,6 +939,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/distillate/raspberri.png',
             'categories_id' => 3
         ]);
@@ -884,6 +951,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/distillate/smirnoff.jpg',
             'categories_id' => 3
         ]);
@@ -895,6 +963,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/distillate/vodka3.png',
             'categories_id' => 3
         ]);
@@ -906,6 +975,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/distillate/whisky.jpg',
             'categories_id' => 3
         ]);
@@ -917,6 +987,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/distillate/whiskey.jpg',
             'categories_id' => 3
         ]);
@@ -928,6 +999,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/distillate/d-04.png',
             'categories_id' => 3
         ]);
@@ -939,6 +1011,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/distillate/raspberri.png',
             'categories_id' => 3
         ]);
@@ -950,6 +1023,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/distillate/smirnoff.jpg',
             'categories_id' => 3
         ]);
@@ -961,6 +1035,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/distillate/vodka3.png',
             'categories_id' => 3
         ]);
@@ -972,6 +1047,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/distillate/whisky.jpg',
             'categories_id' => 3
         ]);
@@ -983,6 +1059,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/distillate/whiskey.jpg',
             'categories_id' => 3
         ]);
@@ -994,6 +1071,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/distillate/vodka3.png',
             'categories_id' => 3
         ]);
@@ -1008,6 +1086,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/non-alcoholic/coca.jng',
             'categories_id' => 4
         ]);
@@ -1019,6 +1098,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/non-alcoholic/fanta.jng',
             'categories_id' => 4
         ]);
@@ -1030,6 +1110,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/non-alcoholic/soda-04.png',
             'categories_id' => 4
         ]);
@@ -1041,6 +1122,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/non-alcoholic/redbull.jpg',
             'categories_id' => 4
         ]);
@@ -1052,6 +1134,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/non-alcoholic/coca.jng',
             'categories_id' => 4
         ]);
@@ -1063,6 +1146,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/non-alcoholic/fanta.jng',
             'categories_id' => 4
         ]);
@@ -1074,6 +1158,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/non-alcoholic/soda-04.png',
             'categories_id' => 4
         ]);
@@ -1085,6 +1170,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/non-alcoholic/redbull.jpg',
             'categories_id' => 4
         ]);
@@ -1096,6 +1182,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/non-alcoholic/pepsi.jpg',
             'categories_id' => 4
         ]);
@@ -1107,6 +1194,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/non-alcoholic/nd-02.png',
             'categories_id' => 4
         ]);
@@ -1118,6 +1206,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/non-alcoholic/nd-03.png',
             'categories_id' => 4
         ]);
@@ -1129,6 +1218,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/non-alcoholic/pepsi.jpg',
             'categories_id' => 4
         ]);
@@ -1140,6 +1230,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/non-alcoholic/nd-02.png',
             'categories_id' => 4
         ]);
@@ -1151,6 +1242,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/non-alcoholic/nd-03.png',
             'categories_id' => 4
         ]);
@@ -1162,6 +1254,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/non-alcoholic/fanta.jng',
             'categories_id' => 4
         ]);
@@ -1173,6 +1266,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/non-alcoholic/soda-04.png',
             'categories_id' => 4
         ]);
@@ -1184,6 +1278,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/non-alcoholic/redbull.jpg',
             'categories_id' => 4
         ]);
@@ -1195,6 +1290,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/non-alcoholic/coca.jng',
             'categories_id' => 4
         ]);
@@ -1206,6 +1302,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/non-alcoholic/fanta.jng',
             'categories_id' => 4
         ]);
@@ -1217,6 +1314,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/non-alcoholic/soda-04.png',
             'categories_id' => 4
         ]);
@@ -1228,6 +1326,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/non-alcoholic/redbull.jpg',
             'categories_id' => 4
         ]);
@@ -1239,6 +1338,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/non-alcoholic/coca.jng',
             'categories_id' => 4
         ]);
@@ -1250,6 +1350,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/non-alcoholic/fanta.jng',
             'categories_id' => 4
         ]);
@@ -1261,6 +1362,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/non-alcoholic/soda-04.png',
             'categories_id' => 4
         ]);
@@ -1272,6 +1374,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/non-alcoholic/redbull.jpg',
             'categories_id' => 4
         ]);
@@ -1283,6 +1386,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/non-alcoholic/pepsi.jpg',
             'categories_id' => 4
         ]);
@@ -1294,6 +1398,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/non-alcoholic/nd-02.png',
             'categories_id' => 4
         ]);
@@ -1305,6 +1410,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/non-alcoholic/nd-03.png',
             'categories_id' => 4
         ]);
@@ -1316,6 +1422,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/non-alcoholic/pepsi.jpg',
             'categories_id' => 4
         ]);
@@ -1327,6 +1434,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/non-alcoholic/nd-02.png',
             'categories_id' => 4
         ]);
@@ -1338,6 +1446,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/non-alcoholic/nd-03.png',
             'categories_id' => 4
         ]);
@@ -1349,6 +1458,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/non-alcoholic/fanta.jng',
             'categories_id' => 4
         ]);
@@ -1360,6 +1470,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/non-alcoholic/soda-04.png',
             'categories_id' => 4
         ]);
@@ -1371,6 +1482,7 @@ class ProductSeeder extends Seeder
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
+            'featured' => '0',
             'photo' => '/img/non-alcoholic/redbull.jpg',
             'categories_id' => 4
         ]);

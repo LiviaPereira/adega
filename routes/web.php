@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/', 'AdegaController@home');
+Route::get('/', 'IndexController@index');
 
 Route::get('/about', 'AdegaController@about');
 
@@ -51,18 +51,13 @@ Route::get('/products/wines', 'ProductController@wineList');
 
 Route::get('/products/promotions', 'ProductController@promotionsList');
 
-
 Route::get('/products/beers', 'ProductController@beersList');
-
-
 
 Route::get('/products/kits', 'ProductController@kitsList');
 
 Route::get('/products/distilleds', 'ProductController@distilledsList');
 
 Route::get('/products/nonAlcoholics', 'ProductController@nonAlcoholicsList');
-
-Route::post('/newsletter', 'NewsletterController@registerNewsletter');
 
 
 

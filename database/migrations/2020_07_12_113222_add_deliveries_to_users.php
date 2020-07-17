@@ -13,9 +13,10 @@ class AddDeliveriesToUsers extends Migration
      */
     public function up()
     {
-        Schema::table('users', function (Blueprint $table) {
-            $table->foreignId('deliveries_id')->nullable()->references('id')->on('deliveries');
-        });
+        // exemplo apenas
+        // Schema::table('users', function (Blueprint $table) {
+        //     $table->foreignId('deliveries_id')->nullable()->references('id')->on('deliveries');
+        // });
     }
 
     /**
@@ -25,9 +26,10 @@ class AddDeliveriesToUsers extends Migration
      */
     public function down()
 {
-    Schema::table('users', function (Blueprint $table) {
-        $table->dropForeign('users_deliveries_id_foreign');
-        $table->dropColumn('deliveries_id');
-    });
+    // exemplo apenas
+    // Schema::table('users', function (Blueprint $table) {
+    //     $table->dropForeign('users_deliveries_id_foreign');
+    //     $table->dropColumn('deliveries_id');
+    // });
 }
 }

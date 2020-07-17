@@ -16,6 +16,7 @@ class CreateProductsTable extends Migration
         Schema::create('products', function (Blueprint $table) {
             $table->id();
             $table->boolean('available');
+            $table->boolean('featured')->default(0);
             $table->string('name', 100);
             $table->text('description');
             $table->decimal('cost_price', 5, 2);
