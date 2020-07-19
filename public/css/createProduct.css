@@ -8,7 +8,14 @@
 }
 
 h1{
-    color: #6E0406;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+label{
+    color: #320000;
+    font-size: 1.2rem;
+    
 }
 
 .campos{
@@ -27,6 +34,7 @@ div.container{
     background-color: #ddd;
     width: 30%;
     align-items: center;
+    background-color: rgba(110, 4, 6, 0.7);
 }
 
 div.container{
@@ -65,35 +73,36 @@ form div textarea{
 }
 
 button{
-    border: none;
+    border: 1px solid white;
     padding: 10px 20px;
-    background-color: #6E0406;
+    background-color: #320000;
     color: #fff;
     cursor: pointer;
     font-size: 0.8rem;
+    font-weight: bold;
+
 }
 
-button:hover{
-    background-color: #320000;
-}
 
 .controles{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    
 }
 
 .controles a{
-    background-color: #6E0406;
+    background-color: #320000;
     text-decoration: none;
     color: #ddd;
-    font-size: 1rem;
+    border: 1px solid #fff;
+    font-size: 0.8rem;
     padding: 10px;
+    width: 35%;
+    font-weight: bold;
+    text-align: center;
 }
 
-a:hover{
-    background-color: #6E0406;
-}
 
 .fileContainer{
     position: relative;
