@@ -1,0 +1,129 @@
+*{
+    font-family: "Trebuchet MS", Arial, Arial, Helvetica, sans-serif;
+}
+
+.iten{
+    width: 5%;
+    
+}
+
+h1{
+    color: #6E0406;
+}
+
+.campos{
+    width: 25vw;
+}
+
+.espacamento{
+    margin-bottom: 20px;
+}
+
+div.container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: #ddd;
+    width: 30%;
+    align-items: center;
+}
+
+div.container{
+    font-size: 1.5rem;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form div{
+    width: 30vw;
+}
+
+form div input{
+    width: 100%;
+    padding: 10px;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+
+form div select{
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+form div textarea{
+    width: 100%;
+}
+
+.error{
+    font-size: 0.6rem;
+    color: #FFFF00;    
+}
+
+button{
+    border: none;
+    padding: 10px 20px;
+    background-color: #6E0406;
+    color: #fff;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+button:hover{
+    background-color: #320000;
+}
+
+.controles{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.controles a{
+    background-color: #6E0406;
+    text-decoration: none;
+    color: #ddd;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+a:hover{
+    background-color: #6E0406;
+}
+
+.fileContainer{
+    position: relative;
+}
+
+.fileContainer input{
+    display: none;
+}
+
+.fileContainer img{
+    width: 100%;
+    display: block;
+}
+
+.fileContainer div{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    color: white;
+}
+
+.fileContainer .errorUpload{
+    position: absolute;
+    top: 0;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    color: #FFFF00;
+}

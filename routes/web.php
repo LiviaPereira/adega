@@ -59,7 +59,7 @@ Route::get('/products/distilleds', 'ProductController@distilledsList');
 
 Route::get('/products/nonAlcoholics', 'ProductController@nonAlcoholicsList');
 
-
+Route::get('/createProduct', 'CreateProductController@addProduct');
 
 
 
