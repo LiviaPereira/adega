@@ -193,12 +193,12 @@ section div.box a img{
     grid-column: 1;
     grid-row: 1;
     margin: 0;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     text-align: center;
 }
 
 .gallery-cell label{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 700;
     text-align: center;
     color: rgba(103, 0, 0); 

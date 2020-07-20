@@ -16,13 +16,13 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Vinho Português Branco CALAMARES Garrafa 750ml',
-            'description' => 'Vinho português branco, elaborado com uvas delicadas. Possui aspecto límpido, amarelo muito claro, quase transparente, com leves raios esverdeados, e aroma muito frutado. Vinho verde branco meio seco, jovem, fresco, suave e frutado. Aconselhamos ainda como complemento de mariscos e frutos do mar, e todos os tipos de refeições de peixe. ',
+            'name' => 'Tannat',
+            'description' => 'Tannat é uma uva tinta da família da Vitis vinifera originária do sul da França. É usualmente utilizada em assemblage com merlot, para suavizar o vinho. É a grande uva adotada pelo Uruguai, que possui uma extensa área de vinhedos dessa casta.',
             'cost_price' => '10.00',
             'sale_price' => '46.99',
             'discount' => '0.00',
             'featured' => '1',
-            'photo' => '/img/wine/calamares.jpg',
+            'photo' => '/img/wine/tannat.jpg',
                 'country' => 'Portugal',
                 'type' => 'Vinho Verde',
                 'brand' => 'Enoport',
@@ -451,16 +451,16 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Skol',
-            'description' => 'Cerveja Skol',
+            'name' => 'Chop Chiltern',
+            'description' => 'Chop Chiltern Brewery Gold',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
             'featured' => '0',
-            'photo' => '/img/beer/skol.jpg',
+            'photo' => '/img/beer/chopao.png',
             'categories_id' => 2
         ]);
-
+//4
         DB::table('products')->insert([
             'available' => '1',
             'name' => 'Bud',
@@ -508,7 +508,7 @@ class ProductSeeder extends Seeder
             'photo' => '/img/beer/corona.png',
             'categories_id' => 2
         ]);
-
+//8
         DB::table('products')->insert([
             'available' => '1',
             'name' => 'Sahl',

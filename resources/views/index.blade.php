@@ -30,7 +30,7 @@
                 </div>
 
                 <div class="box">
-                    <a href="products.php"> <img src="img/wine/brinde.png" alt="brinde"> </a>
+                    <a href="/products/wines"> <img src="img/wine/brinde.png" alt="brinde"> </a>
                 </div>
                 
                 <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true, "groupCells": true, "freeScroll": true }'>
@@ -39,7 +39,7 @@
                             @if ($wine) 
                                 <p>{{ $wine->name }}</p> 
                                 <div class="imagem" style="background-image: url('{{ url("$wine->photo") }}')"> </div>
-                                <label><strong> {{ $wine->sale_price }} </strong></label>
+                                <label><strong>R$ {{ number_format($wine->sale_price, 2, ',', '.') }} </strong></label>
                                 <button>Comprar</button> 
                             @endif                                             
                         </div>        
@@ -55,7 +55,7 @@
                 </div>
 
                 <div class="box">
-                    <a href="products.php"> <img src="img/beer/beer.png" alt="beer"> </a>
+                    <a href="/products/beers"> <img src="img/beer/beer.png" alt="beer"> </a>
                 </div>
                     
                 <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true, "groupCells": true, "freeScroll": true }'>
@@ -64,7 +64,7 @@
                             @if ($beer) 
                                 <p>{{ $beer->name }}</p> 
                                 <div class="imagem" style="background-image: url('{{ url("$beer->photo") }}')"> </div> 
-                                <label><strong> {{ $beer->sale_price }} </strong></label>
+                                <label><strong>R$ {{ number_format($beer->sale_price, 2, ',', '.') }} </strong></label>
                                 <button>Comprar</button> 
                             @endif                                             
                         </div>        
@@ -81,7 +81,7 @@
                 </div>
 
                 <div class="box">
-                    <a href="products.php"> <img src="img/distillate/drink.png" alt="drink">  </a>
+                    <a href="/products/distilleds"> <img src="img/distillate/drink.png" alt="drink">  </a>
                 </div>
                     
                 <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true, "groupCells": true, "freeScroll": true }'>
@@ -90,7 +90,7 @@
                             @if ($distillate) 
                                 <p>{{ $distillate->name }}</p> 
                                 <div class="imagem" style="background-image: url('{{ url("$distillate->photo") }}')"> </div> 
-                                <label><strong> {{ $distillate->sale_price }} </strong></label>
+                                <label><strong>R$ {{ number_format($distillate->sale_price, 2, ',', '.') }} </strong></label>
                                 <button>Comprar</button> 
                             @endif                                             
                         </div>        
@@ -106,7 +106,7 @@
                 </div>
 
                 <div class="box">
-                    <a href="products.php"> <img src="img/non-alcoholic/sucao.png" alt="sucao">  </a>
+                    <a href="/products/nonAlcoholics"> <img src="img/non-alcoholic/sucao.png" alt="sucao">  </a>
                 </div>
                     
                 <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true, "groupCells": true, "freeScroll": true }'>
@@ -115,7 +115,7 @@
                             @if ($nonAlcoholic) 
                                 <p>{{ $nonAlcoholic->name }}</p> 
                                 <div class="imagem" style="background-image: url('{{ url("$nonAlcoholic->photo") }}')"> </div> 
-                                <label><strong> {{ $nonAlcoholic->sale_price }} </strong></label>
+                                <label><strong>R$ {{ number_format($nonAlcoholic->sale_price, 2, ',', '.') }} </strong></label>
                                 <button>Comprar</button> 
                             @endif                                             
                         </div>        
