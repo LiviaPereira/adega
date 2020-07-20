@@ -34,12 +34,12 @@
                 </div>
                 
                 <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true, "groupCells": true, "freeScroll": true }'>
-                    @foreach($featureds as $featured)
+                    @foreach($wines as $wine)
                         <div class="gallery-cell">
-                            @if ($featured) 
-                                <p>{{ $featured->name }}</p> 
-                                <div class="imagem" style="background-image: url('{{ url("$featured->photo") }}')"> </div>
-                                <label><strong> {{ $featured->sale_price }} </strong></label>
+                            @if ($wine) 
+                                <p>{{ $wine->name }}</p> 
+                                <div class="imagem" style="background-image: url('{{ url("$wine->photo") }}')"> </div>
+                                <label><strong> {{ $wine->sale_price }} </strong></label>
                                 <button>Comprar</button> 
                             @endif                                             
                         </div>        
@@ -59,12 +59,12 @@
                 </div>
                     
                 <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true, "groupCells": true, "freeScroll": true }'>
-                    @foreach($featureds as $featured)
+                    @foreach($beers as $beer)
                         <div class="gallery-cell">
-                            @if ($featured) 
-                                <p>{{ $featured->name }}</p> 
-                                <div class="imagem" style="background-image: url('{{ url("$featured->photo") }}')"> </div> 
-                                <label><strong> {{ $featured->sale_price }} </strong></label>
+                            @if ($beer) 
+                                <p>{{ $beer->name }}</p> 
+                                <div class="imagem" style="background-image: url('{{ url("$beer->photo") }}')"> </div> 
+                                <label><strong> {{ $beer->sale_price }} </strong></label>
                                 <button>Comprar</button> 
                             @endif                                             
                         </div>        
@@ -85,12 +85,12 @@
                 </div>
                     
                 <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true, "groupCells": true, "freeScroll": true }'>
-                    @foreach($featureds as $featured)
+                    @foreach($distillates as $distillate)
                         <div class="gallery-cell">
-                            @if ($featured) 
-                                <p>{{ $featured->name }}</p> 
-                                <div class="imagem" style="background-image: url('{{ url("$featured->photo") }}')"> </div> 
-                                <label><strong> {{ $featured->sale_price }} </strong></label>
+                            @if ($distillate) 
+                                <p>{{ $distillate->name }}</p> 
+                                <div class="imagem" style="background-image: url('{{ url("$distillate->photo") }}')"> </div> 
+                                <label><strong> {{ $distillate->sale_price }} </strong></label>
                                 <button>Comprar</button> 
                             @endif                                             
                         </div>        
@@ -110,12 +110,12 @@
                 </div>
                     
                 <div class="main-gallery js-flickity" data-flickity-options='{ "wrapAround": true, "groupCells": true, "freeScroll": true }'>
-                    @foreach($featureds as $featured)
+                    @foreach($nonAlcoholics as $nonAlcoholic)
                         <div class="gallery-cell">
-                            @if ($featured) 
-                                <p>{{ $featured->name }}</p> 
-                                <div class="imagem" style="background-image: url('{{ url("$featured->photo") }}')"> </div> 
-                                <label><strong> {{ $featured->sale_price }} </strong></label>
+                            @if ($nonAlcoholic) 
+                                <p>{{ $nonAlcoholic->name }}</p> 
+                                <div class="imagem" style="background-image: url('{{ url("$nonAlcoholic->photo") }}')"> </div> 
+                                <label><strong> {{ $nonAlcoholic->sale_price }} </strong></label>
                                 <button>Comprar</button> 
                             @endif                                             
                         </div>        

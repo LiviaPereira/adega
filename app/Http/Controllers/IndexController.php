@@ -9,12 +9,27 @@ use App\Models\stockProducts;
 class IndexController extends Controller
 {
     public function index() {
-        $products = stockProducts::select()->where('amount','>', 0)->get();
-        $featureds = Product::join('stock_products', 'products.id', '=', 'stock_products.products_id')
-        ->select('name', 'photo', 'sale_price')->get();
-        
 
-      
+        $wines = Product::join('stock_products', 'products.id', '=', 'stock_products.products_id')
+                            ->select('name', 'photo', 'sale_price', 'categories_id')
+                            ->where('amount', '>', 0)->where('categories_id', '=', 1)
+                            ->get();
+                            
+        $beers = Product::join('stock_products', 'products.id', '=', 'stock_products.products_id')
+                            ->select('name', 'photo', 'sale_price', 'categories_id')
+                            ->where('amount', '>', 0)->where('categories_id', '=', 2)
+                            ->get();
+
+        $distillates = Product::join('stock_products', 'products.id', '=', 'stock_products.products_id')
+                            ->select('name', 'photo', 'sale_price', 'categories_id')
+                            ->where('amount', '>', 0)->where('categories_id', '=', 3)
+                            ->get();
+
+        $nonAlcoholics = Product::join('stock_products', 'products.id', '=', 'stock_products.products_id')
+                            ->select('name', 'photo', 'sale_price', 'categories_id')
+                            ->where('amount', '>', 0)->where('categories_id', '=', 4)
+                            ->get();
+
 
         // select('name','sale_price')->where('featured', '=', 1)->get();
 
@@ -25,7 +40,7 @@ class IndexController extends Controller
         //                 ->orderBy('date', 'desc')
         //                 ->get();
         // dd();
-         return view('index', compact('products', 'featureds'));
+          return view('index', compact('wines', 'beers', 'distillates', 'nonAlcoholics'));
      }
 
     public function product($id = null) {

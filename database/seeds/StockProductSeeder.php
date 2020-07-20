@@ -14,49 +14,49 @@ class StockProductSeeder extends Seeder
         // Vinhos
 
         DB::table('stock_products')->insert([
-            'id' => '1',
+            // 'id' => '1',
             'amount' => '10',
             'products_id' => '1'
         ]);
 
         DB::table('stock_products')->insert([
-            'id' => '2',
+            // 'id' => '2',
             'amount' => '10',
             'products_id' => '2'
         ]);
 
         DB::table('stock_products')->insert([
-            'id' => '3',
+            // 'id' => '3',
             'amount' => '10',
             'products_id' => '3'
         ]);
 
         DB::table('stock_products')->insert([
-            'id' => '4',
+            // 'id' => '4',
             'amount' => '10',
             'products_id' => '4'
         ]);
 
         DB::table('stock_products')->insert([
-            'id' => '5',
+            // 'id' => '5',
             'amount' => '10',
             'products_id' => '5'
         ]);
 
         DB::table('stock_products')->insert([
-            'id' => '6',
+            // 'id' => '6',
             'amount' => '10',
             'products_id' => '6'
         ]);
 
         DB::table('stock_products')->insert([
-            'id' => '7',
+            // 'id' => '7',
             'amount' => '10',
             'products_id' => '7'
         ]);
 
         DB::table('stock_products')->insert([
-            'id' => '8',
+            // 'id' => '8',
             'amount' => '10',
             'products_id' => '8'
         ]);
@@ -64,54 +64,152 @@ class StockProductSeeder extends Seeder
         // Beers
 
         DB::table('stock_products')->insert([
-            'id' => '9',
+            // 'id' => '9',
             'amount' => '10',
             'products_id' => '25'
         ]);
 
         DB::table('stock_products')->insert([
-            'id' => '10',
+            // 'id' => '10',
             'amount' => '10',
             'products_id' => '26'
         ]);
 
         DB::table('stock_products')->insert([
-            'id' => '11',
+            // 'id' => '11',
             'amount' => '10',
             'products_id' => '27'
         ]);
 
         DB::table('stock_products')->insert([
-            'id' => '12',
+            // 'id' => '12',
             'amount' => '10',
             'products_id' => '28'
         ]);
 
         DB::table('stock_products')->insert([
-            'id' => '13',
+            // 'id' => '13',
             'amount' => '10',
             'products_id' => '29'
         ]);
 
         DB::table('stock_products')->insert([
-            'id' => '14',
+            // 'id' => '14',
             'amount' => '10',
             'products_id' => '30'
         ]);
 
         DB::table('stock_products')->insert([
-            'id' => '15',
+            // 'id' => '15',
             'amount' => '10',
             'products_id' => '31'
         ]);
 
         DB::table('stock_products')->insert([
-            'id' => '16',
+            // 'id' => '16',
             'amount' => '10',
             'products_id' => '32'
         ]);
 
         // Destilados
+
+        DB::table('stock_products')->insert([
+            // 'id' => '9',
+            'amount' => '10',
+            'products_id' => '51'
+        ]);
+
+        DB::table('stock_products')->insert([
+            // 'id' => '10',
+            'amount' => '10',
+            'products_id' => '51'
+        ]);
+
+        DB::table('stock_products')->insert([
+            // 'id' => '11',
+            'amount' => '10',
+            'products_id' => '53'
+        ]);
+
+        DB::table('stock_products')->insert([
+            // 'id' => '12',
+            'amount' => '10',
+            'products_id' => '54'
+        ]);
+
+        DB::table('stock_products')->insert([
+            // 'id' => '13',
+            'amount' => '10',
+            'products_id' => '55'
+        ]);
+
+        DB::table('stock_products')->insert([
+            // 'id' => '14',
+            'amount' => '10',
+            'products_id' => '56'
+        ]);
+
+        DB::table('stock_products')->insert([
+            // 'id' => '15',
+            'amount' => '10',
+            'products_id' => '57'
+        ]);
+
+        DB::table('stock_products')->insert([
+            // 'id' => '16',
+            'amount' => '10',
+            'products_id' => '58'
+        ]);
+
+        //Nao alcolicos
+
+        DB::table('stock_products')->insert([
+            // 'id' => '9',
+            'amount' => '10',
+            'products_id' => '79'
+        ]);
+
+        DB::table('stock_products')->insert([
+            // 'id' => '10',
+            'amount' => '10',
+            'products_id' => '80'
+        ]);
+
+        DB::table('stock_products')->insert([
+            // 'id' => '11',
+            'amount' => '10',
+            'products_id' => '81'
+        ]);
+
+        DB::table('stock_products')->insert([
+            // 'id' => '12',
+            'amount' => '10',
+            'products_id' => '82'
+        ]);
+
+        DB::table('stock_products')->insert([
+            // 'id' => '13',
+            'amount' => '10',
+            'products_id' => '83'
+        ]);
+
+        DB::table('stock_products')->insert([
+            // 'id' => '14',
+            'amount' => '10',
+            'products_id' => '84'
+        ]);
+
+        DB::table('stock_products')->insert([
+            // 'id' => '15',
+            'amount' => '10',
+            'products_id' => '85'
+        ]);
+
+        DB::table('stock_products')->insert([
+            // 'id' => '16',
+            'amount' => '10',
+            'products_id' => '86'
+        ]);
 
     }
 }
