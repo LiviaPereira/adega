@@ -33,6 +33,7 @@ Route::get('/favourites', 'ProductController@favouritesView')->middleware('auth'
 // ROTAS DO PAINEL DO USUÁRIO - ! início !
 Route::get('/panel', 'PanelController@panel')->middleware('auth');
 Route::get('/panel/orders', 'PanelController@orders')->middleware('auth');
+Route::get('/panel/orders/{id}', 'PanelController@showOrder')->middleware('auth');
 Route::get('/panel/address', 'PanelController@addressShow')->middleware('auth');
 Route::get('/panel/address/edit', 'PanelController@addressEdit')->middleware('auth');
 Route::post('/panel/address/edit', 'PanelController@addressEdit')->middleware('auth');

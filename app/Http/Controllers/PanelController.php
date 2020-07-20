@@ -12,6 +12,7 @@ use DB;
     use App\Models\Delivery;
     use App\Models\Order;
     use App\Models\Status;
+    use App\Models\ShoppingCart;
     use App\User;
 
 
@@ -33,14 +34,25 @@ class PanelController extends Controller
         $usuario = $request->user();
         $id = $usuario->id;
 
-        $pedidos = User::select('orders.id as orders_id', 'date', 'state')
+        $pedidos = User::select('orders.id as orders_id', 'date', 'state', 'shopping_carts.id as shoppingCarts_id', 'total_price')
                         ->where('users.id', $id)
                         ->join('orders', 'users.id', '=', 'orders.users_id')
                         ->join('status', 'status.id', '=', 'orders.status_id')
+                        ->join('shopping_carts', 'shopping_carts.id', '=', 'orders.shoppingCarts_id')
                         ->orderBy('date', 'desc')
                         ->get();
-// dd($pedidos);
+
         return view('panel.orders', compact('pedidos'));
+    }
+
+    // VISUALIAR Pedido específico do Cliente
+    public function showOrder(Request $request, $id){
+
+        $pedido = Order::select()
+                        ->where('id', '=', $id)
+                        ->get();
+
+        return view('panel.list_order', compact('pedido'));
     }
 
     // Função que exibe no "painel" o endereço cadastrado do cliente
