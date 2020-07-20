@@ -11,7 +11,11 @@ class Order extends Model
     }
 
     public function status(){
-        return $this->belonsTo('App\Status');
+        return $this->belongsTo('App\Status');
+    }
+
+    public function shoppingCarts(){
+        return $this->belongsTo('App\ShoppingCart');
     }
 
 }

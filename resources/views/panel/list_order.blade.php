@@ -16,7 +16,7 @@
                         </ul>
                     </nav>
                 </div>
-{{--  @dd($pedidos)  --}}
+@dd($pedido)
                 <div class="main-container">
                     <table class="table-mobile">
                         <thead>
@@ -35,7 +35,7 @@
                                         <td> <span>Data<br></span> {{$item->date}}</td>
                                         <td> <span>Status<br></span> {{$item->state}}</td>
                                         <td> <span>Total<br></span> R$ {{$item->total_price}}</td>
-                                        <td> <span>Ações<br></span> <a href="/panel/orders/{{$item->orders_id}}">Visualizar</a></td>
+                                        <td> <span>Ações<br></span> Visualizar</td>
                                     </tr>
                                 @endforeach
                         </tbody>
