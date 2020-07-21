@@ -16,30 +16,29 @@
                         </ul>
                     </nav>
                 </div>
-@dd($pedido)
+{{--  @dd($pedido)  --}}
+
+@foreach ($pedido as $item)
+@endforeach
+
+
                 <div class="main-container">
-                    <table class="table-mobile">
-                        <thead>
-                            <tr>
-                                <td>Pedido</td>
-                                <td>Data</td>
-                                <td>Status</td>
-                                <td>Total</td>
-                                <td>Ações</td>
-                            </tr>
-                        </thead>
-                        <tbody>
-                                @foreach ($pedidos as $item)
-                                    <tr>
-                                        <td> <span>Pedido<br></span> #{{$item->orders_id}}</td>
-                                        <td> <span>Data<br></span> {{$item->date}}</td>
-                                        <td> <span>Status<br></span> {{$item->state}}</td>
-                                        <td> <span>Total<br></span> R$ {{$item->total_price}}</td>
-                                        <td> <span>Ações<br></span> Visualizar</td>
-                                    </tr>
-                                @endforeach
-                        </tbody>
-                    </table>
+
+                <p>O pedido <strong>#678952</strong> foi realizado em <strong>{{$item->date}}</strong> e atualmente consta como <strong>{{$item->state}}</strong>.</p>
+
+                <h4>Detalhes do Pedido</h4>
+                <p>Forma de pagamento: {{$item->method}}</p>
+
+                <h4>Endereço de Entrega</h4>
+                <p>Nome</p>
+                <p>{{$item->address}}, nº {{$item->number}}</p>
+                <p>{{$item->complement}}</p>
+                <p>{{$item->district}}</p>
+                <p>{{$item->city}}</p>
+                <p>{{$item->zip_code}}</p>
+                <p>celular</p>
+
+
                 </div>        
     </section>
 
