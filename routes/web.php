@@ -51,8 +51,8 @@ Route::get('/adicionar/{id}', 'ShoppingCartController@adicionar');
 Route::get('/exibir', 'ShoppingCartController@exibir');
 Route::get('/remover/{id}', 'ShoppingCartController@remover');
 
-Route::get('/finalizarCompra', 'ShoppingCartController@finalizarCompra');
-
+Route::get('/finalizarCompra', 'ShoppingCartController@finalizarCompra')->middleware('auth');
+Route::get('/pedidoFinalizado', 'ShoppingCartController@show')->middleware('auth');
 
 
 
