@@ -12,6 +12,7 @@
                 <h2 id="Categorias">
                     Produtos Favoritos
                 </h2>
+
                 {{-- <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                     <ul>
                         <li><a class="dropdown-item" id="Categoria" href="/products/wines">Favoritos</a></li>
@@ -22,8 +23,24 @@
         </aside>
 
 
-        <section id="Catalogo">
+  
 
+            @if ($produto)
+
+            <section id="Catalogo">
+
+                @foreach ($produto as $item)
+                    <article>
+                        <p class="product-name">{{ $item->name }}</p>
+                        <img class="img-produto" src="{{ url("$item->photo") }}">
+                        <p>R$ {{ $item->sale_price }}</p>
+                        <a class="btn" href="/product/{{ $item->id }}">COMPRAR</a>
+                    </article>
+                @endforeach
+
+            </section>        
+        
+        @endif 
             {{-- @foreach ($list as $item)
                 <article>
                     <p class="product-name">{{ $item->name }}</p>
@@ -34,8 +51,6 @@
             @endforeach --}}
 
             {{-- {{ $list->links() }} --}}
-
-        </section>
     </main>
 
 @endsection

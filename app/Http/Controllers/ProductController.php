@@ -18,8 +18,8 @@ class ProductController extends Controller
     }
 
     function favouritesView(){
-        //dd(auth()->user()->favourites);
-        return view('/favourites');
+         $produto = auth()->user()->favourites;
+        return view('/favourites', compact('produto'));
     }
 
 

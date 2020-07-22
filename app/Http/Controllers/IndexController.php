@@ -47,7 +47,7 @@ class IndexController extends Controller
         if (!empty($id)) {
             $registro = Product::where([
                 'id' => $id,
-                'amount' > 0
+                'amount', '>', 0
             ])->first();
 
             if (!empty($registro)) {

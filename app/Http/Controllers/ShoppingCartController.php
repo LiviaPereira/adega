@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\shoppingCart;
 use Illuminate\Http\Request;
+use App\Order;
 
 class ShoppingCartController extends Controller
 {
@@ -12,9 +13,19 @@ class ShoppingCartController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+    function construct(){
+        $this->middleware('auth');
+    } 
+
     public function index()
     {
-        //
+        $orders = Order::where([
+            'status_id' => 'RE',
+            'user_id' => Auth::id()
+        ])->get();
+
+        return view('shoppingCart.index', compact('orders'));
     }
 
     /**
