@@ -8,7 +8,9 @@
 <body class="body-cart">
 
 {{--  @dd($produtos)  --}}
-    
+
+@if ($produtos != null)
+       
     <div class="cart-container" >
         <div class= "cart-son">
             <ul class="cart-list cart-descricao">
@@ -49,12 +51,22 @@
         <div class="checkout">
             <ul>
                 {{--  <li><p>Subtotal</p><p>R$ 155,00</p></li>  --}}
-                <li class="delivery"><p><img src="img/truck.png" alt="Imagem Frete Grátis"> Entrega Gratúita</p></li>
+                <li class="delivery"><p><img src="img/truck.png" alt="Imagem Frete Grátis"> Entrega <strong> GRÁTIS</strong></p></li>
                 <li><p>Total</p><p>R$ 155,00</p></li>
                 <li><a class="cart-links fechar-pedido" href="/finalizarCompra">FECHAR PEDIDO</a></li>
             </ul>
         </div>
         <a class="cart-links" href="/"><p class="cupom">Continuar Comprando</p></a>
     </div>
+
+@else
+
+    <div class="empty-car">
+        <h1>Carrinho</h1>
+        <p class="info">Seu carrinho está vazio</p>
+        <a href="/"><img src="{{url('img/empty-cart.jpg')}}" alt="Imagem carrinho vazio"></a>
+    </div>
+    
+@endif
     
 @endsection
