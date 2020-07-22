@@ -33,13 +33,13 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Vinho Português Branco Casal Garcia Vinho Verde Garrafa 750ml',
+            'name' => 'Vinho Português Branco CALAMARES Garrafa 750ml',
             'description' => 'Fundada em 1870 na região dos vinhos verdes, a Aveleda é uma vinícola 100% familiar, dirigida hoje pela 5ª geração da família Guedes. Líder mundial na produção de vinho verde, a Aveleda é especialista na produção de vinhos brancos, especialmente com a nobre uva alvarinho. seus vinhos estão presente em mais de 100 países.',
             'cost_price' => '10.00',
             'sale_price' => '37.50',
             'discount' => '0.00',
             'featured' => '1',
-            'photo' => '/img/wine/casalgarcia.jpg',
+            'photo' => '/img/wine/calamares.jpg',
             'country' => 'Portugal',
                 'type' => 'Vinho Verde',
                 'brand' => 'Aveleda',
@@ -427,25 +427,25 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Skol',
-            'description' => 'Cerveja Skol',
+            'name' => 'Cerveja Radler',
+            'description' => 'Cerveja Radler',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
             'featured' => '0',
-            'photo' => '/img/beer/skol.jpg',
+            'photo' => '/img/beer/pngbarn.png',
             'categories_id' => 2
         ]);
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Brahma',
+            'name' => 'cerveja heineken',
             'description' => 'Cerveja Brahma',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
             'featured' => '0',
-            'photo' => '/img/beer/brahma600.png',
+            'photo' => '/img/beer/heineken.png',
             'categories_id' => 2
         ]);
 
@@ -463,13 +463,13 @@ class ProductSeeder extends Seeder
 //4
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Bud',
-            'description' => 'Cerveja Bud',
+            'name' => 'Pack Bud',
+            'description' => 'Fardinho de cerveja Budweiser',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
             'featured' => '0',
-            'photo' => '/img/beer/bud.jpg',
+            'photo' => '/img/beer/pack_bud.png',
             'categories_id' => 2
         ]);
 
@@ -755,12 +755,12 @@ class ProductSeeder extends Seeder
         DB::table('products')->insert([
             'available' => '1',
             'name' => 'Red Label',
-            'description' => 'Vodca Red Label',
+            'description' => 'Whisky Red Label',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
             'featured' => '0',
-            'photo' => '/img/distillate/d-04.png',
+            'photo' => '/img/distillate/redlabel.png',
             'categories_id' => 3
         ]);
 
@@ -1087,19 +1087,19 @@ class ProductSeeder extends Seeder
             'sale_price' => '20.00',
             'discount' => '0.00',
             'featured' => '0',
-            'photo' => '/img/non-alcoholic/coca.jng',
+            'photo' => '/img/non-alcoholic/coca.png',
             'categories_id' => 4
         ]);
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Fanta',
-            'description' => 'Lata de Fanta',
+            'name' => 'Laranja do Bem',
+            'description' => 'Suco de Laranja',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
             'featured' => '0',
-            'photo' => '/img/non-alcoholic/fanta.jng',
+            'photo' => '/img/non-alcoholic/laranja.png',
             'categories_id' => 4
         ]);
 

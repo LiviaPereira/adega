@@ -40,6 +40,9 @@
                                 <p>{{ $wine->name }}</p> 
                                 <div class="imagem" style="background-image: url('{{ url("$wine->photo") }}')"> </div>
                                 <label><strong>R$ {{ number_format($wine->sale_price, 2, ',', '.') }} </strong></label>
+                                <a href="./login.php">
+                                    <img class="favourite" src="./img/icons/favorite.png" alt="Meus Favoritos">
+                                </a>
                                 <button><a href="/product/1">Ver Mais</a></button> 
                             @endif                                             
                         </div>        
@@ -65,7 +68,10 @@
                                 <p>{{ $beer->name }}</p> 
                                 <div class="imagem" style="background-image: url('{{ url("$beer->photo") }}')"> </div> 
                                 <label><strong>R$ {{ number_format($beer->sale_price, 2, ',', '.') }} </strong></label>
-                                <button>Comprar</button> 
+                                <a href="./login.php">
+                                    <img class="favourite" src="./img/icons/favorite.png" alt="Meus Favoritos">
+                                </a>
+                                <button><a href="/product/1">Ver Mais</a></button> 
                             @endif                                             
                         </div>        
                     @endforeach
@@ -91,7 +97,10 @@
                                 <p>{{ $distillate->name }}</p> 
                                 <div class="imagem" style="background-image: url('{{ url("$distillate->photo") }}')"> </div> 
                                 <label><strong>R$ {{ number_format($distillate->sale_price, 2, ',', '.') }} </strong></label>
-                                <button>Comprar</button> 
+                                <a href="./login.php">
+                                    <img class="favourite" src="./img/icons/favorite.png" alt="Meus Favoritos">
+                                </a>
+                                <button><a href="/product/1">Ver Mais</a></button> 
                             @endif                                             
                         </div>        
                     @endforeach
@@ -116,7 +125,10 @@
                                 <p>{{ $nonAlcoholic->name }}</p> 
                                 <div class="imagem" style="background-image: url('{{ url("$nonAlcoholic->photo") }}')"> </div> 
                                 <label><strong>R$ {{ number_format($nonAlcoholic->sale_price, 2, ',', '.') }} </strong></label>
-                                <button>Comprar</button> 
+                                <a href="./login.php">
+                                    <img class="favourite" src="./img/icons/favorite.png" alt="Meus Favoritos">
+                                </a>
+                                <button><a href="/product/1">Ver Mais</a></button> 
                             @endif                                             
                         </div>        
                     @endforeach

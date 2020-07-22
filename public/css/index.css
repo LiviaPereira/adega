@@ -60,7 +60,6 @@ section.service{
     background-color: #6E0406;
     color: #fff;
     text-align: center;
-    align-items: center;
 }
 
 section.service div{
@@ -85,8 +84,8 @@ section.service div:nth-child(even){
     justify-content: center;
     width: 10%;
     height: 10vh;
-    margin: 20px;
-    font-size: 1.2rem;
+    margin: 20px 20px 35px 20px;
+    font-size: 1rem;
 }
 
 /* Fim da qualidade do serviço */
@@ -129,7 +128,7 @@ hr{
 
 div.titulos h1{
     display: flex;
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     color: #6E0406; /* #d54d7b;  */
     font-family: 'Great Vibes', cursive;
     line-height: 160px;
@@ -161,7 +160,7 @@ section div.box a img{
 .gallery-cell{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-end;
     width: 24%;
     max-width: 100%;
     margin: 5px; 
@@ -174,9 +173,10 @@ section div.box a img{
 }
 
 .gallery-cell .imagem{   
-    height: 30vh;
+    height: 25vh;
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center center;
     width: 100%;
     margin-bottom: 2% 0;
     align-self: center;
@@ -214,11 +214,28 @@ section div.box a img{
     text-align: center;
     cursor: pointer;
     width: 100%;
-    font-size: 18px;
+    height: 5vh;
+    padding: 5px;
+    position: relative;
+}
+
+.gallery-cell button a{
+    color: white;
+    text-decoration: none; 
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
 }
 
 .gallery-cell button:hover{
     opacity: 0.7;
+}
+
+.gallery-cell a img{
+    width: 10%;
+    position: absolute;
+    top: 60px;
+    right: 30px;
 }
 
 /* Fim da seção de produtos */
@@ -255,7 +272,7 @@ section div.box a img{
 
   /*  Medium devices 1300 px */
 
-  @media only screen and (max-width: 1413px) {
+  /* @media only screen and (max-width: 1413px) {
     
     div.titulos h1{
         font-size: 2.6rem;
@@ -265,14 +282,14 @@ section div.box a img{
         width: 30%;
     }
 
-  }
+  } */
 
-  @media only screen and (max-width: 1360px) {
+   /* @media only screen and (max-width: 1360px) {
     
     section.service div:nth-child(1) img{
         position: relative;
         width: 7.3vw;
-    }
+    } 
 
     section.service div img{
         position: relative;
@@ -295,17 +312,17 @@ section div.box a img{
         font-size: 2.5rem;
     }
 
-  }
+  } */
 
-  @media only screen and (max-width: 1200px) {
+  /* @media only screen and (max-width: 1200px) {
 
     .gallery-cell{
         width: 30%;
     }
 
-  }
+  } */
 
-  @media only screen and (max-width: 1000px) {
+  /* @media only screen and (max-width: 1000px) {
     
     section.service div:nth-child(1) img{
         position: relative;
@@ -325,9 +342,9 @@ section div.box a img{
         font-size: 1rem;
     }
 
-  }
+  } */
   
-  @media only screen and (max-width: 900px) {
+  /* @media only screen and (max-width: 900px) {
 
     section.service {
         display: none;
@@ -341,7 +358,7 @@ section div.box a img{
         grid-column: 1/4;
     }
 
-  }
+  } */
   
   @media only screen and (max-width: 822px){
 
