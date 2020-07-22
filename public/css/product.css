@@ -98,7 +98,7 @@ h3 {
      background-color: #6f9000;
      border-radius: none;
      border-style: none;
-     width: 300px;
+     width: 250px;
      height: 65px;
      font-size: 38px;
      color: white;
@@ -399,23 +399,54 @@ h3 {
     margin-top: 30px;
 }
 
-@media (max-width: 576px){
+@media (max-width: 992px){
 
     #comprando {
-       flex-wrap: wrap;
+       display: inline-block;
+       height: auto;
+    }
+    .comprarb button {
+        width: 100%;
     }
     .descricao {
         width: 100%;
         text-align: center;
+        padding: 0px 15px;
+    }
+    .descricao p {
+        padding: 0px;
+    }
+
+    .titulo {
+        display: none;
+    }
+    .barra-vert{
+        display: none;
+    }
+    .especificacoes {
+        padding: 0px 5px;
+        margin: 0px;
+        width: 100%;
+    }
+
+    h3 {
+        margin: 10px;
     }
     .foto {
-        width: 100%;
+        /* width: 100%; */
+        height: 250px;
+        margin-bottom: 10px;
     }
     .produto {
         width: 45%;
+        margin: 0 auto;
     }
     .valor {
-        width: 45%;
+        width: 100%;
+        padding: 0px;
+    }
+    .valor h6, .valor h4 {
+        text-align: center;
     }
     #titulol div {
         width: 70%;
@@ -425,10 +456,10 @@ h3 {
     }
 }
 
-@media (max-width: 992px) and (min-width: 576px){
+/* @media (max-width: 992px) and (min-width: 576px){
     
     #titulol div {
         width: 45%;
     }
-}
+} */
 

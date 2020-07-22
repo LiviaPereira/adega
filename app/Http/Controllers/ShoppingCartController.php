@@ -20,7 +20,7 @@ class ShoppingCartController extends Controller
     }
 
     public function exibir(Request $request){
-            //$request->session()->flush();
+            // $request->session()->flush();
         if($request->session()->has("carrinho")){
             $carrinho = $request->session()->get("carrinho");
             $produtos=[];
