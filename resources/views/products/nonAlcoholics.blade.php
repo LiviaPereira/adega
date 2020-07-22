@@ -15,8 +15,8 @@
                         <li><a class="dropdown-item" id="Categoria" href="/products/beers">Cervejas</a></li>
                         <li><a class="dropdown-item" id="Categoria" href="/products/distilleds">Destilados</a></li>
                         <li><a class="dropdown-item" id="Categoria" href="/products/nonAlcoholics">Não alcoólicos</a></li>
-                        <li><a class="dropdown-item" id="Categoria" href="/products/kits">Kits</a></li>
-                        <li><a class="dropdown-item" id="Categoria" href="/products/promotions">Promoções</a></li>
+                        {{--  <li><a class="dropdown-item" id="Categoria" href="/products/kits">Kits</a></li>
+                        <li><a class="dropdown-item" id="Categoria" href="/products/promotions">Promoções</a></li>  --}}
                     <ul>
                 </div>
             </div>

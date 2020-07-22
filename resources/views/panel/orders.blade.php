@@ -34,7 +34,7 @@
                                         <td> <span>Pedido<br></span> #{{$item->orders_id}}</td>
                                         <td> <span>Data<br></span> {{$item->date}}</td>
                                         <td> <span>Status<br></span> {{$item->state}}</td>
-                                        <td> <span>Total<br></span> R$ {{$item->total_price}}</td>
+                                        <td> <span>Total<br></span> R$ {{number_format($item->total_price, 2, ',', '.')}}</td>
                                         <td> <span>Ações<br></span> <a href="/panel/orders/{{$item->orders_id}}">Visualizar</a></td>
                                     </tr>
                                 @endforeach

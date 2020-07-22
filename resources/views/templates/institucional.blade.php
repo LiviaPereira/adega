@@ -142,7 +142,7 @@
                                 <p id="header-categories">NÃO ALCOÓLICOS</p>
                             </a>
                         </div>
-                        <div>
+                        {{--  <div>
                             <a href="/products/kits">
                                 <img id="header-categories-img" src="{{ url('img/categories/kits.png') }}" alt="">
                                 <p id="header-categories">KIT'S</p>
@@ -153,7 +153,7 @@
                                 <img id="header-categories-img" src="{{ url('img/categories/sales.png') }}" alt="">
                                 <p id="header-categories">PROMOÇÕES</p>
                             </a>
-                        </div>
+                        </div>  --}}
                 </nav>
             </div>
         </div>
