@@ -56,7 +56,7 @@ class PanelController extends Controller
                         ->join('shopping_carts', 'shopping_carts.id', '=', 'orders.shoppingCarts_id')
                         ->join('deliveries', 'deliveries.id', '=', 'orders.deliveries_id')
                         ->join('pay_methods', 'pay_methods.id', '=', 'orders.payMethods_id')
-                        ->join('devolutions', 'devolutions.id', '=', 'orders.devolutions_id')
+                        // ->join('devolutions', 'devolutions.id', '=', 'orders.devolutions_id')
                         ->get();
 
         return view('panel.list_order', compact('pedido'));

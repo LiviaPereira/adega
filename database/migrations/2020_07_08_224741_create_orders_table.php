@@ -20,7 +20,7 @@ class CreateOrdersTable extends Migration
             $table->foreignId('shoppingCarts_id')->references('id')->on('shopping_carts');
             $table->foreignId('deliveries_id')->references('id')->on('deliveries');
             $table->foreignId('payMethods_id')->references('id')->on('pay_methods');
-            $table->foreignId('devolutions_id')->references('id')->on('devolutions');
+            // $table->foreignId('devolutions_id')->references('id')->on('devolutions');
             $table->foreignId('status_id')->references('id')->on('status');
         });
     }

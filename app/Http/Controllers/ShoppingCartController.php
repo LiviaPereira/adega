@@ -7,7 +7,9 @@ use Illuminate\Support\Facades\Auth;
 use App\Models\ShoppingCart;
 use App\Models\Product;
 use App\Models\Order;
+use App\Models\Delivery;
 use App\User;
+use App\Models\ShoppingCartItem;
 
 
 class ShoppingCartController extends Controller
@@ -17,6 +19,10 @@ class ShoppingCartController extends Controller
     public function index(Request $request) {
         $produtos = ShoppingCart::all();
         return view('shoppingCart',['produtos'=>$produtos]);
+    }
+
+    public function show() {
+        return view('pages.pedidofinalizado');
     }
 
     public function exibir(Request $request){
@@ -96,24 +102,45 @@ class ShoppingCartController extends Controller
 
         public function finalizarCompra(Request $request){        
             if($request->session()->has('carrinho')){            
-                $carrinho = $request->session()->get('carrinho');            
-                $user = Auth::user();            
-                $novaCompra = new Compra();
+                $carrinho = $request->session()->get('carrinho'); 
+       
+                $user = Auth::user();
 
-            $novaCompra->fk_idCliente = $user->id;
-            $novaCompra->save();            
-            
-            foreach($carrinho as $produto){
-                $novoItemCompra = new Item();
-                $novoItemCompra->nome_item = 'bug';
-                $novoItemCompra->valor_unitario = 10;
-                $novoItemCompra->numero_item = $produto["qty"];
-                $novoItemCompra->fk_idCompra = $novaCompra->idCompra;
-                $novoItemCompra->save();
-            }            
-            
-            $request->session ()->flush();
-            return redirect('/');           
+                $novoCarinho = new ShoppingCart;
+                $novoCarinho->total_price = 0;
+                $novoCarinho->users_id = $user->id;
+                $novoCarinho->save();
+                $IDnovoCarinho = $novoCarinho->id;
+
+                
+                $valorTotal = 0;
+                foreach($carrinho as $produto){
+                    $novoItemCompra = new ShoppingCartItem();
+                    $novoItemCompra->amount = $produto["qty"];
+                    $novoItemCompra->products_id = $produto["product_id"];
+                    $novoItemCompra->shopping_carts_id = $IDnovoCarinho;
+                    $novoItemCompra->save();
+                    $IDnovoItemCompra = $novoItemCompra->id;
+
+                    // $valorTotal = $valorTotal + 
+                    // dd($carrinho);
+                }
+
+                $endereco = Delivery::where('users_id', $user->id)->first();
+                
+                $novaCompra = new Order();
+                $novaCompra->users_id = $user->id;
+                $novaCompra->date = date("Y-m-d H:i:s");
+                $novaCompra->shoppingCarts_id = $IDnovoCarinho;
+                $novaCompra->deliveries_id = $endereco->id;
+                $novaCompra->payMethods_id = 1;
+                $novaCompra->status_id = 2;
+                $novaCompra->save();  
+                $IDnovaCompra = $novaCompra->id;
+          
+            // $request->session ()->flush();
+            $request->session()->forget('carrinho');
+            return redirect('/pedidoFinalizado');           
             } else {                
                 $carrinho = [];
                 $request->session()->put('carrinho', $carrinho);

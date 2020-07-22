@@ -30,5 +30,6 @@ class StatusSeeder extends Seeder
         DB::table('status')->insert([
             'state' => 'Entregue'
         ]);
+
     }
 }
