@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Product;
 
 class AdegaController extends Controller
 {
@@ -16,6 +17,22 @@ class AdegaController extends Controller
 
     public function shoppingCart(){
         return view('shoppingCart');
+    }
+
+
+
+
+    public function busca(Request $request){        
+        
+        $search = $request->search;
+
+        if($search == ""){
+            return redirect('/');
+        }
+
+        $mecanismo = Product::where('name', 'LIKE', '%'.$search.'%')->get();
+
+        return view('pages.busca',['list'=>$mecanismo]);
     }
 
 

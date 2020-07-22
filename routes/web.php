@@ -16,6 +16,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'IndexController@index');
 
+Route::get('/busca', 'AdegaController@busca');
+
 Route::get('/about', 'AdegaController@about');
 
 Route::get('/login', 'UsuariosController@loginView')->name('login');
@@ -42,7 +44,13 @@ Route::post('/panel/account/edit', 'PanelController@account_edit')->middleware('
 // ROTAS DO PAINEL DO USUÁRIO - ! fim !
 
 
-Route::get('/shoppingCart', 'AdegaController@shoppingCart');
+
+
+Route::get('/shoppingCart', 'carrinhoController@index');
+
+
+
+
 
 Route::post('/newsletter', 'NewsletterController@registerNewsletter');
 Route::get('/newsletter/{id}', 'NewsletterController@outNewsletter');

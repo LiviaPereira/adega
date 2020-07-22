@@ -25,8 +25,11 @@
                     </a>
                 </div>
                 <div class="header-input-box">
-                    <input type="text" name="search" placeholder="Procurar...">
-                    <button type="submit">BUSCAR</button>
+                    <form action="/busca">
+                        @csrf
+                        <input type="text" name="search" placeholder="Procurar...">
+                        <button type="submit">BUSCAR</button>
+                    </form>
                 </div>
 
                 <div>
@@ -108,8 +111,11 @@
                     </div>
                 </div>
                 <div class="header-search-mobile">
-                    <input type="text" name="search" placeholder="Procurar...">
-                    <button type="submit">BUSCAR</button>
+                    <form action="/busca">
+                        @csrf
+                        <input type="text" name="search" placeholder="Procurar...">
+                        <button type="submit">BUSCAR</button>
+                    </form>
                 </div>
             </div>
 

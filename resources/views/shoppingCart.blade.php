@@ -5,6 +5,8 @@
 <link rel="stylesheet" href="css/shoppingCart.css">
 
 <body class="body-cart">
+
+{{--  @dd($produtos)  --}}
     
     <div class="cart-container" >
         <div class= "cart-son">
@@ -37,11 +39,11 @@
                 </ul>
             </section>
         </div>
-        <a class="cart-links" href="#"><p class="cupom">Adicionar cupom de desconto</p></a>
+        {{--  <a class="cart-links" href="#"><p class="cupom">Adicionar cupom de desconto</p></a>  --}}
         <div class="checkout">
             <ul>
-                <li><p>Subtotal</p><p>R$ 155,00</p></li>
-                <li class="delivery"><p><img src="img/truck.png" alt="Caminhão"> Entrega</p><a class= "cart-links" href="#" >Calcular</a></li>
+                {{--  <li><p>Subtotal</p><p>R$ 155,00</p></li>  --}}
+                <li class="delivery"><p><img src="img/truck.png" alt="Caminhão"> Entrega Gratúita</p></li>
                 <li><p>Total</p><p>R$ 155,00</p></li>
                 <li><a class="cart-links fechar-pedido" href="#">FECHAR PEDIDO</a></li>
             </ul>

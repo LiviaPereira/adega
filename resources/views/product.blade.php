@@ -15,17 +15,17 @@
     </div>    
     <div class="valor">
         <h6>VALOR:</h6>
-        <h4>R$ {{$produto->sale_price}}</h4>
-        <br><br><a href="">OPÇÕES DE PARCELAMENTO</a>
+        <h4> R$ {{number_format($produto->sale_price, 2, ',', '.')}}</h4>
+        {{--  <br><br><a href="">OPÇÕES DE PARCELAMENTO</a>  --}}
         <hr>
     <div class="comprarb">
         <button>Comprar</button>
     </div>
-    <div class="cep">
+    {{--  <div class="cep">
         <label for=“calcf”>Calcular o valor do frete:</label><br>
         <input type=“text” name="calcf" id="calcf" placeholder=“00000-000” required>
         <button>Ok</button>
-    </div>
+    </div>  --}}
   </section>
 
   <section id="fichat">
