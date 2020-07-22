@@ -29,8 +29,8 @@
                 <article>
                     <p class="product-name">{{ $item->name }}</p>
                     <img class="img-produto" src="{{ url("$item->photo") }}">
-                    <p>R$ {{ $item->sale_price }}</p>
-                    <a class="btn" href="/product/{{ $item->id }}">COMPRAR</a>
+                    <p>R$ {{number_format($item->sale_price, 2, ',', '.')}}</p>
+                    <a class="btn" href="/product/{{ $item->id }}">Ver Mais</a>
                 </article>
             @endforeach
 

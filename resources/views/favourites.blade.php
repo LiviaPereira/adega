@@ -1,31 +1,16 @@
 @extends('templates.institucional')
 @section('content')
 
-
-{{-- PAGINA EM CONSTRUÇÃO --}}
-
     <link rel="stylesheet" href="{{ url('css/products.css') }}">
 
     <main id="produtos"> 
         <aside>
             <div>
                 <h2 id="Categorias">
-                    Produtos Favoritos
+                    Favoritos
                 </h2>
-
-                {{-- <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <ul>
-                        <li><a class="dropdown-item" id="Categoria" href="/products/wines">Favoritos</a></li>
-                       
-                    <ul>
-                </div> --}}
             </div>
-        </aside>
-
-
-  
-
-            @if ($produto)
+        </aside>         
 
             <section id="Catalogo">
 
@@ -33,24 +18,13 @@
                     <article>
                         <p class="product-name">{{ $item->name }}</p>
                         <img class="img-produto" src="{{ url("$item->photo") }}">
-                        <p>R$ {{ $item->sale_price }}</p>
+                        <p>R$ {{number_format($item->sale_price, 2, ',', '.')}}</p>
                         <a class="btn" href="/product/{{ $item->id }}">COMPRAR</a>
                     </article>
                 @endforeach
 
             </section>        
-        
-        @endif 
-            {{-- @foreach ($list as $item)
-                <article>
-                    <p class="product-name">{{ $item->name }}</p>
-                    <img class="img-produto" src="{{ url("$item->photo") }}">
-                    <p>R$ {{ $item->sale_price }}</p>
-                    <a class="btn" href="/product/id={{ $item->id }}">COMPRAR</a>
-                </article>
-            @endforeach --}}
 
-            {{-- {{ $list->links() }} --}}
     </main>
 
 @endsection

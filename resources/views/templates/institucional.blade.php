@@ -24,13 +24,13 @@
                         <img class="logo-desktop" src="{{ url('img/logo/logo_vinariam.png' )}}" alt="Logo do Site">
                     </a>
                 </div>
-                <div class="header-input-box">
                     <form action="/busca">
-                        @csrf
-                        <input type="text" name="search" placeholder="Procurar...">
-                        <button type="submit">BUSCAR</button>
+                        <div class="header-input-box">
+                                @csrf
+                                <input type="text" name="search" placeholder="Procurar...">
+                                <button type="submit">BUSCAR</button>
+                        </div>
                     </form>
-                </div>
 
                 <div>
                     <img class="header-img-user-mobile" src="{{ url('img/icons/user2.png') }}" alt="Acesso do Usuário">
@@ -58,12 +58,12 @@
                     </a>
                 </div>
                 <div class="header-shopping-cart">
-                        <a href="/shoppingCart">
+                        <a href="/exibir">
                             <img src="{{ url('img/icons/cart_mobile.png') }}" alt="Carrinho de Compras">
                         </a>
-                        <div>
+                        {{--  <div>
                             <p>0</p>    <!--  CONTADOR DO CARRINHO -->
-                        </div>
+                        </div>  --}}
                     </div>
 
 
@@ -101,22 +101,22 @@
                             </a>
                         </div>
                         <div class="header-shopping-cart">
-                            <a href="/shoppingCart">
+                            <a href="/exibir">
                                 <img src="{{ url('img/icons/cart_mobile.png') }}" alt="Carrinho de Compras">
                             </a>
-                            <div>
+                            {{--  <div>
                                 <p>0</p>
-                            </div>
+                            </div>  --}}
                         </div>
                     </div>
                 </div>
-                <div class="header-search-mobile">
                     <form action="/busca">
-                        @csrf
-                        <input type="text" name="search" placeholder="Procurar...">
-                        <button type="submit">BUSCAR</button>
+                        <div class="header-search-mobile">
+                                @csrf
+                                <input type="text" name="search" placeholder="Procurar...">
+                                <button type="submit">BUSCAR</button>
+                        </div>
                     </form>
-                </div>
             </div>
 
             <!-- FIM DO HEADER MOBILE -->
@@ -192,8 +192,8 @@
                     <li><a href="/products/beers">Cervejas</a></li>
                     <li><a href="/products/distilleds">Destilados</a></li>
                     <li><a href="/products/nonAlcoholics">Não Alcoólicos</a></li>
-                    <li><a href="/products/kits">Kit's</a></li>
-                    <li><a href="/products/promotions">Promoções</a></li>
+                    {{--  <li><a href="/products/kits">Kit's</a></li>  --}}
+                    {{--  <li><a href="/products/promotions">Promoções</a></li>  --}}
                 </ul>
             </div>
     
@@ -204,7 +204,7 @@
                     <li><a href="/panel">Minha Conta</a></li>
                     <li><a href="">Formas de Entrega</a></li>
                     <li><a href="">Troca e Devoluções</a></li>
-                    <li><a href="">FAQ</a></li>
+                    {{--  <li><a href="">FAQ</a></li>  --}}
                 </ul>
             </div>
     
@@ -222,7 +222,7 @@
                 <img class="logo" src="{{ url('img/logo/logo_vinariam.png') }}" alt="">
                 <p class="contacts">Telefone: (11) 91234-5678</p>
                 <p class="contacts">E-mail: contato@vinariam.com.br</p>
-                <p class="contacts">Endereço: Rua Sempre Verde, 742 - Springfield</p>
+                {{--  <p class="contacts">Endereço: Rua Sempre Verde, 742 - Springfield</p>  --}}
     
             </div>
     

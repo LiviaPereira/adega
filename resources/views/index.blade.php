@@ -40,7 +40,7 @@
                                 <p>{{ $wine->name }}</p> 
                                 <div class="imagem" style="background-image: url('{{ url("$wine->photo") }}')"> </div>
                                 <label><strong>R$ {{ number_format($wine->sale_price, 2, ',', '.') }} </strong></label>
-                                <button>Comprar</button> 
+                                <button><a href="/product/1">Ver Mais</a></button> 
                             @endif                                             
                         </div>        
                     @endforeach

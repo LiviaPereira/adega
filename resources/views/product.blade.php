@@ -2,7 +2,7 @@
 @section('content')
 
 <link rel="stylesheet" href="{{ url("css/product.css") }}">
-
+{{--  @dd($produto)  --}}
         <h3>{{$produto->name}}</h3>
   <section id="comprando">
     <div class="descricao">
@@ -19,7 +19,7 @@
         {{--  <br><br><a href="">OPÇÕES DE PARCELAMENTO</a>  --}}
         <hr>
     <div class="comprarb">
-        <button>Comprar</button>
+        <button><a href="/adicionar/{{$produto->id}}">Comprar</a></button>
     </div>
     {{--  <div class="cep">
         <label for=“calcf”>Calcular o valor do frete:</label><br>

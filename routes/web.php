@@ -46,7 +46,12 @@ Route::post('/panel/account/edit', 'PanelController@account_edit')->middleware('
 
 
 
-Route::get('/shoppingCart', 'carrinhoController@index');
+// Route::get('/shoppingCart', 'carrinhoController@index');
+Route::get('/adicionar/{id}', 'ShoppingCartController@adicionar');
+Route::get('/exibir', 'ShoppingCartController@exibir');
+Route::get('/remover/{id}', 'ShoppingCartController@remover');
+
+Route::get('/finalizarCompra', 'ShoppingCartController@finalizarCompra');
 
 
 
@@ -59,11 +64,11 @@ Route::get('/product/{id}', 'ProductController@showProduct');
 
 Route::get('/products/wines', 'ProductController@wineList');
 
-Route::get('/products/promotions', 'ProductController@promotionsList');
+// Route::get('/products/promotions', 'ProductController@promotionsList');
 
 Route::get('/products/beers', 'ProductController@beersList');
 
-Route::get('/products/kits', 'ProductController@kitsList');
+// Route::get('/products/kits', 'ProductController@kitsList');
 
 Route::get('/products/distilleds', 'ProductController@distilledsList');
 

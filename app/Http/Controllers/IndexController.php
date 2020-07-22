@@ -30,16 +30,6 @@ class IndexController extends Controller
                             ->where('amount', '>', 0)->where('categories_id', '=', 4)
                             ->get();
 
-
-        // select('name','sale_price')->where('featured', '=', 1)->get();
-
-        // $pedidos = User::select('orders.id as orders_id', 'date', 'state')
-        //                 ->where('users.id', $id)
-        //                 ->join('orders', 'users.id', '=', 'orders.users_id')
-        //                 ->join('status', 'status.id', '=', 'orders.status_id')
-        //                 ->orderBy('date', 'desc')
-        //                 ->get();
-        // dd();
           return view('index', compact('wines', 'beers', 'distillates', 'nonAlcoholics'));
      }
 

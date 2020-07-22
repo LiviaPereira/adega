@@ -1,4 +1,5 @@
 
+
 h3 {
     text-align: center;
     color: #6E0406
@@ -8,7 +9,7 @@ h3 {
      max-width: 100%;
      margin: auto;
      display: flex;
-     height: 500px;
+     height: 380px;
      justify-content: space-between;
  }
 
@@ -78,6 +79,13 @@ h3 {
      color: rgb(100, 100, 100);
      padding-top: 30px;
  }
+
+ .comprarb a {
+    color: white;
+    text-decoration: none;
+    font-size: 33px;
+    font-weight: bold;
+}
 
  .valor h4 {
      margin: 0px;

@@ -34,15 +34,15 @@
     background-color: #6E0406;
     border-radius: 20px;
     display: flex;
-    width: 66px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     margin: 0px 5px;
 }
 
 .header-shopping-cart img {
     width: 22px;
     height: 22px;
-    margin: 4px 6px;
+    margin: 7px 6px;
 }
 
 .header-shopping-cart div {

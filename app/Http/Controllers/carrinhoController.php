@@ -3,13 +3,15 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use Illuminate\Support\Facades\Auth;
 use App\Models\ShoppingCart;
+use App\Models\Product;
 
 
 class carrinhoController extends Controller
 {
 
+    // Função que exibe tudo no carrinho
     public function index(Request $request) {
         $produtos = ShoppingCart::all();
         return view('shoppingCart',['produtos'=>$produtos]);
@@ -24,22 +26,22 @@ class carrinhoController extends Controller
        foreach($carrinho as $item){           
             $produto = Product::find($item['product_id']);  
 
-            $item['nome_produto'] = $produto->nome_produto;
-            $item['imagens'] = $produto->imagens;
-            $item['produto_status'] = $produto->produto_status;
-            $item['preco_venda'] = $produto->preco_venda;
+            $item['name'] = $produto->name;
+            $item['photo'] = $produto->photo;
+            // $item['produto_status'] = $produto->produto_status;
+            $item['sale_price'] = $produto->sale_price;
             $produtos[] = $item;       
             }        
-            return view('carrinho',["produtos" => $produtos]);
+            return view('shoppingCart',["produtos" => $produtos]);
         } else 
         {
-            return view('carrinho',["produtos" => []]);
+            return view('shoppingCart',["produtos" => []]);
         }
         }
 
 
     public function adicionar(Request $request, $id){
-       // dd(Produto::find($id));            
+    //    dd(Product::find($id));            
        
        if(Product::find($id) == null) {
             return "produto nao existe";
@@ -53,7 +55,7 @@ class carrinhoController extends Controller
                     ]
                 ]);
                 
-                return redirect('/carrinho/exibir');
+                return redirect('/exibir');
             }            
             
             $carrinho = $request->session()->get("carrinho");
@@ -62,7 +64,7 @@ class carrinhoController extends Controller
             if(($key = array_search($id, array_column($carrinho, 'product_id')))!== false){                
                 $carrinho[$key]['qty']++;
                 $request->session()->put("carrinho",$carrinho);
-                return redirect('/carrinho/exibir');
+                return redirect('/exibir');
             }           
             
             $carrinho = $request->session()->get("carrinho");
@@ -72,7 +74,7 @@ class carrinhoController extends Controller
            ];           
            
            $request->session()->put("carrinho",$carrinho);
-           return redirect('/carrinho/exibir');
+           return redirect('/exibir');
     }
 
 
@@ -81,12 +83,12 @@ class carrinhoController extends Controller
         $carrinho = $request->session()->get("carrinho");        
         
         if($carrinho == null || count($carrinho) == 0){
-            return redirect('/carrinho/exibir');
+            return redirect('/exibir');
         }        //procurando o id dentro da array carrinho
         $key = array_search($id, array_column($carrinho, 'product_id'));       
-        unset($carrinho[$key]);        
+        unset($carrinho[$key]); 
         $request->session()->put("carrinho",$carrinho);        
-        return redirect('/carrinho/exibir');    
+        return redirect('/exibir');    
         }
 
 
@@ -109,11 +111,11 @@ class carrinhoController extends Controller
             }            
             
             $request->session ()->flush();
-            return redirect('principal');           
+            return redirect('/');           
             } else {                
                 $carrinho = [];
                 $request->session()->put('carrinho', $carrinho);
-                return redirect('/carrinho');           
+                return redirect('/shoppingCart');           
             }
         }
 }
