@@ -93,6 +93,26 @@ class ShoppingCartController extends Controller
     }
 
 
+    // Função para decrementar um Item do Carrinho de Compra
+    public function retirar(Request $request, $id){
+                
+                $carrinho = $request->session()->get("carrinho");
+                //>=0 || ==true
+    
+                if(($key = array_search($id, array_column($carrinho, 'product_id')))!== false){  
+
+                    $carrinho[$key]['qty']--;
+                    $request->session()->put("carrinho",$carrinho);
+                    return redirect('/exibir');
+                }           
+                
+               $request->session()->put("carrinho",$carrinho);
+               return redirect('/exibir');
+        }
+
+
+
+
     //Função para REMOVER um item do Carrinho de Compras
     public function remover(Request $request,$id){
         
@@ -124,7 +144,7 @@ class ShoppingCartController extends Controller
             
             $valorTotal = 0;
             foreach($carrinho as $produto){
-                $valorTotal += $produto["sale_price"];
+                $valorTotal += ($produto["sale_price"] * $produto["qty"]);
             }
 
             $novoCarinho = new ShoppingCart;            // cria um novo carrinho

@@ -30,13 +30,32 @@
                     </thead>
                     <tbody>
                         @foreach ($produtos as $item) 
+                        {{--  @dd($item);  --}}
                             <tr>
                                 <td> 
-                                    <img class="foto" src="{{$item['photo']}}" alt="Imagem do Produto">
-                                    <p class="product-name">{{ $item['name'] }}</p>
+                                    <a href="/product/{{$item['product_id']}}">
+                                        <img class="foto" src="{{$item['photo']}}" alt="Imagem do Produto">
+                                        <p class="product-name">{{ $item['name'] }}</p>
+                                    </a>
                                 </td>
                                 <td> <span>Preço<br></span> R$ {{number_format($item['sale_price'], 2, ',', '.')}} </td>
-                                <td> <span>Quantidade<br></span> {{$item['qty']}} </td>
+                                <td> <span>Quantidade<br></span>
+
+                                @if ($item['qty'] == 1)
+                                    <a href="/remover/{{$item['product_id']}}"><i class="fa fa-minus" aria-hidden="true"></i></a>
+                                        {{$item['qty']}}
+                                    <a href="/adicionar/{{$item['product_id']}}"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                                    
+                                @else
+                                    <a href="/retirar/{{$item['product_id']}}"><i class="fa fa-minus" aria-hidden="true"></i></a>
+                                        {{$item['qty']}}
+                                    <a href="/adicionar/{{$item['product_id']}}"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                                    
+                                @endif
+
+
+
+                                </td>
                                 <td> <span>Subtotal<br></span> R$ {{number_format($item['qty'] * $item['sale_price'], 2, ',', '.') }} </td>
                                 <td> <span>Remover<br></span><a class="cart-links" href="/remover/{{$item['product_id']}}"><i style="font-size:24px" class="fa">&#xf014;</i></a> </td>
                             </tr>

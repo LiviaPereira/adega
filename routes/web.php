@@ -57,6 +57,7 @@ Route::post('/panel/account/edit', 'PanelController@account_edit')->middleware('
 // ROTAS DO CARRINHOS DE COMPRAS - ! início !
 // Route::get('/shoppingCart', 'carrinhoController@index');
 Route::get('/adicionar/{id}', 'ShoppingCartController@adicionar');
+Route::get('/retirar/{id}', 'ShoppingCartController@retirar');
 Route::get('/exibir', 'ShoppingCartController@exibir');
 Route::get('/remover/{id}', 'ShoppingCartController@remover');
 Route::get('/finalizarCompra', 'ShoppingCartController@finalizarCompra')->middleware('auth');
