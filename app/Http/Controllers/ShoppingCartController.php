@@ -104,7 +104,10 @@ class ShoppingCartController extends Controller
         
         // Procurando o id dentro da array carrinho
         $key = array_search($id, array_column($carrinho, 'product_id'));
+
         unset($carrinho[$key]);
+        $carrinho = array_values($carrinho);
+
         $request->session()->put("carrinho",$carrinho);
 
         return redirect('/exibir');
