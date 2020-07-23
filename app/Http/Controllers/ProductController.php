@@ -22,6 +22,22 @@ class ProductController extends Controller
         return view('/favourites', compact('produto'));
     }
 
+    function removeFav(Request $request, $id){
+        $teste = DB::table('favourites')
+                    ->where('products_id', $id)
+                    ->delete();
+        return redirect('/favourites');
+    }
+
+    function insertFav(Request $request, $id){
+        $teste = DB::table('favourites')
+                    ->insert(
+                        [   'products_id' => $id,
+                            'users_id'    => auth()->user()->id
+                        ]);
+        return redirect('/favourites');
+    }
+
 
     public function wineList(){
         $list = Product::select()->where('categories_id', '=', 1)->paginate(9);

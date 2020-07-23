@@ -1,4 +1,7 @@
-
+.favourite {
+    width: 20px;
+    vertical-align: middle;
+}
 
 h3 {
     text-align: center;
@@ -78,6 +81,7 @@ h3 {
      font-size: 15px;
      color: rgb(100, 100, 100);
      padding-top: 30px;
+     text-decoration: none;
  }
 
  .comprarb a {
@@ -444,7 +448,9 @@ h3 {
     .valor {
         width: 100%;
         padding: 0px;
+        text-align: center;
     }
+
     .valor h6, .valor h4 {
         text-align: center;
     }

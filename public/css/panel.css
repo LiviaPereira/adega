@@ -1,3 +1,29 @@
+#empty {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+#empty h1 {
+    color: #6E0406;
+    /* border-bottom: #6Es0406 solid 1px; */
+}
+
+#empty p {
+    padding: 10px;
+    font-size: 0.9rem;
+}
+
+.info {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    border-left: 4px solid #721c24;
+    border-radius: 4px;
+}
+
+
 #panel {
     width: 90%;
     margin: 0 auto;
@@ -60,11 +86,15 @@
 
 .main-container p {
     margin: 0;
-    font-size: 0.75rem;
+    font-size: 0.95rem;
 }
 
 .main-container ul {
     font-size: 0.85rem;
+}
+
+.main-container li {
+    margin: 7px;
 }
 
 .address ul {
@@ -160,11 +190,11 @@
 
 
 
-
-
-
-
 @media (max-width: 767px) {
+
+    #empty {
+        width: 90%;
+    }
 
     #panel {
         width: 98%;

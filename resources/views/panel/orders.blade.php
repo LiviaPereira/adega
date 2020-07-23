@@ -18,6 +18,17 @@
                 </div>
 {{--  @dd($pedidos)  --}}
                 <div class="main-container">
+
+                @if (count($pedidos) === 0)
+
+                    <div id="empty">
+                        <p class="info">Você ainda não possuí pedidos!</p>
+                    </div>
+
+                @else
+
+                
+
                     <table class="table-mobile">
                         <thead>
                             <tr>
@@ -40,6 +51,7 @@
                                 @endforeach
                         </tbody>
                     </table>
+                    @endif
                 </div>        
     </section>
 

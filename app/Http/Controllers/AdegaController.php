@@ -32,7 +32,7 @@ class AdegaController extends Controller
 
         $mecanismo = Product::where('name', 'LIKE', '%'.$search.'%')->get();
 
-        return view('pages.busca',['list'=>$mecanismo]);
+        return view('pages.busca',['list'=>$mecanismo, 'pesquisa' => $search]);
     }
 
 
