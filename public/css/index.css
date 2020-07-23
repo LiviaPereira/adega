@@ -360,16 +360,16 @@ section div.box a img{
 
   } */
   
-  @media only screen and (max-width: 822px){
+  /* @media only screen and (max-width: 822px){
 
     div.titulos h1{
         font-size: 2.3rem;
     }
 
     
-  }
+  } */
 
-/* Extra small > 375px ==================================================================*/
+/* Extra small > 770px ==================================================================*/
 @media only screen and (max-width: 770px) { 
     
      div.banner{
@@ -407,7 +407,7 @@ section div.box a img{
 }
 
 /* Extra small > 375px ==================================================================*/
-@media only screen and (max-width: 570px) { 
+/* @media only screen and (max-width: 570px) { 
      
     div.titulos h1{
         font-size: 2.3rem;
@@ -427,7 +427,7 @@ section div.box a img{
        display: none;
      }  
 
-}
+} */
 
 
 
@@ -441,6 +441,9 @@ section div.box a img{
         background-size: cover;
     }
 
+    section.service {
+        display: none;
+    }
 
 @keyframes slide {
     0%, 30%{
@@ -482,7 +485,7 @@ section div.box a img{
 
 
     div.titulos h1{
-        font-size: 2.5rem;
+        font-size: 2rem;
         color: #6E0406;
         margin: 0 auto;
     }
@@ -537,6 +540,17 @@ section div.box a img{
         font-size: 18px;
         border-radius: 10px;
         margin: 0 auto;
+    }
+
+    .gallery-cell button{
+        padding: 3px;
+    }
+
+    .gallery-cell a img{
+        width: 7%;
+        position: absolute;
+        top: 50px;
+        right: 60px;
     }
 
     .flickity-page-dots {
