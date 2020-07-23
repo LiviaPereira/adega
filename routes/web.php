@@ -20,6 +20,8 @@ Route::get('/busca', 'AdegaController@busca');
 
 Route::get('/about', 'AdegaController@about');
 
+Route::get('/deliveryway', 'AdegaController@deliveryway');
+
 Route::get('/login', 'UsuariosController@loginView')->name('login');
 
 Route::post('/login', 'UsuariosController@login');

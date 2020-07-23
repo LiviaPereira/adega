@@ -1,0 +1,15 @@
+.deliveryway {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.deliveryway h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #320000;
+}
+
+.deliveryway p {
+    font-size: 1.1rem;
+}

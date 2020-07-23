@@ -19,11 +19,15 @@ class AdegaController extends Controller
         return view('shoppingCart');
     }
 
+    public function deliveryway(){
+        return view('deliveryway');
+    }
 
 
 
-    public function busca(Request $request){        
-        
+
+    public function busca(Request $request){
+
         $search = $request->search;
 
         if($search == ""){
