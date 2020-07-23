@@ -202,8 +202,8 @@
                     <li><p class="categories">Ajuda</p></li>
                     <li><a href="/about">Quem Somos</a></li>
                     <li><a href="/panel">Minha Conta</a></li>
-                    <li><a href="/deliveryway">Formas de Entrega</a></li>
-                    <li><a href="">Troca e Devoluções</a></li>
+                    <li><a href="/deliveryway">Política de Entrega</a></li>
+                    <li><a href="/returnOrder">Troca e Devoluções</a></li>
                     {{--  <li><a href="">FAQ</a></li>  --}}
                 </ul>
             </div>

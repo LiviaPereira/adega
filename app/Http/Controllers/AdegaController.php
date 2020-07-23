@@ -23,6 +23,11 @@ class AdegaController extends Controller
         return view('deliveryway');
     }
 
+    public function returnOrder()
+    {
+        return view('returnOrder');
+    }
+
 
 
 

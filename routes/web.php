@@ -22,6 +22,8 @@ Route::get('/about', 'AdegaController@about');
 
 Route::get('/deliveryway', 'AdegaController@deliveryway');
 
+Route::get('/returnOrder', 'AdegaController@returnOrder');
+
 Route::get('/login', 'UsuariosController@loginView')->name('login');
 
 Route::post('/login', 'UsuariosController@login');
