@@ -111,7 +111,7 @@
             <section>
 
                 <div class="titulos">
-                    <hr> <h1>Não alcoólicos</h1> <hr>
+                    <hr> <h1 = class="title" style="flex-basis: auto;">Não alcoólicos</h1> <hr>
                 </div>
 
                 <div class="box">

@@ -33,7 +33,7 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Vinho Português Branco CALAMARES Garrafa 750ml',
+            'name' => 'Vinho Português Branco',
             'description' => 'Fundada em 1870 na região dos vinhos verdes, a Aveleda é uma vinícola 100% familiar, dirigida hoje pela 5ª geração da família Guedes. Líder mundial na produção de vinho verde, a Aveleda é especialista na produção de vinhos brancos, especialmente com a nobre uva alvarinho. seus vinhos estão presente em mais de 100 países.',
             'cost_price' => '10.00',
             'sale_price' => '37.50',
@@ -50,7 +50,7 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Vinho Português Rosé MATEUS Garrafa 750ml ',
+            'name' => 'Vinho Português Rosé',
             'description' => 'Vinho Mateus',
             'cost_price' => '10.00',
             'sale_price' => '122.00',
@@ -67,7 +67,7 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Vinha Casal Mendes Verde 750ml',
+            'name' => 'Vinha Casal Mendes Verde',
             'description' => 'Um legítimo Vinho Verde português, original da região de mesmo nome. Este exemplar traz uma combinação entre as variedades de uva Azal, Perdeña, Trajadura e Loureiro, resultando em um vinho de coloração amarelo-palha com reflexos esverdeados. Seu aroma apresenta-se notavelmente frutado com notas cítricas e florais, seguido por um paladar ligeiramente acídulo, o que lhe confere um frescor com final de boca suave. Algumas combinações de harmonização com este vinho ficam a cargo de mariscos, carnes brancas, saladas leves ou massas',
             'cost_price' => '10.00',
             'sale_price' => '35.00',
@@ -118,7 +118,7 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Vinho Português Branco CALAMARES Garrafa 750ml',
+            'name' => 'Vinho Português Branco',
             'description' => 'Vinho português branco, elaborado com uvas delicadas. Possui aspecto límpido, amarelo muito claro, quase transparente, com leves raios esverdeados, e aroma muito frutado. Vinho verde branco meio seco, jovem, fresco, suave e frutado. Aconselhamos ainda como complemento de mariscos e frutos do mar, e todos os tipos de refeições de peixe. ',
             'cost_price' => '10.00',
             'sale_price' => '46.99',
@@ -135,7 +135,7 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Vinho Português Branco Casal Garcia Vinho Verde Garrafa 750ml',
+            'name' => 'Vinho Português Branco',
             'description' => 'Fundada em 1870 na região dos vinhos verdes, a Aveleda é uma vinícola 100% familiar, dirigida hoje pela 5ª geração da família Guedes. Líder mundial na produção de vinho verde, a Aveleda é especialista na produção de vinhos brancos, especialmente com a nobre uva alvarinho. seus vinhos estão presente em mais de 100 países.',
             'cost_price' => '10.00',
             'sale_price' => '37.50',
@@ -169,7 +169,7 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Vinha Casal Mendes Verde 750ml',
+            'name' => 'Vinha Casal Mendes Verde',
             'description' => 'Um legítimo Vinho Verde português, original da região de mesmo nome. Este exemplar traz uma combinação entre as variedades de uva Azal, Perdeña, Trajadura e Loureiro, resultando em um vinho de coloração amarelo-palha com reflexos esverdeados. Seu aroma apresenta-se notavelmente frutado com notas cítricas e florais, seguido por um paladar ligeiramente acídulo, o que lhe confere um frescor com final de boca suave. Algumas combinações de harmonização com este vinho ficam a cargo de mariscos, carnes brancas, saladas leves ou massas',
             'cost_price' => '10.00',
             'sale_price' => '35.00',
@@ -220,7 +220,7 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Vinho Português Branco CALAMARES Garrafa 750ml',
+            'name' => 'Vinho Português Branco',
             'description' => 'Vinho português branco, elaborado com uvas delicadas. Possui aspecto límpido, amarelo muito claro, quase transparente, com leves raios esverdeados, e aroma muito frutado. Vinho verde branco meio seco, jovem, fresco, suave e frutado. Aconselhamos ainda como complemento de mariscos e frutos do mar, e todos os tipos de refeições de peixe. ',
             'cost_price' => '10.00',
             'sale_price' => '46.99',
@@ -237,7 +237,7 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Vinho Português Branco Casal Garcia Vinho Verde Garrafa 750ml',
+            'name' => 'Vinho Português Branco',
             'description' => 'Fundada em 1870 na região dos vinhos verdes, a Aveleda é uma vinícola 100% familiar, dirigida hoje pela 5ª geração da família Guedes. Líder mundial na produção de vinho verde, a Aveleda é especialista na produção de vinhos brancos, especialmente com a nobre uva alvarinho. seus vinhos estão presente em mais de 100 países.',
             'cost_price' => '10.00',
             'sale_price' => '37.50',
@@ -254,7 +254,7 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Vinho Português Rosé MATEUS Garrafa 750ml ',
+            'name' => 'Vinho Português Rosé',
             'description' => 'Vinho Mateus',
             'cost_price' => '10.00',
             'sale_price' => '122.00',
@@ -271,7 +271,7 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Vinha Casal Mendes Verde 750ml',
+            'name' => 'Vinha Casal Mendes Verde',
             'description' => 'Um legítimo Vinho Verde português, original da região de mesmo nome. Este exemplar traz uma combinação entre as variedades de uva Azal, Perdeña, Trajadura e Loureiro, resultando em um vinho de coloração amarelo-palha com reflexos esverdeados. Seu aroma apresenta-se notavelmente frutado com notas cítricas e florais, seguido por um paladar ligeiramente acídulo, o que lhe confere um frescor com final de boca suave. Algumas combinações de harmonização com este vinho ficam a cargo de mariscos, carnes brancas, saladas leves ou massas',
             'cost_price' => '10.00',
             'sale_price' => '35.00',
@@ -322,7 +322,7 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Vinho Português Branco CALAMARES Garrafa 750ml',
+            'name' => 'Vinho Português Branco CALAMARES',
             'description' => 'Vinho português branco, elaborado com uvas delicadas. Possui aspecto límpido, amarelo muito claro, quase transparente, com leves raios esverdeados, e aroma muito frutado. Vinho verde branco meio seco, jovem, fresco, suave e frutado. Aconselhamos ainda como complemento de mariscos e frutos do mar, e todos os tipos de refeições de peixe. ',
             'cost_price' => '10.00',
             'sale_price' => '46.99',
@@ -339,7 +339,7 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Vinho Português Branco Casal Garcia Vinho Verde Garrafa 750ml',
+            'name' => 'Vinho Português Branco',
             'description' => 'Fundada em 1870 na região dos vinhos verdes, a Aveleda é uma vinícola 100% familiar, dirigida hoje pela 5ª geração da família Guedes. Líder mundial na produção de vinho verde, a Aveleda é especialista na produção de vinhos brancos, especialmente com a nobre uva alvarinho. seus vinhos estão presente em mais de 100 países.',
             'cost_price' => '10.00',
             'sale_price' => '37.50',
@@ -356,7 +356,7 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Vinho Português Rosé MATEUS Garrafa 750ml ',
+            'name' => 'Vinho Português Rosé',
             'description' => 'Vinho Mateus',
             'cost_price' => '10.00',
             'sale_price' => '122.00',
@@ -373,7 +373,7 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Vinha Casal Mendes Verde 750ml',
+            'name' => 'Vinha Casal Mendes Verde',
             'description' => 'Um legítimo Vinho Verde português, original da região de mesmo nome. Este exemplar traz uma combinação entre as variedades de uva Azal, Perdeña, Trajadura e Loureiro, resultando em um vinho de coloração amarelo-palha com reflexos esverdeados. Seu aroma apresenta-se notavelmente frutado com notas cítricas e florais, seguido por um paladar ligeiramente acídulo, o que lhe confere um frescor com final de boca suave. Algumas combinações de harmonização com este vinho ficam a cargo de mariscos, carnes brancas, saladas leves ou massas',
             'cost_price' => '10.00',
             'sale_price' => '35.00',
