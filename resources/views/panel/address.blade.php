@@ -53,18 +53,12 @@
                                 <label>Cidade: </label>
                                 <p>{{ $endereco->city }}</p>
                             </div>
-                            <ul>
-                                {{-- <li> {{ $usuario->name }} {{ $usuario->surname }}</li> --}}
-                                {{-- <li> {{ $endereco->address }}, Nº {{ $endereco->number }}</li> --}}
-                                {{-- <li> {{ $endereco->complement }} </li> --}}
-                                {{-- <li> {{$endereco->zip_code }} </li> --}}
-                                {{-- <li> {{$endereco->district }} </li> --}}
-                                {{-- <li> {{$endereco->city }} </li> --}}
-                            </ul>
+
                             <p><a href="/panel/address/edit">Editar Endereço</a></p>
                         @else
-                            <h5>Você ainda não possui um endereço cadastrado!</h5>
-                            <p><a href="/panel/address/edit">Cadastrar Endereço</a></p>
+                            <div id="empty">
+                                <p class="info">Você ainda não possui um endereço cadastrado! <a href="/panel/address/edit">Clique para Cadastrar</a></p>
+                            </div>
                         @endif
 
                     </div>

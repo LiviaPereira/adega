@@ -14,6 +14,9 @@
         <img class="foto" src="{{url($produto->photo)}}" alt="Imagem produto">
     </div>    
     <div class="valor">
+        <a href="/favoritar/{{$produto->id}}"><img class="favourite" src="{{url('img/icons/favorite.png')}}" alt="Meus Favoritos"> Adicionar aos favoritos</a>
+        <br>
+        <br>
         <h6>VALOR:</h6>
         <h4> R$ {{number_format($produto->sale_price, 2, ',', '.')}}</h4>
 

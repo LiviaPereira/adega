@@ -16,7 +16,8 @@
                         </ul>
                     </nav>
                 </div>
-{{--  @dd($pedido)  --}}
+{{--  @dd($produtos)  --}}
+
 
 @foreach ($pedido as $item)
 @endforeach
@@ -24,10 +25,12 @@
 
                 <div class="main-container">
 
-                <p>O pedido <strong>#678952</strong> foi realizado em <strong>{{$item->date}}</strong> e atualmente consta como <strong>{{$item->state}}</strong>.</p>
+                <p>O pedido <strong>#{{Request::segment(3)}}</strong> foi realizado em <strong>{{ \Carbon\Carbon::parse($item->date)->format('d/m/Y')}} às {{ \Carbon\Carbon::parse($item->date)->format('h:i:s')}}</strong> e atualmente seu status é: <strong>{{$item->state}}</strong>.</p>
 
                 <h4>Detalhes do Pedido</h4>
-                <p>Forma de pagamento: {{$item->method}}</p>
+                <p>Frete: Gratúito</p>
+                <p>Método de pagamento: {{$item->method}}</p>
+                <p>Total: R$ {{number_format($item->total_price, 2, ',', '.')}} </p>
 
                 <h4>Endereço de Entrega</h4>
                 <p>Nome</p>

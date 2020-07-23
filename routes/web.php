@@ -20,6 +20,10 @@ Route::get('/busca', 'AdegaController@busca');
 
 Route::get('/about', 'AdegaController@about');
 
+Route::get('/deliveryway', 'AdegaController@deliveryway');
+
+Route::get('/returnOrder', 'AdegaController@returnOrder');
+
 Route::get('/login', 'UsuariosController@loginView')->name('login');
 
 Route::post('/login', 'UsuariosController@login');
@@ -30,7 +34,13 @@ Route::get('/register', 'UsuariosController@registerView');
 
 Route::post('/register', 'UsuariosController@store');
 
+
+// ROTAS DO PAINEL DOS FAVORITOS - ! início !
 Route::get('/favourites', 'ProductController@favouritesView')->middleware('auth');
+Route::get('/remove/{id}', 'ProductController@removeFav')->middleware('auth');
+Route::get('/favoritar/{id}', 'ProductController@insertFav')->middleware('auth');
+// ROTAS DO PAINEL DOS FAVORITOS - ! fim !
+
 
 // ROTAS DO PAINEL DO USUÁRIO - ! início !
 Route::get('/panel', 'PanelController@panel')->middleware('auth');
@@ -44,23 +54,22 @@ Route::post('/panel/account/edit', 'PanelController@account_edit')->middleware('
 // ROTAS DO PAINEL DO USUÁRIO - ! fim !
 
 
-
-
+// ROTAS DO CARRINHOS DE COMPRAS - ! início !
 // Route::get('/shoppingCart', 'carrinhoController@index');
 Route::get('/adicionar/{id}', 'ShoppingCartController@adicionar');
 Route::get('/exibir', 'ShoppingCartController@exibir');
 Route::get('/remover/{id}', 'ShoppingCartController@remover');
-
 Route::get('/finalizarCompra', 'ShoppingCartController@finalizarCompra')->middleware('auth');
 Route::get('/pedidoFinalizado', 'ShoppingCartController@show')->middleware('auth');
-
-
+// ROTAS DO CARRINHOS DE COMPRAS - ! fim !
 
 
 Route::post('/newsletter', 'NewsletterController@registerNewsletter');
 Route::get('/newsletter/{id}', 'NewsletterController@outNewsletter');
 
 Route::get('/product/{id}', 'ProductController@showProduct');
+
+
 
 Route::get('/products/wines', 'ProductController@wineList');
 

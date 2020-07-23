@@ -63,7 +63,7 @@
 
     <div class="empty-car">
         <h1>Carrinho</h1>
-        <p class="info">Seu carrinho está vazio</p>
+        <p class="info">Seu carrinho está vazio.</p>
         <a href="/"><img src="{{url('img/empty-cart.jpg')}}" alt="Imagem carrinho vazio"></a>
     </div>
     

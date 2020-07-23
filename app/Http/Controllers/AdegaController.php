@@ -19,11 +19,20 @@ class AdegaController extends Controller
         return view('shoppingCart');
     }
 
+    public function deliveryway(){
+        return view('deliveryway');
+    }
+
+    public function returnOrder()
+    {
+        return view('returnOrder');
+    }
 
 
 
-    public function busca(Request $request){        
-        
+
+    public function busca(Request $request){
+
         $search = $request->search;
 
         if($search == ""){
@@ -32,7 +41,7 @@ class AdegaController extends Controller
 
         $mecanismo = Product::where('name', 'LIKE', '%'.$search.'%')->get();
 
-        return view('pages.busca',['list'=>$mecanismo]);
+        return view('pages.busca',['list'=>$mecanismo, 'pesquisa' => $search]);
     }
 
 

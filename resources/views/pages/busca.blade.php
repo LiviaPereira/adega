@@ -4,27 +4,39 @@
     <link rel="stylesheet" href="{{ url('css/products.css') }}">
 
     <main id="produtos"> 
-        <aside>
-            <div>
-                <h2 id="Categorias">
-                    Busca
-                </h2>
-            </div>
-        </aside>
+
+    @if (count($list) === 0)
+
+        <div class="empty-fav">
+            <h1>Resultados da pesquisa por: "{{$pesquisa}}"</h1>
+            <p class="info">Nenhum produto foi encontrado para a sua seleção.</p>
+        </div>
+
+    @else
+
+            <aside>
+                <div>
+                    <h2 id="Categorias">
+                        Busca
+                    </h2>
+                </div>
+            </aside>
 
 
-        <section id="Catalogo">
+            <section id="Catalogo">
 
-            @foreach ($list as $item)
-                <article>
-                    <p class="product-name">{{ $item->name }}</p>
-                    <img class="img-produto" src="{{ url("$item->photo") }}">
-                    <p>R$ {{number_format($item->sale_price, 2, ',', '.')}}</p>
-                   <a class="btn" href="/product/{{ $item->id }}">COMPRAR</a>
-                </article>
-            @endforeach
+        @foreach ($list as $item)
+                    <article>
+                        <p class="product-name">{{ $item->name }}</p>
+                        <img class="img-produto" src="{{ url("$item->photo") }}">
+                        <p>R$ {{number_format($item->sale_price, 2, ',', '.')}}</p>
+                    <a class="btn" href="/product/{{ $item->id }}">Ver Mais</a>
+                    </article>
+        @endforeach
+            </section>
 
-        </section>
+    @endif
+
     </main>
 
 @endsection
