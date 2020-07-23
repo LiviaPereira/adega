@@ -50,6 +50,10 @@ class ShoppingCartController extends Controller
     // Função para adicionar mais Itens ao Carrinho de Compra
     public function adicionar(Request $request, $id){
     //    dd(Product::find($id));
+
+       $produto = Product::find($id);
+       $valor = $produto->sale_price;
+    //    dd($produto);
        
        if(Product::find($id) == null) {
             return "produto nao existe";
@@ -59,6 +63,7 @@ class ShoppingCartController extends Controller
             $request->session()->put('carrinho', [
                     [
                         'product_id'     => $id,
+                        'sale_price'     => $valor,
                         'qty'             => 1,
                     ]
                 ]);
@@ -78,9 +83,11 @@ class ShoppingCartController extends Controller
             $carrinho = $request->session()->get("carrinho");
            $carrinho[]= [
                "product_id" => $id,
+               'sale_price'     => $valor,
                "qty" => 1
            ];
            
+        //    dd($carrinho);
            $request->session()->put("carrinho",$carrinho);
            return redirect('/exibir');
     }
@@ -111,15 +118,19 @@ class ShoppingCartController extends Controller
             $carrinho = $request->session()->get('carrinho'); 
        
             $user = Auth::user();                   // captura o usuário logado para iniciar o checkout
+            
+            $valorTotal = 0;
+            foreach($carrinho as $produto){
+                $valorTotal += $produto["sale_price"];
+            }
 
-            $novoCarinho = new ShoppingCart;        // cria um novo carrinho
-            $novoCarinho->total_price = 0;          // valor total inicial como 0,00
-            $novoCarinho->users_id = $user->id;     // define o usuário dono do carrinho
-            $novoCarinho->save();                   // grava as informações no Banco
-            $IDnovoCarinho = $novoCarinho->id;      // captura o ID das informações gravadas do Novo Carrinho
+            $novoCarinho = new ShoppingCart;            // cria um novo carrinho
+            $novoCarinho->total_price = $valorTotal;    // valor total dos produtos
+            $novoCarinho->users_id = $user->id;         // define o usuário dono do carrinho
+            $novoCarinho->save();                       // grava as informações no Banco
+            $IDnovoCarinho = $novoCarinho->id;          // captura o ID das informações gravadas do Novo Carrinho
 
                 
-            $valorTotal = 0;
             foreach($carrinho as $produto){                                 // "abre" o cookie "carrinho"
                 $novoItemCompra = new ShoppingCartItem();                   // cria um novo Item (que irá dentro de carrinho)
                 $novoItemCompra->amount = $produto["qty"];                  // define a quantidade dos itens de acordo com o array de carrinho ["qty"]
@@ -128,12 +139,14 @@ class ShoppingCartController extends Controller
                 $novoItemCompra->save();                                    // grava as informações no Banco
                 $IDnovoItemCompra = $novoItemCompra->id;                    // captura o ID das informações gravadas do Novo Item de Carrinho
 
-                $preco = Product::find($produto["product_id"])->sale_price; // capturar valor de venda do produto (para calcular o total)
-                // dd($preco);
             }
 
             $endereco = Delivery::where('users_id', $user->id)->first();    // captura e armazena o endereço do usuário correspondente
-                
+
+            if($endereco == null){                                          // se o usuário ainda não tiver um endereço cadastrado, deve cadastrar
+                return redirect('/panel/address');
+            }
+
             $novoPedido = new Order();                                      // cria um novo pedido
             $novoPedido->users_id = $user->id;                              // define o usuário dono do pedido
             $novoPedido->date = date("Y-m-d H:i:s");                        // define data/hora do pedido
@@ -148,9 +161,9 @@ class ShoppingCartController extends Controller
 
             $request->session()->forget('carrinho');    // limpa itens do carrinho
 
-            return redirect('/pedidoFinalizado');
+            return redirect('/pedidoFinalizado');       // encaminha para tela de pedido finalizado
 
-        } else {           
+        } else {           // senão: carrinho é vazio? cria o array de carrinho e sua sessão, e redireciona
 
             $carrinho = [];
             $request->session()->put('carrinho', $carrinho);
