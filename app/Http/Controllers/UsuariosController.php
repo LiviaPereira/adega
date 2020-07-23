@@ -39,7 +39,14 @@ class UsuariosController extends Controller
         $senha = $request->senha;
 
         if(Auth::attempt(['email' => $email,'password' => $senha])) {
-            return redirect('/');
+
+            // definir a variável de sessão "url.intended" para redirecionar  a url anterior ao login
+            if(!session()->has('url.intended')){
+                session(['url.intended' => url()->previous()]);
+            } 
+
+            return redirect()->intended();
+
         } else {
             return redirect('/login?error');
         }
