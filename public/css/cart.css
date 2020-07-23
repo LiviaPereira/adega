@@ -1,0 +1,201 @@
+.empty-car {
+    width: 60%;
+    /* height: 500px; */
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.empty-car h1 {
+    color: #6E0406;
+    /* border-bottom: #6Es0406 solid 1px; */
+}
+
+.empty-car p {
+    padding: 10px;
+    font-size: 13px;
+}
+
+.info {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    border-left: 4px solid #721c24;
+    border-radius: 4px;
+}
+
+.foto {
+    height: 130px;
+}
+
+
+#panel {
+    width: 80%;
+    margin: 20px auto;
+}
+
+#panel h1 {
+    text-align: center;
+}
+
+#panel button {
+    /* width: 140px; */
+    border: 1px solid #FFF;
+    background-color: #320000;
+    color: #FFFFFF;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.main-container p {
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+.main-container ul {
+    font-size: 0.85rem;
+}
+
+.main-container li {
+    margin: 7px;
+}
+
+/* .address ul {
+    list-style-type: none;
+} */
+
+
+
+
+
+.main-container {
+    /* border: 1px solid #aaa; */
+    padding: 10px;
+    /* border-radius: 20px; */
+    /* min-height: 350px; */
+}
+
+.main-container table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.main-container tr {
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+.main-container thead {
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.main-container thead td {
+    /* border: 1px solid #ccc; */
+    padding: 7px;
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.main-container tbody td {
+    /* border: 1px solid #ccc; */
+    padding: 10px;
+    margin: 0;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.main-container span {
+    display: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+
+.checkout ul{
+    list-style: none;
+}
+
+#comprarb button {
+    background-color: #6f9000;
+
+    border-style: none;
+    width: 250px;
+    height: 65px;
+
+    color: white;
+}
+
+#comprarb a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.inferior {
+    display: flex;
+    justify-content: flex-end;
+    margin: 40px 0px;
+}
+
+.fechar td{
+    width: 120px;
+}
+
+.fechar .cel-1 td{
+    background-color: violet;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+
+    .inferior {
+        justify-content: center;
+    }
+    
+    .empty-car img {
+        display: none;
+    }
+
+    .cart-descricao{
+        display: none;
+    }
+
+    #panel {
+        width: 98%;
+    }
+
+    .main-container {
+        padding: 5px;
+    }
+    .main-container span {
+        display: block;
+    }
+    .main-container tbody td {
+        padding: 10px;
+    }
+    .table-mobile thead {
+      display: none;
+    }
+    .table-mobile td:not(:first-child) {
+      display: block;
+    }
+  }
