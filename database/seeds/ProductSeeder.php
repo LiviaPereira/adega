@@ -16,7 +16,7 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Tannat',
+            'name' => 'Vinho Tannat seco 750ml',
             'description' => 'Tannat é uma uva tinta da família da Vitis vinifera originária do sul da França. É usualmente utilizada em assemblage com merlot, para suavizar o vinho. É a grande uva adotada pelo Uruguai, que possui uma extensa área de vinhedos dessa casta.',
             'cost_price' => '10.00',
             'sale_price' => '46.99',
@@ -33,7 +33,11 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
+<<<<<<< HEAD
+            'name' => 'Vinho Branco Casal Garcia Vinho Verde 750ml',
+=======
             'name' => 'Vinho Português Branco',
+>>>>>>> 75c07b906e34e53ebbdc376ba16f7601ac120d71
             'description' => 'Fundada em 1870 na região dos vinhos verdes, a Aveleda é uma vinícola 100% familiar, dirigida hoje pela 5ª geração da família Guedes. Líder mundial na produção de vinho verde, a Aveleda é especialista na produção de vinhos brancos, especialmente com a nobre uva alvarinho. seus vinhos estão presente em mais de 100 países.',
             'cost_price' => '10.00',
             'sale_price' => '37.50',
@@ -50,8 +54,13 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
+<<<<<<< HEAD
+            'name' => 'Vinho Português Rosé MATEUS 750ml ',
+            'description' => 'MATEUS ROSÉ é um vinho leve, fresco, jovem e ligeiramente «pétillant». A sua qualidade, extrema versatilidade e estilo consistente tornam-o o vinho ideal para acompanhar os bons momentos da vida. É um vinho rosé de cor muito apelativa e brilhante. Globalmente, é um vinho fresco e sedutor com boa intensidade aromática e toda a jovialidade dos vinhos jovens. Na boca, é um vinho muito equilibrado e tentador, brilhantemente complementado por um final suave e ligeiramente pétillant. ',
+=======
             'name' => 'Vinho Português Rosé',
             'description' => 'Vinho Mateus',
+>>>>>>> 75c07b906e34e53ebbdc376ba16f7601ac120d71
             'cost_price' => '10.00',
             'sale_price' => '122.00',
             'discount' => '0.00',
@@ -101,7 +110,7 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Tannat',
+            'name' => 'Vinho Tannat seco 750ml',
             'description' => 'Tannat é uma uva tinta da família da Vitis vinifera originária do sul da França. É usualmente utilizada em assemblage com merlot, para suavizar o vinho. É a grande uva adotada pelo Uruguai, que possui uma extensa área de vinhedos dessa casta.',
             'cost_price' => '10.00',
             'sale_price' => '34.00',
@@ -118,7 +127,11 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
+<<<<<<< HEAD
+            'name' => 'Vinho Branco CALAMARES 750ml',
+=======
             'name' => 'Vinho Português Branco',
+>>>>>>> 75c07b906e34e53ebbdc376ba16f7601ac120d71
             'description' => 'Vinho português branco, elaborado com uvas delicadas. Possui aspecto límpido, amarelo muito claro, quase transparente, com leves raios esverdeados, e aroma muito frutado. Vinho verde branco meio seco, jovem, fresco, suave e frutado. Aconselhamos ainda como complemento de mariscos e frutos do mar, e todos os tipos de refeições de peixe. ',
             'cost_price' => '10.00',
             'sale_price' => '46.99',
@@ -135,7 +148,11 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
+<<<<<<< HEAD
+            'name' => 'Vinho Casal Garcia Vinho Verde 750ml',
+=======
             'name' => 'Vinho Português Branco',
+>>>>>>> 75c07b906e34e53ebbdc376ba16f7601ac120d71
             'description' => 'Fundada em 1870 na região dos vinhos verdes, a Aveleda é uma vinícola 100% familiar, dirigida hoje pela 5ª geração da família Guedes. Líder mundial na produção de vinho verde, a Aveleda é especialista na produção de vinhos brancos, especialmente com a nobre uva alvarinho. seus vinhos estão presente em mais de 100 países.',
             'cost_price' => '10.00',
             'sale_price' => '37.50',
@@ -153,7 +170,7 @@ class ProductSeeder extends Seeder
         DB::table('products')->insert([
             'available' => '1',
             'name' => 'Vinho Português Rosé MATEUS Garrafa 750ml ',
-            'description' => 'Vinho Mateus',
+            'description' => 'MATEUS ROSÉ é um vinho leve, fresco, jovem e ligeiramente «pétillant». A sua qualidade, extrema versatilidade e estilo consistente tornam-o o vinho ideal para acompanhar os bons momentos da vida. É um vinho rosé de cor muito apelativa e brilhante. Globalmente, é um vinho fresco e sedutor com boa intensidade aromática e toda a jovialidade dos vinhos jovens. Na boca, é um vinho muito equilibrado e tentador, brilhantemente complementado por um final suave e ligeiramente pétillant. ',
             'cost_price' => '10.00',
             'sale_price' => '122.00',
             'discount' => '0.00',
@@ -203,7 +220,7 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Tannat',
+            'name' => 'Vinho Tannat seco 750ml',
             'description' => 'Tannat é uma uva tinta da família da Vitis vinifera originária do sul da França. É usualmente utilizada em assemblage com merlot, para suavizar o vinho. É a grande uva adotada pelo Uruguai, que possui uma extensa área de vinhedos dessa casta.',
             'cost_price' => '10.00',
             'sale_price' => '34.00',
@@ -220,7 +237,11 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
+<<<<<<< HEAD
+            'name' => 'Vinho Português CALAMARES Garrafa 750ml',
+=======
             'name' => 'Vinho Português Branco',
+>>>>>>> 75c07b906e34e53ebbdc376ba16f7601ac120d71
             'description' => 'Vinho português branco, elaborado com uvas delicadas. Possui aspecto límpido, amarelo muito claro, quase transparente, com leves raios esverdeados, e aroma muito frutado. Vinho verde branco meio seco, jovem, fresco, suave e frutado. Aconselhamos ainda como complemento de mariscos e frutos do mar, e todos os tipos de refeições de peixe. ',
             'cost_price' => '10.00',
             'sale_price' => '46.99',
@@ -237,7 +258,11 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
+<<<<<<< HEAD
+            'name' => 'Vinho Branco Casal Garcia Vinho Verde 750ml',
+=======
             'name' => 'Vinho Português Branco',
+>>>>>>> 75c07b906e34e53ebbdc376ba16f7601ac120d71
             'description' => 'Fundada em 1870 na região dos vinhos verdes, a Aveleda é uma vinícola 100% familiar, dirigida hoje pela 5ª geração da família Guedes. Líder mundial na produção de vinho verde, a Aveleda é especialista na produção de vinhos brancos, especialmente com a nobre uva alvarinho. seus vinhos estão presente em mais de 100 países.',
             'cost_price' => '10.00',
             'sale_price' => '37.50',
@@ -254,8 +279,13 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
+<<<<<<< HEAD
+            'name' => 'Vinho Português Rosé MATEUS Garrafa 750ml ',
+            'description' => 'MATEUS ROSÉ é um vinho leve, fresco, jovem e ligeiramente «pétillant». A sua qualidade, extrema versatilidade e estilo consistente tornam-o o vinho ideal para acompanhar os bons momentos da vida. É um vinho rosé de cor muito apelativa e brilhante. Globalmente, é um vinho fresco e sedutor com boa intensidade aromática e toda a jovialidade dos vinhos jovens. Na boca, é um vinho muito equilibrado e tentador, brilhantemente complementado por um final suave e ligeiramente pétillant. ',
+=======
             'name' => 'Vinho Português Rosé',
             'description' => 'Vinho Mateus',
+>>>>>>> 75c07b906e34e53ebbdc376ba16f7601ac120d71
             'cost_price' => '10.00',
             'sale_price' => '122.00',
             'discount' => '0.00',
@@ -305,7 +335,7 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Tannat',
+            'name' => 'Vinho Tannat 750ml',
             'description' => 'Tannat é uma uva tinta da família da Vitis vinifera originária do sul da França. É usualmente utilizada em assemblage com merlot, para suavizar o vinho. É a grande uva adotada pelo Uruguai, que possui uma extensa área de vinhedos dessa casta.',
             'cost_price' => '10.00',
             'sale_price' => '34.00',
@@ -322,7 +352,11 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
+<<<<<<< HEAD
+            'name' => 'Vinho Português CALAMARES Garrafa 750ml',
+=======
             'name' => 'Vinho Português Branco CALAMARES',
+>>>>>>> 75c07b906e34e53ebbdc376ba16f7601ac120d71
             'description' => 'Vinho português branco, elaborado com uvas delicadas. Possui aspecto límpido, amarelo muito claro, quase transparente, com leves raios esverdeados, e aroma muito frutado. Vinho verde branco meio seco, jovem, fresco, suave e frutado. Aconselhamos ainda como complemento de mariscos e frutos do mar, e todos os tipos de refeições de peixe. ',
             'cost_price' => '10.00',
             'sale_price' => '46.99',
@@ -339,7 +373,11 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
+<<<<<<< HEAD
+            'name' => 'Vinho Casal Garcia Vinho Verde Garrafa 750ml',
+=======
             'name' => 'Vinho Português Branco',
+>>>>>>> 75c07b906e34e53ebbdc376ba16f7601ac120d71
             'description' => 'Fundada em 1870 na região dos vinhos verdes, a Aveleda é uma vinícola 100% familiar, dirigida hoje pela 5ª geração da família Guedes. Líder mundial na produção de vinho verde, a Aveleda é especialista na produção de vinhos brancos, especialmente com a nobre uva alvarinho. seus vinhos estão presente em mais de 100 países.',
             'cost_price' => '10.00',
             'sale_price' => '37.50',
@@ -356,8 +394,13 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
+<<<<<<< HEAD
+            'name' => 'Vinho Português Rosé MATEUS Garrafa 750ml ',
+            'description' => 'MATEUS ROSÉ é um vinho leve, fresco, jovem e ligeiramente «pétillant». A sua qualidade, extrema versatilidade e estilo consistente tornam-o o vinho ideal para acompanhar os bons momentos da vida. É um vinho rosé de cor muito apelativa e brilhante. Globalmente, é um vinho fresco e sedutor com boa intensidade aromática e toda a jovialidade dos vinhos jovens. Na boca, é um vinho muito equilibrado e tentador, brilhantemente complementado por um final suave e ligeiramente pétillant. ',
+=======
             'name' => 'Vinho Português Rosé',
             'description' => 'Vinho Mateus',
+>>>>>>> 75c07b906e34e53ebbdc376ba16f7601ac120d71
             'cost_price' => '10.00',
             'sale_price' => '122.00',
             'discount' => '0.00',
@@ -407,7 +450,7 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Tannat',
+            'name' => 'Vinho Tannat garrafa 750ml',
             'description' => 'Tannat é uma uva tinta da família da Vitis vinifera originária do sul da França. É usualmente utilizada em assemblage com merlot, para suavizar o vinho. É a grande uva adotada pelo Uruguai, que possui uma extensa área de vinhedos dessa casta.',
             'cost_price' => '10.00',
             'sale_price' => '34.00',
@@ -427,8 +470,13 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
+<<<<<<< HEAD
+            'name' => 'Skol Pilsen',
+            'description' => 'Skol Pilsen é uma típica cerveja clara, com aroma refinado e sabor leve e suave. Seu teor de amargor é menos acentuado e seu teor alcoólico é médio.',
+=======
             'name' => 'Cerveja Radler',
             'description' => 'Cerveja Radler',
+>>>>>>> 75c07b906e34e53ebbdc376ba16f7601ac120d71
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
@@ -439,8 +487,13 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
+<<<<<<< HEAD
+            'name' => 'Brahma Chopp',
+            'description' => 'Não é à toa que a Brahma Chopp tem esse nome. Tanto ela quanto o Chopp Brahma nascem da mesma fonte, têm o mesmo processo de fabricação e só são separados no envasamento. Por isso ela é tão saborosa e refrescante, como o verdadeiro chopp.',
+=======
             'name' => 'cerveja heineken',
             'description' => 'Cerveja Brahma',
+>>>>>>> 75c07b906e34e53ebbdc376ba16f7601ac120d71
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
@@ -451,8 +504,8 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Chop Chiltern',
-            'description' => 'Chop Chiltern Brewery Gold',
+            'name' => 'Chopp Chiltern',
+            'description' => 'O Chopp Chiltern é a nossa Cerveja não pasteurizada. Ou seja: está sempre fresco no bar ou em Casa. Seu sabor é encorpado, o aroma neutro e seu teor de amargor é menos acentuado. ',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
@@ -463,8 +516,13 @@ class ProductSeeder extends Seeder
 //4
         DB::table('products')->insert([
             'available' => '1',
+<<<<<<< HEAD
+            'name' => 'Budweiser',
+            'description' => 'A cerveja Budweiser é uma standard American lager de sabor leve, cor clara e aroma discreto. Maturada com madeira Beechwood, pra um sabor marcante no começo e suave no final. Garanta sua Budweiser em lata, long neck ou garrafa.',
+=======
             'name' => 'Pack Bud',
             'description' => 'Fardinho de cerveja Budweiser',
+>>>>>>> 75c07b906e34e53ebbdc376ba16f7601ac120d71
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
@@ -475,8 +533,8 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Brahma',
-            'description' => 'Cerveja Brahma',
+            'name' => 'Brahma chopp',
+            'description' => 'Não é à toa que a Brahma Chopp tem esse nome. Tanto ela quanto o Chopp Brahma nascem da mesma fonte, têm o mesmo processo de fabricação e só são separados no envasamento. Por isso ela é tão saborosa e refrescante, como o verdadeiro chopp.',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
@@ -487,8 +545,8 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Sahl',
-            'description' => 'Cerveja Sahl',
+            'name' => 'Asahi',
+            'description' => 'A cerveja Asahi Super Dry é uma cerveja japonesa, de coloração amarelo palha, límpida, com boa formação de espuma branca. No aroma, apresenta notas de pão, fermento e toques florais. Possui corpo leve, alta carbonatação, baixo amargor e final refrescante.',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
@@ -500,7 +558,7 @@ class ProductSeeder extends Seeder
         DB::table('products')->insert([
             'available' => '1',
             'name' => 'Corona Pack',
-            'description' => 'Cerveja Corona Pack',
+            'description' => 'A cerveja Corona Extra é uma das melhores e mais vendidas cervejas mexicanas. Popularmente conhecida a Corona Extra é uma das mais comercializadas no mundo, disponível em mais de 150 países. Fabricada pela primeira vez em 1925 pela Cerveceria Modelo, atualmente pertence ao grupo AB InBev. Comumente consumida com uma fatia de limão no gargalo, é uma cerveja leve, resfrescante, com 4.50% de teor alcoólico.',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
@@ -511,8 +569,8 @@ class ProductSeeder extends Seeder
 //8
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Sahl',
-            'description' => 'Cerveja Sahl',
+            'name' => 'Asahi',
+            'description' => 'A cerveja Asahi Super Dry é uma cerveja japonesa, de coloração amarelo palha, límpida, com boa formação de espuma branca. No aroma, apresenta notas de pão, fermento e toques florais. Possui corpo leve, alta carbonatação, baixo amargor e final refrescante.',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
@@ -524,7 +582,7 @@ class ProductSeeder extends Seeder
         DB::table('products')->insert([
             'available' => '1',
             'name' => 'Heineken',
-            'description' => 'Cerveja Heineken',
+            'description' => 'Criada na Holanda em 1873, Heineken é uma cerveja super premium puro malte, elaborada com ingredientes 100% naturais e sem adição de conservantes. Permanece 35 dias em processo de maturação e fermentação, ou seja, mais do dobro de tempo da maioria das cervejas. Todo esse cuidado se reflete no perfeito equilíbrio de sabores e aromas.',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
@@ -535,8 +593,8 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Brahma',
-            'description' => 'Cerveja Brahma',
+            'name' => 'Brahma Chopp',
+            'description' => 'Não é à toa que a Brahma Chopp tem esse nome. Tanto ela quanto o Chopp Brahma nascem da mesma fonte, têm o mesmo processo de fabricação e só são separados no envasamento. Por isso ela é tão saborosa e refrescante, como o verdadeiro chopp.',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
@@ -547,8 +605,8 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Skol',
-            'description' => 'Cerveja Skol',
+            'name' => 'Skol Pilsen',
+            'description' => 'Skol Pilsen é uma típica cerveja clara, com aroma refinado e sabor leve e suave. Seu teor de amargor é menos acentuado e seu teor alcoólico é médio.',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
@@ -559,8 +617,8 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Bud',
-            'description' => 'Cerveja Bud',
+            'name' => 'Budweiser',
+            'description' => 'A cerveja Budweiser é uma standard American lager de sabor leve, cor clara e aroma discreto. Maturada com madeira Beechwood, pra um sabor marcante no começo e suave no final. Garanta sua Budweiser em lata, long neck ou garrafa.',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
@@ -571,8 +629,8 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Brahma',
-            'description' => 'Cerveja Brahma',
+            'name' => 'Brahma Chopp',
+            'description' => 'Não é à toa que a Brahma Chopp tem esse nome. Tanto ela quanto o Chopp Brahma nascem da mesma fonte, têm o mesmo processo de fabricação e só são separados no envasamento. Por isso ela é tão saborosa e refrescante, como o verdadeiro chopp.',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
@@ -583,8 +641,8 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Skol',
-            'description' => 'Cerveja Skol',
+            'name' => 'Skol Pilsen',
+            'description' => 'Skol Pilsen é uma típica cerveja clara, com aroma refinado e sabor leve e suave. Seu teor de amargor é menos acentuado e seu teor alcoólico é médio.',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
@@ -595,8 +653,8 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Brahma',
-            'description' => 'Cerveja Brahma',
+            'name' => 'Brahma Chopp',
+            'description' => 'Não é à toa que a Brahma Chopp tem esse nome. Tanto ela quanto o Chopp Brahma nascem da mesma fonte, têm o mesmo processo de fabricação e só são separados no envasamento. Por isso ela é tão saborosa e refrescante, como o verdadeiro chopp.',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
@@ -607,8 +665,8 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Skol',
-            'description' => 'Cerveja Skol',
+            'name' => 'Skol Pilsen',
+            'description' => 'Skol Pilsen é uma típica cerveja clara, com aroma refinado e sabor leve e suave. Seu teor de amargor é menos acentuado e seu teor alcoólico é médio.',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
@@ -619,8 +677,8 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Bud',
-            'description' => 'Cerveja Bud',
+            'name' => 'Budweiser',
+            'description' => 'A cerveja Budweiser é uma standard American lager de sabor leve, cor clara e aroma discreto. Maturada com madeira Beechwood, pra um sabor marcante no começo e suave no final. Garanta sua Budweiser em lata, long neck ou garrafa.',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
@@ -631,8 +689,8 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Brahma',
-            'description' => 'Cerveja Brahma',
+            'name' => 'Brahma Chopp',
+            'description' => 'Não é à toa que a Brahma Chopp tem esse nome. Tanto ela quanto o Chopp Brahma nascem da mesma fonte, têm o mesmo processo de fabricação e só são separados no envasamento. Por isso ela é tão saborosa e refrescante, como o verdadeiro chopp.',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
@@ -643,8 +701,8 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Sahl',
-            'description' => 'Cerveja Sahl',
+            'name' => 'Asahi',
+            'description' => 'A cerveja Asahi Super Dry é uma cerveja japonesa, de coloração amarelo palha, límpida, com boa formação de espuma branca. No aroma, apresenta notas de pão, fermento e toques florais. Possui corpo leve, alta carbonatação, baixo amargor e final refrescante.',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
@@ -656,7 +714,7 @@ class ProductSeeder extends Seeder
         DB::table('products')->insert([
             'available' => '1',
             'name' => 'Corona Pack',
-            'description' => 'Cerveja Corona Pack',
+            'description' => 'A cerveja Corona Extra é uma das melhores e mais vendidas cervejas mexicanas. Popularmente conhecida a Corona Extra é uma das mais comercializadas no mundo, disponível em mais de 150 países. Fabricada pela primeira vez em 1925 pela Cerveceria Modelo, atualmente pertence ao grupo AB InBev. Comumente consumida com uma fatia de limão no gargalo, é uma cerveja leve, resfrescante, com 4.50% de teor alcoólico.',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
@@ -667,8 +725,8 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Sahl',
-            'description' => 'Cerveja Sahl',
+            'name' => 'Asahi',
+            'description' => 'A cerveja Asahi Super Dry é uma cerveja japonesa, de coloração amarelo palha, límpida, com boa formação de espuma branca. No aroma, apresenta notas de pão, fermento e toques florais. Possui corpo leve, alta carbonatação, baixo amargor e final refrescante.',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
@@ -680,7 +738,7 @@ class ProductSeeder extends Seeder
         DB::table('products')->insert([
             'available' => '1',
             'name' => 'Heineken',
-            'description' => 'Cerveja Heineken',
+            'description' => 'Criada na Holanda em 1873, Heineken é uma cerveja super premium puro malte, elaborada com ingredientes 100% naturais e sem adição de conservantes. Permanece 35 dias em processo de maturação e fermentação, ou seja, mais do dobro de tempo da maioria das cervejas. Todo esse cuidado se reflete no perfeito equilíbrio de sabores e aromas.',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
@@ -691,8 +749,8 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Brahma',
-            'description' => 'Cerveja Brahma',
+            'name' => 'Brahma Chopp',
+            'description' => 'Não é à toa que a Brahma Chopp tem esse nome. Tanto ela quanto o Chopp Brahma nascem da mesma fonte, têm o mesmo processo de fabricação e só são separados no envasamento. Por isso ela é tão saborosa e refrescante, como o verdadeiro chopp.',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
@@ -703,8 +761,8 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Skol',
-            'description' => 'Cerveja Skol',
+            'name' => 'Skol Pilsen',
+            'description' => 'Skol Pilsen é uma típica cerveja clara, com aroma refinado e sabor leve e suave. Seu teor de amargor é menos acentuado e seu teor alcoólico é médio.',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
@@ -715,8 +773,8 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Bud',
-            'description' => 'Cerveja Bud',
+            'name' => 'Budweiser',
+            'description' => 'A cerveja Budweiser é uma standard American lager de sabor leve, cor clara e aroma discreto. Maturada com madeira Beechwood, pra um sabor marcante no começo e suave no final. Garanta sua Budweiser em lata, long neck ou garrafa.',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
@@ -727,8 +785,8 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Brahma',
-            'description' => 'Cerveja Brahma',
+            'name' => 'Brahma Chopp',
+            'description' => 'Não é à toa que a Brahma Chopp tem esse nome. Tanto ela quanto o Chopp Brahma nascem da mesma fonte, têm o mesmo processo de fabricação e só são separados no envasamento. Por isso ela é tão saborosa e refrescante, como o verdadeiro chopp.',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
@@ -1082,7 +1140,7 @@ class ProductSeeder extends Seeder
         DB::table('products')->insert([
             'available' => '1',
             'name' => 'Coca-Cola',
-            'description' => 'Lata de Coca-Cola',
+            'description' => 'Coca-Cola é um refrigerante carbonado vendido em lojas, restaurantes, mercados e máquinas de venda automática em todo o mundo. Ele é produzido pela The Coca-Cola Company, sediada em Atlanta, Estados Unidos, e é muitas vezes referido apenas como Coca-Cola (a marca registrada da empresa Coca-Cola nos Estados Unidos desde 27 de março de 1944). Originalmente concebida como um remédio patenteado quando foi inventada no final do século XIX por John Pemberton, a Coca-Cola foi comprada pelo empresário Asa Griggs Candler, cujas táticas publicitárias levaram a bebida ao domínio do mercado de refrigerantes no mundo ao longo do século XX.',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
@@ -1093,13 +1151,24 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
+<<<<<<< HEAD
+            'name' => 'Fanta',
+            'description' => 'A marca Fanta foi criada na Alemanha, nos anos 40, e hoje é vendida em 187 países, sendo líder entre os refrigerantes dos sabores Laranja e Uva. Em 2012, o portfólio brasileiro foi diversificado com o sabor Maracujá, após uma pesquisa realizada com consumidores.
+            Para quem procura as opções com zero açúcar, elas estão disponíveis nos sabores laranja e uva.            
+            Disponível em garrafas PET, garrafas de vidro e em lata; em tamanhos que variam de 250 ml a PET 3L, e na versão Zero em lata 350 ml e garrafa PET 2L.',
+=======
             'name' => 'Laranja do Bem',
             'description' => 'Suco de Laranja',
+>>>>>>> 75c07b906e34e53ebbdc376ba16f7601ac120d71
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
             'featured' => '0',
+<<<<<<< HEAD
+            'photo' => '/img/non-alcoholic/fanta.jpg',
+=======
             'photo' => '/img/non-alcoholic/laranja.png',
+>>>>>>> 75c07b906e34e53ebbdc376ba16f7601ac120d71
             'categories_id' => 4
         ]);
 
@@ -1130,24 +1199,24 @@ class ProductSeeder extends Seeder
         DB::table('products')->insert([
             'available' => '1',
             'name' => 'Coca-Cola',
-            'description' => 'Lata de Coca-Cola',
+            'description' => 'Coca-Cola é um refrigerante carbonado vendido em lojas, restaurantes, mercados e máquinas de venda automática em todo o mundo. Ele é produzido pela The Coca-Cola Company, sediada em Atlanta, Estados Unidos, e é muitas vezes referido apenas como Coca-Cola (a marca registrada da empresa Coca-Cola nos Estados Unidos desde 27 de março de 1944). Originalmente concebida como um remédio patenteado quando foi inventada no final do século XIX por John Pemberton, a Coca-Cola foi comprada pelo empresário Asa Griggs Candler, cujas táticas publicitárias levaram a bebida ao domínio do mercado de refrigerantes no mundo ao longo do século XX.',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
             'featured' => '0',
-            'photo' => '/img/non-alcoholic/coca.jng',
+            'photo' => '/img/non-alcoholic/coca.png',
             'categories_id' => 4
         ]);
 
         DB::table('products')->insert([
             'available' => '1',
             'name' => 'Fanta',
-            'description' => 'Lata de Fanta',
+            'description' => 'Fanta é uma marca de refrigerantes, que detém uma linha variada de produtos e que pertence à The Coca-Cola Company. Criada e lançada na Alemanha Nazi, durante a Segunda Guerra Mundial, atualmente é comercializada em 188 países.',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
             'featured' => '0',
-            'photo' => '/img/non-alcoholic/fanta.jng',
+            'photo' => '/img/non-alcoholic/fanta.jpg',
             'categories_id' => 4
         ]);
 
@@ -1250,60 +1319,12 @@ class ProductSeeder extends Seeder
         DB::table('products')->insert([
             'available' => '1',
             'name' => 'Fanta',
-            'description' => 'Lata de Fanta',
+            'description' => 'Fanta é uma marca de refrigerantes, que detém uma linha variada de produtos e que pertence à The Coca-Cola Company. Criada e lançada na Alemanha Nazi, durante a Segunda Guerra Mundial, atualmente é comercializada em 188 países.',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
             'featured' => '0',
-            'photo' => '/img/non-alcoholic/fanta.jng',
-            'categories_id' => 4
-        ]);
-
-        DB::table('products')->insert([
-            'available' => '1',
-            'name' => 'Dr Pepper',
-            'description' => 'Lata de Dr Pepper',
-            'cost_price' => '10.00',
-            'sale_price' => '20.00',
-            'discount' => '0.00',
-            'featured' => '0',
-            'photo' => '/img/non-alcoholic/soda-04.png',
-            'categories_id' => 4
-        ]);
-
-        DB::table('products')->insert([
-            'available' => '1',
-            'name' => 'Redbull',
-            'description' => 'Lata de Redbull',
-            'cost_price' => '10.00',
-            'sale_price' => '20.00',
-            'discount' => '0.00',
-            'featured' => '0',
-            'photo' => '/img/non-alcoholic/redbull.jpg',
-            'categories_id' => 4
-        ]);
-
-        DB::table('products')->insert([
-            'available' => '1',
-            'name' => 'Coca-Cola',
-            'description' => 'Lata de Coca-Cola',
-            'cost_price' => '10.00',
-            'sale_price' => '20.00',
-            'discount' => '0.00',
-            'featured' => '0',
-            'photo' => '/img/non-alcoholic/coca.jng',
-            'categories_id' => 4
-        ]);
-
-        DB::table('products')->insert([
-            'available' => '1',
-            'name' => 'Fanta',
-            'description' => 'Lata de Fanta',
-            'cost_price' => '10.00',
-            'sale_price' => '20.00',
-            'discount' => '0.00',
-            'featured' => '0',
-            'photo' => '/img/non-alcoholic/fanta.jng',
+            'photo' => '/img/non-alcoholic/fanta.jpg',
             'categories_id' => 4
         ]);
 
@@ -1334,24 +1355,72 @@ class ProductSeeder extends Seeder
         DB::table('products')->insert([
             'available' => '1',
             'name' => 'Coca-Cola',
-            'description' => 'Lata de Coca-Cola',
+            'description' => 'Coca-Cola é um refrigerante carbonado vendido em lojas, restaurantes, mercados e máquinas de venda automática em todo o mundo. Ele é produzido pela The Coca-Cola Company, sediada em Atlanta, Estados Unidos, e é muitas vezes referido apenas como Coca-Cola (a marca registrada da empresa Coca-Cola nos Estados Unidos desde 27 de março de 1944). Originalmente concebida como um remédio patenteado quando foi inventada no final do século XIX por John Pemberton, a Coca-Cola foi comprada pelo empresário Asa Griggs Candler, cujas táticas publicitárias levaram a bebida ao domínio do mercado de refrigerantes no mundo ao longo do século XX.',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
             'featured' => '0',
-            'photo' => '/img/non-alcoholic/coca.jng',
+            'photo' => '/img/non-alcoholic/coca.png',
             'categories_id' => 4
         ]);
 
         DB::table('products')->insert([
             'available' => '1',
             'name' => 'Fanta',
-            'description' => 'Lata de Fanta',
+            'description' => 'Fanta é uma marca de refrigerantes, que detém uma linha variada de produtos e que pertence à The Coca-Cola Company. Criada e lançada na Alemanha Nazi, durante a Segunda Guerra Mundial, atualmente é comercializada em 188 países.',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
             'featured' => '0',
-            'photo' => '/img/non-alcoholic/fanta.jng',
+            'photo' => '/img/non-alcoholic/fanta.jpg',
+            'categories_id' => 4
+        ]);
+
+        DB::table('products')->insert([
+            'available' => '1',
+            'name' => 'Dr Pepper',
+            'description' => 'Lata de Dr Pepper',
+            'cost_price' => '10.00',
+            'sale_price' => '20.00',
+            'discount' => '0.00',
+            'featured' => '0',
+            'photo' => '/img/non-alcoholic/soda-04.png',
+            'categories_id' => 4
+        ]);
+
+        DB::table('products')->insert([
+            'available' => '1',
+            'name' => 'Redbull',
+            'description' => 'Lata de Redbull',
+            'cost_price' => '10.00',
+            'sale_price' => '20.00',
+            'discount' => '0.00',
+            'featured' => '0',
+            'photo' => '/img/non-alcoholic/redbull.jpg',
+            'categories_id' => 4
+        ]);
+
+        DB::table('products')->insert([
+            'available' => '1',
+            'name' => 'Coca-Cola',
+            'description' => 'Coca-Cola é um refrigerante carbonado vendido em lojas, restaurantes, mercados e máquinas de venda automática em todo o mundo. Ele é produzido pela The Coca-Cola Company, sediada em Atlanta, Estados Unidos, e é muitas vezes referido apenas como Coca-Cola (a marca registrada da empresa Coca-Cola nos Estados Unidos desde 27 de março de 1944). Originalmente concebida como um remédio patenteado quando foi inventada no final do século XIX por John Pemberton, a Coca-Cola foi comprada pelo empresário Asa Griggs Candler, cujas táticas publicitárias levaram a bebida ao domínio do mercado de refrigerantes no mundo ao longo do século XX.',
+            'cost_price' => '10.00',
+            'sale_price' => '20.00',
+            'discount' => '0.00',
+            'featured' => '0',
+            'photo' => '/img/non-alcoholic/coca.png',
+            'categories_id' => 4
+        ]);
+
+        DB::table('products')->insert([
+            'available' => '1',
+            'name' => 'Fanta',
+            'description' => 'Fanta é uma marca de refrigerantes, que detém uma linha variada de produtos e que pertence à The Coca-Cola Company. Criada e lançada na Alemanha Nazi, durante a Segunda Guerra Mundial, atualmente é comercializada em 188 países.',
+            'cost_price' => '10.00',
+            'sale_price' => '20.00',
+            'discount' => '0.00',
+            'featured' => '0',
+            'photo' => '/img/non-alcoholic/fanta.jpg',
             'categories_id' => 4
         ]);
 
@@ -1454,12 +1523,12 @@ class ProductSeeder extends Seeder
         DB::table('products')->insert([
             'available' => '1',
             'name' => 'Fanta',
-            'description' => 'Lata de Fanta',
+            'description' => 'Fanta é uma marca de refrigerantes, que detém uma linha variada de produtos e que pertence à The Coca-Cola Company. Criada e lançada na Alemanha Nazi, durante a Segunda Guerra Mundial, atualmente é comercializada em 188 países.',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
             'featured' => '0',
-            'photo' => '/img/non-alcoholic/fanta.jng',
+            'photo' => '/img/non-alcoholic/fanta.jpg',
             'categories_id' => 4
         ]);
 
