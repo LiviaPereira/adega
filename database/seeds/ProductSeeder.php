@@ -33,11 +33,7 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-<<<<<<< HEAD
             'name' => 'Vinho Branco Casal Garcia Vinho Verde 750ml',
-=======
-            'name' => 'Vinho Português Branco',
->>>>>>> 75c07b906e34e53ebbdc376ba16f7601ac120d71
             'description' => 'Fundada em 1870 na região dos vinhos verdes, a Aveleda é uma vinícola 100% familiar, dirigida hoje pela 5ª geração da família Guedes. Líder mundial na produção de vinho verde, a Aveleda é especialista na produção de vinhos brancos, especialmente com a nobre uva alvarinho. seus vinhos estão presente em mais de 100 países.',
             'cost_price' => '10.00',
             'sale_price' => '37.50',
@@ -54,13 +50,8 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-<<<<<<< HEAD
             'name' => 'Vinho Português Rosé MATEUS 750ml ',
             'description' => 'MATEUS ROSÉ é um vinho leve, fresco, jovem e ligeiramente «pétillant». A sua qualidade, extrema versatilidade e estilo consistente tornam-o o vinho ideal para acompanhar os bons momentos da vida. É um vinho rosé de cor muito apelativa e brilhante. Globalmente, é um vinho fresco e sedutor com boa intensidade aromática e toda a jovialidade dos vinhos jovens. Na boca, é um vinho muito equilibrado e tentador, brilhantemente complementado por um final suave e ligeiramente pétillant. ',
-=======
-            'name' => 'Vinho Português Rosé',
-            'description' => 'Vinho Mateus',
->>>>>>> 75c07b906e34e53ebbdc376ba16f7601ac120d71
             'cost_price' => '10.00',
             'sale_price' => '122.00',
             'discount' => '0.00',
@@ -127,11 +118,7 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-<<<<<<< HEAD
             'name' => 'Vinho Branco CALAMARES 750ml',
-=======
-            'name' => 'Vinho Português Branco',
->>>>>>> 75c07b906e34e53ebbdc376ba16f7601ac120d71
             'description' => 'Vinho português branco, elaborado com uvas delicadas. Possui aspecto límpido, amarelo muito claro, quase transparente, com leves raios esverdeados, e aroma muito frutado. Vinho verde branco meio seco, jovem, fresco, suave e frutado. Aconselhamos ainda como complemento de mariscos e frutos do mar, e todos os tipos de refeições de peixe. ',
             'cost_price' => '10.00',
             'sale_price' => '46.99',
@@ -148,11 +135,7 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-<<<<<<< HEAD
             'name' => 'Vinho Casal Garcia Vinho Verde 750ml',
-=======
-            'name' => 'Vinho Português Branco',
->>>>>>> 75c07b906e34e53ebbdc376ba16f7601ac120d71
             'description' => 'Fundada em 1870 na região dos vinhos verdes, a Aveleda é uma vinícola 100% familiar, dirigida hoje pela 5ª geração da família Guedes. Líder mundial na produção de vinho verde, a Aveleda é especialista na produção de vinhos brancos, especialmente com a nobre uva alvarinho. seus vinhos estão presente em mais de 100 países.',
             'cost_price' => '10.00',
             'sale_price' => '37.50',
@@ -237,11 +220,7 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-<<<<<<< HEAD
             'name' => 'Vinho Português CALAMARES Garrafa 750ml',
-=======
-            'name' => 'Vinho Português Branco',
->>>>>>> 75c07b906e34e53ebbdc376ba16f7601ac120d71
             'description' => 'Vinho português branco, elaborado com uvas delicadas. Possui aspecto límpido, amarelo muito claro, quase transparente, com leves raios esverdeados, e aroma muito frutado. Vinho verde branco meio seco, jovem, fresco, suave e frutado. Aconselhamos ainda como complemento de mariscos e frutos do mar, e todos os tipos de refeições de peixe. ',
             'cost_price' => '10.00',
             'sale_price' => '46.99',
@@ -258,11 +237,7 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-<<<<<<< HEAD
             'name' => 'Vinho Branco Casal Garcia Vinho Verde 750ml',
-=======
-            'name' => 'Vinho Português Branco',
->>>>>>> 75c07b906e34e53ebbdc376ba16f7601ac120d71
             'description' => 'Fundada em 1870 na região dos vinhos verdes, a Aveleda é uma vinícola 100% familiar, dirigida hoje pela 5ª geração da família Guedes. Líder mundial na produção de vinho verde, a Aveleda é especialista na produção de vinhos brancos, especialmente com a nobre uva alvarinho. seus vinhos estão presente em mais de 100 países.',
             'cost_price' => '10.00',
             'sale_price' => '37.50',
@@ -279,13 +254,8 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-<<<<<<< HEAD
             'name' => 'Vinho Português Rosé MATEUS Garrafa 750ml ',
             'description' => 'MATEUS ROSÉ é um vinho leve, fresco, jovem e ligeiramente «pétillant». A sua qualidade, extrema versatilidade e estilo consistente tornam-o o vinho ideal para acompanhar os bons momentos da vida. É um vinho rosé de cor muito apelativa e brilhante. Globalmente, é um vinho fresco e sedutor com boa intensidade aromática e toda a jovialidade dos vinhos jovens. Na boca, é um vinho muito equilibrado e tentador, brilhantemente complementado por um final suave e ligeiramente pétillant. ',
-=======
-            'name' => 'Vinho Português Rosé',
-            'description' => 'Vinho Mateus',
->>>>>>> 75c07b906e34e53ebbdc376ba16f7601ac120d71
             'cost_price' => '10.00',
             'sale_price' => '122.00',
             'discount' => '0.00',
@@ -352,11 +322,7 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-<<<<<<< HEAD
             'name' => 'Vinho Português CALAMARES Garrafa 750ml',
-=======
-            'name' => 'Vinho Português Branco CALAMARES',
->>>>>>> 75c07b906e34e53ebbdc376ba16f7601ac120d71
             'description' => 'Vinho português branco, elaborado com uvas delicadas. Possui aspecto límpido, amarelo muito claro, quase transparente, com leves raios esverdeados, e aroma muito frutado. Vinho verde branco meio seco, jovem, fresco, suave e frutado. Aconselhamos ainda como complemento de mariscos e frutos do mar, e todos os tipos de refeições de peixe. ',
             'cost_price' => '10.00',
             'sale_price' => '46.99',
@@ -373,11 +339,7 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-<<<<<<< HEAD
             'name' => 'Vinho Casal Garcia Vinho Verde Garrafa 750ml',
-=======
-            'name' => 'Vinho Português Branco',
->>>>>>> 75c07b906e34e53ebbdc376ba16f7601ac120d71
             'description' => 'Fundada em 1870 na região dos vinhos verdes, a Aveleda é uma vinícola 100% familiar, dirigida hoje pela 5ª geração da família Guedes. Líder mundial na produção de vinho verde, a Aveleda é especialista na produção de vinhos brancos, especialmente com a nobre uva alvarinho. seus vinhos estão presente em mais de 100 países.',
             'cost_price' => '10.00',
             'sale_price' => '37.50',
@@ -394,13 +356,8 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-<<<<<<< HEAD
             'name' => 'Vinho Português Rosé MATEUS Garrafa 750ml ',
             'description' => 'MATEUS ROSÉ é um vinho leve, fresco, jovem e ligeiramente «pétillant». A sua qualidade, extrema versatilidade e estilo consistente tornam-o o vinho ideal para acompanhar os bons momentos da vida. É um vinho rosé de cor muito apelativa e brilhante. Globalmente, é um vinho fresco e sedutor com boa intensidade aromática e toda a jovialidade dos vinhos jovens. Na boca, é um vinho muito equilibrado e tentador, brilhantemente complementado por um final suave e ligeiramente pétillant. ',
-=======
-            'name' => 'Vinho Português Rosé',
-            'description' => 'Vinho Mateus',
->>>>>>> 75c07b906e34e53ebbdc376ba16f7601ac120d71
             'cost_price' => '10.00',
             'sale_price' => '122.00',
             'discount' => '0.00',
@@ -470,13 +427,8 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-<<<<<<< HEAD
             'name' => 'Skol Pilsen',
             'description' => 'Skol Pilsen é uma típica cerveja clara, com aroma refinado e sabor leve e suave. Seu teor de amargor é menos acentuado e seu teor alcoólico é médio.',
-=======
-            'name' => 'Cerveja Radler',
-            'description' => 'Cerveja Radler',
->>>>>>> 75c07b906e34e53ebbdc376ba16f7601ac120d71
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
@@ -487,13 +439,8 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-<<<<<<< HEAD
             'name' => 'Brahma Chopp',
             'description' => 'Não é à toa que a Brahma Chopp tem esse nome. Tanto ela quanto o Chopp Brahma nascem da mesma fonte, têm o mesmo processo de fabricação e só são separados no envasamento. Por isso ela é tão saborosa e refrescante, como o verdadeiro chopp.',
-=======
-            'name' => 'cerveja heineken',
-            'description' => 'Cerveja Brahma',
->>>>>>> 75c07b906e34e53ebbdc376ba16f7601ac120d71
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
@@ -516,13 +463,8 @@ class ProductSeeder extends Seeder
 //4
         DB::table('products')->insert([
             'available' => '1',
-<<<<<<< HEAD
             'name' => 'Budweiser',
             'description' => 'A cerveja Budweiser é uma standard American lager de sabor leve, cor clara e aroma discreto. Maturada com madeira Beechwood, pra um sabor marcante no começo e suave no final. Garanta sua Budweiser em lata, long neck ou garrafa.',
-=======
-            'name' => 'Pack Bud',
-            'description' => 'Fardinho de cerveja Budweiser',
->>>>>>> 75c07b906e34e53ebbdc376ba16f7601ac120d71
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
@@ -1151,24 +1093,15 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-<<<<<<< HEAD
             'name' => 'Fanta',
             'description' => 'A marca Fanta foi criada na Alemanha, nos anos 40, e hoje é vendida em 187 países, sendo líder entre os refrigerantes dos sabores Laranja e Uva. Em 2012, o portfólio brasileiro foi diversificado com o sabor Maracujá, após uma pesquisa realizada com consumidores.
             Para quem procura as opções com zero açúcar, elas estão disponíveis nos sabores laranja e uva.            
             Disponível em garrafas PET, garrafas de vidro e em lata; em tamanhos que variam de 250 ml a PET 3L, e na versão Zero em lata 350 ml e garrafa PET 2L.',
-=======
-            'name' => 'Laranja do Bem',
-            'description' => 'Suco de Laranja',
->>>>>>> 75c07b906e34e53ebbdc376ba16f7601ac120d71
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
             'featured' => '0',
-<<<<<<< HEAD
             'photo' => '/img/non-alcoholic/fanta.jpg',
-=======
-            'photo' => '/img/non-alcoholic/laranja.png',
->>>>>>> 75c07b906e34e53ebbdc376ba16f7601ac120d71
             'categories_id' => 4
         ]);
 
