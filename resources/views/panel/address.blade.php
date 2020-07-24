@@ -54,7 +54,9 @@
                                 <p>{{ $endereco->city }}</p>
                             </div>
 
-                            <p><a href="/panel/address/edit">Editar Endereço</a></p>
+                            <br>
+
+                            <p><a id="myButton" href="/panel/address/edit">Editar Endereço</a></p>
                         @else
                             <div id="empty">
                                 <p class="info">Você ainda não possui um endereço cadastrado! <a href="/panel/address/edit">Clique para Cadastrar</a></p>

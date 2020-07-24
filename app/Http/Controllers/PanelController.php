@@ -45,30 +45,31 @@ class PanelController extends Controller
 
         return view('panel.orders', compact('pedidos'));
     }
+    
 
     // VISUALIAR Pedido específico do Cliente
     public function showOrder(Request $request, $id){
         $usuario = $request->user()->id;
 
         $pedido = Order::select()
-                        // ->where('users_id', $usuario)
                         ->where('orders.id', $id)
+                        ->where('orders.users_id', $usuario)
                         ->join('status', 'status.id', '=', 'orders.status_id')
                         ->join('shopping_carts', 'shopping_carts.id', '=', 'orders.shoppingCarts_id')
-                        // ->join('shopping_cart_items', 'shopping_cart_items.id', '=', 'orders.shopping_cart_items_id')
                         ->join('deliveries', 'deliveries.id', '=', 'orders.deliveries_id')
                         ->join('pay_methods', 'pay_methods.id', '=', 'orders.payMethods_id')
-                        // ->join('devolutions', 'devolutions.id', '=', 'orders.devolutions_id')
                         ->get();
 
+                        foreach ($pedido as $ped) {}
+
         $produtos = shoppingCartItem::select()
-                                    ->where('users_id', $usuario)
-                                    ->join('shopping_carts', 'shopping_carts.id', '=', 'shopping_cart_items.shopping_carts_id')
+                                    ->where('shopping_carts_id', $ped['shoppingCarts_id'])
                                     ->join('products', 'products.id', '=', 'shopping_cart_items.products_id')
                                     ->get();
 
         return view('panel.list_order', compact('pedido','produtos'));
     }
+
 
     // Função que exibe no "painel" o endereço cadastrado do cliente
     public function addressShow(Request $request){

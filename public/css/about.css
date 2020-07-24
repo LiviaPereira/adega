@@ -14,3 +14,12 @@
 .about p {
     font-size: 1.1rem;
 }
+
+
+@media (max-width: 767px) {
+    
+    .about p {
+        font-size: 1.3rem;
+    }
+
+}

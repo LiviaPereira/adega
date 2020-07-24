@@ -51,7 +51,7 @@
                                 </div>
                                 <label>* campos obrigatórios</label>
                                 <div class="register-submit">
-                                    <button type="submit">Salvar Alterações</button>
+                                    <button id="myButton" type="submit">Salvar Alterações</button>
                                 </div>
                             </form>
                         </div>

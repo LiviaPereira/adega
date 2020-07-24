@@ -176,6 +176,10 @@
         justify-content: center;
     }
     
+    .empty-car {
+        width: 90%;
+    }
+
     .empty-car img {
         display: none;
     }

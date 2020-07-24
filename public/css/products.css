@@ -171,6 +171,14 @@
     
     @media (max-width: 576px){
 
+        #produtos {
+            margin-top: 20px;
+        }
+
+        #produtos section{
+            width: 80%;
+        }
+
         .empty-fav {
             width: 90%;
         }
@@ -178,8 +186,8 @@
         #produtos aside {display: none;}
        
         #produtos section article {
-    width: 100%;
-    
+            width: 100%;
+            margin-bottom: 10px;
         }
      
         #produtos section {

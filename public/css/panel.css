@@ -87,6 +87,7 @@
 .main-container p {
     margin: 0;
     font-size: 0.95rem;
+    color: #5c5b5b;
 }
 
 .main-container ul {
@@ -95,11 +96,69 @@
 
 .main-container li {
     margin: 7px;
+    color: #5c5b5b;
+}
+
+.main-container h5 {
+    margin: 10px 0px;
+    color: #5c5b5b;
 }
 
 .address ul {
     list-style-type: none;
 }
+
+
+
+
+
+#tb-list-order {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+#tb-list-order thead {
+    border-collapse: collapse;
+    background-color: #ccc;
+    width: 80%;
+}
+
+#tb-list-order tr:nth-child(even) {
+    background-color: inherit;
+}
+
+#tb-list-order thead td {
+    border: 1px solid #ccc;
+    padding: 4px;
+    margin: 0;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+#tb-list-order tbody td {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 0;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+#tb-list-order .r-info {
+    text-align: end;
+    padding: 7px;
+}
+
+#tb-list-order .price {
+    background-color: #eee;
+    font-weight: 700;
+}
+
+
+#tb-list-order-add {
+    border: none;
+}
+
+
 
 
 
@@ -161,7 +220,9 @@
 
 
 
-
+#lb2 {
+    color: #5c5b5b
+}
 
 
 .form-address-edit label {
@@ -190,6 +251,40 @@
 
 
 
+#myButton {
+	box-shadow:inset 0px 1px 0px 0px #f7c5c0;
+	background:linear-gradient(to bottom, #f56358 5%, #cc4039 100%);
+	background-color:#f56358;
+	border-radius:6px;
+	border:1px solid #d12919;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #c21a11;
+}
+#myButton:hover {
+	background:linear-gradient(to bottom, #cc4039 5%, #f56358 100%);
+	background-color:#cc4039;
+}
+#myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 767px) {
 
     #empty {
@@ -201,7 +296,7 @@
     }
 
     .main-container {
-        padding: 5px;
+        padding: 7px;
     }
     .main-container span {
         display: block;
@@ -222,5 +317,13 @@
     }
     .form-address-edit p {
         display: block;
+    }
+
+    #p2, #lb2 {
+        display: inline-block;
+    }
+
+    #tb-list-order {
+        width: 100%;
     }
   }

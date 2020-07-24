@@ -19,6 +19,7 @@
         <br>
         <h6>VALOR:</h6>
         <h4> R$ {{number_format($produto->sale_price, 2, ',', '.')}}</h4>
+        <h6>Este produto está disponível.</h6>
 
         <hr>
     <div class="comprarb">
