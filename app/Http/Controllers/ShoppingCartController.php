@@ -129,7 +129,7 @@ class ShoppingCartController extends Controller
         $carrinho = array_values($carrinho);
 
         $request->session()->put("carrinho",$carrinho);
-
+        
         return redirect('/exibir');
     }
 
@@ -217,7 +217,10 @@ class ShoppingCartController extends Controller
             $produtos[] = $item;
         }
 
-        return view('checkout',["produtos" => $produtos]);
+        $user = Auth::user();
+        $endereco = Delivery::where('users_id', $user->id)->first();
+
+        return view('checkout',["produtos" => $produtos], ["endereco" => $endereco]);
         
     } 
 }

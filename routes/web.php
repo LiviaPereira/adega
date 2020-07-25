@@ -64,7 +64,7 @@ Route::get('/remover/{id}', 'ShoppingCartController@remover');
 Route::get('/finalizarCompra', 'ShoppingCartController@finalizarCompra')->middleware('auth');
 Route::get('/pedidoFinalizado', 'ShoppingCartController@show')->middleware('auth');
 
-Route::get('/checkout', 'ShoppingCartController@checkout');
+Route::get('/checkout', 'ShoppingCartController@checkout')->middleware('auth');
 // ROTAS DO CARRINHOS DE COMPRAS - ! fim !
 
 

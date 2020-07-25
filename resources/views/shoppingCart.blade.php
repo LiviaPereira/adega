@@ -76,11 +76,11 @@
                             <td>R$ {{number_format($valorTotal, 2, ',', '.')}}</td>
                         </tr>
                     </table>
+                </div>
+        </div>
                     <div id="comprarb">
                         <button><a href="/checkout">FECHAR PEDIDO</a></button>
                     </div>
-                </div>
-        </div>
 
         </section>
 
