@@ -40,10 +40,8 @@
                                 <p>{{ $wine->name }}</p> 
                                 <div class="imagem" style="background-image: url('{{ url("$wine->photo") }}')"> </div>
                                 <label><strong>R$ {{ number_format($wine->sale_price, 2, ',', '.') }} </strong></label>
-                                <a href="./login.php">
-                                    <img class="favourite" src="./img/icons/favorite.png" alt="Meus Favoritos">
-                                </a>
-                                <button><a href="/product/1">Ver Mais</a></button> 
+                                <a href="/favoritar/{{$wine->id}}"><img class="favourite" src="{{url('img/icons/favorite.png')}}" alt="Meus Favoritos"></a>
+                                <button><a href="/product/{{$wine->id}}">Ver Mais</a></button> 
                             @endif                                             
                         </div>        
                     @endforeach
@@ -68,10 +66,8 @@
                                 <p>{{ $beer->name }}</p> 
                                 <div class="imagem" style="background-image: url('{{ url("$beer->photo") }}')"> </div> 
                                 <label><strong>R$ {{ number_format($beer->sale_price, 2, ',', '.') }} </strong></label>
-                                <a href="./login.php">
-                                    <img class="favourite" src="./img/icons/favorite.png" alt="Meus Favoritos">
-                                </a>
-                                <button><a href="/product/1">Ver Mais</a></button> 
+                                <a href="/favoritar/{{$beer->id}}"><img class="favourite" src="{{url('img/icons/favorite.png')}}" alt="Meus Favoritos"></a>
+                                <button><a href="/product/{{$beer->id}}">Ver Mais</a></button> 
                             @endif                                             
                         </div>        
                     @endforeach
@@ -97,10 +93,8 @@
                                 <p>{{ $distillate->name }}</p> 
                                 <div class="imagem" style="background-image: url('{{ url("$distillate->photo") }}')"> </div> 
                                 <label><strong>R$ {{ number_format($distillate->sale_price, 2, ',', '.') }} </strong></label>
-                                <a href="./login.php">
-                                    <img class="favourite" src="./img/icons/favorite.png" alt="Meus Favoritos">
-                                </a>
-                                <button><a href="/product/1">Ver Mais</a></button> 
+                                <a href="/favoritar/{{$distillate->id}}"><img class="favourite" src="{{url('img/icons/favorite.png')}}" alt="Meus Favoritos"></a>
+                                <button><a href="/product/{{$distillate->id}}">Ver Mais</a></button> 
                             @endif                                             
                         </div>        
                     @endforeach
@@ -125,10 +119,8 @@
                                 <p>{{ $nonAlcoholic->name }}</p> 
                                 <div class="imagem" style="background-image: url('{{ url("$nonAlcoholic->photo") }}')"> </div> 
                                 <label><strong>R$ {{ number_format($nonAlcoholic->sale_price, 2, ',', '.') }} </strong></label>
-                                <a href="./login.php">
-                                    <img class="favourite" src="./img/icons/favorite.png" alt="Meus Favoritos">
-                                </a>
-                                <button><a href="/product/1">Ver Mais</a></button> 
+                                <a href="/favoritar/{{$nonAlcoholic->id}}"><img class="favourite" src="{{url('img/icons/favorite.png')}}" alt="Meus Favoritos"></a>
+                                <button><a href="/product/{{$nonAlcoholic->id}}">Ver Mais</a></button> 
                             @endif                                             
                         </div>        
                     @endforeach
