@@ -34,6 +34,8 @@
                 </article>
             @endforeach
 
+            {{ $list->links() }} 
+
         </section>
     </main>
 

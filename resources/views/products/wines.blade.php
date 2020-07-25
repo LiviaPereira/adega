@@ -42,7 +42,7 @@
                 </article>
             @endforeach
 
-            {{--  {{ $list->links() }}  --}}
+             {{ $list->links() }} 
 
         </section>
     </main>
