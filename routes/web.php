@@ -60,8 +60,11 @@ Route::get('/adicionar/{id}', 'ShoppingCartController@adicionar');
 Route::get('/retirar/{id}', 'ShoppingCartController@retirar');
 Route::get('/exibir', 'ShoppingCartController@exibir');
 Route::get('/remover/{id}', 'ShoppingCartController@remover');
+
 Route::get('/finalizarCompra', 'ShoppingCartController@finalizarCompra')->middleware('auth');
 Route::get('/pedidoFinalizado', 'ShoppingCartController@show')->middleware('auth');
+
+Route::get('/checkout', 'ShoppingCartController@checkout');
 // ROTAS DO CARRINHOS DE COMPRAS - ! fim !
 
 

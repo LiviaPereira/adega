@@ -72,6 +72,52 @@
 } */
 
 
+.chk-main{
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.chk-pdt {
+    /* background-color: lightgrey; */
+    width: 400px;
+}
+
+.chk-pay {
+    /* background-color: lightgrey; */
+    width: 400px;
+}
+
+#pay-info {
+    font-size: 12px;
+    text-align: left;
+}
+#ckh-info{
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+#info {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    border-left: 4px solid #721c24;
+    border-radius: 4px;
+    padding: 5px;
+}
+#info2 {
+    color: #007226;
+    background-color: #d4edda;
+    border-color: #f5c6cb;
+    border-left: 4px solid #007226;
+    border-radius: 4px;
+    padding: 5px;
+}
+.chk-pdt h3 {
+    margin: 0;
+}
+
 
 
 
@@ -207,4 +253,7 @@
     .table-mobile td:not(:first-child) {
       display: block;
     }
+    .chk-pay .table-mobile thead {
+        display: inline;
+      }
   }

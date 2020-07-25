@@ -175,8 +175,8 @@ class ShoppingCartController extends Controller
             $novoPedido->date = date("Y-m-d H:i:s");                        // define data/hora do pedido
             $novoPedido->shoppingCarts_id = $IDnovoCarinho;                 // adiciona o ID do carrinho criado anteriormente
             $novoPedido->deliveries_id = $endereco->id;                     // define o endereço de entrega do pedido
-            $novoPedido->payMethods_id = 1;                                 // define o método de pagamento para 1 = Cartão de Crédito
-            $novoPedido->status_id = 2;                                     // define o status do pedido para 2 = Preparando pedido
+            $novoPedido->payMethods_id = 2;                                 // define o método de pagamento para 1 = Cartão de Crédito
+            $novoPedido->status_id = 1;                                     // define o status do pedido para 2 = Preparando pedido
             $novoPedido->save();                                            // grava as informações no Banco
             $IDnovoPedido = $novoPedido->id;                                // captura o ID das informações gravadas do Novo Pedido
 
@@ -199,5 +199,27 @@ class ShoppingCartController extends Controller
     public function show() {
         return view('pages.pedidofinalizado');
     }
+
+
+
+    public function checkout(Request $request){
+
+    if($request->session()->has("carrinho")){
+        $carrinho = $request->session()->get("carrinho");
+        $produtos=[];
+
+    foreach($carrinho as $item){           
+            $produto = Product::find($item['product_id']);
+
+            $item['name'] = $produto->name;
+            $item['photo'] = $produto->photo;
+            $item['sale_price'] = $produto->sale_price;
+            $produtos[] = $item;
+        }
+
+        return view('checkout',["produtos" => $produtos]);
+        
+    } 
+}
 
 }

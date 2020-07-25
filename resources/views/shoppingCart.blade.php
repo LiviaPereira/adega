@@ -53,8 +53,6 @@
                                     
                                 @endif
 
-
-
                                 </td>
                                 <td> <span>Subtotal<br></span> R$ {{number_format($item['qty'] * $item['sale_price'], 2, ',', '.') }} </td>
                                 <td> <span>Remover<br></span><a class="cart-links" href="/remover/{{$item['product_id']}}"><i style="font-size:24px" class="fa">&#xf014;</i></a> </td>
@@ -79,7 +77,7 @@
                         </tr>
                     </table>
                     <div id="comprarb">
-                        <button><a href="/finalizarCompra">FECHAR PEDIDO</a></button>
+                        <button><a href="/checkout">FECHAR PEDIDO</a></button>
                     </div>
                 </div>
         </div>
@@ -89,7 +87,7 @@
         @else
 
             <div class="empty-car">
-                <h1>Carrinho</h1>
+                {{-- <h1>Carrinho</h1> --}}
                 <p class="info">Seu carrinho está vazio.</p>
                 <a href="/"><img src="{{url('img/empty-cart.jpg')}}" alt="Imagem carrinho vazio"></a>
             </div>
