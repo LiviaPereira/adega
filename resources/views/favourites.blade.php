@@ -4,8 +4,7 @@
     <link rel="stylesheet" href="{{ url('css/products.css') }}">    
 
     <main id="produtos">
-
-        @foreach ($produto as $item)
+    @if (count($produto) > 0)
             <aside>
                 <div>
                     <h2 id="Categorias">
@@ -13,8 +12,9 @@
                     </h2>
                 </div>
             </aside>         
-
                 <section id="Catalogo">
+@endif
+        @foreach ($produto as $item)
                         <article>
                             <p class="product-name">{{ $item->name }}</p>
                             <img class="img-produto" src="{{ url("$item->photo") }}">
@@ -24,8 +24,8 @@
                                 <a class="btn-remove-fav" href="/remove/{{ $item->id }}">Remover</a>
                             </div>
                         </article>
-                </section>        
         @endforeach
+                </section>        
     
     @if (count($produto) === 0)
         

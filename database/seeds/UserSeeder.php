@@ -31,7 +31,7 @@ class UserSeeder extends Seeder
         DB::table('users')->insert([
             'name' => 'Alice',
             'surname' => 'da Silva',
-            'email' => 'alice@email',
+            'email' => 'alice@email.com',
             'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
             'cpf' => '333.333.333-30',
             'birth' => '2020-04-01',
@@ -47,7 +47,7 @@ class UserSeeder extends Seeder
         DB::table('users')->insert([
             'name' => 'Helena',
             'surname' => 'da Silva',
-            'email' => 'helena@email',
+            'email' => 'helena@email.com',
             'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
             'cpf' => '444.444.444.40',
             'birth' => '2020-04-01',
@@ -63,7 +63,7 @@ class UserSeeder extends Seeder
         DB::table('users')->insert([
             'name' => 'José',
             'surname' => 'da Silva',
-            'email' => 'jose@email',
+            'email' => 'jose@email.com',
             'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
             'cpf' => '555.555.555.50',
             'birth' => '2020-04-01',

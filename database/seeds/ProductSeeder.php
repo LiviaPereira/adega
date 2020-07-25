@@ -33,23 +33,6 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'available' => '1',
-            'name' => 'Vinho Branco Casal Garcia 750ml',
-            'description' => 'Fundada em 1870 na região dos vinhos verdes, a Aveleda é uma vinícola 100% familiar, dirigida hoje pela 5ª geração da família Guedes. Líder mundial na produção de vinho verde, a Aveleda é especialista na produção de vinhos brancos, especialmente com a nobre uva alvarinho. seus vinhos estão presente em mais de 100 países.',
-            'cost_price' => '10.00',
-            'sale_price' => '37.50',
-            'discount' => '0.00',
-            'featured' => '1',
-            'photo' => '/img/wine/calamares.jpg',
-            'country' => 'Portugal',
-                'type' => 'Vinho Verde',
-                'brand' => 'Aveleda',
-                'volume' => '750ml',
-                'alcohol_content' => '9,5%',
-            'categories_id' => 1
-        ]);
-
-        DB::table('products')->insert([
-            'available' => '1',
             'name' => 'Vinho Mateus Rosé 750ml ',
             'description' => 'MATEUS ROSÉ é um vinho leve, fresco, jovem e ligeiramente «pétillant». A sua qualidade, extrema versatilidade e estilo consistente tornam-o o vinho ideal para acompanhar os bons momentos da vida. É um vinho rosé de cor muito apelativa e brilhante. Globalmente, é um vinho fresco e sedutor com boa intensidade aromática e toda a jovialidade dos vinhos jovens. Na boca, é um vinho muito equilibrado e tentador, brilhantemente complementado por um final suave e ligeiramente pétillant. ',
             'cost_price' => '10.00',
@@ -267,23 +250,6 @@ class ProductSeeder extends Seeder
                 'brand' => 'Enoport',
                 'volume' => '750ml',
                 'alcohol_content' => '9%',
-            'categories_id' => 1
-        ]);
-
-        DB::table('products')->insert([
-            'available' => '1',
-            'name' => 'Vinho Branco Casal Garcia 750ml',
-            'description' => 'Fundada em 1870 na região dos vinhos verdes, a Aveleda é uma vinícola 100% familiar, dirigida hoje pela 5ª geração da família Guedes. Líder mundial na produção de vinho verde, a Aveleda é especialista na produção de vinhos brancos, especialmente com a nobre uva alvarinho. seus vinhos estão presente em mais de 100 países.',
-            'cost_price' => '10.00',
-            'sale_price' => '37.50',
-            'discount' => '0.00',
-            'featured' => '1',
-            'photo' => '/img/wine/calamares.jpg',
-            'country' => 'Portugal',
-                'type' => 'Vinho Verde',
-                'brand' => 'Aveleda',
-                'volume' => '750ml',
-                'alcohol_content' => '9,5%',
             'categories_id' => 1
         ]);
 
@@ -1271,7 +1237,7 @@ class ProductSeeder extends Seeder
         DB::table('products')->insert([
             'available' => '1',
             'name' => 'Refrigerante Coca-Cola Lata 350ml',
-            'description' => 'Coca-Cola é um refrigerante carbonado vendido em lojas, restaurantes, mercados e máquinas de venda automática em todo o mundo. Ele é produzido pela The Coca-Cola Company, sediada em Atlanta, Estados Unidos, e é muitas vezes referido apenas como Coca-Cola (a marca registrada da empresa Coca-Cola nos Estados Unidos desde 27 de março de 1944). Originalmente concebida como um remédio patenteado quando foi inventada no final do século XIX por John Pemberton, a Coca-Cola foi comprada pelo empresário Asa Griggs Candler, cujas táticas publicitárias levaram a bebida ao domínio do mercado de refrigerantes no mundo ao longo do século XX.',
+            'description' => 'Coca-Cola é um refrigerante carbonado vendido em lojas, restaurantes, mercados e máquinas de venda automática em todo o mundo. Ele é produzido pela The Coca-Cola Company, sediada em Atlanta, Estados Unidos, e é muitas vezes referido apenas como Coca-Cola (a marca registrada da empresa Coca-Cola nos Estados Unidos desde 27 de março de 1944).',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
@@ -1288,9 +1254,7 @@ class ProductSeeder extends Seeder
         DB::table('products')->insert([
             'available' => '1',
             'name' => 'Refrigerante Fanta Lata 350ml',
-            'description' => 'A marca Fanta foi criada na Alemanha, nos anos 40, e hoje é vendida em 187 países, sendo líder entre os refrigerantes dos sabores Laranja e Uva. Em 2012, o portfólio brasileiro foi diversificado com o sabor Maracujá, após uma pesquisa realizada com consumidores.
-            Para quem procura as opções com zero açúcar, elas estão disponíveis nos sabores laranja e uva.            
-            Disponível em garrafas PET, garrafas de vidro e em lata; em tamanhos que variam de 250 ml a PET 3L, e na versão Zero em lata 350 ml e garrafa PET 2L.',
+            'description' => 'A marca Fanta foi criada na Alemanha, nos anos 40, e hoje é vendida em 187 países, sendo líder entre os refrigerantes dos sabores Laranja e Uva. Em 2012, o portfólio brasileiro foi diversificado com o sabor Maracujá, após uma pesquisa realizada com consumidores.',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
@@ -1341,7 +1305,7 @@ class ProductSeeder extends Seeder
         DB::table('products')->insert([
             'available' => '1',
             'name' => 'Refrigerante Coca-Cola Lata 350ml',
-            'description' => 'Coca-Cola é um refrigerante carbonado vendido em lojas, restaurantes, mercados e máquinas de venda automática em todo o mundo. Ele é produzido pela The Coca-Cola Company, sediada em Atlanta, Estados Unidos, e é muitas vezes referido apenas como Coca-Cola (a marca registrada da empresa Coca-Cola nos Estados Unidos desde 27 de março de 1944). Originalmente concebida como um remédio patenteado quando foi inventada no final do século XIX por John Pemberton, a Coca-Cola foi comprada pelo empresário Asa Griggs Candler, cujas táticas publicitárias levaram a bebida ao domínio do mercado de refrigerantes no mundo ao longo do século XX.',
+            'description' => 'Coca-Cola é um refrigerante carbonado vendido em lojas, restaurantes, mercados e máquinas de venda automática em todo o mundo. Ele é produzido pela The Coca-Cola Company, sediada em Atlanta, Estados Unidos, e é muitas vezes referido apenas como Coca-Cola (a marca registrada da empresa Coca-Cola nos Estados Unidos desde 27 de março de 1944).',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
@@ -1511,7 +1475,7 @@ class ProductSeeder extends Seeder
         DB::table('products')->insert([
             'available' => '1',
             'name' => 'Refrigerante Coca-Cola Lata 350ml',
-            'description' => 'Coca-Cola é um refrigerante carbonado vendido em lojas, restaurantes, mercados e máquinas de venda automática em todo o mundo. Ele é produzido pela The Coca-Cola Company, sediada em Atlanta, Estados Unidos, e é muitas vezes referido apenas como Coca-Cola (a marca registrada da empresa Coca-Cola nos Estados Unidos desde 27 de março de 1944). Originalmente concebida como um remédio patenteado quando foi inventada no final do século XIX por John Pemberton, a Coca-Cola foi comprada pelo empresário Asa Griggs Candler, cujas táticas publicitárias levaram a bebida ao domínio do mercado de refrigerantes no mundo ao longo do século XX.',
+            'description' => 'Coca-Cola é um refrigerante carbonado vendido em lojas, restaurantes, mercados e máquinas de venda automática em todo o mundo. Ele é produzido pela The Coca-Cola Company, sediada em Atlanta, Estados Unidos, e é muitas vezes referido apenas como Coca-Cola (a marca registrada da empresa Coca-Cola nos Estados Unidos desde 27 de março de 1944).',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',
@@ -1562,7 +1526,7 @@ class ProductSeeder extends Seeder
         DB::table('products')->insert([
             'available' => '1',
             'name' => 'Refrigerante Coca-Cola Lata 350ml',
-            'description' => 'Coca-Cola é um refrigerante carbonado vendido em lojas, restaurantes, mercados e máquinas de venda automática em todo o mundo. Ele é produzido pela The Coca-Cola Company, sediada em Atlanta, Estados Unidos, e é muitas vezes referido apenas como Coca-Cola (a marca registrada da empresa Coca-Cola nos Estados Unidos desde 27 de março de 1944). Originalmente concebida como um remédio patenteado quando foi inventada no final do século XIX por John Pemberton, a Coca-Cola foi comprada pelo empresário Asa Griggs Candler, cujas táticas publicitárias levaram a bebida ao domínio do mercado de refrigerantes no mundo ao longo do século XX.',
+            'description' => 'Coca-Cola é um refrigerante carbonado vendido em lojas, restaurantes, mercados e máquinas de venda automática em todo o mundo. Ele é produzido pela The Coca-Cola Company, sediada em Atlanta, Estados Unidos, e é muitas vezes referido apenas como Coca-Cola (a marca registrada da empresa Coca-Cola nos Estados Unidos desde 27 de março de 1944).',
             'cost_price' => '10.00',
             'sale_price' => '20.00',
             'discount' => '0.00',

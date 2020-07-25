@@ -33,7 +33,9 @@
                     <a class="btn" href="/product/{{ $item->id }}">Ver Mais</a>
                     </article>
         @endforeach
+            {{ $list->links() }}
             </section>
+
 
     @endif
 
