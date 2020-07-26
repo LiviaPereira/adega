@@ -252,24 +252,24 @@
 
 
 #myButton {
-	box-shadow:inset 0px 1px 0px 0px #f7c5c0;
-	background:linear-gradient(to bottom, #f56358 5%, #cc4039 100%);
-	background-color:#f56358;
-	border-radius:6px;
-	border:1px solid #d12919;
+	box-shadow:inset 0px 1px 0px 0px #cf866c;
+	background:linear-gradient(to bottom, #7a2811 5%, #bc3315 100%);
+	background-color:#7a2811;
+	border-radius:3px;
+	border:1px solid #942911;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
-	font-size:15px;
-	font-weight:bold;
+	font-size:13px;
 	padding:6px 24px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #c21a11;
+	text-shadow:0px 1px 0px #854629;
 }
+
 #myButton:hover {
-	background:linear-gradient(to bottom, #cc4039 5%, #f56358 100%);
-	background-color:#cc4039;
+	background:linear-gradient(to bottom, #bc3315 5%, #7a2811 100%);
+	background-color:#bc3315;
 }
 #myButton:active {
 	position:relative;

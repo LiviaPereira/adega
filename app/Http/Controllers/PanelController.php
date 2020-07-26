@@ -129,7 +129,8 @@ class PanelController extends Controller
                     'users_id' => $id
                 ]);
     
-                return redirect('/panel/address');
+                // return redirect('/panel/address');
+                return redirect('/checkout');
             }
         }
     }

@@ -47,11 +47,11 @@
                                 </div>
                                 <div>
                                     <label for="cellphone">Celular *</label>
-                                    <input type="tel" name="cellphone" id="cellphone" value="{{$dados->cellphone }}" required>
+                                    <input oninput="mask(this, mphone)" type="text " name="cellphone" id="cellphone" value="{{$dados->cellphone }}" placeholder="(xx) xxxxx-xxxx" required>
                                 </div>
                                 <div>
                                     <label for="phone">Telefone</label>
-                                    <input type="tel" name="phone" id="phone" value="{{$dados->phone }}">
+                                    <input oninput="mask(this, mphone)" type="text" name="phone" id="phone" value="{{$dados->phone }}" placeholder="(xx) xxxxx-xxxx">
                                 </div>
                                 {{--  <div>
                                     <label for="news">Newsletter *</label>
@@ -62,7 +62,7 @@
                                 </div>  --}}
                                 <label>* campos obrigatórios</label>
                                 <div class="register-submit">
-                                    <button type="submit">Salvar Alterações</button>
+                                    <button id="myButton" type="submit">Salvar Alterações</button>
                                 </div>
 
                                 {{--  <fieldset>
@@ -138,5 +138,29 @@
         }
     }
     }
+
+        function mask(o, f) {
+  setTimeout(function() {
+    var v = mphone(o.value);
+    if (v != o.value) {
+      o.value = v;
+    }
+  }, 1);
+}
+
+    function mphone(v) {
+  var r = v.replace(/\D/g, "");
+  r = r.replace(/^0/, "");
+  if (r.length > 10) {
+    r = r.replace(/^(\d\d)(\d{5})(\d{4}).*/, "($1) $2-$3");
+  } else if (r.length > 5) {
+    r = r.replace(/^(\d\d)(\d{4})(\d{0,4}).*/, "($1) $2-$3");
+  } else if (r.length > 2) {
+    r = r.replace(/^(\d\d)(\d{0,5})/, "($1) $2");
+  } else {
+    r = r.replace(/^(\d*)/, "($1");
+  }
+  return r;
+}
 </script>
 @endsection
