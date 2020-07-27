@@ -1,7 +1,7 @@
 @extends('templates.institucional')
 @section('content')
 
-        <link rel="stylesheet" href="css/deliveryway.css">
+        <link rel="stylesheet" href="/css/deliveryway.css">
         <div class="deliveryway">
         <h1>POLÍTICA DE ENTREGA</h1>
             <h4> Como faço para alterar o endereço de entrega?</h4>

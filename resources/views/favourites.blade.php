@@ -1,7 +1,7 @@
 @extends('templates.institucional')
 @section('content')
 
-    <link rel="stylesheet" href="{{ url('css/products.css') }}">    
+    <link rel="stylesheet" href="/css/products.css">    
 
     <main id="produtos">
     @if (count($produto) > 0)

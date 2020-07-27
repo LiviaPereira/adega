@@ -1,7 +1,7 @@
 @extends('templates.institucional')
 @section('content')
 
-    <link rel="stylesheet" href="{{ asset('css/createProduct.css') }}">
+    <link rel="stylesheet" href="/css/createProduct.css">
 
     <h1>Seja bem vind(o) </h1>
     <div class="container">

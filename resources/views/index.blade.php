@@ -3,8 +3,8 @@
 
     <!-- Flickity CSS -->
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/index.css">
+    {{-- <link rel="stylesheet" href="/css/style.css"> --}}
 
     <div id="interface">        
 

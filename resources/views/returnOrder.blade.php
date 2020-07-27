@@ -1,7 +1,7 @@
 @extends('templates.institucional')
 @section('content')
 
-        <link rel="stylesheet" href="css/returnOrder.css">
+        <link rel="stylesheet" href="/css/returnOrder.css">
         <div class="returnOrder">
         <h1>TROCAS E DEVOLUÇÕES</h1>
         <p>A devolução ou troca de pedido poderá ser realizada em até 7 dias corridos após o recebimento do pedido.
