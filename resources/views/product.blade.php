@@ -1,7 +1,7 @@
 @extends('templates.institucional')
 @section('content')
 
-<link rel="stylesheet" href="{{ url("css/product.css") }}">
+<link rel="stylesheet" href="/css/product.css">
 
         <h3>{{$produto->name}}</h3>
 

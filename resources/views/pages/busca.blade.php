@@ -1,7 +1,7 @@
 @extends('templates.institucional')
 @section('content')
 
-    <link rel="stylesheet" href="{{ url('css/products.css') }}">
+    <link rel="stylesheet" href="/css/products.css">
 
     <main id="produtos"> 
 
@@ -33,7 +33,7 @@
                     <a class="btn" href="/product/{{ $item->id }}">Ver Mais</a>
                     </article>
         @endforeach
-            {{ $list->links() }}
+            {{-- {{ $list->links() }} --}}
             </section>
 
 

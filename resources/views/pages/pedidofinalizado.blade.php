@@ -1,7 +1,7 @@
 @extends('templates.institucional')
 @section('content')
-        <link rel="stylesheet" href="{{url('css/about.css')}}">
-        <link rel="stylesheet" href="{{url('css/checkOut.css')}}">
+        <link rel="stylesheet" href="/css/about.css">
+        <link rel="stylesheet" href="/css/checkOut.css">
         <style>.about{height: 300px;}</style>
 
         <div class="about">
@@ -19,6 +19,6 @@
             </div>
         </div>
 
-    <script src="{{url('js/checkOut.js')}}"></script>
+    <script src="/js/checkOut.js"></script>
 
 @endsection

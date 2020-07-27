@@ -1,7 +1,7 @@
 @extends('templates.institucional')
 @section('content')
     
-        <link rel="stylesheet" href="css/about.css">
+        <link rel="stylesheet" href="/css/about.css">
         <div class="about">
             <h1>Quem Somos?</h1>
             <p>O Adega à jato é o ponto de encontro de quem curte uma boa bebida em qualquer situação: com a família, com os amigos, o amor da sua vida ou até mesmo a sós.</p>

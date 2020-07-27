@@ -1,7 +1,7 @@
 @extends('templates.institucional')
 @section('content')
 
-    <link rel="stylesheet" href="{{ url('css/panel.css') }}">
+    <link rel="stylesheet" href="/css/panel.css">
 
     <section id="panel">
 

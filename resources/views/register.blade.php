@@ -1,7 +1,7 @@
 @extends('templates.institucional')
 @section('content')
 
-    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="/css/register.css">
 
     <section id="form-register-client">
 
