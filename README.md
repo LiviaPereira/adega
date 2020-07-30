@@ -1,13 +1,14 @@
-<p align="center"><img src="/murilloarruda/adega/blob/master/public/img/logo/logo_vinariam.png width="400"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/murilloarruda/adega/master/public/img/logo/logo_vinariam.png" width="280"></p>
 
+## Projeto Integrador - DigitalHouse
 
-## Projeto Integrador
+*Sistema de e-commerce de Bebidas*
 
-Sistema de e-commerce de Bebidas
+**-- Tecnologias Utilizadas:**
+--- HTML5
+--- CSS3
+--- PHP
+--- LARAVEL
+--- JAVASCRIPT
 
-Tecnologias:
-- HTML5
-- CSS3
-- PHP
-- LARAVEL
-- JAVASCRIPT
+*Acesse em:* [http://adega-vinariam.herokuapp.com/](adega-vinariam.herokuapp.com)
