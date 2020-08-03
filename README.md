@@ -10,5 +10,6 @@
 --- PHP
 --- LARAVEL
 --- JAVASCRIPT
+--- MYSQL
 
 *Acesse em:* [http://adega-vinariam.herokuapp.com/](adega-vinariam.herokuapp.com)
