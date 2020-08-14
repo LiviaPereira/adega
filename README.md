@@ -4,12 +4,14 @@
 
 *Sistema de e-commerce de Bebidas*
 
-**-- Tecnologias Utilizadas:**
---- HTML5
---- CSS3
---- PHP
---- LARAVEL
---- JAVASCRIPT
---- MYSQL
+**Tecnologias Utilizadas:**
 
-*Acesse em:* [http://adega-vinariam.herokuapp.com/](adega-vinariam.herokuapp.com)
+ - HTML5
+ - CSS3
+ - PHP
+ - LARAVEL
+ - JAVASCRIPT
+ - MYSQL
+
+*Acesse em:* 
+[http://adega-vinariam.herokuapp.com](adega-vinariam.herokuapp.com/)
